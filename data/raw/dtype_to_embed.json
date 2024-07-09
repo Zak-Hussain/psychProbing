@@ -1,0 +1,13 @@
+{
+    "text": [
+        "CBOW_GoogleNews", "fastText_CommonCrawl", "fastText_Wiki_News", "fastTextSub_OpenSub", "GloVe_CommonCrawl",
+        "GloVe_Twitter", "GloVe_Wikipedia",  "LexVec_CommonCrawl",  "morphoNLM", "spherical_text_Wikipedia"
+    ],
+    "brain": [
+        "eye_tracking", "EEG_speech", "EEG_text", "fMRI_speech_hyper_align", "fMRI_text_hyper_align", "microarray"
+    ],
+    "behavior": [
+         "PPMI_SVD_SWOW", "SGSoftMaxInput_SWOW", "SGSoftMaxOutput_SWOW",
+        "ppmi_svd_south_florida", "THINGS",  "feature_overlap", "norms_sensorimotor", "compo_attribs","SVD_sim_rel"
+    ]
+}

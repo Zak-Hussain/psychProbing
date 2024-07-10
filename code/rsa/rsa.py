@@ -3,10 +3,13 @@ import numpy as np
 from scipy.stats import rankdata
 
 
-def compute_rsm(embed: pd.DataFrame) -> pd.DataFrame:
-    """Compute representational similarity matrix (RSM) from an embedding matrix."""
+def compute_rsm(embed: pd.DataFrame, dtype='float64') -> pd.DataFrame:
+    """Converts to np.array and computes cosine matrix (rsm)"""
+    voc = embed.index
+    embed = embed.to_numpy(dtype=dtype, copy=False)
     embed /= np.linalg.norm(embed, axis=1).reshape(-1, 1)
-    return embed @ embed.T
+    embed = embed @ embed.T
+    return pd.DataFrame(embed, index=voc, columns=voc, dtype=dtype)
 
 
 def paired_nan_drop(m_i: np.array, m_j: np.array) -> np.array:

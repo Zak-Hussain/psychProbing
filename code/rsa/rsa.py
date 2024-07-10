@@ -3,11 +3,10 @@ import numpy as np
 from scipy.stats import rankdata
 
 
-
 def compute_rsm(embed: pd.DataFrame, dtype='float64') -> pd.DataFrame:
     """Converts to np.array and computes cosine matrix (rsm)"""
     voc = embed.index
-    embed = embed.to_numpy(copy=False, dtype=dtype)
+    embed = embed.to_numpy(dtype=dtype, copy=False)
     embed /= np.linalg.norm(embed, axis=1).reshape(-1, 1)
     embed = embed @ embed.T
     return pd.DataFrame(embed, index=voc, columns=voc, dtype=dtype)

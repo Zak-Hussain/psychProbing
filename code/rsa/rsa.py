@@ -9,8 +9,8 @@ def compute_rsm(embed: pd.DataFrame, dtype='float64') -> pd.DataFrame:
     embed = embed.to_numpy(dtype=dtype, copy=False)  # Convert to NumPy array
 
     # Normalize the embeddings
-    norms = np.linalg.norm(embed, axis=1, keepdims=True)
-    embed /= norms
+    l2_norms = np.linalg.norm(embed, axis=1, keepdims=True)
+    embed /= np.where(l2_norms == 0, np.finfo(float).eps, l2_norms)  # Avoid division by zero by using machine epsilon
 
     # Initialize an empty matrix for the cosine values
     cosine_matrix = np.zeros((embed.shape[0], embed.shape[0]), dtype=dtype)

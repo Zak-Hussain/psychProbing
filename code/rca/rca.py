@@ -78,4 +78,5 @@ def checker(embed_name, y, dtype, meta, outer_cv, norm_name):
 
 def k_fold_cross_val(estim, X, y, outer_cv, scoring, n_jobs):
     scores = cross_val_score(estim, X, y, cv=outer_cv, scoring=scoring, n_jobs=n_jobs)
-    return scores.mean(), scores.std()
+    return scores
+

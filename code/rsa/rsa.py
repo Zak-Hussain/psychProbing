@@ -4,12 +4,27 @@ from scipy.stats import rankdata
 
 
 def compute_rsm(embed: pd.DataFrame, dtype='float64') -> pd.DataFrame:
-    """Converts to np.array and computes cosine matrix (rsm)"""
+    """Converts to np.array and computes cosine matrix (rsm) but only computes the lower triangle excluding diagonal to save time."""
     voc = embed.index
-    embed = embed.to_numpy(dtype=dtype, copy=False)
-    embed /= np.linalg.norm(embed, axis=1).reshape(-1, 1)
-    embed = embed @ embed.T
-    return pd.DataFrame(embed, index=voc, columns=voc, dtype=dtype)
+    embed = embed.to_numpy(dtype=dtype, copy=False)  # Convert to NumPy array
+    norms = np.linalg.norm(embed, axis=1, keepdims=True)
+    embed /= norms  # Normalize in-place
+
+    # Initialize an empty matrix for the cosine values
+    cosine_matrix = np.zeros((embed.shape[0], embed.shape[0]), dtype=dtype)
+
+    # Compute only the lower triangle of the matrix, excluding the diagonal
+    for i in range(embed.shape[0]):
+        for j in range(i):  # Exclude the diagonal by starting from j = 0 to i - 1
+            cosine_matrix[i, j] = np.dot(embed[i], embed[j])
+
+    # Since the matrix is symmetric, we can reflect the lower triangle to the upper triangle
+    cosine_matrix += cosine_matrix.T
+
+    # Set diagonal elements to 1.0
+    np.fill_diagonal(cosine_matrix, 1.0)
+
+    return pd.DataFrame(cosine_matrix, index=voc, columns=voc, dtype=dtype)
 
 
 def paired_nan_drop(m_i: np.array, m_j: np.array) -> np.array:

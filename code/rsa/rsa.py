@@ -54,8 +54,8 @@ def lower_tri_spearman(rsm_i, rsm_j) -> float:
     return corr
 
 
-def compute_rsa(rsm_i: pd.DataFrame, rsm_j: pd.DataFrame, dtype=np.float64) -> tuple:
-    """Returns local Spearman correlation between two RSMs"""
+def compute_rsa(rsm_i: pd.DataFrame, rsm_j: pd.DataFrame, dtype='float64') -> tuple:
+    """Returns Spearman correlation between two RSMs"""
 
     # Selecting intersection
     rsm_i, rsm_j = rsm_i.align(rsm_j, join='inner')

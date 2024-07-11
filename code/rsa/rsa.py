@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from scipy.stats import rankdata
+from tqdm.notebook import tqdm
 
 
 def compute_rsm(embed: pd.DataFrame, dtype='float64') -> pd.DataFrame:
@@ -16,7 +17,7 @@ def compute_rsm(embed: pd.DataFrame, dtype='float64') -> pd.DataFrame:
     cosine_matrix = np.zeros((embed.shape[0], embed.shape[0]), dtype=dtype)
 
     # Compute only the lower triangle of the matrix, excluding the diagonal
-    for i in range(embed.shape[0]):
+    for i in tqdm(range(embed.shape[0])):
         for j in range(i):
             cosine_matrix[i, j] = np.dot(embed[i], embed[j])
 

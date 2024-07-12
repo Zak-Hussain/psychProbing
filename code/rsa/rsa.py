@@ -1,30 +1,12 @@
 import pandas as pd
 import numpy as np
 from scipy.stats import rankdata
-from tqdm.notebook import tqdm
 
 
-def compute_rsm(embed: pd.DataFrame, dtype='float64') -> pd.DataFrame:
-    """Converts to np.array and computes cosine matrix (rsm) but only computes the lower triangle excluding diagonal to save time."""
-    voc = embed.index
-    embed = embed.to_numpy(dtype=dtype, copy=False)  # Convert to NumPy array
-
-    # Normalize the embeddings
-    l2_norms = np.linalg.norm(embed, axis=1, keepdims=True)
-    embed /= np.where(l2_norms == 0, np.finfo(float).eps, l2_norms)  # Avoid division by zero by using machine epsilon
-
-    # Initialize an empty matrix for the cosine values
-    cosine_matrix = np.zeros((embed.shape[0], embed.shape[0]), dtype=dtype)
-
-    # Compute only the lower triangle of the matrix, excluding the diagonal
-    for i in tqdm(range(embed.shape[0])):
-        for j in range(i):
-            cosine_matrix[i, j] = np.dot(embed[i], embed[j])
-
-    cosine_matrix += cosine_matrix.T  # Fill the upper triangle
-    np.fill_diagonal(cosine_matrix, 1.0) # Fill the diagonal with 1.0
-
-    return pd.DataFrame(cosine_matrix, index=voc, columns=voc, dtype=dtype)
+def compute_rsm(embed: pd.DataFrame) -> pd.DataFrame:
+    """Compute representational similarity matrix (RSM) from an embedding matrix."""
+    embed /= np.linalg.norm(embed, axis=1).reshape(-1, 1)
+    return embed @ embed.T
 
 
 def paired_nan_drop(m_i: np.array, m_j: np.array) -> np.array:

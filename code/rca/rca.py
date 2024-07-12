@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.preprocessing import LabelBinarizer
-from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.metrics import make_scorer
+from sklearn.model_selection import cross_val_score
 from sklearn.metrics import log_loss
 
 
@@ -33,6 +34,13 @@ def mcfadden_r2_multiclass(y_true, y_pred_proba):
     # Calculate McFadden's R2
     pseudo_r2 = 1 - (ll_model / ll_null)
     return pseudo_r2
+
+
+def make_binary_scorer():
+    return make_scorer(mcfadden_r2_binary, greater_is_better=True, needs_proba=True)
+
+def make_multiclass_scorer():
+    return make_scorer(mcfadden_r2_multiclass, greater_is_better=True, needs_proba=True)
 
 
 def best_logistic_solver(X, dtype):
@@ -68,11 +76,7 @@ def checker(embed_name, y, dtype, meta, outer_cv, norm_name):
         return 'pass'
 
 
-def k_fold_cross_val(estim, X, y, dtype, outer_cv, n_jobs):
-    if dtype == 'continuous':
-        scores = cross_val_score(estim, X, y, cv=outer_cv, scoring='r2', n_jobs=n_jobs)
-    elif dtype == 'binary':
-        scores = cross_val_score(estim, X, y, cv=outer_cv, scoring=mcfadden_r2_binary, n_jobs=n_jobs)
-    else:
-        scores = cross_val_score(estim, X, y, cv=outer_cv, scoring=mcfadden_r2_multiclass, n_jobs=n_jobs)
-    return scores.mean(), scores.std()
+def k_fold_cross_val(estim, X, y, outer_cv, scoring, n_jobs):
+    scores = cross_val_score(estim, X, y, cv=outer_cv, scoring=scoring, n_jobs=n_jobs)
+    return scores
+

@@ -5,7 +5,8 @@ from scipy.stats import rankdata
 
 def compute_rsm(embed: pd.DataFrame) -> pd.DataFrame:
     """Compute representational similarity matrix (RSM) from an embedding matrix."""
-    embed /= np.linalg.norm(embed, axis=1).reshape(-1, 1)
+    l2_norms = np.linalg.norm(embed, axis=1).reshape(-1, 1)
+    embed /= np.where(l2_norms == 0, np.finfo(float).eps, l2_norms)
     return embed @ embed.T
 
 

@@ -8,6 +8,6 @@
     ],
     "behavior": [
          "PPMI_SVD_SWOW", "SGSoftMaxInput_SWOW", "SGSoftMaxOutput_SWOW",
-        "PPMI_SVD_SOUTH_FLORIDA", "THINGS",  "feature_overlap", "norms_sensorimotor", "compo_attribs","SVD_sim_rel"
+        "PPMI_SVD_SouthFlorida", "THINGS",  "feature_overlap", "norms_sensorimotor", "compo_attribs","SVD_sim_rel"
     ]
 }

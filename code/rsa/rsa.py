@@ -55,7 +55,6 @@ def compute_rsa(rsm_i: pd.DataFrame, rsm_j: pd.DataFrame, max_n: int) -> tuple:
 
     # Filling self-correlations with nan
     np.fill_diagonal(rsm_i, np.nan), np.fill_diagonal(rsm_j, np.nan)
-    print('Filled self-correlations with nan')
 
     corr = lower_tri_spearman(rsm_i, rsm_j)
     return corr, n_words

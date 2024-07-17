@@ -21,7 +21,7 @@ def triangle_flat(m: np.array) -> np.array:
     return m[np.triu_indices(len(m), k=1)]
 
 
-def custom_spearmanr(x, y):
+def custom_spearmanr(x: np.array, y: np.array) -> float:
     """Appears to use less RAM than scipy.stats.spearmanr. Not sure if it's faster."""
     # Rank the data
     ranked_1 = rankdata(x)
@@ -30,7 +30,6 @@ def custom_spearmanr(x, y):
     # Compute spearman correlation
     return np.corrcoef(ranked_1, ranked_2)[0, 1]
 
-
 def lower_tri_spearman(rsm_i, rsm_j) -> float:
     rsm_i, rsm_j = triangle_flat(rsm_i), triangle_flat(rsm_j)
     rsm_i, rsm_j = paired_nan_drop(rsm_i, rsm_j)
@@ -38,17 +37,25 @@ def lower_tri_spearman(rsm_i, rsm_j) -> float:
     return corr
 
 
-def compute_rsa(rsm_i: pd.DataFrame, rsm_j: pd.DataFrame) -> tuple:
+def compute_rsa(rsm_i: pd.DataFrame, rsm_j: pd.DataFrame, max_n: int) -> tuple:
     """Returns Spearman correlation between two RSMs"""
 
-    # Selecting intersection
-    rsm_i, rsm_j = rsm_i.align(rsm_j, join='inner')
+    # Aligning RSMs
+    voc_i, voc_j = rsm_i.index, rsm_j.index
+    intersect = voc_i.intersection(voc_j)
+    n_words = len(intersect)
+    if n_words > max_n:
+        intersect = pd.Series(intersect).sample(max_n)
+    rsm_i = rsm_i.loc[intersect, intersect]
+    rsm_j = rsm_j.loc[intersect, intersect]
+
+    # Converting to numpy
     rsm_i = rsm_i.to_numpy(copy=False)
     rsm_j = rsm_j.to_numpy(copy=False)
-    n_words = len(rsm_i)
 
     # Filling self-correlations with nan
     np.fill_diagonal(rsm_i, np.nan), np.fill_diagonal(rsm_j, np.nan)
+    print('Filled self-correlations with nan')
 
     corr = lower_tri_spearman(rsm_i, rsm_j)
     return corr, n_words

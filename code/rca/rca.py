@@ -65,6 +65,15 @@ def process_categorical(X, y, outer_cv, inner_cv):
     return X, y
 
 
+def process_categorical_ensembl(X_tt, X_tb, y, outer_cv, inner_cv):
+    """Removes classes with too few observations"""
+    min_class_n = outer_cv * inner_cv
+    classes_to_keep = y.value_counts()[y.value_counts() >= min_class_n].index
+    to_keep_bool = y.isin(classes_to_keep)
+    X_tt, X_tb, y = X_tt.loc[to_keep_bool], X_tb.loc[to_keep_bool], y.loc[to_keep_bool]
+    return X_tt, X_tb, y
+
+
 def checker(embed_name, y, dtype, meta, outer_cv, norm_name):
     if embed_name in meta.loc[norm_name, 'associated_embed']:
         return 'associated_embed'

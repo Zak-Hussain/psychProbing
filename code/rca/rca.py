@@ -61,19 +61,35 @@ def process_categorical(outer_cv, inner_cv, y, *X):
     min_class_n = outer_cv * inner_cv
     classes_to_keep = y.value_counts()[y.value_counts() >= min_class_n].index
     to_keep_bool = y.isin(classes_to_keep)
-    y = y.loc[to_keep_bool]
+    y_filtered = y.loc[to_keep_bool]
 
-    X = [x.loc[to_keep_bool] for x in X]
+    X_filtered = [x.loc[to_keep_bool] for x in X]
 
-    if len(X) == 1:
-        return X[0], y
+    if len(X_filtered) == 1:
+        return X_filtered[0], y_filtered
     else:
-        return (*X, y)
+        return (*X_filtered, y_filtered)
 
 
-# Example usage:
-# X, y = process_categorical_general(outer_cv, inner_cv, y, X)
-# X_tt, X_tb, y = process_categorical_general(outer_cv, inner_cv, y, X_tt, X_tb)
+def checker(embed_names, y, dtype, meta, outer_cv, norm_name):
+    """Checks various conditions to determine the status of the data."""
+
+    # Checks for data leakage
+    associated = meta.loc[norm_name, 'associated_embed']
+    if isinstance(associated, list): # checks if there are any embeddings associated with the norm
+        embed_names = [embed_names] if isinstance(embed_names, str) else embed_names
+        if set(embed_names) & set(associated):
+            return 'associated_embed'
+
+    # Check if there are too few observations
+    if len(y) < 2 * outer_cv:
+        return 'too few observations'
+
+    # Check if there are too few classes of sufficient size for non-continuous data
+    if dtype != 'continuous' and len(y.unique()) < 2:
+        return 'too few classes (of sufficient size)'
+
+    return 'pass'
 
 
 def k_fold_cross_val(estim, X, y, outer_cv, scoring, n_jobs):

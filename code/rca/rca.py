@@ -56,7 +56,7 @@ def best_logistic_solver(X, dtype):
         return 'saga'
 
 
-def process_categorical_general(outer_cv, inner_cv, y, *X):
+def process_categorical(outer_cv, inner_cv, y, *X):
     """Removes classes with too few observations and returns filtered dataframes"""
     min_class_n = outer_cv * inner_cv
     classes_to_keep = y.value_counts()[y.value_counts() >= min_class_n].index

@@ -56,35 +56,24 @@ def best_logistic_solver(X, dtype):
         return 'saga'
 
 
-def process_categorical(X, y, outer_cv, inner_cv):
-    """Removes classes with too few observations"""
+def process_categorical_general(outer_cv, inner_cv, y, *X):
+    """Removes classes with too few observations and returns filtered dataframes"""
     min_class_n = outer_cv * inner_cv
     classes_to_keep = y.value_counts()[y.value_counts() >= min_class_n].index
     to_keep_bool = y.isin(classes_to_keep)
-    X, y = X.loc[to_keep_bool], y.loc[to_keep_bool]
-    return X, y
+    y = y.loc[to_keep_bool]
 
+    X = [x.loc[to_keep_bool] for x in X]
 
-def process_categorical_ensemble(X_tt, X_tb, y, outer_cv, inner_cv):
-    """Removes classes with too few observations"""
-    min_class_n = outer_cv * inner_cv
-    classes_to_keep = y.value_counts()[y.value_counts() >= min_class_n].index
-    to_keep_bool = y.isin(classes_to_keep)
-    X_tt, X_tb, y = X_tt.loc[to_keep_bool], X_tb.loc[to_keep_bool], y.loc[to_keep_bool]
-    return X_tt, X_tb, y
-
-
-def checker(embed_names, y, dtype, meta, outer_cv, norm_name):
-    if isinstance(embed_names, str):
-        embed_names = [embed_names]
-    if set(embed_names) & set(meta.loc[norm_name, 'associated_embed']):  # if any are associated
-        return 'associated_embed'
-    elif len(y) < 2 * outer_cv:
-        return 'too few observations'
-    elif (dtype != 'continuous') and (len(y.unique()) < 2):
-        return 'too few classes (of sufficient size)'
+    if len(X) == 1:
+        return X[0], y
     else:
-        return 'pass'
+        return (*X, y)
+
+
+# Example usage:
+# X, y = process_categorical_general(outer_cv, inner_cv, y, X)
+# X_tt, X_tb, y = process_categorical_general(outer_cv, inner_cv, y, X_tt, X_tb)
 
 
 def k_fold_cross_val(estim, X, y, outer_cv, scoring, n_jobs):

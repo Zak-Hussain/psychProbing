@@ -56,19 +56,15 @@ def best_logistic_solver(X, dtype):
         return 'saga'
 
 
-def process_categorical(outer_cv, inner_cv, y, *X):
+def process_categorical(outer_cv, inner_cv, X, y):
     """Removes classes with too few observations and returns filtered dataframes"""
     min_class_n = outer_cv * inner_cv
     classes_to_keep = y.value_counts()[y.value_counts() >= min_class_n].index
     to_keep_bool = y.isin(classes_to_keep)
     y_filtered = y.loc[to_keep_bool]
+    X_filtered = X.loc[to_keep_bool]
 
-    X_filtered = [x.loc[to_keep_bool] for x in X]
-
-    if len(X_filtered) == 1:
-        return X_filtered[0], y_filtered
-    else:
-        return (*X_filtered, y_filtered)
+    return X_filtered, y_filtered
 
 
 def checker(embed_names, y, dtype, meta, outer_cv, norm_name):

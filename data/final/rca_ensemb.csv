@@ -1,4 +1,4 @@
-embed,norm,train_n,fold,r2_mean,check
+embed,norm,train_n,fold,r2,check
 CBOW_GoogleNews,Freq_HAL,8668,1,0.6606505018554152,pass
 CBOW_GoogleNews,Freq_HAL,8668,2,0.6598735384477115,pass
 CBOW_GoogleNews,Freq_HAL,8668,3,0.6784978582786474,pass

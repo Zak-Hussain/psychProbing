@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.preprocessing import LabelBinarizer
-from sklearn.metrics import make_scorer
-from sklearn.model_selection import cross_val_score
+from sklearn.metrics import mean_squared_error, make_scorer
+from sklearn.model_selection import cross_validate
 from sklearn.metrics import log_loss
 
 
@@ -10,7 +10,7 @@ def mcfadden_r2_binary(y_true, y_pred_proba):
     ll_model = -log_loss(y_true, y_pred_proba, normalize=False)
 
     # Compute the log-likelihood of the null model (predicting the mean)
-    probas_null = np.full_like(y_pred_proba, fill_value=y_true.mean(), dtype=np.float64)
+    probas_null = np.full_like(y_pred_proba, fill_value=y_true.mean())
     ll_null = -log_loss(y_true, probas_null, normalize=False)
 
     # Calculate McFadden's R2
@@ -36,17 +36,27 @@ def mcfadden_r2_multiclass(y_true, y_pred_proba):
     return pseudo_r2
 
 
-def make_binary_scorer():
-    return make_scorer(mcfadden_r2_binary, greater_is_better=True, needs_proba=True)
+def neg_mse_categorical(y_true, y_pred_proba, multiclass=False):
+    if multiclass:
+        lb = LabelBinarizer()
+        y_true = lb.fit_transform(y_true)
+    return - mean_squared_error(y_true, y_pred_proba)
 
-def make_multiclass_scorer():
-    return make_scorer(mcfadden_r2_multiclass, greater_is_better=True, needs_proba=True)
+
+def make_binary_scoring():
+    r2 = make_scorer(mcfadden_r2_binary, greater_is_better=True, needs_proba=True)
+    neg_mse = make_scorer(neg_mse_categorical, greater_is_better=True, needs_proba=True)
+    return {'r2': r2, 'neg_mse': neg_mse}
+
+
+def make_multiclass_scoring():
+    r2 = make_scorer(mcfadden_r2_multiclass, greater_is_better=True, needs_proba=True)
+    neg_mse = make_scorer(neg_mse_categorical, greater_is_better=True, needs_proba=True, multiclass=True)
+    return {'r2': r2, 'neg_mse': neg_mse}
 
 
 def best_logistic_solver(X, dtype):
-    """
-    Pick the fastest 'l2'-compatible for LogisticCV the given data based on a few heuristics.
-    """
+    """Pick the fastest 'l2'-compatible for LogisticCV the given data based on a few heuristics."""
     if len(X) < 1000:  # Arbitrary threshold for "small" datasets
         if dtype == 'binary':
             return 'liblinear'
@@ -67,15 +77,14 @@ def process_categorical(outer_cv, inner_cv, X, y):
     return X_filtered, y_filtered
 
 
-def checker(embed_names, y, dtype, meta, outer_cv, norm_name):
+def checker(embed_names, y, dtype, associated_embeds, outer_cv):
     """Checks various conditions to determine the status of the data."""
+    embed_names = [embed_names] if isinstance(embed_names, str) else embed_names
+    associated_embeds = associated_embeds.split()
 
     # Checks for data leakage
-    associated = meta.loc[norm_name, 'associated_embed']
-    if isinstance(associated, list): # checks if there are any embeddings associated with the norm
-        embed_names = [embed_names] if isinstance(embed_names, str) else embed_names
-        if set(embed_names) & set(associated):
-            return 'associated_embed'
+    if set(embed_names) & set(associated_embeds):
+        return 'associated_embed'
 
     # Check if there are too few observations
     if len(y) < 2 * outer_cv:
@@ -89,6 +98,6 @@ def checker(embed_names, y, dtype, meta, outer_cv, norm_name):
 
 
 def k_fold_cross_val(estim, X, y, outer_cv, scoring, n_jobs):
-    scores = cross_val_score(estim, X, y, cv=outer_cv, scoring=scoring, n_jobs=n_jobs)
+    scores = cross_validate(estim, X, y, cv=outer_cv, scoring=scoring, n_jobs=n_jobs)
     return scores
 

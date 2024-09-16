@@ -80,7 +80,7 @@ def process_categorical(outer_cv, inner_cv, X, y):
 def checker(embed_names, y, dtype, associated_embeds, outer_cv):
     """Checks various conditions to determine the status of the data."""
     embed_names = [embed_names] if isinstance(embed_names, str) else embed_names
-    associated_embeds = associated_embeds.split()
+    associated_embeds = str(associated_embeds).split()
 
     # Checks for data leakage
     if set(embed_names) & set(associated_embeds):

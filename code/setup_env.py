@@ -1,7 +1,7 @@
 from osfclient.api import OSF
 import os
 
-project_id = 'psychProbing'
+project_id = 'nrkd7'
 
 # Connect to OSF
 osf = OSF()
@@ -15,7 +15,11 @@ storage = project.storage('osfstorage')
 # Loop through all files and download them
 for folder in storage.folders:
     print(f'Entering folder {folder.name}...')
-    output_dir = os.path.join('..', 'data', folder.name)
+
+    if folder.name == 'embeds':
+        output_dir = os.path.join('..', 'data', folder.name)
+    else:
+        output_dir = os.path.join('..', 'data', 'embeds_train', folder.name)
 
     # Create the output directory if it doesn't exist
     if not os.path.exists(output_dir):

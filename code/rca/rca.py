@@ -87,8 +87,10 @@ def checker(embed_names, y, dtype, associated_embeds, outer_cv):
         return 'associated_embed'
 
     # Check if there are too few observations
-    if len(y) < 2 * outer_cv:
-        return 'too few observations'
+
+    test_n = np.ciel((1 / outer_cv) * len(y))
+    if test_n < 20:
+        return 'test_n < 20'
 
     # Check if there are too few classes of sufficient size for non-continuous data
     if dtype != 'continuous' and len(y.unique()) < 2:

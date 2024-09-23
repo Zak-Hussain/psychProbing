@@ -88,7 +88,7 @@ def checker(embed_names, y, dtype, associated_embeds, outer_cv):
 
     # Check if there are too few observations
 
-    test_n = np.ciel((1 / outer_cv) * len(y))
+    test_n = int((1 / outer_cv) * len(y))
     if test_n < 20:
         return 'test_n < 20'
 

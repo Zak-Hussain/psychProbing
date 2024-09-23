@@ -17,7 +17,7 @@ def paired_nan_drop(m_i: np.array, m_j: np.array) -> np.array:
 
 
 def triangle_flat(m: np.array) -> np.array:
-    """Returns lower triangle (excluding diagonal)"""
+    """Returns upper triangle (excluding diagonal)"""
     return m[np.triu_indices(len(m), k=1)]
 
 

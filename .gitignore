@@ -163,4 +163,4 @@ cython_debug/
 
 # MacOS
 .DS_Store
-/data/processed/norms_to_log.pkl
+/data/norms_to_log.pkl

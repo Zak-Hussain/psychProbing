@@ -44,7 +44,7 @@ In order to run the code, you will need to download the representations from the
 - [`SGSoftMaxInput_SWOW`](https://smallworldofwords.org/en/project/research) ('SWOW-EN18', further processed with Skip-Gram Softmax embedding algorithm)
 - [`SGSoftMaxOutput_SWOW`](https://smallworldofwords.org/en/project/research) ('SWOW-EN18', further processed with Skip-Gram Softmax embedding algorithm)
 - [`PPMI_SVD_SouthFlorida`](http://w3.usf.edu/FreeAssociation/) ('Appendix A. The normed cues, their targets and related information', further processed with PPMI and SVD transformations)
-- [`PPMI_SVD_EAT`](http://w3.usf.edu/FreeAssociation/) ('ea-thesaurus.json', further processed with PPMI and SVD transformations)
+- [`PPMI_SVD_EAT`](https://github.com/dariusk/ea-thesaurus) ('ea-thesaurus.json', further processed with PPMI and SVD transformations)
 - [`THINGS`](https://osf.io/z2784/) ('spose_embedding_49d_sorted.txt' and 'items1854names.tsv')
 - [`feature_overlap`](https://github.com/doomlab/shiny-server/blob/master/wn_double/double_words.csv)
 - [`norms_sensorimotor`](https://osf.io/rwhs6/files/osfstorage) ('Lancaster_sensorimotor_norms_for_39707_words.csv')

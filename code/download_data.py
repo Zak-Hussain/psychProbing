@@ -16,10 +16,7 @@ storage = project.storage('osfstorage')
 for folder in storage.folders:
     print(f'Entering folder {folder.name}...')
 
-    if folder.name == 'embeds':
-        output_dir = os.path.join('..', 'data', folder.name)
-    else:
-        output_dir = os.path.join('..', 'data', 'embeds_train', folder.name)
+    output_dir = os.path.join('..', 'data', folder.name)
 
     # Create the output directory if it doesn't exist
     if not os.path.exists(output_dir):

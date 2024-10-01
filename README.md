@@ -1,5 +1,9 @@
 ## psychProbing
 
+To do:
+
+1. Rename 'compo_attribs' to 'experiential_attributes' everywhere.
+
 This repository contains the code for the paper:
 
 Hussain, Z., Mata, R., Newell, Ben R., & Wulff, D. U. (2024). Probing the contents of text, behavior, and brain data toward improving human-LLM alignment. *arXiv preprint arXiv:XXXXXX*.

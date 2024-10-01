@@ -1,4 +1,4 @@
-name: PsychEmbeddings
+name: psychProbing
 channels:
   - pytorch
   - bioconda
@@ -311,4 +311,3 @@ dependencies:
       - tokenizers==0.13.2
       - transformers==4.25.1
       - zstandard==0.20.0
-prefix: /Users/zhussain/opt/anaconda3/envs/PsychEmbeddings

@@ -2,11 +2,11 @@
 
 This repository contains the code for the paper:
 
-Hussain, Z., Mata, R., Newell, Ben R., & Wulff, D. U. (2024). Probing the contents of text, brain, and behavior data toward improving human-LLM alignment. *arXiv preprint arXiv:XXXXXX*.
+Hussain, Z., Mata, R., Newell, Ben R., & Wulff, D. U. (2024). Probing the contents of text, behavior, and brain data toward improving human-LLM alignment. *arXiv preprint arXiv:XXXXXX*.
 
 ```
 @article{hussain2024probing,
-  title={Probing the contents of text, brain, and behavior data toward improving human-LLM alignment},
+  title={Probing the contents of text, behavior, and brain data toward improving human-LLM alignment},
   author={Zak Hussain and Rui Mata and Ben R. Newell and Dirk U. Wulff},
   journal={arXiv},
   year={2024}

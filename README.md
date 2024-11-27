@@ -1,9 +1,5 @@
 ## psychProbing
 
-To do:
-
-1. Rename 'compo_attribs' to 'experiential_attributes' everywhere.
-
 This repository contains the code for the paper:
 
 Hussain, Z., Mata, R., Newell, Ben R., & Wulff, D. U. (2024). Probing the Contents of Semantic Representations from Text, Behavior, and Brain Data Using the psychNorms Metabase. *arXiv preprint arXiv:XXXXXX*.
@@ -63,6 +59,8 @@ The original sources of the representations are as follows:
 - [`compo_attribs`](https://www.neuro.mcw.edu/index.php/resources/brain-based-semantic-representations/) ('word_ratings.zip')
 - `SVD_sim_rel`: 'AG203', 'BakerVerb', 'MartinezAldana', 'MC30', 'MEN3000', 'RG65', 'SimLex999', 'SimVerb3500', 'SL7576sem', 'SL7576vis', 'WP300', 'YP130', 'Atlasify240', 'GM30', 'MT287', 'MT771', 'Rel122',
        'RW2034', 'WordSim353', 'Zie25', 'Zie30' (datasets were combined, min-max scaled and then processed with SVD transformation).
+
+Note: `compo_attribs` has been renamed to 'experiential attributes' in the paper and figures to be consistent with the terminolgy in the psychNorms metabase.
 
 ### Norms
 

@@ -17,7 +17,7 @@ Hussain, Z., Mata, R., Newell, Ben R., & Wulff, D. U. (2024). Probing the Conten
 ### Environment setup
 
 1. To set up the environment, you can use the `environment.yml` file in the root directory of this repository. 
-2. **Before running any other code, make sure to run `code/download_data.py` to download the necessary data files.**
+2. **Before running any other code, make sure to run `code/setup.py` to download/generate the necessary data files.**
 3. For licensing reasons, you will need to manually download `SWOW-EN.R100.csv` into `data/free_assoc/` from the [Small World of Words](https://smallworldofwords.org/en/project/research).
 4. To obtain the representations that we trained ourselves, you will need to run the notebooks in `code/embed_training/`. 
 5. Analyses (`code/rsa` and `code/rca`) can then be run in the order implied by the numbering of the notebooks.

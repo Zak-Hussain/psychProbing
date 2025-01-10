@@ -1,4 +1,4 @@
-name: psychProbing
+name: psychProbingEnv
 channels:
   - conda-forge
   - defaults
@@ -13,8 +13,8 @@ dependencies:
   - scipy
   - osfclient
   - jupyter
+  - adjusttext
   - pip
-  - adjust_text
   - pip:
       - hypertools
       - torch

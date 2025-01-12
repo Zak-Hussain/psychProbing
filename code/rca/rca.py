@@ -1,7 +1,6 @@
 import numpy as np
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.metrics import make_scorer
-from sklearn.model_selection import cross_val_score
 from sklearn.metrics import log_loss
 
 

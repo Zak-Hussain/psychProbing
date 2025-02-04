@@ -1,11 +1,14 @@
 import numpy as np
 from sklearn.preprocessing import LabelBinarizer
-from sklearn.metrics import mean_squared_error, make_scorer
-from sklearn.model_selection import cross_validate
+from sklearn.metrics import make_scorer
 from sklearn.metrics import log_loss
 
 
 def mcfadden_r2_binary(y_true, y_pred_proba):
+    # Ensure y_true is a binary vector
+    lb = LabelBinarizer()
+    y_true = lb.fit_transform(y_true).ravel()
+
     # Compute the log-likelihood of the model
     ll_model = -log_loss(y_true, y_pred_proba, normalize=False)
 
@@ -36,23 +39,14 @@ def mcfadden_r2_multiclass(y_true, y_pred_proba):
     return pseudo_r2
 
 
-def neg_mse_categorical(y_true, y_pred_proba, multiclass=False):
-    if multiclass:
-        lb = LabelBinarizer()
-        y_true = lb.fit_transform(y_true)
-    return - mean_squared_error(y_true, y_pred_proba)
-
-
 def make_binary_scoring():
     r2 = make_scorer(mcfadden_r2_binary, greater_is_better=True, needs_proba=True)
-    neg_mse = make_scorer(neg_mse_categorical, greater_is_better=True, needs_proba=True)
-    return {'r2': r2, 'neg_mse': neg_mse}
+    return r2
 
 
 def make_multiclass_scoring():
     r2 = make_scorer(mcfadden_r2_multiclass, greater_is_better=True, needs_proba=True)
-    neg_mse = make_scorer(neg_mse_categorical, greater_is_better=True, needs_proba=True, multiclass=True)
-    return {'r2': r2, 'neg_mse': neg_mse}
+    return r2
 
 
 def best_logistic_solver(X, dtype):
@@ -96,9 +90,4 @@ def checker(embed_names, y, dtype, associated_embeds, outer_cv):
         return 'too few classes (of sufficient size)'
 
     return 'pass'
-
-
-def k_fold_cross_val(estim, X, y, outer_cv, scoring, n_jobs):
-    scores = cross_validate(estim, X, y, cv=outer_cv, scoring=scoring, n_jobs=n_jobs)
-    return scores
 

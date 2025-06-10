@@ -1,7 +1,11 @@
 import numpy as np
+from sklearn.linear_model import RidgeCV, LogisticRegressionCV
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.metrics import make_scorer
 from sklearn.metrics import log_loss
+from sklearn.model_selection import StratifiedKFold, cross_val_score
+from tqdm import tqdm
+import pandas as pd
 
 
 def mcfadden_r2_binary(y_true, y_pred_proba):
@@ -90,4 +94,102 @@ def checker(embed_names, y, dtype, associated_embeds, outer_cv):
         return 'too few classes (of sufficient size)'
 
     return 'pass'
+
+
+def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, embed_to_type) -> pd.DataFrame:
+    # --- Hyperparameters ---
+    # Ridge regression
+    min_ord, max_ord = -5, 5
+    alphas = np.logspace(min_ord, max_ord, max_ord - min_ord + 1)
+    ridge = RidgeCV(alphas=alphas)
+
+    # Logistic regression
+    Cs = 1 / alphas
+    inner_cv = 5
+    penalty = 'l2'
+
+    # Cross-validation settings
+    outer_cv, n_jobs = 5, 10
+
+    # --- Scorers ---
+    binary_scoring = make_binary_scoring()
+    multiclass_scoring = make_multiclass_scoring()
+    continuous_scoring = 'r2'
+
+    # ---- Results accumulator ---
+    results = []
+
+    # --- Main cross-validation loop ---
+    for embed_name in tqdm(embeds.keys()):
+        embed = embeds[embed_name]
+
+        to_print = []
+        for norm_name in tqdm(norms.columns, desc=embed_name):
+            # 1. Aligning vocabs
+            y = norms[norm_name].dropna()
+            X, y = embed.align(y, axis=0, join='inner', copy=True)
+
+            # 2. Determine norm dtype and select estimator
+            norm_dtype = norm_meta.loc[norm_name, 'type']
+
+            if norm_dtype in ['binary', 'multiclass']:
+                # Process data for classification
+                X, y = process_categorical(outer_cv, inner_cv, X, y)
+
+                # Recheck dtype in case processing converted multiclass to binary
+                norm_dtype = 'binary' if len(y.unique()) == 2 else 'multiclass'
+
+                solver = best_logistic_solver(X, norm_dtype)
+                scoring = binary_scoring if norm_dtype == 'binary' else multiclass_scoring
+
+                estimator = LogisticRegressionCV(
+                    Cs=Cs,
+                    penalty=penalty,
+                    cv=StratifiedKFold(inner_cv),
+                    solver=solver,
+                    n_jobs=8
+                )
+            else: # Continuous data
+                estimator = ridge
+                scoring = continuous_scoring
+
+            # 3. Run cross-validation after final check
+            associated_embed = norm_meta.loc[norm_name, 'associated_embed']
+            check = checker(embed_name, y, norm_dtype, associated_embed, outer_cv)
+            if check == 'pass':
+                r2s = cross_val_score(  # stratification is automatically used for classification
+                    estimator, X, y,
+                    cv=outer_cv, scoring=scoring,
+                    n_jobs=n_jobs
+                )
+                r2_mean, r2_sd = r2s.mean(), r2s.std()
+            else:
+                r2_mean, r2_sd = np.nan, np.nan
+
+            # 4. Save results
+            train_n = int(((outer_cv - 1) / outer_cv) * len(X))
+            test_n = len(X) - train_n
+            p = X.shape[1]
+            embed_type = embed_to_type[embed_name]
+            results.append([
+                embed_name, embed_type, norm_name, train_n, test_n, p,
+                r2_mean, r2_sd, check
+            ])
+
+            to_print.append([norm_name, train_n, r2_mean, r2_sd, check])
+
+        # Print top results for completed embedding
+        to_print = pd.DataFrame(to_print, columns=['norm', 'train_n', 'r2_mean', 'r2_sd', 'check'])
+        print(to_print.sort_values('r2_mean', ascending=False).head(10))
+
+    # Convert final results list to DataFrame
+    results = pd.DataFrame(
+        results, columns=[
+            'embed', 'embed_type', 'norm', 'train_n', 'test_n', 'p',
+            'r2_mean', 'r2_sd', 'check'
+        ]
+    )
+    return results
+
+
 

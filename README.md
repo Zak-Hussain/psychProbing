@@ -1,6 +1,20 @@
 ## psychProbing
 
-This repository contains the code for the paper: "Probing the contents of semantic representations from text, behavior, and brain data using the psychNorms metabase"
+This repository contains the code for the paper:
+
+Hussain, Z., Mata, R., Newell, B. R., & Wulff, D. U. (2024). Probing the contents of semantic representations from text, behavior, and brain data using the psychNorms metabase. arXiv. https://arxiv.org/abs/2412.04936
+
+```
+@misc{hussain2024probingcontentssemanticrepresentations,
+      title={Probing the contents of semantic representations from text, behavior, and brain data using the psychNorms metabase}, 
+      author={Zak Hussain and Rui Mata and Ben R. Newell and Dirk U. Wulff},
+      year={2024},
+      eprint={2412.04936},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.04936}, 
+}
+```
 
 ### Environment setup
 

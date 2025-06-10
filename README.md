@@ -65,5 +65,8 @@ The original sources of the representations are as follows:
 
 Note: `compo_attribs` has been renamed to 'experiential attributes' in the paper and figures to be consistent with the terminolgy in the psychNorms metabase.
 
+### Norms
 
+Information on the norms used in our analysis can be found in the [psychNorms repository](https://github.com/Zak-Hussain/psychNorms), and 
+in the metadata file in `data/psychNorms/psychNorms_metadata.csv`.
 

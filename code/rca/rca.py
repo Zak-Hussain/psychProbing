@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelBinarizer
 from sklearn.metrics import make_scorer
 from sklearn.metrics import log_loss
 from sklearn.model_selection import StratifiedKFold, cross_val_score
-from tqdm import tqdm
+from tqdm.notebook import tqdm
 import pandas as pd
 
 
@@ -96,7 +96,7 @@ def checker(embed_names, y, dtype, associated_embeds, outer_cv):
     return 'pass'
 
 
-def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, embed_to_type) -> pd.DataFrame:
+def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, embed_to_type=None) -> pd.DataFrame:
     # --- Hyperparameters ---
     # Ridge regression
     min_ord, max_ord = -5, 5
@@ -170,7 +170,7 @@ def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, embed_to
             train_n = int(((outer_cv - 1) / outer_cv) * len(X))
             test_n = len(X) - train_n
             p = X.shape[1]
-            embed_type = embed_to_type[embed_name]
+            embed_type = embed_to_type[embed_name] if embed_to_type else None
             results.append([
                 embed_name, embed_type, norm_name, train_n, test_n, p,
                 r2_mean, r2_sd, check

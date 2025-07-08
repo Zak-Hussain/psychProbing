@@ -4,7 +4,6 @@ import os
 ###### Downloading data from OSF ######
 
 # WARNING: This project associated with the ID below is NOT anonymized (osfclient cannot download from anonymized projects).
-# If you are a reviewer, please do not search for this project online.
 project_id = 'nrkd7'
 
 # Connect to OSF

@@ -27,6 +27,13 @@ def multi_inner_align(args: list, drop_na=False) -> list:
     intersection = sorted(list(set.intersection(*[set(arg.index) for arg in args])))
     return [arg.loc[intersection] for arg in args]
 
+def standardize(df):
+    # Standardize
+    df = (df - df.mean()) / df.std()
+    # Set Nans to zero
+    df = df.fillna(0.0)
+    return df
+
 
 def ppmi(df):
     """Computes PPMI of pandas dataframe"""

@@ -96,7 +96,7 @@ def checker(embed_names, y, dtype, associated_embeds, outer_cv):
     return 'pass'
 
 
-def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, embed_to_type=None) -> pd.DataFrame:
+def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, n_jobs: int, embed_to_type=None) -> pd.DataFrame:
     # --- Hyperparameters ---
     # Ridge regression
     min_ord, max_ord = -5, 5
@@ -109,7 +109,7 @@ def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, embed_to
     penalty = 'l2'
 
     # Cross-validation settings
-    outer_cv, n_jobs = 5, 10
+    outer_cv = 5
 
     # --- Scorers ---
     binary_scoring = make_binary_scoring()

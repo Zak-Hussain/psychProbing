@@ -2,7 +2,7 @@ import pandas as pd
 from transformers import AutoTokenizer, AutoModel
 import torch
 import pickle
-from tqdm.auto import tqdm  # Changed from tqdm.notebook
+from tqdm.auto import tqdm
 import gc  # Import garbage collector
 
 torch.random.manual_seed(42)
@@ -53,7 +53,6 @@ for model_name, batch_size in mod_batch_sizes.items():
             # Create a batch from the large list
             batch_words = to_extract[i:i + batch_size]
 
-            # --- The rest of the logic is the same, just applied to `batch_words` ---
             inputs = tokenizer(batch_words, return_tensors='pt', padding=True, truncation=True)
             all_word_ids = [inputs.word_ids(j) for j in range(len(batch_words))]
             inputs = {key: val.to(device) for key, val in inputs.items()}

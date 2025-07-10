@@ -7,7 +7,7 @@ dependencies:
   - numpy
   - pandas
   - tqdm
-  - scikit-learn=1.2.0 # pinned version
+  - scikit-learn=1.2.0 # pinned version to deal with needs_proba break
   - matplotlib
   - seaborn
   - scipy

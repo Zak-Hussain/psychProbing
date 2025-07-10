@@ -7,18 +7,20 @@ dependencies:
   - numpy
   - pandas
   - tqdm
-  - scikit-learn=1.2.0 # pinned version to deal with needs_proba break
   - matplotlib
   - seaborn
   - scipy
-  - osfclient
   - jupyter
-  - adjusttext
   - nltk
   - openpyxl
-  - transformers
+  - scikit-learn=1.2.0
+  - osfclient
+  - adjusttext
   - pip
   - pip:
-      - hypertools
+      - "scikit-learn==1.2.0"
+      - transformers
       - torch
+      - accelerate
+      - "hypertools==0.8.0"
       - jsonpickle

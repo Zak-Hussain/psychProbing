@@ -16,6 +16,7 @@ dependencies:
   - adjusttext
   - nltk
   - openpyxl
+  - transformers
   - pip
   - pip:
       - hypertools

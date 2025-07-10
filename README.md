@@ -18,7 +18,7 @@ Hussain, Z., Mata, R., Newell, B. R., & Wulff, D. U. (2024). Probing the content
 
 ### Environment setup
 
-1. To set up a conda environment, you can use the `environment.yml` file in the root directory of this repository. 
+1. To set up a conda environment, you can use the `environment.yml` file in the root directory of this repository. **Please make sure that scikit-learn=1.2.0 is correctly installed, else the RCA code can break due to needs_proba argument deprecation.**
 2. **Before running any other code, make sure to run `code/setup.py` to download/generate the necessary data files. Please note that
 to reduce the download size of the representations, we have already subsetted many of them to their intersection with the psychNorms vocabulary.**
 3. For licensing reasons, you will need to manually download `SWOW-EN18 [80Mb]` from the [Small World of Words](https://smallworldofwords.org/en/project/research), unzip it, and move `SWOW-EN.R100.20180827.csv` into `data/free_assoc/`.

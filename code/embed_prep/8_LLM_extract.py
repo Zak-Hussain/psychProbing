@@ -15,8 +15,6 @@ with open('../../data/brain_behav_union.pkl', 'rb') as f:
     brain_behav_union = pickle.load(f)
 to_extract = list(norms_voc & brain_behav_union)
 
-
-# --- Device Setup ---
 # Detecting device
 if torch.cuda.is_available():
     device = torch.device("cuda")
@@ -110,7 +108,7 @@ for i, template in enumerate(templates):
 
                 if word_hidden_states.shape[0] > 0:
                     averaged_representation = torch.mean(word_hidden_states, dim=0)
-                    temp_embeds[word] = averaged_representation
+                    temp_embeds[word] = averaged_representation.float()
 
     # --- Saving the Results for the Current Template ---
     if temp_embeds:

@@ -4,7 +4,6 @@ import torch
 import pickle
 from tqdm.auto import tqdm
 
-# Set a seed for reproducibility
 torch.random.manual_seed(42)
 
 # Find intersection of norms and brain_behavior_union
@@ -16,7 +15,6 @@ with open('../../data/brain_behav_union.pkl', 'rb') as f:
 to_extract = list(norms_voc & brain_behav_union)
 
 # --- Device Setup ---
-# Detecting device
 if torch.cuda.is_available():
     device = torch.device("cuda")
     print('CUDA is available. Using GPU.')
@@ -34,8 +32,6 @@ model_path = '/scicore/home/matar/hussai0001/GROUP/bert-large-uncased'
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 # Model
-# Load the model and move it to the selected device.
-# For a model of this size, device_map='auto' is not necessary.
 model = AutoModel.from_pretrained(model_path)
 model.to(device)
 model.eval()
@@ -61,8 +57,7 @@ for i, template in enumerate(templates):
 
             formatted_batch = [template.format(word) for word in batch_words]
 
-            # 1. Tokenize the batch. This returns a `BatchEncoding` object
-            # which has the `.char_to_token` method needed below.
+            # 1. Tokenize the batch
             inputs_encoding = tokenizer(
                 formatted_batch,
                 return_tensors='pt',
@@ -72,7 +67,6 @@ for i, template in enumerate(templates):
             )
 
             # 2. Find the token indices corresponding to each target word.
-            # This logic works for BERT's subword tokenization as well.
             all_token_indices = []
             for k, word in enumerate(batch_words):
                 # Find the character start and end positions for the word

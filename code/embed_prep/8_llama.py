@@ -61,8 +61,7 @@ for i, template in enumerate(templates):
 
             formatted_batch = [template.format(word) for word in batch_words]
 
-            # 1. Tokenize the batch. This returns a `BatchEncoding` object
-            # which has the `.char_to_token` method.
+            # 1. Tokenize the batch.
             inputs_encoding = tokenizer(
                 formatted_batch,
                 return_tensors='pt',
@@ -71,28 +70,24 @@ for i, template in enumerate(templates):
                 max_length=512
             )
 
-            # 2. FIX: Use the `inputs_encoding` object to get token spans
-            # *before* converting it to a plain dictionary for the model.
+            # 2. Find the token indices corresponding to each target word.
             all_token_indices = []
             for k, word in enumerate(batch_words):
-                current_sentence = formatted_batch[k]
-                try:
-                    start_char = placeholder_pos
-                    end_char = start_char + len(word) - 1
+                # Find the character start and end positions for the word
+                start_char = placeholder_pos
+                end_char = start_char + len(word) - 1
 
-                    # Use the method from the BatchEncoding object
-                    start_token = inputs_encoding.char_to_token(k, start_char)
-                    end_token = inputs_encoding.char_to_token(k, end_char)
+                # Use the method from the BatchEncoding object
+                start_token = inputs_encoding.char_to_token(k, start_char)
+                end_token = inputs_encoding.char_to_token(k, end_char)
 
-                    if start_token is not None and end_token is not None:
-                        all_token_indices.append(range(start_token, end_token + 1))
-                    else:
-                        all_token_indices.append(None)  # Mark as failed
-
-                except ValueError:
+                if start_token is not None and end_token is not None:
+                    all_token_indices.append(range(start_token, end_token + 1))
+                else:
                     all_token_indices.append(None)  # Mark as failed
 
-            # 3. Now, move the tensor data to the correct device for the model
+
+            # 3. Move the tensor data to the correct device for the model
             inputs_on_device = {key: val.to(model.device) for key, val in inputs_encoding.items()}
 
             # 4. Get model outputs

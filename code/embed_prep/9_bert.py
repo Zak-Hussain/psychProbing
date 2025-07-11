@@ -115,7 +115,7 @@ for i, template in enumerate(templates):
         temp_embeds_df = pd.DataFrame(temp_embeds).T.astype(float)
         model_id = model_path.split("/")[-1]
         output_path = f'../../data/llms/{model_id}_template_{i}.csv'
-        # temp_embeds_df.to_csv(output_path) # Uncomment to save
+        temp_embeds_df.to_csv(output_path)
         print(f"Saved embeddings for template {i + 1} to '{output_path}'")
         print("Example embeddings DataFrame head:")
         print(temp_embeds_df.head())

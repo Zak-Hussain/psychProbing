@@ -53,6 +53,7 @@ batch_size = 16
 for i, template in enumerate(templates):
     print(f"\n--- Processing Template {i + 1}/{len(templates)}: '{template}' ---")
     temp_embeds = {}
+    placeholder_pos = template.find("{}")
     with torch.no_grad():
         for batch_start in tqdm(range(0, len(to_extract), batch_size), desc=f"Template {i + 1}"):
             batch_end = batch_start + batch_size
@@ -76,7 +77,7 @@ for i, template in enumerate(templates):
             for k, word in enumerate(batch_words):
                 current_sentence = formatted_batch[k]
                 try:
-                    start_char = current_sentence.index(word)
+                    start_char = placeholder_pos
                     end_char = start_char + len(word) - 1
 
                     # Use the method from the BatchEncoding object
@@ -114,7 +115,7 @@ for i, template in enumerate(templates):
     if temp_embeds:
         temp_embeds_df = pd.DataFrame(temp_embeds).T.astype(float)
         model_id = model_name.split("/")[-1]
-        output_path = f'./{model_id}_template_{i}.csv'
+        output_path = f'../../data/llms/{model_id}_template_{i}.csv'
         temp_embeds_df.to_csv(output_path)
         print(f"Saved embeddings for template {i + 1} to '{output_path}'")
     else:

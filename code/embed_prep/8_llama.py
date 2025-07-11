@@ -27,15 +27,15 @@ else:
     print("No GPU or MPS available. Using CPU.")
 
 # --- Model and Tokenizer Setup ---
-model_name = 'meta-llama/Llama-3.1-8B'
+model_path = '/scicore/home/matar/hussai0001/GROUP/Llama-3.1-8B'
 
 # Tokenizer
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_path)
 tokenizer.pad_token = tokenizer.eos_token
 
 # Model
 model = AutoModel.from_pretrained(
-    model_name,
+    model_path,
     torch_dtype=torch.bfloat16,  # Use bfloat16 for memory efficiency
     device_map='auto'  # Automatically handle model placement on available devices
 )
@@ -109,7 +109,7 @@ for i, template in enumerate(templates):
     # --- Saving the Results for the Current Template ---
     if temp_embeds:
         temp_embeds_df = pd.DataFrame(temp_embeds).T.astype(float)
-        model_id = model_name.split("/")[-1]
+        model_id = model_path.split("/")[-1]
         output_path = f'../../data/llms/{model_id}_{i}.csv'
         temp_embeds_df.to_csv(output_path)
         print(f"Saved embeddings for template {i + 1} to '{output_path}'")

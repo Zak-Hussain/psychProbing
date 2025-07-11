@@ -116,6 +116,6 @@ for i, template in enumerate(templates):
         model_id = model_name.split("/")[-1]
         output_path = f'./{model_id}_template_{i}.csv'
         temp_embeds_df.to_csv(output_path)
-        print(f"✅ Saved embeddings for template {i + 1} to '{output_path}'")
+        print(f"Saved embeddings for template {i + 1} to '{output_path}'")
     else:
-        print(f"⚠️ No embeddings were extracted for template {i + 1}. No file was saved.")
+        print(f"No embeddings were extracted for template {i + 1}. No file was saved.")

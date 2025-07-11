@@ -3,8 +3,8 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 import pickle
 from tqdm.auto import tqdm
-import gc  # Import garbage collector
 
+# Set a seed for reproducibility
 torch.random.manual_seed(42)
 
 # Find intersection of norms and brain_behavior_union
@@ -15,6 +15,8 @@ with open('../../data/brain_behav_union.pkl', 'rb') as f:
     brain_behav_union = pickle.load(f)
 to_extract = list(norms_voc & brain_behav_union)
 
+
+# --- Device Setup ---
 # Detecting device
 if torch.cuda.is_available():
     device = torch.device("cuda")
@@ -26,61 +28,96 @@ else:
     device = torch.device("cpu")
     print("No GPU or MPS available. Using CPU.")
 
-mod_batch_sizes = {
-    'meta-llama/Llama-3.2-1B': 16,
-    'meta-llama/Llama-3.2-3B': 4,
-    'meta-llama/Llama-3.1-8B': 2
-}
+# --- Model and Tokenizer Setup ---
+model_name = 'meta-llama/Llama-3.1-8B'
 
-for model_name, batch_size in mod_batch_sizes.items():
-    print(f"\n--- Processing model: {model_name} ---")  # Added for clarity
+# Tokenizer
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+tokenizer.pad_token = tokenizer.eos_token
 
-    # Tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.padding_side = 'left'  # Set padding side
+# Model
+model = AutoModel.from_pretrained(
+    model_name,
+    torch_dtype=torch.bfloat16,  # Use bfloat16 for memory efficiency
+    device_map='auto'  # Automatically handle model placement on available devices
+)
+model.eval()
 
-    # Model
-    model = AutoModel.from_pretrained(
-        model_name, torch_dtype=torch.bfloat16  # Use bfloat16 for memory efficiency
-    ).to(device)
-    model.eval()
+# Input templates
+templates = [
+    "{}",
+    "What is the meaning of {}?",
+    "Think about {}."
+]
 
-    mod_embeds = {}
+batch_size = 16
+# Iterate through each template
+for i, template in enumerate(templates):
+    print(f"\n--- Processing Template {i + 1}/{len(templates)}: '{template}' ---")
+    temp_embeds = {}
     with torch.no_grad():
-        # Loop through the data in chunks of `batch_size`
-        for i in tqdm(range(0, len(to_extract), batch_size), desc="Extracting embeddings"):
-            # Create a batch from the large list
-            batch_words = to_extract[i:i + batch_size]
+        for batch_start in tqdm(range(0, len(to_extract), batch_size), desc=f"Template {i + 1}"):
+            batch_end = batch_start + batch_size
+            batch_words = to_extract[batch_start:batch_end]
 
-            inputs = tokenizer(batch_words, return_tensors='pt', padding=True, truncation=True)
-            all_word_ids = [inputs.word_ids(j) for j in range(len(batch_words))]
-            inputs = {key: val.to(device) for key, val in inputs.items()}
+            formatted_batch = [template.format(word) for word in batch_words]
 
-            outputs = model(**inputs)
+            # 1. Tokenize the batch. This returns a `BatchEncoding` object
+            # which has the `.char_to_token` method.
+            inputs_encoding = tokenizer(
+                formatted_batch,
+                return_tensors='pt',
+                padding=True,
+                truncation=True,
+                max_length=512
+            )
+
+            # 2. FIX: Use the `inputs_encoding` object to get token spans
+            # *before* converting it to a plain dictionary for the model.
+            all_token_indices = []
+            for k, word in enumerate(batch_words):
+                current_sentence = formatted_batch[k]
+                try:
+                    start_char = current_sentence.index(word)
+                    end_char = start_char + len(word) - 1
+
+                    # Use the method from the BatchEncoding object
+                    start_token = inputs_encoding.char_to_token(k, start_char)
+                    end_token = inputs_encoding.char_to_token(k, end_char)
+
+                    if start_token is not None and end_token is not None:
+                        all_token_indices.append(range(start_token, end_token + 1))
+                    else:
+                        all_token_indices.append(None)  # Mark as failed
+
+                except ValueError:
+                    all_token_indices.append(None)  # Mark as failed
+
+            # 3. Now, move the tensor data to the correct device for the model
+            inputs_on_device = {key: val.to(model.device) for key, val in inputs_encoding.items()}
+
+            # 4. Get model outputs
+            outputs = model(**inputs_on_device)
             last_hidden_state = outputs.last_hidden_state.cpu()
 
+            # 5. Extract embeddings using the pre-calculated token spans
             for k, word in enumerate(batch_words):
-                word_ids = all_word_ids[k]
-                word_token_indices = [j for j, wid in enumerate(word_ids) if wid is not None]
+                token_indices = all_token_indices[k]
+                if token_indices is None:
+                    continue  # Skip if we failed to find the span earlier
 
-                word_hidden_states = last_hidden_state[k, word_token_indices, :]
-                averaged_word_representation = torch.mean(word_hidden_states, dim=0)
+                word_hidden_states = last_hidden_state[k, token_indices, :]
 
-                mod_embeds[word] = averaged_word_representation
+                if word_hidden_states.shape[0] > 0:
+                    averaged_representation = torch.mean(word_hidden_states, dim=0)
+                    temp_embeds[word] = averaged_representation
 
-    mod_embeds = pd.DataFrame(mod_embeds).T.astype(float)
-    mod_embeds.to_csv(f'../../data/llms/{model_name.split("/")[-1]}.csv')
-    print(f"Saved embeddings for {model_name}")
-
-    # --- MEMORY CLEANUP ---
-    # Explicitly delete model and tokenizer to free up RAM
-    del model
-    del tokenizer
-    # Force Python's garbage collector to run
-    gc.collect()
-    # Clear PyTorch's cache
-    if device.type == 'cuda':
-        torch.cuda.empty_cache()
-    elif device.type == 'mps':
-        torch.mps.empty_cache()
+    # --- Saving the Results for the Current Template ---
+    if temp_embeds:
+        temp_embeds_df = pd.DataFrame(temp_embeds).T.astype(float)
+        model_id = model_name.split("/")[-1]
+        output_path = f'./{model_id}_template_{i}.csv'
+        temp_embeds_df.to_csv(output_path)
+        print(f"✅ Saved embeddings for template {i + 1} to '{output_path}'")
+    else:
+        print(f"⚠️ No embeddings were extracted for template {i + 1}. No file was saved.")

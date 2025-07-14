@@ -146,8 +146,7 @@ def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, n_jobs: 
                     Cs=Cs,
                     penalty=penalty,
                     cv=StratifiedKFold(inner_cv),
-                    solver=solver,
-                    n_jobs=8
+                    solver=solver
                 )
             else: # Continuous data
                 estimator = ridge

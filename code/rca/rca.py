@@ -6,9 +6,7 @@ from sklearn.metrics import log_loss
 from sklearn.model_selection import StratifiedKFold, cross_val_score
 from tqdm.notebook import tqdm
 import pandas as pd
-from joblib import Parallel, delayed
 import os
-
 
 def mcfadden_r2_binary(y_true, y_pred_proba):
     # Ensure y_true is a binary vector
@@ -98,18 +96,13 @@ def checker(embed_names, y, dtype, associated_embeds, outer_cv):
     return 'pass'
 
 
-def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype, n_jobs=1):
-    """
-    This function contains the logic for a single norm,
-    making it suitable for parallel execution.
-    """
-    # --- Hyperparameters (can be defined once outside) ---
+def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype):
+    # --- Hyperparameters ---
     min_ord, max_ord = -5, 5
     alphas = np.logspace(min_ord, max_ord, max_ord - min_ord + 1)
     ridge = RidgeCV(alphas=alphas)
     Cs = 1 / alphas
-    inner_cv = 5
-    outer_cv = 5
+    cv = 5
 
     # 1. Aligning vocabs
     y = norms[norm_name].dropna()
@@ -121,33 +114,33 @@ def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype,
     estimator = ridge
 
     if norm_dtype in ['binary', 'multiclass']:
-        X, y = process_categorical(outer_cv, inner_cv, X, y)
+        X, y = process_categorical(cv, cv, X, y)
         norm_dtype = 'binary' if len(y.unique()) == 2 else 'multiclass'
         solver = best_logistic_solver(X, norm_dtype)
         scoring = make_binary_scoring() if norm_dtype == 'binary' else make_multiclass_scoring()
         estimator = LogisticRegressionCV(
             Cs=Cs,
             penalty='l2',
-            cv=StratifiedKFold(inner_cv),
+            cv=StratifiedKFold(cv),
             solver=solver,
             n_jobs=1
         )
 
     # 3. Run cross-validation
     associated_embed = norm_meta.loc[norm_name, 'associated_embed']
-    check = checker(embed_name, y, norm_dtype, associated_embed, outer_cv)
-    if check == 'pass' and len(y) > outer_cv:
+    check = checker(embed_name, y, norm_dtype, associated_embed, cv)
+    if check == 'pass' and len(y) > cv:
         r2s = cross_val_score(
             estimator, X, y,
-            cv=outer_cv, scoring=scoring,
-            n_jobs=n_jobs
+            cv=cv, scoring=scoring,
+            n_jobs=cv
         )
         r2_mean, r2_sd = r2s.mean(), r2s.std()
     else:
         r2_mean, r2_sd = np.nan, np.nan
 
     # 4. Prepare results
-    train_n = int(((outer_cv - 1) / outer_cv) * len(X)) if len(X) > 0 else 0
+    train_n = int(((cv - 1) / cv) * len(X)) if len(X) > 0 else 0
     test_n = len(X) - train_n
     p = X.shape[1]
     embed_type = embed_to_dtype.get(embed_name) if embed_to_dtype else None
@@ -155,51 +148,36 @@ def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype,
     return [embed_name, embed_type, norm_name, train_n, test_n, p, r2_mean, r2_sd, check]
 
 
-def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, n_jobs: int,
-            embed_to_dtype=None, embed_results_dir=None) -> pd.DataFrame:
-    """
-    Optimized function to run analyses in parallel across norms and embeddings.
-    It creates the output directory if it doesn't exist and saves the results
-    for each model to its own CSV file after processing.
-
-    `n_jobs` should be the number of cores on your machine (e.g., 64).
-    """
+def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame,
+            embed_to_dtype=None, embed_output_dir=None):
     # Define the results directory and create it if it doesn't exist
-    if embed_results_dir:
-        os.makedirs(embed_results_dir, exist_ok=True)
+    if embed_output_dir:
+        os.makedirs(embed_output_dir, exist_ok=True)
+
+    colnames = [
+        'embed', 'embed_type', 'norm', 'train_n',
+        'test_n', 'p', 'r2_mean', 'r2_sd', 'check'
+    ]
 
     all_results = []
-    results_colnames = ['embed', 'embed_type', 'norm', 'train_n', 'test_n', 'p', 'r2_mean', 'r2_sd', 'check']
-    # Process each embedding model one by one
-    for embed_name, embed in embeds.items():
-        # Prepare all tasks for the current embedding model
-        tasks = [
-            delayed(linear_probe)(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype)
-            for norm_name in norms.columns
+    for embed_name, embed in tqdm(embeds.items()):
+
+        embed_results = [
+            linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype)
+            for norm_name in tqdm(norms.columns, desc=embed_name)
         ]
+        all_results.append(embed_results)
 
-        # Run all tasks for the current model in parallel
-        print(f"Processing embedding: {embed_name}")
-        embedding_results = Parallel(n_jobs=n_jobs)(
-            tqdm(tasks, desc=f"Processing norms for {embed_name}")
-        )
-
-        # Append the results to the main list
-        all_results.append(embedding_results)
-
-        if embed_results_dir:
-            # Convert the list of results for the current model to a DataFrame
-            embedding_results = pd.DataFrame(embedding_results, columns=results_colnames)
-
-            # Save the DataFrame for the current model to its own CSV file
-            output_path = os.path.join(embed_results_dir, f"{embed_name}.csv")
+        # Saving intermediate results if embed_output_dir specified
+        if embed_output_dir:
+            embedding_results = pd.DataFrame(embed_results, columns=colnames)
+            output_path = os.path.join(embed_output_dir, f"{embed_name}.csv")
             embedding_results.to_csv(output_path, index=False)
-            print(f"Saved results for {embed_name} to {output_path}")
 
     # Concatenate all results into a single final DataFrame
-    final_results = pd.DataFrame(all_results, columns=results_colnames)
-
-    return final_results
+    if not embed_output_dir:
+        final_results = pd.DataFrame(all_results, columns=colnames)
+        return final_results
 
 
 

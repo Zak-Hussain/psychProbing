@@ -7,6 +7,7 @@ from sklearn.model_selection import StratifiedKFold, cross_val_score
 from tqdm.notebook import tqdm
 import pandas as pd
 from joblib import Parallel, delayed
+import os
 
 
 def mcfadden_r2_binary(y_true, y_pred_proba):
@@ -155,29 +156,50 @@ def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype,
 
 
 def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, n_jobs: int,
-            embed_to_dtype=None) -> pd.DataFrame:
+            embed_to_dtype=None, embed_results_dir=None) -> pd.DataFrame:
     """
     Optimized function to run analyses in parallel across norms and embeddings.
+    It creates the output directory if it doesn't exist and saves the results
+    for each model to its own CSV file after processing.
+
     `n_jobs` should be the number of cores on your machine (e.g., 64).
     """
-    tasks = []
+    # Define the results directory and create it if it doesn't exist
+    if embed_results_dir:
+        os.makedirs(embed_results_dir, exist_ok=True)
+
+    all_results = []
+    results_colnames = ['embed', 'embed_type', 'norm', 'train_n', 'test_n', 'p', 'r2_mean', 'r2_sd', 'check']
+    # Process each embedding model one by one
     for embed_name, embed in embeds.items():
-        for norm_name in norms.columns:
-            tasks.append(delayed(linear_probe)(
-                embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype
-            ))
+        # Prepare all tasks for the current embedding model
+        tasks = [
+            delayed(linear_probe)(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype)
+            for norm_name in norms.columns
+        ]
 
-    # Run all tasks in parallel with a progress bar
-    results_list = Parallel(n_jobs=n_jobs)(
-        tqdm(tasks, desc="Processing all embedding-norm pairs")
-    )
+        # Run all tasks for the current model in parallel
+        print(f"Processing embedding: {embed_name}")
+        embedding_results = Parallel(n_jobs=n_jobs)(
+            tqdm(tasks, desc=f"Processing norms for {embed_name}")
+        )
 
-    # Convert final results list to DataFrame
-    results = pd.DataFrame(
-        results_list,
-        columns=['embed', 'embed_type', 'norm', 'train_n', 'test_n', 'p', 'r2_mean', 'r2_sd', 'check']
-    )
-    return results
+        # Append the results to the main list
+        all_results.append(embedding_results)
+
+        if embed_results_dir:
+            # Convert the list of results for the current model to a DataFrame
+            embedding_results = pd.DataFrame(embedding_results, columns=results_colnames)
+
+            # Save the DataFrame for the current model to its own CSV file
+            output_path = os.path.join(embed_results_dir, f"{embed_name}.csv")
+            embedding_results.to_csv(output_path, index=False)
+            print(f"Saved results for {embed_name} to {output_path}")
+
+    # Concatenate all results into a single final DataFrame
+    final_results = pd.DataFrame(all_results, columns=results_colnames)
+
+    return final_results
 
 
 

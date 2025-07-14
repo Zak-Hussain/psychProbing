@@ -96,7 +96,7 @@ def checker(embed_names, y, dtype, associated_embeds, outer_cv):
     return 'pass'
 
 
-def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype):
+def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype, n_jobs):
     # --- Hyperparameters ---
     min_ord, max_ord = -5, 5
     alphas = np.logspace(min_ord, max_ord, max_ord - min_ord + 1)
@@ -133,7 +133,7 @@ def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype)
         r2s = cross_val_score(
             estimator, X, y,
             cv=cv, scoring=scoring,
-            n_jobs=cv
+            n_jobs=n_jobs
         )
         r2_mean, r2_sd = r2s.mean(), r2s.std()
     else:
@@ -149,7 +149,7 @@ def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype)
 
 
 def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame,
-            embed_to_dtype=None, embed_output_dir=None):
+            n_jobs: int, embed_to_dtype=None, embed_output_dir=None):
     # Define the results directory and create it if it doesn't exist
     if embed_output_dir:
         os.makedirs(embed_output_dir, exist_ok=True)
@@ -163,7 +163,7 @@ def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame,
     for embed_name, embed in tqdm(embeds.items()):
 
         embed_results = [
-            linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype)
+            linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype, n_jobs)
             for norm_name in tqdm(norms.columns, desc=embed_name)
         ]
         all_results.append(embed_results)

@@ -6,6 +6,7 @@ from sklearn.metrics import log_loss
 from sklearn.model_selection import StratifiedKFold, cross_val_score
 from tqdm.notebook import tqdm
 import pandas as pd
+from joblib import Parallel, delayed
 
 
 def mcfadden_r2_binary(y_true, y_pred_proba):
@@ -96,99 +97,88 @@ def checker(embed_names, y, dtype, associated_embeds, outer_cv):
     return 'pass'
 
 
-def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, n_jobs: int, embed_to_type=None) -> pd.DataFrame:
-    # --- Hyperparameters ---
-    # Ridge regression
+def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_type):
+    """
+    This function contains the logic for a single norm,
+    making it suitable for parallel execution.
+    """
+    # --- Hyperparameters (can be defined once outside) ---
     min_ord, max_ord = -5, 5
     alphas = np.logspace(min_ord, max_ord, max_ord - min_ord + 1)
     ridge = RidgeCV(alphas=alphas)
-
-    # Logistic regression
     Cs = 1 / alphas
     inner_cv = 5
-    penalty = 'l2'
-
-    # Cross-validation settings
     outer_cv = 5
 
-    # --- Scorers ---
-    binary_scoring = make_binary_scoring()
-    multiclass_scoring = make_multiclass_scoring()
-    continuous_scoring = 'r2'
+    # 1. Aligning vocabs
+    y = norms[norm_name].dropna()
+    X, y = embed.align(y, axis=0, join='inner', copy=True)
 
-    # ---- Results accumulator ---
-    results = []
+    # 2. Determine norm dtype and select estimator
+    norm_dtype = norm_meta.loc[norm_name, 'type']
+    scoring = 'r2'
+    estimator = ridge
 
-    # --- Main cross-validation loop ---
-    for embed_name in tqdm(embeds.keys()):
-        embed = embeds[embed_name]
+    if norm_dtype in ['binary', 'multiclass']:
+        X, y = process_categorical(outer_cv, inner_cv, X, y)
+        norm_dtype = 'binary' if len(y.unique()) == 2 else 'multiclass'
+        solver = best_logistic_solver(X, norm_dtype)
+        scoring = make_binary_scoring() if norm_dtype == 'binary' else make_multiclass_scoring()
+        estimator = LogisticRegressionCV(
+            Cs=Cs,
+            penalty='l2',
+            cv=StratifiedKFold(inner_cv),
+            solver=solver,
+            n_jobs=1  # <-- CRITICAL: Set inner n_jobs to 1
+        )
 
-        to_print = []
-        for norm_name in tqdm(norms.columns, desc=embed_name):
-            # 1. Aligning vocabs
-            y = norms[norm_name].dropna()
-            X, y = embed.align(y, axis=0, join='inner', copy=True)
+    # 3. Run cross-validation
+    associated_embed = norm_meta.loc[norm_name, 'associated_embed']
+    check = checker(embed_name, y, norm_dtype, associated_embed, outer_cv)
+    if check == 'pass' and len(y) > outer_cv:
+        r2s = cross_val_score(
+            estimator, X, y,
+            cv=outer_cv, scoring=scoring,
+            n_jobs=1  # <-- CRITICAL: Set inner n_jobs to 1
+        )
+        r2_mean, r2_sd = r2s.mean(), r2s.std()
+    else:
+        r2_mean, r2_sd = np.nan, np.nan
 
-            # 2. Determine norm dtype and select estimator
-            norm_dtype = norm_meta.loc[norm_name, 'type']
+    # 4. Prepare results
+    train_n = int(((outer_cv - 1) / outer_cv) * len(X)) if len(X) > 0 else 0
+    test_n = len(X) - train_n
+    p = X.shape[1]
+    embed_type = embed_to_type.get(embed_name) if embed_to_type else None
 
-            if norm_dtype in ['binary', 'multiclass']:
-                # Process data for classification
-                X, y = process_categorical(outer_cv, inner_cv, X, y)
+    return [embed_name, embed_type, norm_name, train_n, test_n, p, r2_mean, r2_sd, check]
 
-                # Recheck dtype in case processing converted multiclass to binary
-                norm_dtype = 'binary' if len(y.unique()) == 2 else 'multiclass'
 
-                solver = best_logistic_solver(X, norm_dtype)
-                scoring = binary_scoring if norm_dtype == 'binary' else multiclass_scoring
+def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, n_jobs: int,
+            embed_to_type=None) -> pd.DataFrame:
+    """
+    Optimized function to run analyses in parallel across norms and embeddings.
+    `n_jobs` should be the number of cores on your machine (e.g., 64).
+    """
+    tasks = []
+    for embed_name, embed in embeds.items():
+        for norm_name in norms.columns:
+            tasks.append(delayed(linear_probe)(
+                embed_name, embed, norm_name, norms, norm_meta, embed_to_type
+            ))
 
-                estimator = LogisticRegressionCV(
-                    Cs=Cs,
-                    penalty=penalty,
-                    cv=StratifiedKFold(inner_cv),
-                    solver=solver
-                )
-            else: # Continuous data
-                estimator = ridge
-                scoring = continuous_scoring
-
-            # 3. Run cross-validation after final check
-            associated_embed = norm_meta.loc[norm_name, 'associated_embed']
-            check = checker(embed_name, y, norm_dtype, associated_embed, outer_cv)
-            if check == 'pass':
-                r2s = cross_val_score(  # stratification is automatically used for classification
-                    estimator, X, y,
-                    cv=outer_cv, scoring=scoring,
-                    n_jobs=n_jobs
-                )
-                r2_mean, r2_sd = r2s.mean(), r2s.std()
-            else:
-                r2_mean, r2_sd = np.nan, np.nan
-
-            # 4. Save results
-            train_n = int(((outer_cv - 1) / outer_cv) * len(X))
-            test_n = len(X) - train_n
-            p = X.shape[1]
-            embed_type = embed_to_type[embed_name] if embed_to_type else None
-            results.append([
-                embed_name, embed_type, norm_name, train_n, test_n, p,
-                r2_mean, r2_sd, check
-            ])
-
-            to_print.append([norm_name, train_n, r2_mean, r2_sd, check])
-
-        # Print top results for completed embedding
-        to_print = pd.DataFrame(to_print, columns=['norm', 'train_n', 'r2_mean', 'r2_sd', 'check'])
-        print(to_print.sort_values('r2_mean', ascending=False).head(10))
+    # Run all tasks in parallel with a progress bar
+    results_list = Parallel(n_jobs=n_jobs)(
+        tqdm(tasks, desc="Processing all embedding-norm pairs")
+    )
 
     # Convert final results list to DataFrame
     results = pd.DataFrame(
-        results, columns=[
-            'embed', 'embed_type', 'norm', 'train_n', 'test_n', 'p',
-            'r2_mean', 'r2_sd', 'check'
-        ]
+        results_list,
+        columns=['embed', 'embed_type', 'norm', 'train_n', 'test_n', 'p', 'r2_mean', 'r2_sd', 'check']
     )
     return results
+
 
 
 

@@ -164,5 +164,4 @@ cython_debug/
 # MacOS
 .DS_Store
 /data/norms_to_log.pkl
-figures/vocab_sizes.png
 

@@ -97,7 +97,7 @@ def checker(embed_names, y, dtype, associated_embeds, outer_cv):
     return 'pass'
 
 
-def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_type):
+def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype, n_jobs=1):
     """
     This function contains the logic for a single norm,
     making it suitable for parallel execution.
@@ -129,7 +129,7 @@ def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_type):
             penalty='l2',
             cv=StratifiedKFold(inner_cv),
             solver=solver,
-            n_jobs=1  # <-- CRITICAL: Set inner n_jobs to 1
+            n_jobs=1
         )
 
     # 3. Run cross-validation
@@ -139,7 +139,7 @@ def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_type):
         r2s = cross_val_score(
             estimator, X, y,
             cv=outer_cv, scoring=scoring,
-            n_jobs=1  # <-- CRITICAL: Set inner n_jobs to 1
+            n_jobs=n_jobs
         )
         r2_mean, r2_sd = r2s.mean(), r2s.std()
     else:
@@ -149,13 +149,13 @@ def linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_type):
     train_n = int(((outer_cv - 1) / outer_cv) * len(X)) if len(X) > 0 else 0
     test_n = len(X) - train_n
     p = X.shape[1]
-    embed_type = embed_to_type.get(embed_name) if embed_to_type else None
+    embed_type = embed_to_dtype.get(embed_name) if embed_to_dtype else None
 
     return [embed_name, embed_type, norm_name, train_n, test_n, p, r2_mean, r2_sd, check]
 
 
 def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, n_jobs: int,
-            embed_to_type=None) -> pd.DataFrame:
+            embed_to_dtype=None) -> pd.DataFrame:
     """
     Optimized function to run analyses in parallel across norms and embeddings.
     `n_jobs` should be the number of cores on your machine (e.g., 64).
@@ -164,7 +164,7 @@ def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame, n_jobs: 
     for embed_name, embed in embeds.items():
         for norm_name in norms.columns:
             tasks.append(delayed(linear_probe)(
-                embed_name, embed, norm_name, norms, norm_meta, embed_to_type
+                embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype
             ))
 
     # Run all tasks in parallel with a progress bar

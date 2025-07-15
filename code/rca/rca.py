@@ -166,7 +166,7 @@ def run_rca(embeds: dict, norms: pd.DataFrame, norm_meta: pd.DataFrame,
             linear_probe(embed_name, embed, norm_name, norms, norm_meta, embed_to_dtype, n_jobs)
             for norm_name in tqdm(norms.columns, desc=embed_name)
         ]
-        all_results.append(embed_results)
+        all_results += embed_results
 
         # Saving intermediate results if embed_output_dir specified
         if embed_output_dir:

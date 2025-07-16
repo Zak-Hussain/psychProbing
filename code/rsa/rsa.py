@@ -22,7 +22,7 @@ def triangle_flat(m: np.array) -> np.array:
 
 
 def custom_spearmanr(x: np.array, y: np.array):
-    """Appears to use less RAM than scipy.stats.spearmanr. Not sure if it's faster."""
+    """Appears to use less RAM than scipy.stats.spearmanr."""
     # Rank the data
     ranked_1 = rankdata(x)
     ranked_2 = rankdata(y)

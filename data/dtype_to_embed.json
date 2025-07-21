@@ -4,7 +4,7 @@
         "GloVe_Twitter", "GloVe_Wikipedia",  "LexVec_CommonCrawl",  "morphoNLM", "spherical_text_Wikipedia"
     ],
     "brain": [
-         "microarray", "EEG_speech", "EEG_text", "fMRI_speech_cognival", "fMRI_text_cognival", "fMRI_text_denoise", "eye_tracking"
+         "eye_tracking", "microarray", "EEG_speech", "EEG_text", "fMRI_speech_cognival", "fMRI_text_cognival", "fMRI_text_denoise"
     ],
     "behavior": [
          "SkipGram_SWOW", "SVD_SWOW",

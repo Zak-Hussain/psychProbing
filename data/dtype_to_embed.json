@@ -1,6 +1,6 @@
 {
     "text": [
-        "Llama_3_8B", "BERT_large", "CBOW_GoogleNews", "fastText_CommonCrawl", "fastText_Wiki_News", "fastTextSub_OpenSub", "GloVe_CommonCrawl",
+        "Llama_3_8B", "BERT", "BERT_large_lenci", "CBOW_GoogleNews", "fastText_CommonCrawl", "fastText_Wiki_News", "fastTextSub_OpenSub", "GloVe_CommonCrawl",
         "GloVe_Twitter", "GloVe_Wikipedia",  "LexVec_CommonCrawl",  "morphoNLM", "spherical_text_Wikipedia"
     ],
     "brain": [

@@ -30,6 +30,8 @@ to reduce the download size of the representations, we have already subsetted ma
 The original sources of the representations are as follows:
 
 **Text**: 
+- [`Llama_3_8B`](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
+- [`BERT_base`](https://huggingface.co/google-bert/bert-base-uncased)
 - [`CBOW_GoogleNews`](https://code.google.com/archive/p/word2vec/) ('GoogleNews-vectors-negative300.bin.gz') 
 - [`fastText_CommonCrawl`](https://fasttext.cc/docs/en/english-vectors.html) ('crawl-300d-2M.vec.zip')
 - [`fastText_Wiki_News`](https://fasttext.cc/docs/en/english-vectors.html)('wiki-news-300d-1M.vec.zip)

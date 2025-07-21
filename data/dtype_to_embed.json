@@ -7,7 +7,7 @@
          "microarray", "EEG_speech", "EEG_text", "fMRI_speech_cognival", "fMRI_text_cognival", "fMRI_text_denoise", "eye_tracking"
     ],
     "behavior": [
-         "SGSoftMaxInput_SWOW", "SGSoftMaxOutput_SWOW", "PPMI_SVD_SWOW",
+         "SkipGramInput_SWOW", "SkipGramOutput_SWOW", "PPMI_SVD_SWOW",
         "PPMI_SVD_SouthFlorida", "PPMI_SVD_EAT", "THINGS",  "feature_overlap", "norms_sensorimotor", "experiential_attributes","SVD_sim_rel"
     ]
 }

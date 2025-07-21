@@ -45,8 +45,9 @@ The original sources of the representations are as follows:
 - [`microarray`](https://figshare.com/s/94962977e0cc8b405ef3) ('results/tungsten/word_projections.pickle')
 - [`EEG_speech`](https://github.com/DS3Lab/cognival)('cognival-vectors/eeg_speech/naturalspeech_scaled.txt')
 - [`EEG_text`](https://github.com/DS3Lab/cognival)('cognival-vectors/eeg_text/zuco_scaled.txt')
-- [`fMRI_speech_hyper_align`](https://github.com/DS3Lab/cognival)('cognival-vectors/fmri/harry-potter/1000-random-voxels/', further processed with ['hyper alignment'](https://hypertools.readthedocs.io/en/latest/hypertools.align.html)) 
-- [`fMRI_text_hyper_align`](https://github.com/DS3Lab/cognival)('cognival-vectors/fmri/alice/', further processed with ['hyper alignment'](https://hypertools.readthedocs.io/en/latest/hypertools.align.html))
+- [`fMRI_speech_cognival`](https://github.com/DS3Lab/cognival)('cognival-vectors/fmri/harry-potter/1000-random-voxels/', further processed with ['hyper alignment'](https://hypertools.readthedocs.io/en/latest/hypertools.align.html)) 
+- [`fMRI_text_cognival`](https://github.com/DS3Lab/cognival)('cognival-vectors/fmri/alice/', further processed with ['hyper alignment'](https://hypertools.readthedocs.io/en/latest/hypertools.align.html))
+- [`fMRI_text_denoise`](https://huggingface.co/datasets/antoniakrm/word_level_fmri/tree/main/aligned)('fMRI_text_denoise_[128/256/512/1024]d)
 - [`eye_tracking`](https://github.com/DS3Lab/cognival)('cognival-vectors/eye-tracking/all_scaled.txt')
 
 **Behavior**:
@@ -58,11 +59,9 @@ The original sources of the representations are as follows:
 - [`THINGS`](https://osf.io/z2784/) ('spose_embedding_49d_sorted.txt' and 'items1854names.tsv')
 - [`feature_overlap`](https://github.com/doomlab/shiny-server/blob/master/wn_double/double_words.csv) ('double_words.csv')
 - [`norms_sensorimotor`](https://osf.io/rwhs6/files/osfstorage) ('Lancaster_sensorimotor_norms_for_39707_words.csv')
-- [`compo_attribs`](https://www.neuro.mcw.edu/index.php/resources/brain-based-semantic-representations/) ('word_ratings.zip')
+- [`experiential_attributes`](https://www.neuro.mcw.edu/index.php/resources/brain-based-semantic-representations/) ('word_ratings.zip')
 - `SVD_sim_rel`: 'AG203', 'BakerVerb', 'MartinezAldana', 'MC30', 'MEN3000', 'RG65', 'SimLex999', 'SimVerb3500', 'SL7576sem', 'SL7576vis', 'WP300', 'YP130', 'Atlasify240', 'GM30', 'MT287', 'MT771', 'Rel122',
        'RW2034', 'WordSim353', 'Zie25', 'Zie30' (datasets were combined, min-max scaled and then processed with SVD transformation).
-
-Note: `compo_attribs` has been renamed to 'experiential attributes' in the paper and figures to be consistent with the terminolgy in the psychNorms metabase.
 
 ### Norms
 

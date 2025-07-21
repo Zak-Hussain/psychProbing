@@ -1,0 +1,292 @@
+norm,train_n,test_n,p,r2_mean,r2_sd,check
+frequency_lund,922,231,128,-0.8414055199388562,0.950685341788889,pass
+frequency_kucera,888,223,128,-1.128810527966767,1.2885153643944574,pass
+frequency_subtlexus,880,221,128,-0.8551751617240738,0.9574174982766112,pass
+frequency_subtlexuk,884,221,128,-0.9026554230688824,0.9847144232304336,pass
+frequency_blog_gimenes,887,222,128,-0.9597858212950844,1.050295647631562,pass
+frequency_twitter_gimenes,887,222,128,-0.7677567436041315,0.7853566237441401,pass
+frequency_news_gimenes,887,222,128,-0.9233633044727212,0.9588096537615244,pass
+frequency_written_cobuild,916,230,128,-0.6359955198201451,0.6713833322492686,pass
+frequency_spoken_cobuild,916,230,128,-0.6432266603998655,0.6953281449778073,pass
+context_diversity_subtlexus,880,221,128,-0.516387124579947,0.502870979904081,pass
+context_diversity_subtlexuk,884,221,128,-0.5728136438471856,0.5326214858541002,pass
+context_diversity_blog_gimenes,887,222,128,-0.9311349675010532,1.011435155849956,pass
+context_diversity_twitter_gimenes,887,222,128,-0.7648481028572893,0.7806521819523194,pass
+context_diversity_news_gimenes,887,222,128,-0.9087370069829482,0.937714242437182,pass
+familiarity_glasgow,303,76,128,-0.0643506586013753,0.0982758477409846,pass
+familiarity_brysbaert,715,179,128,-3.3189681027989695e-05,0.0021010308980388,pass
+prevalence_brysbaert,721,181,128,-0.0187976986157641,0.0205412994698303,pass
+aoa_kuperman,541,136,128,-0.1026543969664268,0.0460122685208615,pass
+aoa_brysbaert,521,131,128,-0.0634984416779137,0.0358344469731381,pass
+aoa_glasgow,303,76,128,-0.0253677471723508,0.0118506767840718,pass
+frequency_trajectory_brysbaert,858,215,128,-0.023866682252683,0.0297490825594872,pass
+pos_brysbaert,809,203,128,-0.0064822145418659,0.0078740871697583,pass
+pos_vanheuven,848,212,128,-0.0012176243022818,0.0006366099754745,pass
+concreteness_brysbaert,715,179,128,-0.0621983159219327,0.0522018073857817,pass
+concreteness_glasgow,303,76,128,-0.023200275844882,0.0234263438592921,pass
+imageability_glasgow,303,76,128,0.0060018608555267,0.0232070748268341,pass
+n_senses_wordnet_miller,899,225,128,-0.0287328174108706,0.0340047769141846,pass
+n_senses_wordsmyth_rice,26,7,128,,,test_n < 20
+n_meanings_wordsmyth_rice,26,7,128,,,test_n < 20
+n_meanings_websters_gao,660,165,128,-0.0128621045483146,0.0122152522716655,pass
+n_features_buchanan,407,102,128,-0.0125576319148588,0.0094647037695021,pass
+visual_lancaster,714,179,128,-0.0211101068377044,0.0086380586000883,pass
+auditory_lancaster,714,179,128,-0.0525407537914241,0.0385999805355659,pass
+haptic_lancaster,714,179,128,-0.0486237377188764,0.0330937894278725,pass
+olfactory_lancaster,714,179,128,-0.0102195316681387,0.0048003861440153,pass
+gustatory_lancaster,714,179,128,-0.0117324592756433,0.0121113422156689,pass
+interoceptive_lancaster,714,179,128,-0.0349982740678567,0.0242189587519884,pass
+head_lancaster,714,179,128,-0.0116175778499362,0.0122003877253188,pass
+torso_lancaster,714,179,128,-0.0193519083172823,0.0117733346619984,pass
+mouth_throat_lancaster,714,179,128,-0.0136536356989563,0.008117632260782,pass
+hand_arm_lancaster,714,179,128,-0.0228382553167987,0.0289128929767618,pass
+foot_leg_lancaster,714,179,128,-0.0520130132642022,0.0273188413453466,pass
+body_object_interact_pexman,454,114,128,-0.0455454006507068,0.0323014114074872,pass
+child_body_object_interact,542,136,128,-0.0247559252748602,0.0287483617114627,pass
+semantic_size_glasgow,303,76,128,-0.0532616024538382,0.0760738512679889,pass
+gender_association_glasgow,303,76,128,-0.0321912703205718,0.0254127074537919,pass
+feature_visual_vinson,174,44,128,-16.83854421089811,9.003330817152227,pass
+feature_perceptual_vinson,174,44,128,-16.672216822803886,8.790447207542565,pass
+feature_functional_vinson,174,44,128,-9.14541289676794,6.036682412846737,pass
+feature_motoric_vinson,174,44,128,-7.225876507159059,8.414930874419628,pass
+socialness_diveica,191,48,128,-0.1016458851679199,0.0991730294105195,pass
+valence_warriner,383,96,128,-0.0544721448545863,0.0405086709710444,pass
+valence_glasgow,303,76,128,-0.0446876769292672,0.020758453522746,pass
+valence_mohammad,504,126,128,-0.0503979341892026,0.0509292548592902,pass
+valence_older_kyrolainen,236,59,128,-0.0721880256220214,0.0333708279613734,pass
+valence_younger_kyrolainen,236,59,128,-0.0583936980764057,0.0472720882464034,pass
+arousal_warriner,383,96,128,-0.0215903622214787,0.0230039660986545,pass
+arousal_glasgow,303,76,128,-0.0331880468329909,0.0255824066122751,pass
+arousal_mohammad,504,126,128,-0.008274709989074,0.0292573132326659,pass
+dominance_warriner,383,96,128,-0.0595893933419374,0.0536767083635054,pass
+dominance_glasgow,303,76,128,-0.0426589306487024,0.0257707083607987,pass
+dominance_mohammad,504,126,128,-0.0271698339662004,0.0127521311318895,pass
+humor_engelthaler,241,61,128,-0.0646002899135842,0.0582347327303672,pass
+anger_mohammad,399,100,128,-2.2608424537119447,0.9600951521662052,pass
+anticipation_mohammad,399,100,128,-3.081876627204118,1.4617691949728773,pass
+disgust_mohammad,399,100,128,-4.849094625509511,3.0156523682920104,pass
+fear_mohammad,399,100,128,-25.325106381482016,15.651737206486002,pass
+joy_mohammad,399,100,128,-15.604635000895495,9.63117613525474,pass
+negative_emotion_mohammad,399,100,128,-9.37855490847384,11.617639844008137,pass
+positive_emotion_mohammad,399,100,128,-0.7275501979632766,0.3211405239717099,pass
+sadness_mohammad,399,100,128,-13.952151684730158,15.50471972980231,pass
+surprise_mohammad,399,100,128,-9.430477061012164,12.357498707012091,pass
+trust_mohammad,399,100,128,-7.707256193799317,6.424278888259962,pass
+semantic_diversity_hoffman,864,216,128,-0.207213951729384,0.1131103164138912,pass
+n_semantic_neighbors_shaoul,884,221,128,-0.2438028470495072,0.3178245410201698,pass
+distance_semantic_neighbors_shaoul,884,221,128,-0.2644573588620015,0.3110884292248471,pass
+association_frequency_dedeyne,860,215,128,-0.0549724307755306,0.0436282644959224,pass
+cue_setsize_nelson,432,109,128,-0.0290069136511846,0.0206182261964141,pass
+cue_connectedness_nelson,432,109,128,-0.0246375184425392,0.0388727948855325,pass
+cue_probability_nelson,432,109,128,-0.028893899296508,0.0373266398154826,pass
+cue_resonance_strength_nelson,432,109,128,-0.0178555069882634,0.0171723639581893,pass
+visual_lexical_rt_balota,899,225,128,-0.0303666662127585,0.0181497875789743,pass
+visual_lexical_rt_mandera,721,181,128,-0.0517909183094771,0.0473006098853458,pass
+visual_lexical_rt_keuleers,796,199,128,-0.0627185409058717,0.0741938439640826,pass
+visual_lexical_accuracy_balota,899,225,128,-0.0086396093247389,0.0088015680776933,pass
+visual_lexical_accuracy_mandera,721,181,128,-0.0696719180357364,0.1258903695917546,pass
+visual_lexical_accuracy_keuleers,796,199,128,-0.0091298387434472,0.013552684931699,pass
+auditory_lexical_rt_tucker,793,199,128,-0.0078903589832695,0.0063005050995734,pass
+auditory_lexical_rt_goh,433,109,128,-0.0165005915023819,0.0107167542040961,pass
+auditory_lexical_accuracy_tucker,795,199,128,-0.0024854007073051,0.0016561920648053,pass
+auditory_lexical_accuracy_goh,433,109,128,-0.0093244531829436,0.0055150957636117,pass
+naming_rt_balota,899,225,128,-0.0472947240857148,0.0251314019770743,pass
+naming_accuracy_balota,899,225,128,-0.0071977676481648,0.0062126701595831,pass
+concreteness_rt_pexman,153,39,128,-0.0347313236723001,0.036741228812241,pass
+concreteness_accuracy_pexman,153,39,128,-0.0591933823558285,0.0479772620183725,pass
+recognition_memory_accuracy_cortese,294,74,128,-0.0512232569852089,0.028441640369138,pass
+vision_binder,67,17,128,,,test_n < 20
+bright_binder,67,17,128,,,test_n < 20
+dark_binder,67,17,128,,,test_n < 20
+color_binder,67,17,128,,,test_n < 20
+pattern_binder,67,17,128,,,test_n < 20
+large_binder,67,17,128,,,test_n < 20
+small_binder,67,17,128,,,test_n < 20
+motion_binder,67,17,128,,,test_n < 20
+biomotion_binder,67,17,128,,,test_n < 20
+fast_binder,67,17,128,,,test_n < 20
+slow_binder,67,17,128,,,test_n < 20
+shape_binder,67,17,128,,,test_n < 20
+complexity_binder,39,10,128,,,test_n < 20
+face_binder,67,17,128,,,test_n < 20
+body_binder,67,17,128,,,test_n < 20
+touch_binder,67,17,128,,,test_n < 20
+temperature_binder,67,17,128,,,test_n < 20
+texture_binder,67,17,128,,,test_n < 20
+weight_binder,67,17,128,,,test_n < 20
+pain_binder,67,17,128,,,test_n < 20
+audition_binder,67,17,128,,,test_n < 20
+loud_binder,67,17,128,,,test_n < 20
+low_binder,67,17,128,,,test_n < 20
+high_binder,67,17,128,,,test_n < 20
+sound_binder,67,17,128,,,test_n < 20
+music_binder,67,17,128,,,test_n < 20
+speech_binder,67,17,128,,,test_n < 20
+taste_binder,67,17,128,,,test_n < 20
+smell_binder,67,17,128,,,test_n < 20
+head_binder,67,17,128,,,test_n < 20
+upper_limb_binder,67,17,128,,,test_n < 20
+lower_limb_binder,67,17,128,,,test_n < 20
+practice_binder,55,14,128,,,test_n < 20
+landmark_binder,67,17,128,,,test_n < 20
+path_binder,67,17,128,,,test_n < 20
+scene_binder,67,17,128,,,test_n < 20
+near_binder,67,17,128,,,test_n < 20
+toward_binder,67,17,128,,,test_n < 20
+away_binder,67,17,128,,,test_n < 20
+number_binder,67,17,128,,,test_n < 20
+time_binder,67,17,128,,,test_n < 20
+duration_binder,67,17,128,,,test_n < 20
+long_binder,67,17,128,,,test_n < 20
+short_binder,67,17,128,,,test_n < 20
+caused_binder,55,14,128,,,test_n < 20
+consequential_binder,67,17,128,,,test_n < 20
+social_binder,67,17,128,,,test_n < 20
+human_binder,67,17,128,,,test_n < 20
+communication_binder,67,17,128,,,test_n < 20
+self_binder,67,17,128,,,test_n < 20
+cognition_binder,67,17,128,,,test_n < 20
+benefit_binder,67,17,128,,,test_n < 20
+harm_binder,67,17,128,,,test_n < 20
+pleasant_binder,67,17,128,,,test_n < 20
+unpleasant_binder,67,17,128,,,test_n < 20
+happy_binder,67,17,128,,,test_n < 20
+sad_binder,67,17,128,,,test_n < 20
+angry_binder,67,17,128,,,test_n < 20
+disgusted_binder,67,17,128,,,test_n < 20
+fearful_binder,67,17,128,,,test_n < 20
+surprised_binder,67,17,128,,,test_n < 20
+drive_binder,67,17,128,,,test_n < 20
+needs_binder,67,17,128,,,test_n < 20
+attention_binder,67,17,128,,,test_n < 20
+arousal_binder,67,17,128,,,test_n < 20
+goals_wilkowski,20,6,128,,,test_n < 20
+familiarity_lynott,37,10,128,,,test_n < 20
+visual_lynott,37,10,128,,,test_n < 20
+haptic_lynott,37,10,128,,,test_n < 20
+auditory_lynott,37,10,128,,,test_n < 20
+olfactory_lynott,37,10,128,,,test_n < 20
+gustatory_lynott,37,10,128,,,test_n < 20
+dominant_modality_lynott,28,8,128,,,test_n < 20
+imagery_toronto,108,27,128,-0.0656946082644307,0.0831620804204887,pass
+concreteness_toronto,108,27,128,0.0174695109905937,0.1025413091301489,pass
+aoa_khanna,195,49,128,-0.0303811575218547,0.0283839401653078,pass
+aoa_rt_khanna,195,49,128,-0.0189678575875021,0.0177404151520773,pass
+aoa_hollis,95,24,128,-0.2292451142066887,0.3982255873059817,pass
+valence_hollis,95,24,128,-0.2159406926277765,0.1671236531583268,pass
+arousal_hollis,95,24,128,-0.0699048586609962,0.2228919995635228,pass
+concreteness_hollis,95,24,128,-0.0695967501897928,0.0622479197768279,pass
+aoa_stration,20,5,128,,,test_n < 20
+imagery_stration,20,5,128,,,test_n < 20
+familiarity_stration,20,5,128,,,test_n < 20
+meaningfulness_stration,20,5,128,,,test_n < 20
+valence_garrido,24,7,128,,,test_n < 20
+emotionality_garrido,24,7,128,,,test_n < 20
+familiarity_garrido,24,7,128,,,test_n < 20
+angry_zupan,36,9,128,,,test_n < 20
+fearful_zupan,36,9,128,,,test_n < 20
+happy_zupan,36,9,128,,,test_n < 20
+intensity_zupan,36,9,128,,,test_n < 20
+neutral_zupan,36,9,128,,,test_n < 20
+sad_zupan,36,9,128,,,test_n < 20
+valence_zupan,36,9,128,,,test_n < 20
+aoa_bird,328,82,128,-0.1607515035529684,0.1844119277670426,pass
+imageability_bird,145,37,128,6.0761767143824305e-05,0.0261685042077344,pass
+association_rt_ley,1,1,128,,,test_n < 20
+meaningfulness_ley,1,1,128,,,test_n < 20
+happiness_stevenson,95,24,128,-0.2316712739316199,0.364628290981706,pass
+anger_stevenson,95,24,128,-0.1558390572263486,0.1935635722323892,pass
+sadness_stevenson,95,24,128,-0.1631396708158,0.1257637727526554,pass
+fear_stevenson,95,24,128,-0.3687854546330019,0.2801327250215858,pass
+disgust_stevenson,95,24,128,-0.6548215936674116,0.5999058155346001,pass
+goodness_brown,83,21,128,-0.1862163099675781,0.1341354228221303,pass
+pleasantness_brown,83,21,128,-0.447059862671175,0.5017108758908152,pass
+emotionality_brown,83,21,128,-0.1479330594749276,0.0849727179573681,pass
+concreteness_brown,83,21,128,-0.0615195285997901,0.0375305235071989,pass
+meaningfulness_brown,83,21,128,-0.0866373012243597,0.0860750295425141,pass
+difficulty_rudell,88,22,128,-0.0308869997032658,0.0292506552456482,pass
+imageability_chiarello,57,15,128,,,test_n < 20
+imageability_rt_chiarello,57,15,128,,,test_n < 20
+personal_use_janschewitz,28,8,128,,,test_n < 20
+familiarity_janschewitz,28,8,128,,,test_n < 20
+offensiveness_janschewitz,28,8,128,,,test_n < 20
+tabooness_janschewitz,28,8,128,,,test_n < 20
+valence_janschewitz,28,8,128,,,test_n < 20
+arousal_janschewitz,28,8,128,,,test_n < 20
+imageability_janschewitz,28,8,128,,,test_n < 20
+perc_known_britz,20,6,128,,,test_n < 20
+valence_britz,20,6,128,,,test_n < 20
+social_des_britz,20,6,128,,,test_n < 20
+observability_britz,20,6,128,,,test_n < 20
+aoa_rodriguez,160,40,128,-0.0510133719174319,0.050428043848432,pass
+perc_known_rodriguez,160,40,128,-0.1035464848168976,0.1773941248306178,pass
+known_rt_chen,51,13,128,,,test_n < 20
+english_accuracy_chen,51,13,128,,,test_n < 20
+subjective_frequency_chen,51,13,128,,,test_n < 20
+familiarity_juhasz,5,2,128,,,test_n < 20
+aoa_juhasz,5,2,128,,,test_n < 20
+transparency_juhasz,5,2,128,,,test_n < 20
+lexeme_dominance_juhasz,5,2,128,,,test_n < 20
+imageability_juhasz,5,2,128,,,test_n < 20
+sensory_experience_juhasz2015,5,2,128,,,test_n < 20
+emotion_troche,55,14,128,,,test_n < 20
+polarity_troche,55,14,128,,,test_n < 20
+socialness_troche,55,14,128,,,test_n < 20
+morality_troche,55,14,128,,,test_n < 20
+visual_troche,55,14,128,,,test_n < 20
+motion_self_troche,55,14,128,,,test_n < 20
+thought_troche,55,14,128,,,test_n < 20
+color_troche,55,14,128,,,test_n < 20
+taste_smell_troche,55,14,128,,,test_n < 20
+tactile_troche,55,14,128,,,test_n < 20
+auditory_troche,55,14,128,,,test_n < 20
+space_troche,55,14,128,,,test_n < 20
+time_troche,55,14,128,,,test_n < 20
+quantity_troche,55,14,128,,,test_n < 20
+familiarity_morrow,17,5,128,,,test_n < 20
+perc_known_morrow,17,5,128,,,test_n < 20
+subjective_frequency_morrow,17,5,128,,,test_n < 20
+visual_complexity_marrow,17,5,128,,,test_n < 20
+imageability_morrow,17,5,128,,,test_n < 20
+aoa_marrow,17,5,128,,,test_n < 20
+aoa_cortese,340,85,128,-0.1718565523827107,0.1629498009120685,pass
+aoa_rt_cortese,340,85,128,-0.0496312765298753,0.0494778812554705,pass
+imagery_vanderveur,315,79,128,-0.2020157806530009,0.2671879774265818,pass
+likableness_chandler,17,5,128,,,test_n < 20
+meaningfulness_chandler,17,5,128,,,test_n < 20
+emotionality_chandler,17,5,128,,,test_n < 20
+gender_assoc_crawford,41,11,128,,,test_n < 20
+polysemy_armstrong,28,7,128,,,test_n < 20
+imageability_rt_cortese,340,85,128,-0.0158221190810894,0.0145321515499105,pass
+imageability_cortese,340,85,128,-0.1963374929836327,0.2137667826267419,pass
+valence_citron,36,10,128,,,test_n < 20
+arousal_citron,36,10,128,,,test_n < 20
+familiarity_citron,36,10,128,,,test_n < 20
+aoa_citron,36,10,128,,,test_n < 20
+imageability_citron,36,10,128,,,test_n < 20
+valence_imbault,121,31,128,-0.0492937356508955,0.0571770530794623,pass
+arousal_imbault,131,33,128,0.0071175430481732,0.0228057056938434,pass
+likableness_anderson,16,4,128,,,test_n < 20
+meaningfulness_anderson,16,4,128,,,test_n < 20
+perc_known_winter,602,151,128,-0.0138415840033311,0.0116335353938504,pass
+iconicity_winter2023,602,151,128,-0.1014689213100446,0.0873500776715258,pass
+body_object_miklashevsky,112,28,128,-0.0004610800711905,0.0376141272120066,pass
+aoa_schock,127,32,128,-0.0786995591065569,0.0531441896531768,pass
+aoa_rt_schock,127,32,128,-0.0882436630838507,0.0655367217804092,pass
+aoa_davies,78,20,128,,,test_n < 20
+imageability_davies,78,20,128,,,test_n < 20
+this_that_rocca,67,17,128,,,test_n < 20
+iconicity_winter2017,321,81,128,-0.1086389215155899,0.0762847187420364,pass
+living_vanarsdall,69,18,128,,,test_n < 20
+thought_vanarsdall,69,18,128,,,test_n < 20
+reproduction_vanarsdall,69,18,128,,,test_n < 20
+person_vanarsdall,69,18,128,,,test_n < 20
+goals_vanarsdall,69,18,128,,,test_n < 20
+movement_vanarsdall,69,18,128,,,test_n < 20
+concreteness_vanarsdall,69,18,128,,,test_n < 20
+familiarity_vanarsdall,69,18,128,,,test_n < 20
+imageability_vanarsdall,69,18,128,,,test_n < 20
+familiarity_fear,58,15,128,,,test_n < 20
+aoa_fear,58,15,128,,,test_n < 20
+imageability_fear,58,15,128,,,test_n < 20
+sensory_experience_juhasz2013,447,112,128,-0.1629483000061308,0.2210894421675685,pass

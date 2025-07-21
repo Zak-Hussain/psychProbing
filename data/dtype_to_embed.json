@@ -8,6 +8,6 @@
     ],
     "behavior": [
          "SkipGramInput_SWOW", "SkipGramOutput_SWOW", "PPMI_SVD_SWOW",
-        "PPMI_SVD_SouthFlorida", "PPMI_SVD_EAT", "THINGS",  "feature_overlap", "norms_sensorimotor", "experiential_attributes","SVD_sim_rel"
+        "PPMI_SVD_SouthFlorida", "PPMI_SVD_EAT", "THINGS",  "feature_overlap", "norms_sensorimotor", "experiential_attributes","SVD_similarity_relatedness"
     ]
 }

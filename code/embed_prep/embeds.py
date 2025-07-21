@@ -9,23 +9,36 @@ def fix_corrupt(pulled):
     return {word: vec for word, vec in pulled.items() if len(vec) == modal_length}
 
 
-def pull_txt(file, to_pull):
+def pull_txt(file, to_pull=None):
     num_lines = sum(1 for line in file)
     file.seek(0)  # resets file to start
     pulled = {}
-    for line in tqdm(file, total=num_lines):
-        word, *vec = line.split()
-        if word in to_pull:
-            pulled[word] = vec
-    pulled = fix_corrupt(pulled)
-    return pd.DataFrame(pulled).T
 
-def multi_inner_align(args: list, drop_na=False) -> list:
+    if to_pull:
+        for line in tqdm(file, total=num_lines):
+            word, *vec = line.split()
+            if word in to_pull:
+                pulled[word] = vec
+    else:
+        for line in tqdm(file, total=num_lines):
+            word, *vec = line.split()
+            pulled[word] = vec
+
+    pulled = fix_corrupt(pulled)
+    return pd.DataFrame(pulled).T.astype(float)
+
+
+def pull_df(df: pd.DataFrame, to_pull: set):
+    return df.loc[df.index.isin(to_pull)].astype(float)
+
+
+def multi_inner_align(dfs: list, drop_na=False) -> list:
     """Aligns multiple dataframes on their index, dropping rows with any NaNs if specified."""
     if drop_na:
-        args = [arg.dropna() for arg in args]
-    intersection = sorted(list(set.intersection(*[set(arg.index) for arg in args])))
-    return [arg.loc[intersection] for arg in args]
+        dfs = [arg.dropna() for arg in dfs]
+    intersection = sorted(list(set.intersection(*[set(df.index) for df in dfs])))
+    return [df.loc[intersection] for df in dfs]
+
 
 def standardize(df):
     # Standardize

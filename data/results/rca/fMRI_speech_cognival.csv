@@ -1,292 +1,292 @@
-norm,train_n,test_n,p,r2_mean,r2_sd,check
-frequency_lund,458,115,6,-0.0328581028836102,0.0304725609908008,pass
-frequency_kucera,448,113,6,-0.0285027568741659,0.0251429124778268,pass
-frequency_subtlexus,458,115,6,-0.0386818031200522,0.0374648455694342,pass
-frequency_subtlexuk,459,115,6,-0.0392650774570741,0.0446487478824966,pass
-frequency_blog_gimenes,460,115,6,-0.0352658207814396,0.0359785023648356,pass
-frequency_twitter_gimenes,460,115,6,-0.03091589907535,0.0303580218001339,pass
-frequency_news_gimenes,460,115,6,-0.0221813012372002,0.0265023709618582,pass
-frequency_written_cobuild,460,116,6,-0.022635880022566,0.0260236099926288,pass
-frequency_spoken_cobuild,460,116,6,-0.0257834333877967,0.0240370245658691,pass
-context_diversity_subtlexus,458,115,6,-0.0359621029014331,0.0321288133949883,pass
-context_diversity_subtlexuk,459,115,6,-0.0377987161236419,0.0443034693646315,pass
-context_diversity_blog_gimenes,460,115,6,-0.0346169045229917,0.035183004253919,pass
-context_diversity_twitter_gimenes,460,115,6,-0.0307700336756482,0.0301294707922651,pass
-context_diversity_news_gimenes,460,115,6,-0.0217801872767551,0.0260666447659753,pass
-familiarity_glasgow,162,41,6,-0.0404056921568892,0.0491363598473065,pass
-familiarity_brysbaert,400,101,6,-0.0141334754417786,0.0135094976327148,pass
-prevalence_brysbaert,406,102,6,-0.0629819409946027,0.0808794583340136,pass
-aoa_kuperman,325,82,6,-0.0204232385667152,0.020599711702357,pass
-aoa_brysbaert,313,79,6,-0.006097696538799,0.0032699964376646,pass
-aoa_glasgow,162,41,6,-0.0542167940734913,0.0595908621652419,pass
-frequency_trajectory_brysbaert,452,114,6,-0.0163201309892021,0.0157410513407275,pass
-pos_brysbaert,380,95,6,-0.0074698994511688,0.0116756830219681,pass
-pos_vanheuven,419,105,6,-0.0004688227831978,0.0009587091577807,pass
-concreteness_brysbaert,400,101,6,-0.0193472198201939,0.0033854821549568,pass
-concreteness_glasgow,162,41,6,-0.0098762326086451,0.0705189991130916,pass
-imageability_glasgow,162,41,6,-0.0198221322747425,0.0603015473872084,pass
-n_senses_wordnet_miller,452,114,6,-0.0609660043963175,0.0690683483306444,pass
-n_senses_wordsmyth_rice,16,5,6,,,test_n < 20
-n_meanings_wordsmyth_rice,16,5,6,,,test_n < 20
-n_meanings_websters_gao,388,98,6,-0.031638006830225,0.0253777998290194,pass
-n_features_buchanan,252,63,6,-0.016563571395299,0.0172718738148425,pass
-visual_lancaster,401,101,6,-0.0349453270180105,0.0382899140977605,pass
-auditory_lancaster,401,101,6,0.0127010151361048,0.0459606445926784,pass
-haptic_lancaster,401,101,6,-0.0162819120760325,0.0529217791801635,pass
-olfactory_lancaster,401,101,6,-0.0157926271396199,0.0335155450967508,pass
-gustatory_lancaster,401,101,6,-0.0438839324766184,0.0734329792289718,pass
-interoceptive_lancaster,401,101,6,-0.0228161501693737,0.0208573346058475,pass
-head_lancaster,401,101,6,0.0084994707221764,0.0111736194350994,pass
-torso_lancaster,401,101,6,-0.0045588888974999,0.0325902257064567,pass
-mouth_throat_lancaster,401,101,6,0.0107440154747869,0.0129073201739413,pass
-hand_arm_lancaster,401,101,6,-0.0231503258537195,0.0272012960604943,pass
-foot_leg_lancaster,401,101,6,-0.016736572096402,0.0071720298380147,pass
-body_object_interact_pexman,264,66,6,0.003884608163997,0.0402385320621168,pass
-child_body_object_interact,337,85,6,-0.0449759812063645,0.0300434615540049,pass
-semantic_size_glasgow,162,41,6,0.0399894877006771,0.0495445930368563,pass
-gender_association_glasgow,162,41,6,-0.017296126614051,0.0172099232661488,pass
-feature_visual_vinson,108,27,6,-0.0013861727480911,0.0540266487461436,pass
-feature_perceptual_vinson,89,23,6,,,too few classes (of sufficient size)
-feature_functional_vinson,108,27,6,-0.0715615241351147,0.0534317845215685,pass
-feature_motoric_vinson,108,27,6,-0.093381747004203,0.1301563113649128,pass
-socialness_diveica,111,28,6,-0.071664507358885,0.106863470194563,pass
-valence_warriner,208,52,6,-0.0393002306145598,0.0319989655720894,pass
-valence_glasgow,162,41,6,-0.0702945120288818,0.0839540884821098,pass
-valence_mohammad,259,65,6,-0.0380155249220321,0.0350291542300203,pass
-valence_older_kyrolainen,145,37,6,-0.0619890249844159,0.0635041744345547,pass
-valence_younger_kyrolainen,145,37,6,-0.0321427775315991,0.035163489205599,pass
-arousal_warriner,208,52,6,-0.017986546453896,0.0241414837440547,pass
-arousal_glasgow,162,41,6,-0.0199481557665702,0.0276298056695051,pass
-arousal_mohammad,259,65,6,-0.031730435426079,0.0178931465665024,pass
-dominance_warriner,208,52,6,-0.0242185675639616,0.0287291297093146,pass
-dominance_glasgow,162,41,6,-0.0789219358370364,0.0941157432868944,pass
-dominance_mohammad,259,65,6,-0.0255924954302134,0.0364326784755309,pass
-humor_engelthaler,135,34,6,-0.0873445320963851,0.0834056944826864,pass
-anger_mohammad,188,48,6,,,too few classes (of sufficient size)
-anticipation_mohammad,180,46,6,,,too few classes (of sufficient size)
-disgust_mohammad,191,48,6,,,too few classes (of sufficient size)
-fear_mohammad,189,48,6,,,too few classes (of sufficient size)
-joy_mohammad,187,47,6,,,too few classes (of sufficient size)
-negative_emotion_mohammad,199,50,6,-0.038706974257507,0.0382649115491826,pass
-positive_emotion_mohammad,199,50,6,-0.0482185205783833,0.0281820536913847,pass
-sadness_mohammad,182,46,6,,,too few classes (of sufficient size)
-surprise_mohammad,189,48,6,,,too few classes (of sufficient size)
-trust_mohammad,182,46,6,,,too few classes (of sufficient size)
-semantic_diversity_hoffman,452,114,6,-0.0076936829303742,0.0079129062753739,pass
-n_semantic_neighbors_shaoul,457,115,6,-0.0128502145721141,0.0142325004318449,pass
-distance_semantic_neighbors_shaoul,457,115,6,-0.0150235705523913,0.0066190308649001,pass
-association_frequency_dedeyne,443,111,6,-0.0166817931121412,0.0096902642680638,pass
-cue_setsize_nelson,268,68,6,-0.0337648504442362,0.029407734504329,pass
-cue_connectedness_nelson,268,68,6,-0.0264898194174907,0.0303599745527027,pass
-cue_probability_nelson,268,68,6,-0.0117920353283451,0.0186698768684391,pass
-cue_resonance_strength_nelson,268,68,6,-0.018167247649665,0.0260011475620513,pass
-visual_lexical_rt_balota,452,114,6,-0.0152460230710353,0.0098297205328424,pass
-visual_lexical_rt_mandera,406,102,6,-0.0548152299654497,0.0531132166731636,pass
-visual_lexical_rt_keuleers,414,104,6,0.0006750113281967,0.0017946865866419,pass
-visual_lexical_accuracy_balota,453,114,6,-0.0232480221304939,0.0336936237539628,pass
-visual_lexical_accuracy_mandera,406,102,6,-0.8637264683041387,1.0544431377327428,pass
-visual_lexical_accuracy_keuleers,414,104,6,-0.0091873487306967,0.0056130828736933,pass
-auditory_lexical_rt_tucker,430,108,6,-0.0158135183647849,0.0225043079406703,pass
-auditory_lexical_rt_goh,260,66,6,-0.0867986863117082,0.1236048979799161,pass
-auditory_lexical_accuracy_tucker,432,109,6,-0.014173746432785,0.0090930681171159,pass
-auditory_lexical_accuracy_goh,260,66,6,-0.0307252989832279,0.0800076471237648,pass
-naming_rt_balota,452,114,6,-0.0507739250919386,0.0446444893817848,pass
-naming_accuracy_balota,452,114,6,-0.0258298621786218,0.0110257157041648,pass
-concreteness_rt_pexman,87,22,6,-0.1585561142014031,0.0864242796100109,pass
-concreteness_accuracy_pexman,87,22,6,-0.0276934720521362,0.0176657698372313,pass
-recognition_memory_accuracy_cortese,165,42,6,-0.0101910961965056,0.0153748875358314,pass
-vision_binder,36,10,6,,,test_n < 20
-bright_binder,36,10,6,,,test_n < 20
-dark_binder,36,10,6,,,test_n < 20
-color_binder,36,10,6,,,test_n < 20
-pattern_binder,36,10,6,,,test_n < 20
-large_binder,36,10,6,,,test_n < 20
-small_binder,36,10,6,,,test_n < 20
-motion_binder,36,10,6,,,test_n < 20
-biomotion_binder,36,10,6,,,test_n < 20
-fast_binder,36,10,6,,,test_n < 20
-slow_binder,36,10,6,,,test_n < 20
-shape_binder,36,10,6,,,test_n < 20
-complexity_binder,20,6,6,,,test_n < 20
-face_binder,36,10,6,,,test_n < 20
-body_binder,36,10,6,,,test_n < 20
-touch_binder,36,10,6,,,test_n < 20
-temperature_binder,36,10,6,,,test_n < 20
-texture_binder,36,10,6,,,test_n < 20
-weight_binder,36,10,6,,,test_n < 20
-pain_binder,36,10,6,,,test_n < 20
-audition_binder,36,10,6,,,test_n < 20
-loud_binder,36,10,6,,,test_n < 20
-low_binder,36,10,6,,,test_n < 20
-high_binder,36,10,6,,,test_n < 20
-sound_binder,36,10,6,,,test_n < 20
-music_binder,36,10,6,,,test_n < 20
-speech_binder,36,10,6,,,test_n < 20
-taste_binder,36,10,6,,,test_n < 20
-smell_binder,36,10,6,,,test_n < 20
-head_binder,36,10,6,,,test_n < 20
-upper_limb_binder,36,10,6,,,test_n < 20
-lower_limb_binder,36,10,6,,,test_n < 20
-practice_binder,29,8,6,,,test_n < 20
-landmark_binder,36,10,6,,,test_n < 20
-path_binder,36,10,6,,,test_n < 20
-scene_binder,36,10,6,,,test_n < 20
-near_binder,36,10,6,,,test_n < 20
-toward_binder,36,10,6,,,test_n < 20
-away_binder,36,10,6,,,test_n < 20
-number_binder,36,10,6,,,test_n < 20
-time_binder,36,10,6,,,test_n < 20
-duration_binder,36,10,6,,,test_n < 20
-long_binder,36,10,6,,,test_n < 20
-short_binder,36,10,6,,,test_n < 20
-caused_binder,29,8,6,,,test_n < 20
-consequential_binder,36,10,6,,,test_n < 20
-social_binder,36,10,6,,,test_n < 20
-human_binder,36,10,6,,,test_n < 20
-communication_binder,36,10,6,,,test_n < 20
-self_binder,36,10,6,,,test_n < 20
-cognition_binder,36,10,6,,,test_n < 20
-benefit_binder,36,10,6,,,test_n < 20
-harm_binder,36,10,6,,,test_n < 20
-pleasant_binder,36,10,6,,,test_n < 20
-unpleasant_binder,36,10,6,,,test_n < 20
-happy_binder,36,10,6,,,test_n < 20
-sad_binder,36,10,6,,,test_n < 20
-angry_binder,36,10,6,,,test_n < 20
-disgusted_binder,36,10,6,,,test_n < 20
-fearful_binder,36,10,6,,,test_n < 20
-surprised_binder,36,10,6,,,test_n < 20
-drive_binder,36,10,6,,,test_n < 20
-needs_binder,36,10,6,,,test_n < 20
-attention_binder,36,10,6,,,test_n < 20
-arousal_binder,36,10,6,,,test_n < 20
-goals_wilkowski,11,3,6,,,test_n < 20
-familiarity_lynott,22,6,6,,,test_n < 20
-visual_lynott,22,6,6,,,test_n < 20
-haptic_lynott,22,6,6,,,test_n < 20
-auditory_lynott,22,6,6,,,test_n < 20
-olfactory_lynott,22,6,6,,,test_n < 20
-gustatory_lynott,22,6,6,,,test_n < 20
-dominant_modality_lynott,0,0,6,,,test_n < 20
-imagery_toronto,78,20,6,,,test_n < 20
-concreteness_toronto,78,20,6,,,test_n < 20
-aoa_khanna,112,28,6,-0.1212836290788943,0.1446594835995894,pass
-aoa_rt_khanna,112,28,6,-0.2247792575469673,0.2647021635183864,pass
-aoa_hollis,55,14,6,,,test_n < 20
-valence_hollis,55,14,6,,,test_n < 20
-arousal_hollis,55,14,6,,,test_n < 20
-concreteness_hollis,55,14,6,,,test_n < 20
-aoa_stration,12,3,6,,,test_n < 20
-imagery_stration,12,3,6,,,test_n < 20
-familiarity_stration,12,3,6,,,test_n < 20
-meaningfulness_stration,12,3,6,,,test_n < 20
-valence_garrido,14,4,6,,,test_n < 20
-emotionality_garrido,14,4,6,,,test_n < 20
-familiarity_garrido,14,4,6,,,test_n < 20
-angry_zupan,18,5,6,,,test_n < 20
-fearful_zupan,18,5,6,,,test_n < 20
-happy_zupan,18,5,6,,,test_n < 20
-intensity_zupan,18,5,6,,,test_n < 20
-neutral_zupan,18,5,6,,,test_n < 20
-sad_zupan,18,5,6,,,test_n < 20
-valence_zupan,18,5,6,,,test_n < 20
-aoa_bird,236,60,6,-0.0849578114226124,0.0859874280200831,pass
-imageability_bird,101,26,6,-0.1293108524119003,0.0964358434456689,pass
-association_rt_ley,1,1,6,,,test_n < 20
-meaningfulness_ley,1,1,6,,,test_n < 20
-happiness_stevenson,55,14,6,,,test_n < 20
-anger_stevenson,55,14,6,,,test_n < 20
-sadness_stevenson,55,14,6,,,test_n < 20
-fear_stevenson,55,14,6,,,test_n < 20
-disgust_stevenson,55,14,6,,,test_n < 20
-goodness_brown,49,13,6,,,test_n < 20
-pleasantness_brown,49,13,6,,,test_n < 20
-emotionality_brown,49,13,6,,,test_n < 20
-concreteness_brown,49,13,6,,,test_n < 20
-meaningfulness_brown,49,13,6,,,test_n < 20
-difficulty_rudell,56,14,6,,,test_n < 20
-imageability_chiarello,36,10,6,,,test_n < 20
-imageability_rt_chiarello,36,10,6,,,test_n < 20
-personal_use_janschewitz,13,4,6,,,test_n < 20
-familiarity_janschewitz,13,4,6,,,test_n < 20
-offensiveness_janschewitz,13,4,6,,,test_n < 20
-tabooness_janschewitz,13,4,6,,,test_n < 20
-valence_janschewitz,13,4,6,,,test_n < 20
-arousal_janschewitz,13,4,6,,,test_n < 20
-imageability_janschewitz,13,4,6,,,test_n < 20
-perc_known_britz,12,4,6,,,test_n < 20
-valence_britz,12,4,6,,,test_n < 20
-social_des_britz,12,4,6,,,test_n < 20
-observability_britz,12,4,6,,,test_n < 20
-aoa_rodriguez,92,23,6,0.0161998288993526,0.0208633183212316,pass
-perc_known_rodriguez,92,23,6,-0.2220027813165169,0.2524541999833297,pass
-known_rt_chen,37,10,6,,,test_n < 20
-english_accuracy_chen,37,10,6,,,test_n < 20
-subjective_frequency_chen,37,10,6,,,test_n < 20
-familiarity_juhasz,0,1,6,,,test_n < 20
-aoa_juhasz,0,1,6,,,test_n < 20
-transparency_juhasz,0,1,6,,,test_n < 20
-lexeme_dominance_juhasz,0,1,6,,,test_n < 20
-imageability_juhasz,0,1,6,,,test_n < 20
-sensory_experience_juhasz2015,0,1,6,,,test_n < 20
-emotion_troche,33,9,6,,,test_n < 20
-polarity_troche,33,9,6,,,test_n < 20
-socialness_troche,33,9,6,,,test_n < 20
-morality_troche,33,9,6,,,test_n < 20
-visual_troche,33,9,6,,,test_n < 20
-motion_self_troche,33,9,6,,,test_n < 20
-thought_troche,33,9,6,,,test_n < 20
-color_troche,33,9,6,,,test_n < 20
-taste_smell_troche,33,9,6,,,test_n < 20
-tactile_troche,33,9,6,,,test_n < 20
-auditory_troche,33,9,6,,,test_n < 20
-space_troche,33,9,6,,,test_n < 20
-time_troche,33,9,6,,,test_n < 20
-quantity_troche,33,9,6,,,test_n < 20
-familiarity_morrow,14,4,6,,,test_n < 20
-perc_known_morrow,14,4,6,,,test_n < 20
-subjective_frequency_morrow,14,4,6,,,test_n < 20
-visual_complexity_marrow,14,4,6,,,test_n < 20
-imageability_morrow,14,4,6,,,test_n < 20
-aoa_marrow,14,4,6,,,test_n < 20
-aoa_cortese,204,52,6,-0.0927048843843492,0.1517572300043795,pass
-aoa_rt_cortese,204,52,6,-0.0499655626015067,0.027717784839096,pass
-imagery_vanderveur,224,56,6,-0.0580631246494506,0.0448928848115658,pass
-likableness_chandler,8,3,6,,,test_n < 20
-meaningfulness_chandler,8,3,6,,,test_n < 20
-emotionality_chandler,8,3,6,,,test_n < 20
-gender_assoc_crawford,25,7,6,,,test_n < 20
-polysemy_armstrong,18,5,6,,,test_n < 20
-imageability_rt_cortese,204,52,6,-0.0143778332812934,0.009123215670721,pass
-imageability_cortese,204,52,6,-0.1035650101875061,0.0823480504212787,pass
-valence_citron,17,5,6,,,test_n < 20
-arousal_citron,17,5,6,,,test_n < 20
-familiarity_citron,17,5,6,,,test_n < 20
-aoa_citron,17,5,6,,,test_n < 20
-imageability_citron,17,5,6,,,test_n < 20
-valence_imbault,64,16,6,,,test_n < 20
-arousal_imbault,73,19,6,,,test_n < 20
-likableness_anderson,6,2,6,,,test_n < 20
-meaningfulness_anderson,6,2,6,,,test_n < 20
-perc_known_winter,369,93,6,-0.0077087653835238,0.0044360699174604,pass
-iconicity_winter2023,369,93,6,-0.0161911841041261,0.0194128110996524,pass
-body_object_miklashevsky,59,15,6,,,test_n < 20
-aoa_schock,88,22,6,-0.0073990158226493,0.0070305686339825,pass
-aoa_rt_schock,88,22,6,-0.1372544965809637,0.0740193557778688,pass
-aoa_davies,48,13,6,,,test_n < 20
-imageability_davies,48,13,6,,,test_n < 20
-this_that_rocca,36,10,6,,,test_n < 20
-iconicity_winter2017,207,52,6,-0.0732478698995258,0.0857712072316322,pass
-living_vanarsdall,43,11,6,,,test_n < 20
-thought_vanarsdall,43,11,6,,,test_n < 20
-reproduction_vanarsdall,43,11,6,,,test_n < 20
-person_vanarsdall,43,11,6,,,test_n < 20
-goals_vanarsdall,43,11,6,,,test_n < 20
-movement_vanarsdall,43,11,6,,,test_n < 20
-concreteness_vanarsdall,43,11,6,,,test_n < 20
-familiarity_vanarsdall,43,11,6,,,test_n < 20
-imageability_vanarsdall,43,11,6,,,test_n < 20
-familiarity_fear,46,12,6,,,test_n < 20
-aoa_fear,46,12,6,,,test_n < 20
-imageability_fear,46,12,6,,,test_n < 20
-sensory_experience_juhasz2013,280,70,6,-0.0643315890140316,0.0738835455830001,pass
+embed,embed_type,norm,train_n,test_n,p,r2_mean,r2_sd,check
+fMRI_speech_cognival,brain,frequency_lund,458,115,6,-0.0328581028836102,0.0304725609908008,pass
+fMRI_speech_cognival,brain,frequency_kucera,448,113,6,-0.0285027568741659,0.0251429124778268,pass
+fMRI_speech_cognival,brain,frequency_subtlexus,458,115,6,-0.0386818031200522,0.0374648455694342,pass
+fMRI_speech_cognival,brain,frequency_subtlexuk,459,115,6,-0.0392650774570741,0.0446487478824966,pass
+fMRI_speech_cognival,brain,frequency_blog_gimenes,460,115,6,-0.0352658207814396,0.0359785023648356,pass
+fMRI_speech_cognival,brain,frequency_twitter_gimenes,460,115,6,-0.03091589907535,0.0303580218001339,pass
+fMRI_speech_cognival,brain,frequency_news_gimenes,460,115,6,-0.0221813012372002,0.0265023709618582,pass
+fMRI_speech_cognival,brain,frequency_written_cobuild,460,116,6,-0.022635880022566,0.0260236099926288,pass
+fMRI_speech_cognival,brain,frequency_spoken_cobuild,460,116,6,-0.0257834333877967,0.0240370245658691,pass
+fMRI_speech_cognival,brain,context_diversity_subtlexus,458,115,6,-0.0359621029014331,0.0321288133949883,pass
+fMRI_speech_cognival,brain,context_diversity_subtlexuk,459,115,6,-0.0377987161236419,0.0443034693646315,pass
+fMRI_speech_cognival,brain,context_diversity_blog_gimenes,460,115,6,-0.0346169045229917,0.035183004253919,pass
+fMRI_speech_cognival,brain,context_diversity_twitter_gimenes,460,115,6,-0.0307700336756482,0.0301294707922651,pass
+fMRI_speech_cognival,brain,context_diversity_news_gimenes,460,115,6,-0.0217801872767551,0.0260666447659753,pass
+fMRI_speech_cognival,brain,familiarity_glasgow,162,41,6,-0.0404056921568892,0.0491363598473065,pass
+fMRI_speech_cognival,brain,familiarity_brysbaert,400,101,6,-0.0141334754417786,0.0135094976327148,pass
+fMRI_speech_cognival,brain,prevalence_brysbaert,406,102,6,-0.0629819409946027,0.0808794583340136,pass
+fMRI_speech_cognival,brain,aoa_kuperman,325,82,6,-0.0204232385667152,0.020599711702357,pass
+fMRI_speech_cognival,brain,aoa_brysbaert,313,79,6,-0.006097696538799,0.0032699964376646,pass
+fMRI_speech_cognival,brain,aoa_glasgow,162,41,6,-0.0542167940734913,0.0595908621652419,pass
+fMRI_speech_cognival,brain,frequency_trajectory_brysbaert,452,114,6,-0.0163201309892021,0.0157410513407275,pass
+fMRI_speech_cognival,brain,pos_brysbaert,380,95,6,-0.0074698994511688,0.0116756830219681,pass
+fMRI_speech_cognival,brain,pos_vanheuven,419,105,6,-0.0004688227831978,0.0009587091577807,pass
+fMRI_speech_cognival,brain,concreteness_brysbaert,400,101,6,-0.0193472198201939,0.0033854821549568,pass
+fMRI_speech_cognival,brain,concreteness_glasgow,162,41,6,-0.0098762326086451,0.0705189991130916,pass
+fMRI_speech_cognival,brain,imageability_glasgow,162,41,6,-0.0198221322747425,0.0603015473872084,pass
+fMRI_speech_cognival,brain,n_senses_wordnet_miller,452,114,6,-0.0609660043963175,0.0690683483306444,pass
+fMRI_speech_cognival,brain,n_senses_wordsmyth_rice,16,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,n_meanings_wordsmyth_rice,16,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,n_meanings_websters_gao,388,98,6,-0.031638006830225,0.0253777998290194,pass
+fMRI_speech_cognival,brain,n_features_buchanan,252,63,6,-0.016563571395299,0.0172718738148425,pass
+fMRI_speech_cognival,brain,visual_lancaster,401,101,6,-0.0349453270180105,0.0382899140977605,pass
+fMRI_speech_cognival,brain,auditory_lancaster,401,101,6,0.0127010151361048,0.0459606445926784,pass
+fMRI_speech_cognival,brain,haptic_lancaster,401,101,6,-0.0162819120760325,0.0529217791801635,pass
+fMRI_speech_cognival,brain,olfactory_lancaster,401,101,6,-0.0157926271396199,0.0335155450967508,pass
+fMRI_speech_cognival,brain,gustatory_lancaster,401,101,6,-0.0438839324766184,0.0734329792289718,pass
+fMRI_speech_cognival,brain,interoceptive_lancaster,401,101,6,-0.0228161501693737,0.0208573346058475,pass
+fMRI_speech_cognival,brain,head_lancaster,401,101,6,0.0084994707221764,0.0111736194350994,pass
+fMRI_speech_cognival,brain,torso_lancaster,401,101,6,-0.0045588888974999,0.0325902257064567,pass
+fMRI_speech_cognival,brain,mouth_throat_lancaster,401,101,6,0.0107440154747869,0.0129073201739413,pass
+fMRI_speech_cognival,brain,hand_arm_lancaster,401,101,6,-0.0231503258537195,0.0272012960604943,pass
+fMRI_speech_cognival,brain,foot_leg_lancaster,401,101,6,-0.016736572096402,0.0071720298380147,pass
+fMRI_speech_cognival,brain,body_object_interact_pexman,264,66,6,0.003884608163997,0.0402385320621168,pass
+fMRI_speech_cognival,brain,child_body_object_interact,337,85,6,-0.0449759812063645,0.0300434615540049,pass
+fMRI_speech_cognival,brain,semantic_size_glasgow,162,41,6,0.0399894877006771,0.0495445930368563,pass
+fMRI_speech_cognival,brain,gender_association_glasgow,162,41,6,-0.017296126614051,0.0172099232661488,pass
+fMRI_speech_cognival,brain,feature_visual_vinson,108,27,6,-0.0013861727480911,0.0540266487461436,pass
+fMRI_speech_cognival,brain,feature_perceptual_vinson,89,23,6,,,too few classes (of sufficient size)
+fMRI_speech_cognival,brain,feature_functional_vinson,108,27,6,-0.0715615241351147,0.0534317845215685,pass
+fMRI_speech_cognival,brain,feature_motoric_vinson,108,27,6,-0.093381747004203,0.1301563113649128,pass
+fMRI_speech_cognival,brain,socialness_diveica,111,28,6,-0.071664507358885,0.106863470194563,pass
+fMRI_speech_cognival,brain,valence_warriner,208,52,6,-0.0393002306145598,0.0319989655720894,pass
+fMRI_speech_cognival,brain,valence_glasgow,162,41,6,-0.0702945120288818,0.0839540884821098,pass
+fMRI_speech_cognival,brain,valence_mohammad,259,65,6,-0.0380155249220321,0.0350291542300203,pass
+fMRI_speech_cognival,brain,valence_older_kyrolainen,145,37,6,-0.0619890249844159,0.0635041744345547,pass
+fMRI_speech_cognival,brain,valence_younger_kyrolainen,145,37,6,-0.0321427775315991,0.035163489205599,pass
+fMRI_speech_cognival,brain,arousal_warriner,208,52,6,-0.017986546453896,0.0241414837440547,pass
+fMRI_speech_cognival,brain,arousal_glasgow,162,41,6,-0.0199481557665702,0.0276298056695051,pass
+fMRI_speech_cognival,brain,arousal_mohammad,259,65,6,-0.031730435426079,0.0178931465665024,pass
+fMRI_speech_cognival,brain,dominance_warriner,208,52,6,-0.0242185675639616,0.0287291297093146,pass
+fMRI_speech_cognival,brain,dominance_glasgow,162,41,6,-0.0789219358370364,0.0941157432868944,pass
+fMRI_speech_cognival,brain,dominance_mohammad,259,65,6,-0.0255924954302134,0.0364326784755309,pass
+fMRI_speech_cognival,brain,humor_engelthaler,135,34,6,-0.0873445320963851,0.0834056944826864,pass
+fMRI_speech_cognival,brain,anger_mohammad,188,48,6,,,too few classes (of sufficient size)
+fMRI_speech_cognival,brain,anticipation_mohammad,180,46,6,,,too few classes (of sufficient size)
+fMRI_speech_cognival,brain,disgust_mohammad,191,48,6,,,too few classes (of sufficient size)
+fMRI_speech_cognival,brain,fear_mohammad,189,48,6,,,too few classes (of sufficient size)
+fMRI_speech_cognival,brain,joy_mohammad,187,47,6,,,too few classes (of sufficient size)
+fMRI_speech_cognival,brain,negative_emotion_mohammad,199,50,6,-0.038706974257507,0.0382649115491826,pass
+fMRI_speech_cognival,brain,positive_emotion_mohammad,199,50,6,-0.0482185205783833,0.0281820536913847,pass
+fMRI_speech_cognival,brain,sadness_mohammad,182,46,6,,,too few classes (of sufficient size)
+fMRI_speech_cognival,brain,surprise_mohammad,189,48,6,,,too few classes (of sufficient size)
+fMRI_speech_cognival,brain,trust_mohammad,182,46,6,,,too few classes (of sufficient size)
+fMRI_speech_cognival,brain,semantic_diversity_hoffman,452,114,6,-0.0076936829303742,0.0079129062753739,pass
+fMRI_speech_cognival,brain,n_semantic_neighbors_shaoul,457,115,6,-0.0128502145721141,0.0142325004318449,pass
+fMRI_speech_cognival,brain,distance_semantic_neighbors_shaoul,457,115,6,-0.0150235705523913,0.0066190308649001,pass
+fMRI_speech_cognival,brain,association_frequency_dedeyne,443,111,6,-0.0166817931121412,0.0096902642680638,pass
+fMRI_speech_cognival,brain,cue_setsize_nelson,268,68,6,-0.0337648504442362,0.029407734504329,pass
+fMRI_speech_cognival,brain,cue_connectedness_nelson,268,68,6,-0.0264898194174907,0.0303599745527027,pass
+fMRI_speech_cognival,brain,cue_probability_nelson,268,68,6,-0.0117920353283451,0.0186698768684391,pass
+fMRI_speech_cognival,brain,cue_resonance_strength_nelson,268,68,6,-0.018167247649665,0.0260011475620513,pass
+fMRI_speech_cognival,brain,visual_lexical_rt_balota,452,114,6,-0.0152460230710353,0.0098297205328424,pass
+fMRI_speech_cognival,brain,visual_lexical_rt_mandera,406,102,6,-0.0548152299654497,0.0531132166731636,pass
+fMRI_speech_cognival,brain,visual_lexical_rt_keuleers,414,104,6,0.0006750113281967,0.0017946865866419,pass
+fMRI_speech_cognival,brain,visual_lexical_accuracy_balota,453,114,6,-0.0232480221304939,0.0336936237539628,pass
+fMRI_speech_cognival,brain,visual_lexical_accuracy_mandera,406,102,6,-0.8637264683041387,1.0544431377327428,pass
+fMRI_speech_cognival,brain,visual_lexical_accuracy_keuleers,414,104,6,-0.0091873487306967,0.0056130828736933,pass
+fMRI_speech_cognival,brain,auditory_lexical_rt_tucker,430,108,6,-0.0158135183647849,0.0225043079406703,pass
+fMRI_speech_cognival,brain,auditory_lexical_rt_goh,260,66,6,-0.0867986863117082,0.1236048979799161,pass
+fMRI_speech_cognival,brain,auditory_lexical_accuracy_tucker,432,109,6,-0.014173746432785,0.0090930681171159,pass
+fMRI_speech_cognival,brain,auditory_lexical_accuracy_goh,260,66,6,-0.0307252989832279,0.0800076471237648,pass
+fMRI_speech_cognival,brain,naming_rt_balota,452,114,6,-0.0507739250919386,0.0446444893817848,pass
+fMRI_speech_cognival,brain,naming_accuracy_balota,452,114,6,-0.0258298621786218,0.0110257157041648,pass
+fMRI_speech_cognival,brain,concreteness_rt_pexman,87,22,6,-0.1585561142014031,0.0864242796100109,pass
+fMRI_speech_cognival,brain,concreteness_accuracy_pexman,87,22,6,-0.0276934720521362,0.0176657698372313,pass
+fMRI_speech_cognival,brain,recognition_memory_accuracy_cortese,165,42,6,-0.0101910961965056,0.0153748875358314,pass
+fMRI_speech_cognival,brain,vision_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,bright_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,dark_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,color_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,pattern_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,large_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,small_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,motion_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,biomotion_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,fast_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,slow_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,shape_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,complexity_binder,20,6,6,,,test_n < 20
+fMRI_speech_cognival,brain,face_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,body_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,touch_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,temperature_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,texture_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,weight_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,pain_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,audition_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,loud_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,low_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,high_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,sound_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,music_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,speech_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,taste_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,smell_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,head_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,upper_limb_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,lower_limb_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,practice_binder,29,8,6,,,test_n < 20
+fMRI_speech_cognival,brain,landmark_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,path_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,scene_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,near_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,toward_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,away_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,number_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,time_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,duration_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,long_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,short_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,caused_binder,29,8,6,,,test_n < 20
+fMRI_speech_cognival,brain,consequential_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,social_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,human_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,communication_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,self_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,cognition_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,benefit_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,harm_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,pleasant_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,unpleasant_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,happy_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,sad_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,angry_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,disgusted_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,fearful_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,surprised_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,drive_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,needs_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,attention_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,arousal_binder,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,goals_wilkowski,11,3,6,,,test_n < 20
+fMRI_speech_cognival,brain,familiarity_lynott,22,6,6,,,test_n < 20
+fMRI_speech_cognival,brain,visual_lynott,22,6,6,,,test_n < 20
+fMRI_speech_cognival,brain,haptic_lynott,22,6,6,,,test_n < 20
+fMRI_speech_cognival,brain,auditory_lynott,22,6,6,,,test_n < 20
+fMRI_speech_cognival,brain,olfactory_lynott,22,6,6,,,test_n < 20
+fMRI_speech_cognival,brain,gustatory_lynott,22,6,6,,,test_n < 20
+fMRI_speech_cognival,brain,dominant_modality_lynott,0,0,6,,,test_n < 20
+fMRI_speech_cognival,brain,imagery_toronto,78,20,6,,,test_n < 20
+fMRI_speech_cognival,brain,concreteness_toronto,78,20,6,,,test_n < 20
+fMRI_speech_cognival,brain,aoa_khanna,112,28,6,-0.1212836290788943,0.1446594835995894,pass
+fMRI_speech_cognival,brain,aoa_rt_khanna,112,28,6,-0.2247792575469673,0.2647021635183864,pass
+fMRI_speech_cognival,brain,aoa_hollis,55,14,6,,,test_n < 20
+fMRI_speech_cognival,brain,valence_hollis,55,14,6,,,test_n < 20
+fMRI_speech_cognival,brain,arousal_hollis,55,14,6,,,test_n < 20
+fMRI_speech_cognival,brain,concreteness_hollis,55,14,6,,,test_n < 20
+fMRI_speech_cognival,brain,aoa_stration,12,3,6,,,test_n < 20
+fMRI_speech_cognival,brain,imagery_stration,12,3,6,,,test_n < 20
+fMRI_speech_cognival,brain,familiarity_stration,12,3,6,,,test_n < 20
+fMRI_speech_cognival,brain,meaningfulness_stration,12,3,6,,,test_n < 20
+fMRI_speech_cognival,brain,valence_garrido,14,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,emotionality_garrido,14,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,familiarity_garrido,14,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,angry_zupan,18,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,fearful_zupan,18,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,happy_zupan,18,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,intensity_zupan,18,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,neutral_zupan,18,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,sad_zupan,18,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,valence_zupan,18,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,aoa_bird,236,60,6,-0.0849578114226124,0.0859874280200831,pass
+fMRI_speech_cognival,brain,imageability_bird,101,26,6,-0.1293108524119003,0.0964358434456689,pass
+fMRI_speech_cognival,brain,association_rt_ley,1,1,6,,,test_n < 20
+fMRI_speech_cognival,brain,meaningfulness_ley,1,1,6,,,test_n < 20
+fMRI_speech_cognival,brain,happiness_stevenson,55,14,6,,,test_n < 20
+fMRI_speech_cognival,brain,anger_stevenson,55,14,6,,,test_n < 20
+fMRI_speech_cognival,brain,sadness_stevenson,55,14,6,,,test_n < 20
+fMRI_speech_cognival,brain,fear_stevenson,55,14,6,,,test_n < 20
+fMRI_speech_cognival,brain,disgust_stevenson,55,14,6,,,test_n < 20
+fMRI_speech_cognival,brain,goodness_brown,49,13,6,,,test_n < 20
+fMRI_speech_cognival,brain,pleasantness_brown,49,13,6,,,test_n < 20
+fMRI_speech_cognival,brain,emotionality_brown,49,13,6,,,test_n < 20
+fMRI_speech_cognival,brain,concreteness_brown,49,13,6,,,test_n < 20
+fMRI_speech_cognival,brain,meaningfulness_brown,49,13,6,,,test_n < 20
+fMRI_speech_cognival,brain,difficulty_rudell,56,14,6,,,test_n < 20
+fMRI_speech_cognival,brain,imageability_chiarello,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,imageability_rt_chiarello,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,personal_use_janschewitz,13,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,familiarity_janschewitz,13,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,offensiveness_janschewitz,13,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,tabooness_janschewitz,13,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,valence_janschewitz,13,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,arousal_janschewitz,13,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,imageability_janschewitz,13,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,perc_known_britz,12,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,valence_britz,12,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,social_des_britz,12,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,observability_britz,12,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,aoa_rodriguez,92,23,6,0.0161998288993526,0.0208633183212316,pass
+fMRI_speech_cognival,brain,perc_known_rodriguez,92,23,6,-0.2220027813165169,0.2524541999833297,pass
+fMRI_speech_cognival,brain,known_rt_chen,37,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,english_accuracy_chen,37,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,subjective_frequency_chen,37,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,familiarity_juhasz,0,1,6,,,test_n < 20
+fMRI_speech_cognival,brain,aoa_juhasz,0,1,6,,,test_n < 20
+fMRI_speech_cognival,brain,transparency_juhasz,0,1,6,,,test_n < 20
+fMRI_speech_cognival,brain,lexeme_dominance_juhasz,0,1,6,,,test_n < 20
+fMRI_speech_cognival,brain,imageability_juhasz,0,1,6,,,test_n < 20
+fMRI_speech_cognival,brain,sensory_experience_juhasz2015,0,1,6,,,test_n < 20
+fMRI_speech_cognival,brain,emotion_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,polarity_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,socialness_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,morality_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,visual_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,motion_self_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,thought_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,color_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,taste_smell_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,tactile_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,auditory_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,space_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,time_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,quantity_troche,33,9,6,,,test_n < 20
+fMRI_speech_cognival,brain,familiarity_morrow,14,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,perc_known_morrow,14,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,subjective_frequency_morrow,14,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,visual_complexity_marrow,14,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,imageability_morrow,14,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,aoa_marrow,14,4,6,,,test_n < 20
+fMRI_speech_cognival,brain,aoa_cortese,204,52,6,-0.0927048843843492,0.1517572300043795,pass
+fMRI_speech_cognival,brain,aoa_rt_cortese,204,52,6,-0.0499655626015067,0.027717784839096,pass
+fMRI_speech_cognival,brain,imagery_vanderveur,224,56,6,-0.0580631246494506,0.0448928848115658,pass
+fMRI_speech_cognival,brain,likableness_chandler,8,3,6,,,test_n < 20
+fMRI_speech_cognival,brain,meaningfulness_chandler,8,3,6,,,test_n < 20
+fMRI_speech_cognival,brain,emotionality_chandler,8,3,6,,,test_n < 20
+fMRI_speech_cognival,brain,gender_assoc_crawford,25,7,6,,,test_n < 20
+fMRI_speech_cognival,brain,polysemy_armstrong,18,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,imageability_rt_cortese,204,52,6,-0.0143778332812934,0.009123215670721,pass
+fMRI_speech_cognival,brain,imageability_cortese,204,52,6,-0.1035650101875061,0.0823480504212787,pass
+fMRI_speech_cognival,brain,valence_citron,17,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,arousal_citron,17,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,familiarity_citron,17,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,aoa_citron,17,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,imageability_citron,17,5,6,,,test_n < 20
+fMRI_speech_cognival,brain,valence_imbault,64,16,6,,,test_n < 20
+fMRI_speech_cognival,brain,arousal_imbault,73,19,6,,,test_n < 20
+fMRI_speech_cognival,brain,likableness_anderson,6,2,6,,,test_n < 20
+fMRI_speech_cognival,brain,meaningfulness_anderson,6,2,6,,,test_n < 20
+fMRI_speech_cognival,brain,perc_known_winter,369,93,6,-0.0077087653835238,0.0044360699174604,pass
+fMRI_speech_cognival,brain,iconicity_winter2023,369,93,6,-0.0161911841041261,0.0194128110996524,pass
+fMRI_speech_cognival,brain,body_object_miklashevsky,59,15,6,,,test_n < 20
+fMRI_speech_cognival,brain,aoa_schock,88,22,6,-0.0073990158226493,0.0070305686339825,pass
+fMRI_speech_cognival,brain,aoa_rt_schock,88,22,6,-0.1372544965809637,0.0740193557778688,pass
+fMRI_speech_cognival,brain,aoa_davies,48,13,6,,,test_n < 20
+fMRI_speech_cognival,brain,imageability_davies,48,13,6,,,test_n < 20
+fMRI_speech_cognival,brain,this_that_rocca,36,10,6,,,test_n < 20
+fMRI_speech_cognival,brain,iconicity_winter2017,207,52,6,-0.0732478698995258,0.0857712072316322,pass
+fMRI_speech_cognival,brain,living_vanarsdall,43,11,6,,,test_n < 20
+fMRI_speech_cognival,brain,thought_vanarsdall,43,11,6,,,test_n < 20
+fMRI_speech_cognival,brain,reproduction_vanarsdall,43,11,6,,,test_n < 20
+fMRI_speech_cognival,brain,person_vanarsdall,43,11,6,,,test_n < 20
+fMRI_speech_cognival,brain,goals_vanarsdall,43,11,6,,,test_n < 20
+fMRI_speech_cognival,brain,movement_vanarsdall,43,11,6,,,test_n < 20
+fMRI_speech_cognival,brain,concreteness_vanarsdall,43,11,6,,,test_n < 20
+fMRI_speech_cognival,brain,familiarity_vanarsdall,43,11,6,,,test_n < 20
+fMRI_speech_cognival,brain,imageability_vanarsdall,43,11,6,,,test_n < 20
+fMRI_speech_cognival,brain,familiarity_fear,46,12,6,,,test_n < 20
+fMRI_speech_cognival,brain,aoa_fear,46,12,6,,,test_n < 20
+fMRI_speech_cognival,brain,imageability_fear,46,12,6,,,test_n < 20
+fMRI_speech_cognival,brain,sensory_experience_juhasz2013,280,70,6,-0.0643315890140316,0.0738835455830001,pass

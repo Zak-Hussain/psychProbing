@@ -166,3 +166,5 @@ cython_debug/
 /data/norms_to_log.pkl
 
 /data/results/old
+/code/rca/4_pred_text_resids.ipynb
+/code/rca/3_text_resids.ipynb

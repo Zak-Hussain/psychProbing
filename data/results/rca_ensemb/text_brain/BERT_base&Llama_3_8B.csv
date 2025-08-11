@@ -1,0 +1,1456 @@
+embed,norm,train_n,fold,r2,check
+BERT_base&Llama_3_8B,frequency_lund,753,1,0.7909167101352671,pass
+BERT_base&Llama_3_8B,frequency_lund,753,2,0.8505586479513121,pass
+BERT_base&Llama_3_8B,frequency_lund,753,3,0.8526039855994874,pass
+BERT_base&Llama_3_8B,frequency_lund,753,4,0.8456975145653876,pass
+BERT_base&Llama_3_8B,frequency_lund,753,5,0.8724319616659686,pass
+BERT_base&Llama_3_8B,frequency_kucera,740,1,0.7386684134689229,pass
+BERT_base&Llama_3_8B,frequency_kucera,740,2,0.7962943920016772,pass
+BERT_base&Llama_3_8B,frequency_kucera,740,3,0.8198999996833585,pass
+BERT_base&Llama_3_8B,frequency_kucera,740,4,0.7703466555902487,pass
+BERT_base&Llama_3_8B,frequency_kucera,740,5,0.8343255047447586,pass
+BERT_base&Llama_3_8B,frequency_subtlexus,757,1,0.7937377263317569,pass
+BERT_base&Llama_3_8B,frequency_subtlexus,757,2,0.8512427414997175,pass
+BERT_base&Llama_3_8B,frequency_subtlexus,757,3,0.8634989737328951,pass
+BERT_base&Llama_3_8B,frequency_subtlexus,757,4,0.8438884856802382,pass
+BERT_base&Llama_3_8B,frequency_subtlexus,757,5,0.8391227219359727,pass
+BERT_base&Llama_3_8B,frequency_subtlexuk,756,1,0.7418800081731535,pass
+BERT_base&Llama_3_8B,frequency_subtlexuk,756,2,0.8073921390477045,pass
+BERT_base&Llama_3_8B,frequency_subtlexuk,756,3,0.8457315453275175,pass
+BERT_base&Llama_3_8B,frequency_subtlexuk,756,4,0.7948829976082433,pass
+BERT_base&Llama_3_8B,frequency_subtlexuk,756,5,0.8428222748696224,pass
+BERT_base&Llama_3_8B,frequency_blog_gimenes,757,1,0.8065807143902319,pass
+BERT_base&Llama_3_8B,frequency_blog_gimenes,757,2,0.8519427418627921,pass
+BERT_base&Llama_3_8B,frequency_blog_gimenes,757,3,0.8741803476761334,pass
+BERT_base&Llama_3_8B,frequency_blog_gimenes,757,4,0.8452748949878156,pass
+BERT_base&Llama_3_8B,frequency_blog_gimenes,757,5,0.8847105882875134,pass
+BERT_base&Llama_3_8B,frequency_twitter_gimenes,757,1,0.7870658913628035,pass
+BERT_base&Llama_3_8B,frequency_twitter_gimenes,757,2,0.8436279295035563,pass
+BERT_base&Llama_3_8B,frequency_twitter_gimenes,757,3,0.8598502596807074,pass
+BERT_base&Llama_3_8B,frequency_twitter_gimenes,757,4,0.8541342014047593,pass
+BERT_base&Llama_3_8B,frequency_twitter_gimenes,757,5,0.844910209142653,pass
+BERT_base&Llama_3_8B,frequency_news_gimenes,757,1,0.7831525928418618,pass
+BERT_base&Llama_3_8B,frequency_news_gimenes,757,2,0.8469920196001429,pass
+BERT_base&Llama_3_8B,frequency_news_gimenes,757,3,0.831083685031845,pass
+BERT_base&Llama_3_8B,frequency_news_gimenes,757,4,0.8254399540774926,pass
+BERT_base&Llama_3_8B,frequency_news_gimenes,757,5,0.8567604764737785,pass
+BERT_base&Llama_3_8B,frequency_written_cobuild,752,1,0.5843631872435648,pass
+BERT_base&Llama_3_8B,frequency_written_cobuild,752,2,0.430145469771669,pass
+BERT_base&Llama_3_8B,frequency_written_cobuild,752,3,0.5146225200425507,pass
+BERT_base&Llama_3_8B,frequency_written_cobuild,752,4,0.416410203563511,pass
+BERT_base&Llama_3_8B,frequency_written_cobuild,752,5,0.5614235362084654,pass
+BERT_base&Llama_3_8B,frequency_spoken_cobuild,752,1,0.6341422723124238,pass
+BERT_base&Llama_3_8B,frequency_spoken_cobuild,752,2,0.5611139350730261,pass
+BERT_base&Llama_3_8B,frequency_spoken_cobuild,752,3,0.5738217524489857,pass
+BERT_base&Llama_3_8B,frequency_spoken_cobuild,752,4,0.5644851771347761,pass
+BERT_base&Llama_3_8B,frequency_spoken_cobuild,752,5,0.6083134752843915,pass
+BERT_base&Llama_3_8B,context_diversity_subtlexus,757,1,0.7789802119222343,pass
+BERT_base&Llama_3_8B,context_diversity_subtlexus,757,2,0.8201514648392643,pass
+BERT_base&Llama_3_8B,context_diversity_subtlexus,757,3,0.8428601640288768,pass
+BERT_base&Llama_3_8B,context_diversity_subtlexus,757,4,0.8166469735201747,pass
+BERT_base&Llama_3_8B,context_diversity_subtlexus,757,5,0.8091531010240091,pass
+BERT_base&Llama_3_8B,context_diversity_subtlexuk,756,1,0.7658598301454214,pass
+BERT_base&Llama_3_8B,context_diversity_subtlexuk,756,2,0.7732915161682461,pass
+BERT_base&Llama_3_8B,context_diversity_subtlexuk,756,3,0.8493213895352631,pass
+BERT_base&Llama_3_8B,context_diversity_subtlexuk,756,4,0.7914075507099034,pass
+BERT_base&Llama_3_8B,context_diversity_subtlexuk,756,5,0.8443446304313751,pass
+BERT_base&Llama_3_8B,context_diversity_blog_gimenes,757,1,0.8245107456668496,pass
+BERT_base&Llama_3_8B,context_diversity_blog_gimenes,757,2,0.8675653066877038,pass
+BERT_base&Llama_3_8B,context_diversity_blog_gimenes,757,3,0.8794598468536462,pass
+BERT_base&Llama_3_8B,context_diversity_blog_gimenes,757,4,0.8541572005545526,pass
+BERT_base&Llama_3_8B,context_diversity_blog_gimenes,757,5,0.8920021893113907,pass
+BERT_base&Llama_3_8B,context_diversity_twitter_gimenes,757,1,0.7882815606467056,pass
+BERT_base&Llama_3_8B,context_diversity_twitter_gimenes,757,2,0.8440422656938424,pass
+BERT_base&Llama_3_8B,context_diversity_twitter_gimenes,757,3,0.8601163675405279,pass
+BERT_base&Llama_3_8B,context_diversity_twitter_gimenes,757,4,0.8548308150962521,pass
+BERT_base&Llama_3_8B,context_diversity_twitter_gimenes,757,5,0.8463026514309684,pass
+BERT_base&Llama_3_8B,context_diversity_news_gimenes,757,1,0.794203699228614,pass
+BERT_base&Llama_3_8B,context_diversity_news_gimenes,757,2,0.8468265164191595,pass
+BERT_base&Llama_3_8B,context_diversity_news_gimenes,757,3,0.8360407387810398,pass
+BERT_base&Llama_3_8B,context_diversity_news_gimenes,757,4,0.8314663340681142,pass
+BERT_base&Llama_3_8B,context_diversity_news_gimenes,757,5,0.8628313684351195,pass
+BERT_base&Llama_3_8B,familiarity_glasgow,402,1,0.572480731118454,pass
+BERT_base&Llama_3_8B,familiarity_glasgow,402,2,0.5101420187198666,pass
+BERT_base&Llama_3_8B,familiarity_glasgow,402,3,0.5029669961512151,pass
+BERT_base&Llama_3_8B,familiarity_glasgow,402,4,0.5286107974369805,pass
+BERT_base&Llama_3_8B,familiarity_glasgow,402,5,0.5039688982699442,pass
+BERT_base&Llama_3_8B,familiarity_brysbaert,752,1,-0.06091745308797969,pass
+BERT_base&Llama_3_8B,familiarity_brysbaert,752,2,0.02444526102358313,pass
+BERT_base&Llama_3_8B,familiarity_brysbaert,752,3,0.01600004967537405,pass
+BERT_base&Llama_3_8B,familiarity_brysbaert,752,4,-0.013266383040769547,pass
+BERT_base&Llama_3_8B,familiarity_brysbaert,752,5,0.017142021008885733,pass
+BERT_base&Llama_3_8B,prevalence_brysbaert,753,1,0.12861391261419208,pass
+BERT_base&Llama_3_8B,prevalence_brysbaert,753,2,0.19969729717962204,pass
+BERT_base&Llama_3_8B,prevalence_brysbaert,753,3,0.24968185245545538,pass
+BERT_base&Llama_3_8B,prevalence_brysbaert,753,4,0.23075592591626237,pass
+BERT_base&Llama_3_8B,prevalence_brysbaert,753,5,0.22211535605841948,pass
+BERT_base&Llama_3_8B,aoa_kuperman,692,1,0.6026023291594508,pass
+BERT_base&Llama_3_8B,aoa_kuperman,692,2,0.6428444017976687,pass
+BERT_base&Llama_3_8B,aoa_kuperman,692,3,0.6049535563366224,pass
+BERT_base&Llama_3_8B,aoa_kuperman,692,4,0.5910928471105614,pass
+BERT_base&Llama_3_8B,aoa_kuperman,692,5,0.6211780001750914,pass
+BERT_base&Llama_3_8B,aoa_brysbaert,667,1,0.5846204275568532,pass
+BERT_base&Llama_3_8B,aoa_brysbaert,667,2,0.6399217825060544,pass
+BERT_base&Llama_3_8B,aoa_brysbaert,667,3,0.635207934869013,pass
+BERT_base&Llama_3_8B,aoa_brysbaert,667,4,0.6474083803871572,pass
+BERT_base&Llama_3_8B,aoa_brysbaert,667,5,0.6553897525477428,pass
+BERT_base&Llama_3_8B,aoa_glasgow,402,1,0.551098745345213,pass
+BERT_base&Llama_3_8B,aoa_glasgow,402,2,0.536179154495652,pass
+BERT_base&Llama_3_8B,aoa_glasgow,402,3,0.42789883597989686,pass
+BERT_base&Llama_3_8B,aoa_glasgow,402,4,0.5022386067521148,pass
+BERT_base&Llama_3_8B,aoa_glasgow,402,5,0.5681988788747285,pass
+BERT_base&Llama_3_8B,frequency_trajectory_brysbaert,745,1,0.6358337042098618,pass
+BERT_base&Llama_3_8B,frequency_trajectory_brysbaert,745,2,0.7247800666511927,pass
+BERT_base&Llama_3_8B,frequency_trajectory_brysbaert,745,3,0.6933712227439184,pass
+BERT_base&Llama_3_8B,frequency_trajectory_brysbaert,745,4,0.6871324317402977,pass
+BERT_base&Llama_3_8B,frequency_trajectory_brysbaert,745,5,0.7269710087868893,pass
+BERT_base&Llama_3_8B,pos_brysbaert,664,1,0.46621392993574684,pass
+BERT_base&Llama_3_8B,pos_brysbaert,664,2,0.7719733948479839,pass
+BERT_base&Llama_3_8B,pos_brysbaert,664,3,0.5265634264829022,pass
+BERT_base&Llama_3_8B,pos_brysbaert,664,4,0.5796095660749553,pass
+BERT_base&Llama_3_8B,pos_brysbaert,664,5,0.6832493466441834,pass
+BERT_base&Llama_3_8B,pos_vanheuven,697,1,0.4806190995619418,pass
+BERT_base&Llama_3_8B,pos_vanheuven,697,2,0.7489977099492897,pass
+BERT_base&Llama_3_8B,pos_vanheuven,697,3,0.8295613237833876,pass
+BERT_base&Llama_3_8B,pos_vanheuven,697,4,0.8257372725017873,pass
+BERT_base&Llama_3_8B,pos_vanheuven,697,5,0.7316596919938353,pass
+BERT_base&Llama_3_8B,concreteness_brysbaert,752,1,0.8196566237761004,pass
+BERT_base&Llama_3_8B,concreteness_brysbaert,752,2,0.7657608533156118,pass
+BERT_base&Llama_3_8B,concreteness_brysbaert,752,3,0.7750550479470374,pass
+BERT_base&Llama_3_8B,concreteness_brysbaert,752,4,0.735950752519321,pass
+BERT_base&Llama_3_8B,concreteness_brysbaert,752,5,0.8054865628838381,pass
+BERT_base&Llama_3_8B,concreteness_glasgow,402,1,0.8395999091347136,pass
+BERT_base&Llama_3_8B,concreteness_glasgow,402,2,0.7858684734317498,pass
+BERT_base&Llama_3_8B,concreteness_glasgow,402,3,0.7912730003862875,pass
+BERT_base&Llama_3_8B,concreteness_glasgow,402,4,0.8163732358727767,pass
+BERT_base&Llama_3_8B,concreteness_glasgow,402,5,0.781039826034317,pass
+BERT_base&Llama_3_8B,imageability_glasgow,402,1,0.7360771399724988,pass
+BERT_base&Llama_3_8B,imageability_glasgow,402,2,0.7347062884838115,pass
+BERT_base&Llama_3_8B,imageability_glasgow,402,3,0.7017644844037356,pass
+BERT_base&Llama_3_8B,imageability_glasgow,402,4,0.7006747727742323,pass
+BERT_base&Llama_3_8B,imageability_glasgow,402,5,0.716272897140688,pass
+BERT_base&Llama_3_8B,n_senses_wordnet_miller,752,1,0.489621696777621,pass
+BERT_base&Llama_3_8B,n_senses_wordnet_miller,752,2,0.5271102185962527,pass
+BERT_base&Llama_3_8B,n_senses_wordnet_miller,752,3,0.5191596153415678,pass
+BERT_base&Llama_3_8B,n_senses_wordnet_miller,752,4,0.4077046507104227,pass
+BERT_base&Llama_3_8B,n_senses_wordnet_miller,752,5,0.4951743654633618,pass
+BERT_base&Llama_3_8B,n_senses_wordsmyth_rice,47,1,,test_n < 20
+BERT_base&Llama_3_8B,n_senses_wordsmyth_rice,47,2,,test_n < 20
+BERT_base&Llama_3_8B,n_senses_wordsmyth_rice,47,3,,test_n < 20
+BERT_base&Llama_3_8B,n_senses_wordsmyth_rice,47,4,,test_n < 20
+BERT_base&Llama_3_8B,n_senses_wordsmyth_rice,47,5,,test_n < 20
+BERT_base&Llama_3_8B,n_meanings_wordsmyth_rice,47,1,,test_n < 20
+BERT_base&Llama_3_8B,n_meanings_wordsmyth_rice,47,2,,test_n < 20
+BERT_base&Llama_3_8B,n_meanings_wordsmyth_rice,47,3,,test_n < 20
+BERT_base&Llama_3_8B,n_meanings_wordsmyth_rice,47,4,,test_n < 20
+BERT_base&Llama_3_8B,n_meanings_wordsmyth_rice,47,5,,test_n < 20
+BERT_base&Llama_3_8B,n_meanings_websters_gao,745,1,0.3154048034511715,pass
+BERT_base&Llama_3_8B,n_meanings_websters_gao,745,2,0.39546298793987567,pass
+BERT_base&Llama_3_8B,n_meanings_websters_gao,745,3,0.32192174299197684,pass
+BERT_base&Llama_3_8B,n_meanings_websters_gao,745,4,0.2859299957636773,pass
+BERT_base&Llama_3_8B,n_meanings_websters_gao,745,5,0.40208048092009907,pass
+BERT_base&Llama_3_8B,n_features_buchanan,515,1,0.20433400154998882,pass
+BERT_base&Llama_3_8B,n_features_buchanan,515,2,0.251638065268071,pass
+BERT_base&Llama_3_8B,n_features_buchanan,515,3,0.23117756791418587,pass
+BERT_base&Llama_3_8B,n_features_buchanan,515,4,0.26909793200466425,pass
+BERT_base&Llama_3_8B,n_features_buchanan,515,5,0.25711221071452306,pass
+BERT_base&Llama_3_8B,visual_lancaster,751,1,0.521630357262464,pass
+BERT_base&Llama_3_8B,visual_lancaster,751,2,0.4508077248708292,pass
+BERT_base&Llama_3_8B,visual_lancaster,751,3,0.5623732720930468,pass
+BERT_base&Llama_3_8B,visual_lancaster,751,4,0.47970056477036493,pass
+BERT_base&Llama_3_8B,visual_lancaster,751,5,0.6336665235507386,pass
+BERT_base&Llama_3_8B,auditory_lancaster,751,1,0.3657808638969132,pass
+BERT_base&Llama_3_8B,auditory_lancaster,751,2,0.40711279961084557,pass
+BERT_base&Llama_3_8B,auditory_lancaster,751,3,0.45358426722647405,pass
+BERT_base&Llama_3_8B,auditory_lancaster,751,4,0.5251707257154834,pass
+BERT_base&Llama_3_8B,auditory_lancaster,751,5,0.5266223897102951,pass
+BERT_base&Llama_3_8B,haptic_lancaster,751,1,0.6191871482776752,pass
+BERT_base&Llama_3_8B,haptic_lancaster,751,2,0.5055331435361425,pass
+BERT_base&Llama_3_8B,haptic_lancaster,751,3,0.4976776405387294,pass
+BERT_base&Llama_3_8B,haptic_lancaster,751,4,0.6203091010452475,pass
+BERT_base&Llama_3_8B,haptic_lancaster,751,5,0.6547704607201484,pass
+BERT_base&Llama_3_8B,olfactory_lancaster,751,1,0.3914459368891404,pass
+BERT_base&Llama_3_8B,olfactory_lancaster,751,2,0.3905706424429525,pass
+BERT_base&Llama_3_8B,olfactory_lancaster,751,3,0.48282380111284473,pass
+BERT_base&Llama_3_8B,olfactory_lancaster,751,4,0.57813285456835,pass
+BERT_base&Llama_3_8B,olfactory_lancaster,751,5,0.44591964993738864,pass
+BERT_base&Llama_3_8B,gustatory_lancaster,751,1,0.5469555415113219,pass
+BERT_base&Llama_3_8B,gustatory_lancaster,751,2,0.687609859073727,pass
+BERT_base&Llama_3_8B,gustatory_lancaster,751,3,0.6846863065616655,pass
+BERT_base&Llama_3_8B,gustatory_lancaster,751,4,0.6312036599027674,pass
+BERT_base&Llama_3_8B,gustatory_lancaster,751,5,0.565304591877741,pass
+BERT_base&Llama_3_8B,interoceptive_lancaster,751,1,0.6205761585544034,pass
+BERT_base&Llama_3_8B,interoceptive_lancaster,751,2,0.5526088032279262,pass
+BERT_base&Llama_3_8B,interoceptive_lancaster,751,3,0.5796071638566004,pass
+BERT_base&Llama_3_8B,interoceptive_lancaster,751,4,0.47379758547689543,pass
+BERT_base&Llama_3_8B,interoceptive_lancaster,751,5,0.5031454574256305,pass
+BERT_base&Llama_3_8B,head_lancaster,751,1,0.3679631229281307,pass
+BERT_base&Llama_3_8B,head_lancaster,751,2,0.3231803622957441,pass
+BERT_base&Llama_3_8B,head_lancaster,751,3,0.42935187926630614,pass
+BERT_base&Llama_3_8B,head_lancaster,751,4,0.47150964590428845,pass
+BERT_base&Llama_3_8B,head_lancaster,751,5,0.3779732032506332,pass
+BERT_base&Llama_3_8B,torso_lancaster,751,1,0.537299886136654,pass
+BERT_base&Llama_3_8B,torso_lancaster,751,2,0.23326702566212443,pass
+BERT_base&Llama_3_8B,torso_lancaster,751,3,0.3541042730759586,pass
+BERT_base&Llama_3_8B,torso_lancaster,751,4,0.4350123358684703,pass
+BERT_base&Llama_3_8B,torso_lancaster,751,5,0.34773525064345234,pass
+BERT_base&Llama_3_8B,mouth_throat_lancaster,751,1,0.5443298690317024,pass
+BERT_base&Llama_3_8B,mouth_throat_lancaster,751,2,0.5585701414538141,pass
+BERT_base&Llama_3_8B,mouth_throat_lancaster,751,3,0.4788598674089162,pass
+BERT_base&Llama_3_8B,mouth_throat_lancaster,751,4,0.459592974130394,pass
+BERT_base&Llama_3_8B,mouth_throat_lancaster,751,5,0.5675125722072664,pass
+BERT_base&Llama_3_8B,hand_arm_lancaster,751,1,0.5601559265914222,pass
+BERT_base&Llama_3_8B,hand_arm_lancaster,751,2,0.4406825703045416,pass
+BERT_base&Llama_3_8B,hand_arm_lancaster,751,3,0.3484620402840849,pass
+BERT_base&Llama_3_8B,hand_arm_lancaster,751,4,0.43879911238256564,pass
+BERT_base&Llama_3_8B,hand_arm_lancaster,751,5,0.5206840027298945,pass
+BERT_base&Llama_3_8B,foot_leg_lancaster,751,1,0.5307473345961695,pass
+BERT_base&Llama_3_8B,foot_leg_lancaster,751,2,0.3112084259809652,pass
+BERT_base&Llama_3_8B,foot_leg_lancaster,751,3,0.4828347159675235,pass
+BERT_base&Llama_3_8B,foot_leg_lancaster,751,4,0.5162193758414786,pass
+BERT_base&Llama_3_8B,foot_leg_lancaster,751,5,0.5167193493460346,pass
+BERT_base&Llama_3_8B,body_object_interact_pexman,586,1,0.8105068943663786,pass
+BERT_base&Llama_3_8B,body_object_interact_pexman,586,2,0.790706997329137,pass
+BERT_base&Llama_3_8B,body_object_interact_pexman,586,3,0.7115072762376986,pass
+BERT_base&Llama_3_8B,body_object_interact_pexman,586,4,0.6934158328113311,pass
+BERT_base&Llama_3_8B,body_object_interact_pexman,586,5,0.6425952783421127,pass
+BERT_base&Llama_3_8B,child_body_object_interact,616,1,0.6463024546830538,pass
+BERT_base&Llama_3_8B,child_body_object_interact,616,2,0.6399592171795867,pass
+BERT_base&Llama_3_8B,child_body_object_interact,616,3,0.5727732279020025,pass
+BERT_base&Llama_3_8B,child_body_object_interact,616,4,0.5763406484004678,pass
+BERT_base&Llama_3_8B,child_body_object_interact,616,5,0.6346025004954121,pass
+BERT_base&Llama_3_8B,semantic_size_glasgow,402,1,0.5915427018970807,pass
+BERT_base&Llama_3_8B,semantic_size_glasgow,402,2,0.5593243621408361,pass
+BERT_base&Llama_3_8B,semantic_size_glasgow,402,3,0.6367390597175819,pass
+BERT_base&Llama_3_8B,semantic_size_glasgow,402,4,0.637276074922085,pass
+BERT_base&Llama_3_8B,semantic_size_glasgow,402,5,0.6295876661506336,pass
+BERT_base&Llama_3_8B,gender_association_glasgow,402,1,0.6010114884156902,pass
+BERT_base&Llama_3_8B,gender_association_glasgow,402,2,0.6050270530669903,pass
+BERT_base&Llama_3_8B,gender_association_glasgow,402,3,0.577916358303584,pass
+BERT_base&Llama_3_8B,gender_association_glasgow,402,4,0.5389928808192576,pass
+BERT_base&Llama_3_8B,gender_association_glasgow,402,5,0.45693640233848853,pass
+BERT_base&Llama_3_8B,feature_visual_vinson,248,1,0.11974328396289047,pass
+BERT_base&Llama_3_8B,feature_visual_vinson,248,2,-1.9182456647769275,pass
+BERT_base&Llama_3_8B,feature_visual_vinson,248,3,0.1557909986537831,pass
+BERT_base&Llama_3_8B,feature_visual_vinson,248,4,0.09321329200647399,pass
+BERT_base&Llama_3_8B,feature_visual_vinson,248,5,-0.7530528257421008,pass
+BERT_base&Llama_3_8B,feature_perceptual_vinson,248,1,-0.5246991574822626,pass
+BERT_base&Llama_3_8B,feature_perceptual_vinson,248,2,-0.5225622644214238,pass
+BERT_base&Llama_3_8B,feature_perceptual_vinson,248,3,-0.30500909585229796,pass
+BERT_base&Llama_3_8B,feature_perceptual_vinson,248,4,-0.20592985986663437,pass
+BERT_base&Llama_3_8B,feature_perceptual_vinson,248,5,-0.23714843391909612,pass
+BERT_base&Llama_3_8B,feature_functional_vinson,248,1,-0.053348835647593074,pass
+BERT_base&Llama_3_8B,feature_functional_vinson,248,2,-2.324132244819625,pass
+BERT_base&Llama_3_8B,feature_functional_vinson,248,3,-0.09984961383107249,pass
+BERT_base&Llama_3_8B,feature_functional_vinson,248,4,-0.30961246427015543,pass
+BERT_base&Llama_3_8B,feature_functional_vinson,248,5,-0.7390117304861652,pass
+BERT_base&Llama_3_8B,feature_motoric_vinson,248,1,0.1831025504174154,pass
+BERT_base&Llama_3_8B,feature_motoric_vinson,248,2,-0.354245604171219,pass
+BERT_base&Llama_3_8B,feature_motoric_vinson,248,3,-0.053382431630308425,pass
+BERT_base&Llama_3_8B,feature_motoric_vinson,248,4,0.4872157673077495,pass
+BERT_base&Llama_3_8B,feature_motoric_vinson,248,5,0.41189523292287156,pass
+BERT_base&Llama_3_8B,socialness_diveica,277,1,0.6730615414232716,pass
+BERT_base&Llama_3_8B,socialness_diveica,277,2,0.6852744116571521,pass
+BERT_base&Llama_3_8B,socialness_diveica,277,3,0.5934990100489408,pass
+BERT_base&Llama_3_8B,socialness_diveica,277,4,0.6588853836552944,pass
+BERT_base&Llama_3_8B,socialness_diveica,277,5,0.650827577901532,pass
+BERT_base&Llama_3_8B,valence_warriner,550,1,0.6998841151333504,pass
+BERT_base&Llama_3_8B,valence_warriner,550,2,0.7245486883974968,pass
+BERT_base&Llama_3_8B,valence_warriner,550,3,0.6585387299862233,pass
+BERT_base&Llama_3_8B,valence_warriner,550,4,0.5381454392619109,pass
+BERT_base&Llama_3_8B,valence_warriner,550,5,0.6961812983770548,pass
+BERT_base&Llama_3_8B,valence_glasgow,402,1,0.7372895863479796,pass
+BERT_base&Llama_3_8B,valence_glasgow,402,2,0.8313620858921437,pass
+BERT_base&Llama_3_8B,valence_glasgow,402,3,0.724137646632769,pass
+BERT_base&Llama_3_8B,valence_glasgow,402,4,0.6543722959775686,pass
+BERT_base&Llama_3_8B,valence_glasgow,402,5,0.7555204277972153,pass
+BERT_base&Llama_3_8B,valence_mohammad,590,1,0.649192952092069,pass
+BERT_base&Llama_3_8B,valence_mohammad,590,2,0.6442003950617059,pass
+BERT_base&Llama_3_8B,valence_mohammad,590,3,0.698032704418142,pass
+BERT_base&Llama_3_8B,valence_mohammad,590,4,0.5907950844362703,pass
+BERT_base&Llama_3_8B,valence_mohammad,590,5,0.6343820849825501,pass
+BERT_base&Llama_3_8B,valence_older_kyrolainen,356,1,0.685986974029148,pass
+BERT_base&Llama_3_8B,valence_older_kyrolainen,356,2,0.7772950046431871,pass
+BERT_base&Llama_3_8B,valence_older_kyrolainen,356,3,0.6435939845655569,pass
+BERT_base&Llama_3_8B,valence_older_kyrolainen,356,4,0.6660759984677589,pass
+BERT_base&Llama_3_8B,valence_older_kyrolainen,356,5,0.6753084091659889,pass
+BERT_base&Llama_3_8B,valence_younger_kyrolainen,356,1,0.7668538206019972,pass
+BERT_base&Llama_3_8B,valence_younger_kyrolainen,356,2,0.8157376100230601,pass
+BERT_base&Llama_3_8B,valence_younger_kyrolainen,356,3,0.6361142433227871,pass
+BERT_base&Llama_3_8B,valence_younger_kyrolainen,356,4,0.7080047231069635,pass
+BERT_base&Llama_3_8B,valence_younger_kyrolainen,356,5,0.7088652794276661,pass
+BERT_base&Llama_3_8B,arousal_warriner,550,1,0.2498565455328765,pass
+BERT_base&Llama_3_8B,arousal_warriner,550,2,0.39059953181837914,pass
+BERT_base&Llama_3_8B,arousal_warriner,550,3,0.37353186191286825,pass
+BERT_base&Llama_3_8B,arousal_warriner,550,4,0.3214868967714797,pass
+BERT_base&Llama_3_8B,arousal_warriner,550,5,0.3595187067994575,pass
+BERT_base&Llama_3_8B,arousal_glasgow,402,1,0.4429486160311794,pass
+BERT_base&Llama_3_8B,arousal_glasgow,402,2,0.5130397634660512,pass
+BERT_base&Llama_3_8B,arousal_glasgow,402,3,0.5859596434480894,pass
+BERT_base&Llama_3_8B,arousal_glasgow,402,4,0.4285740281501249,pass
+BERT_base&Llama_3_8B,arousal_glasgow,402,5,0.6015203579363386,pass
+BERT_base&Llama_3_8B,arousal_mohammad,590,1,0.4899622293736774,pass
+BERT_base&Llama_3_8B,arousal_mohammad,590,2,0.5757357981867199,pass
+BERT_base&Llama_3_8B,arousal_mohammad,590,3,0.5075519497768184,pass
+BERT_base&Llama_3_8B,arousal_mohammad,590,4,0.5065035439338217,pass
+BERT_base&Llama_3_8B,arousal_mohammad,590,5,0.5936648276809591,pass
+BERT_base&Llama_3_8B,dominance_warriner,550,1,0.34695101369927606,pass
+BERT_base&Llama_3_8B,dominance_warriner,550,2,0.366101524021867,pass
+BERT_base&Llama_3_8B,dominance_warriner,550,3,0.40111116855596385,pass
+BERT_base&Llama_3_8B,dominance_warriner,550,4,0.22673218932634098,pass
+BERT_base&Llama_3_8B,dominance_warriner,550,5,0.2762541168888196,pass
+BERT_base&Llama_3_8B,dominance_glasgow,402,1,0.4099202830205054,pass
+BERT_base&Llama_3_8B,dominance_glasgow,402,2,0.5924072577800341,pass
+BERT_base&Llama_3_8B,dominance_glasgow,402,3,0.4196130615813978,pass
+BERT_base&Llama_3_8B,dominance_glasgow,402,4,0.5680275747536873,pass
+BERT_base&Llama_3_8B,dominance_glasgow,402,5,0.48758133144534144,pass
+BERT_base&Llama_3_8B,dominance_mohammad,590,1,0.5061544639352362,pass
+BERT_base&Llama_3_8B,dominance_mohammad,590,2,0.49745303722782774,pass
+BERT_base&Llama_3_8B,dominance_mohammad,590,3,0.5253364420436919,pass
+BERT_base&Llama_3_8B,dominance_mohammad,590,4,0.5864454440760016,pass
+BERT_base&Llama_3_8B,dominance_mohammad,590,5,0.511385087715813,pass
+BERT_base&Llama_3_8B,humor_engelthaler,360,1,0.27837777099109295,pass
+BERT_base&Llama_3_8B,humor_engelthaler,360,2,0.2185085145022081,pass
+BERT_base&Llama_3_8B,humor_engelthaler,360,3,0.20288955351996418,pass
+BERT_base&Llama_3_8B,humor_engelthaler,360,4,0.24627493944638934,pass
+BERT_base&Llama_3_8B,humor_engelthaler,360,5,0.05510939571691009,pass
+BERT_base&Llama_3_8B,anger_mohammad,504,1,-1.8052492098298853,pass
+BERT_base&Llama_3_8B,anger_mohammad,504,2,-1.3440176734508729,pass
+BERT_base&Llama_3_8B,anger_mohammad,504,3,-1.1793231022088384,pass
+BERT_base&Llama_3_8B,anger_mohammad,504,4,-1.027202976880527,pass
+BERT_base&Llama_3_8B,anger_mohammad,504,5,-2.0151880178605333,pass
+BERT_base&Llama_3_8B,anticipation_mohammad,504,1,-1.457242107532596,pass
+BERT_base&Llama_3_8B,anticipation_mohammad,504,2,-0.9817070879714087,pass
+BERT_base&Llama_3_8B,anticipation_mohammad,504,3,-1.035906085576721,pass
+BERT_base&Llama_3_8B,anticipation_mohammad,504,4,-0.8324419241083398,pass
+BERT_base&Llama_3_8B,anticipation_mohammad,504,5,-1.0633715562345465,pass
+BERT_base&Llama_3_8B,disgust_mohammad,504,1,-2.444459909115587,pass
+BERT_base&Llama_3_8B,disgust_mohammad,504,2,-1.829735083571455,pass
+BERT_base&Llama_3_8B,disgust_mohammad,504,3,-1.7810526917763427,pass
+BERT_base&Llama_3_8B,disgust_mohammad,504,4,-1.448271914779597,pass
+BERT_base&Llama_3_8B,disgust_mohammad,504,5,-1.8116635042178406,pass
+BERT_base&Llama_3_8B,fear_mohammad,504,1,-1.2637804424273535,pass
+BERT_base&Llama_3_8B,fear_mohammad,504,2,-0.8692453569551313,pass
+BERT_base&Llama_3_8B,fear_mohammad,504,3,-0.8741207653113487,pass
+BERT_base&Llama_3_8B,fear_mohammad,504,4,-0.6842547383842013,pass
+BERT_base&Llama_3_8B,fear_mohammad,504,5,-0.8660213156725427,pass
+BERT_base&Llama_3_8B,joy_mohammad,504,1,-1.513858990630352,pass
+BERT_base&Llama_3_8B,joy_mohammad,504,2,-0.9505969718580218,pass
+BERT_base&Llama_3_8B,joy_mohammad,504,3,-0.9681497980424283,pass
+BERT_base&Llama_3_8B,joy_mohammad,504,4,-0.9857500604804328,pass
+BERT_base&Llama_3_8B,joy_mohammad,504,5,-1.2635253750307025,pass
+BERT_base&Llama_3_8B,negative_emotion_mohammad,504,1,-0.07699203813822963,pass
+BERT_base&Llama_3_8B,negative_emotion_mohammad,504,2,-0.1996632584106659,pass
+BERT_base&Llama_3_8B,negative_emotion_mohammad,504,3,-0.1306785563681332,pass
+BERT_base&Llama_3_8B,negative_emotion_mohammad,504,4,-0.044434321764069695,pass
+BERT_base&Llama_3_8B,negative_emotion_mohammad,504,5,-0.08574761223792482,pass
+BERT_base&Llama_3_8B,positive_emotion_mohammad,504,1,-0.19857608754048184,pass
+BERT_base&Llama_3_8B,positive_emotion_mohammad,504,2,-0.2138312833277347,pass
+BERT_base&Llama_3_8B,positive_emotion_mohammad,504,3,-0.25369011905529515,pass
+BERT_base&Llama_3_8B,positive_emotion_mohammad,504,4,-0.33740674154914907,pass
+BERT_base&Llama_3_8B,positive_emotion_mohammad,504,5,-0.07887228968375903,pass
+BERT_base&Llama_3_8B,sadness_mohammad,504,1,-0.9805247153857772,pass
+BERT_base&Llama_3_8B,sadness_mohammad,504,2,-1.015819248219319,pass
+BERT_base&Llama_3_8B,sadness_mohammad,504,3,-0.8080237053050143,pass
+BERT_base&Llama_3_8B,sadness_mohammad,504,4,-0.8174381866743994,pass
+BERT_base&Llama_3_8B,sadness_mohammad,504,5,-0.94364721691539,pass
+BERT_base&Llama_3_8B,surprise_mohammad,504,1,-2.0705847995481963,pass
+BERT_base&Llama_3_8B,surprise_mohammad,504,2,-1.7301303474667877,pass
+BERT_base&Llama_3_8B,surprise_mohammad,504,3,-1.600354004394862,pass
+BERT_base&Llama_3_8B,surprise_mohammad,504,4,-1.4027232985439695,pass
+BERT_base&Llama_3_8B,surprise_mohammad,504,5,-1.4886972293715979,pass
+BERT_base&Llama_3_8B,trust_mohammad,504,1,-0.9789220105402197,pass
+BERT_base&Llama_3_8B,trust_mohammad,504,2,-0.5964892037209095,pass
+BERT_base&Llama_3_8B,trust_mohammad,504,3,-0.7230573844823245,pass
+BERT_base&Llama_3_8B,trust_mohammad,504,4,-0.6327702336855561,pass
+BERT_base&Llama_3_8B,trust_mohammad,504,5,-0.6381631296427248,pass
+BERT_base&Llama_3_8B,semantic_diversity_hoffman,749,1,0.785500496947955,pass
+BERT_base&Llama_3_8B,semantic_diversity_hoffman,749,2,0.7730771687575456,pass
+BERT_base&Llama_3_8B,semantic_diversity_hoffman,749,3,0.820865613139813,pass
+BERT_base&Llama_3_8B,semantic_diversity_hoffman,749,4,0.7384190298913027,pass
+BERT_base&Llama_3_8B,semantic_diversity_hoffman,749,5,0.801420040729204,pass
+BERT_base&Llama_3_8B,n_semantic_neighbors_shaoul,756,1,0.532203726148297,pass
+BERT_base&Llama_3_8B,n_semantic_neighbors_shaoul,756,2,0.4504147393816651,pass
+BERT_base&Llama_3_8B,n_semantic_neighbors_shaoul,756,3,0.564415075172362,pass
+BERT_base&Llama_3_8B,n_semantic_neighbors_shaoul,756,4,0.5677670763288356,pass
+BERT_base&Llama_3_8B,n_semantic_neighbors_shaoul,756,5,0.5517380433359985,pass
+BERT_base&Llama_3_8B,distance_semantic_neighbors_shaoul,756,1,0.7235866310826625,pass
+BERT_base&Llama_3_8B,distance_semantic_neighbors_shaoul,756,2,0.7266943028266071,pass
+BERT_base&Llama_3_8B,distance_semantic_neighbors_shaoul,756,3,0.7542103121287419,pass
+BERT_base&Llama_3_8B,distance_semantic_neighbors_shaoul,756,4,0.748191651014178,pass
+BERT_base&Llama_3_8B,distance_semantic_neighbors_shaoul,756,5,0.7496339238721019,pass
+BERT_base&Llama_3_8B,association_frequency_dedeyne,749,1,0.5125591514528496,pass
+BERT_base&Llama_3_8B,association_frequency_dedeyne,749,2,0.6424609322040105,pass
+BERT_base&Llama_3_8B,association_frequency_dedeyne,749,3,0.6511140973657041,pass
+BERT_base&Llama_3_8B,association_frequency_dedeyne,749,4,0.6880532073364258,pass
+BERT_base&Llama_3_8B,association_frequency_dedeyne,749,5,0.7135589240234999,pass
+BERT_base&Llama_3_8B,cue_setsize_nelson,559,1,-0.19919707040244106,pass
+BERT_base&Llama_3_8B,cue_setsize_nelson,559,2,0.1454894337961703,pass
+BERT_base&Llama_3_8B,cue_setsize_nelson,559,3,0.10793604281238334,pass
+BERT_base&Llama_3_8B,cue_setsize_nelson,559,4,0.11543693012252498,pass
+BERT_base&Llama_3_8B,cue_setsize_nelson,559,5,0.07391935580233644,pass
+BERT_base&Llama_3_8B,cue_connectedness_nelson,559,1,-0.03386342996073033,pass
+BERT_base&Llama_3_8B,cue_connectedness_nelson,559,2,0.14722247665376775,pass
+BERT_base&Llama_3_8B,cue_connectedness_nelson,559,3,0.1332373582918217,pass
+BERT_base&Llama_3_8B,cue_connectedness_nelson,559,4,0.11075779740412484,pass
+BERT_base&Llama_3_8B,cue_connectedness_nelson,559,5,0.051557814363768606,pass
+BERT_base&Llama_3_8B,cue_probability_nelson,559,1,0.2077092475836929,pass
+BERT_base&Llama_3_8B,cue_probability_nelson,559,2,0.28470686023565583,pass
+BERT_base&Llama_3_8B,cue_probability_nelson,559,3,0.19533052572773335,pass
+BERT_base&Llama_3_8B,cue_probability_nelson,559,4,0.36104330027429865,pass
+BERT_base&Llama_3_8B,cue_probability_nelson,559,5,0.40205019049346247,pass
+BERT_base&Llama_3_8B,cue_resonance_strength_nelson,559,1,-0.006031541754635272,pass
+BERT_base&Llama_3_8B,cue_resonance_strength_nelson,559,2,0.28549719885459734,pass
+BERT_base&Llama_3_8B,cue_resonance_strength_nelson,559,3,0.23850052855703419,pass
+BERT_base&Llama_3_8B,cue_resonance_strength_nelson,559,4,0.18290911035721658,pass
+BERT_base&Llama_3_8B,cue_resonance_strength_nelson,559,5,0.27476439401191877,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_balota,752,1,0.11902645957882452,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_balota,752,2,0.268956497918198,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_balota,752,3,0.3604624860068647,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_balota,752,4,0.31259608862251775,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_balota,752,5,0.3141275070426761,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_mandera,753,1,0.17579184085223765,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_mandera,753,2,0.401916163683362,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_mandera,753,3,0.45280165087083535,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_mandera,753,4,0.46376049147000453,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_mandera,753,5,0.44473901915460656,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_keuleers,710,1,0.15704210240443484,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_keuleers,710,2,0.36900641245585,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_keuleers,710,3,0.27312623042131146,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_keuleers,710,4,0.40943983974151155,pass
+BERT_base&Llama_3_8B,visual_lexical_rt_keuleers,710,5,0.31926650155497316,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_balota,752,1,0.009260435202800066,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_balota,752,2,0.20296877569679317,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_balota,752,3,0.19624724921864578,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_balota,752,4,0.22393671381436353,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_balota,752,5,0.12189974971161155,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_mandera,753,1,-0.10371782402943763,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_mandera,753,2,0.26502261622823875,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_mandera,753,3,0.3156238765307099,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_mandera,753,4,0.2856973455212235,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_mandera,753,5,0.18766925435229465,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_keuleers,710,1,0.04671398739622101,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_keuleers,710,2,0.20350319365225666,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_keuleers,710,3,0.17362118274324712,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_keuleers,710,4,0.22981800584054402,pass
+BERT_base&Llama_3_8B,visual_lexical_accuracy_keuleers,710,5,0.1750285253033459,pass
+BERT_base&Llama_3_8B,auditory_lexical_rt_tucker,720,1,0.0005976805092887671,pass
+BERT_base&Llama_3_8B,auditory_lexical_rt_tucker,720,2,-0.004594776715638682,pass
+BERT_base&Llama_3_8B,auditory_lexical_rt_tucker,720,3,0.006719908626083848,pass
+BERT_base&Llama_3_8B,auditory_lexical_rt_tucker,720,4,-0.10507037128683239,pass
+BERT_base&Llama_3_8B,auditory_lexical_rt_tucker,720,5,-0.18025499802065204,pass
+BERT_base&Llama_3_8B,auditory_lexical_rt_goh,586,1,0.08599731186754256,pass
+BERT_base&Llama_3_8B,auditory_lexical_rt_goh,586,2,0.16089261206097472,pass
+BERT_base&Llama_3_8B,auditory_lexical_rt_goh,586,3,0.13113581792599405,pass
+BERT_base&Llama_3_8B,auditory_lexical_rt_goh,586,4,0.04062610283218293,pass
+BERT_base&Llama_3_8B,auditory_lexical_rt_goh,586,5,0.18595458901527484,pass
+BERT_base&Llama_3_8B,auditory_lexical_accuracy_tucker,724,1,0.023831240571079437,pass
+BERT_base&Llama_3_8B,auditory_lexical_accuracy_tucker,724,2,0.004142325646357747,pass
+BERT_base&Llama_3_8B,auditory_lexical_accuracy_tucker,724,3,0.015076446534133314,pass
+BERT_base&Llama_3_8B,auditory_lexical_accuracy_tucker,724,4,0.01476861057836043,pass
+BERT_base&Llama_3_8B,auditory_lexical_accuracy_tucker,724,5,0.0242594150339005,pass
+BERT_base&Llama_3_8B,auditory_lexical_accuracy_goh,586,1,0.2004739844276925,pass
+BERT_base&Llama_3_8B,auditory_lexical_accuracy_goh,586,2,0.1875200458487658,pass
+BERT_base&Llama_3_8B,auditory_lexical_accuracy_goh,586,3,0.1782191108515645,pass
+BERT_base&Llama_3_8B,auditory_lexical_accuracy_goh,586,4,0.1733817101032381,pass
+BERT_base&Llama_3_8B,auditory_lexical_accuracy_goh,586,5,0.1806623195503564,pass
+BERT_base&Llama_3_8B,naming_rt_balota,752,1,0.07166927141720603,pass
+BERT_base&Llama_3_8B,naming_rt_balota,752,2,0.16574662722199152,pass
+BERT_base&Llama_3_8B,naming_rt_balota,752,3,0.14615372599007992,pass
+BERT_base&Llama_3_8B,naming_rt_balota,752,4,-0.18905516051179827,pass
+BERT_base&Llama_3_8B,naming_rt_balota,752,5,0.3075671041172888,pass
+BERT_base&Llama_3_8B,naming_accuracy_balota,752,1,-0.04525590654514766,pass
+BERT_base&Llama_3_8B,naming_accuracy_balota,752,2,0.024230239370626183,pass
+BERT_base&Llama_3_8B,naming_accuracy_balota,752,3,0.0215207340257354,pass
+BERT_base&Llama_3_8B,naming_accuracy_balota,752,4,0.02167204899296893,pass
+BERT_base&Llama_3_8B,naming_accuracy_balota,752,5,0.03420032813346274,pass
+BERT_base&Llama_3_8B,concreteness_rt_pexman,162,1,0.3021846651798492,pass
+BERT_base&Llama_3_8B,concreteness_rt_pexman,162,2,0.303864370955908,pass
+BERT_base&Llama_3_8B,concreteness_rt_pexman,162,3,0.4703771962023948,pass
+BERT_base&Llama_3_8B,concreteness_rt_pexman,162,4,0.43498857046170736,pass
+BERT_base&Llama_3_8B,concreteness_rt_pexman,162,5,0.3110827693984781,pass
+BERT_base&Llama_3_8B,concreteness_accuracy_pexman,162,1,0.0909018219951595,pass
+BERT_base&Llama_3_8B,concreteness_accuracy_pexman,162,2,0.03592323458553803,pass
+BERT_base&Llama_3_8B,concreteness_accuracy_pexman,162,3,0.15034451052834097,pass
+BERT_base&Llama_3_8B,concreteness_accuracy_pexman,162,4,0.06494563914613705,pass
+BERT_base&Llama_3_8B,concreteness_accuracy_pexman,162,5,0.057305995624700845,pass
+BERT_base&Llama_3_8B,recognition_memory_accuracy_cortese,458,1,0.4439347340412285,pass
+BERT_base&Llama_3_8B,recognition_memory_accuracy_cortese,458,2,0.3995073402767363,pass
+BERT_base&Llama_3_8B,recognition_memory_accuracy_cortese,458,3,0.4917955259011765,pass
+BERT_base&Llama_3_8B,recognition_memory_accuracy_cortese,458,4,0.29957724189348367,pass
+BERT_base&Llama_3_8B,recognition_memory_accuracy_cortese,458,5,0.4116343332946809,pass
+BERT_base&Llama_3_8B,vision_binder,83,1,0.4857434244504306,pass
+BERT_base&Llama_3_8B,vision_binder,83,2,0.4179277651479476,pass
+BERT_base&Llama_3_8B,vision_binder,83,3,0.15594960419756243,pass
+BERT_base&Llama_3_8B,vision_binder,83,4,0.11637669416406049,pass
+BERT_base&Llama_3_8B,vision_binder,83,5,0.43052658637269026,pass
+BERT_base&Llama_3_8B,bright_binder,83,1,-0.48083204049985295,pass
+BERT_base&Llama_3_8B,bright_binder,83,2,0.2497894422235326,pass
+BERT_base&Llama_3_8B,bright_binder,83,3,0.31458364278482054,pass
+BERT_base&Llama_3_8B,bright_binder,83,4,0.30889468476607496,pass
+BERT_base&Llama_3_8B,bright_binder,83,5,0.22413440489493308,pass
+BERT_base&Llama_3_8B,dark_binder,83,1,-0.07144427790281105,pass
+BERT_base&Llama_3_8B,dark_binder,83,2,0.007694695724327794,pass
+BERT_base&Llama_3_8B,dark_binder,83,3,-1.4218333719454863,pass
+BERT_base&Llama_3_8B,dark_binder,83,4,0.11633681033037446,pass
+BERT_base&Llama_3_8B,dark_binder,83,5,-1.4155477116011914,pass
+BERT_base&Llama_3_8B,color_binder,83,1,0.6968336393010184,pass
+BERT_base&Llama_3_8B,color_binder,83,2,0.5139784612873967,pass
+BERT_base&Llama_3_8B,color_binder,83,3,0.6183414324530914,pass
+BERT_base&Llama_3_8B,color_binder,83,4,0.8224060276168813,pass
+BERT_base&Llama_3_8B,color_binder,83,5,0.8298340571585064,pass
+BERT_base&Llama_3_8B,pattern_binder,83,1,0.3035143774402732,pass
+BERT_base&Llama_3_8B,pattern_binder,83,2,0.6116302893864212,pass
+BERT_base&Llama_3_8B,pattern_binder,83,3,0.5330820800904124,pass
+BERT_base&Llama_3_8B,pattern_binder,83,4,0.5683094519912795,pass
+BERT_base&Llama_3_8B,pattern_binder,83,5,0.7404174344292709,pass
+BERT_base&Llama_3_8B,large_binder,83,1,0.435851313020875,pass
+BERT_base&Llama_3_8B,large_binder,83,2,0.019268892470255983,pass
+BERT_base&Llama_3_8B,large_binder,83,3,0.3446485231348716,pass
+BERT_base&Llama_3_8B,large_binder,83,4,0.37614428606169104,pass
+BERT_base&Llama_3_8B,large_binder,83,5,0.3764918628763281,pass
+BERT_base&Llama_3_8B,small_binder,83,1,0.45169470242078413,pass
+BERT_base&Llama_3_8B,small_binder,83,2,0.5865873148399712,pass
+BERT_base&Llama_3_8B,small_binder,83,3,0.6152329265940122,pass
+BERT_base&Llama_3_8B,small_binder,83,4,0.30131309208016177,pass
+BERT_base&Llama_3_8B,small_binder,83,5,0.1276862347443931,pass
+BERT_base&Llama_3_8B,motion_binder,83,1,0.5701816822190188,pass
+BERT_base&Llama_3_8B,motion_binder,83,2,0.7126210668103253,pass
+BERT_base&Llama_3_8B,motion_binder,83,3,0.5818686149151115,pass
+BERT_base&Llama_3_8B,motion_binder,83,4,0.5121232219595004,pass
+BERT_base&Llama_3_8B,motion_binder,83,5,0.3386095193149502,pass
+BERT_base&Llama_3_8B,biomotion_binder,83,1,0.6562638240641798,pass
+BERT_base&Llama_3_8B,biomotion_binder,83,2,0.677070605427565,pass
+BERT_base&Llama_3_8B,biomotion_binder,83,3,0.6562903523446976,pass
+BERT_base&Llama_3_8B,biomotion_binder,83,4,0.6090591694724619,pass
+BERT_base&Llama_3_8B,biomotion_binder,83,5,0.6968666254956772,pass
+BERT_base&Llama_3_8B,fast_binder,83,1,0.5384089857947705,pass
+BERT_base&Llama_3_8B,fast_binder,83,2,0.5967096309521891,pass
+BERT_base&Llama_3_8B,fast_binder,83,3,0.5766975551122249,pass
+BERT_base&Llama_3_8B,fast_binder,83,4,0.44458958276690286,pass
+BERT_base&Llama_3_8B,fast_binder,83,5,-0.22274211250264142,pass
+BERT_base&Llama_3_8B,slow_binder,83,1,0.04877569882560151,pass
+BERT_base&Llama_3_8B,slow_binder,83,2,-0.10112203598194514,pass
+BERT_base&Llama_3_8B,slow_binder,83,3,0.08198816027877698,pass
+BERT_base&Llama_3_8B,slow_binder,83,4,0.16144453670546077,pass
+BERT_base&Llama_3_8B,slow_binder,83,5,-0.010151926253148869,pass
+BERT_base&Llama_3_8B,shape_binder,83,1,0.42398620851525504,pass
+BERT_base&Llama_3_8B,shape_binder,83,2,0.7162598178446553,pass
+BERT_base&Llama_3_8B,shape_binder,83,3,0.5661874892325318,pass
+BERT_base&Llama_3_8B,shape_binder,83,4,0.5842645303251207,pass
+BERT_base&Llama_3_8B,shape_binder,83,5,0.6393456584699828,pass
+BERT_base&Llama_3_8B,complexity_binder,48,1,,test_n < 20
+BERT_base&Llama_3_8B,complexity_binder,48,2,,test_n < 20
+BERT_base&Llama_3_8B,complexity_binder,48,3,,test_n < 20
+BERT_base&Llama_3_8B,complexity_binder,48,4,,test_n < 20
+BERT_base&Llama_3_8B,complexity_binder,48,5,,test_n < 20
+BERT_base&Llama_3_8B,face_binder,83,1,0.47060410223089666,pass
+BERT_base&Llama_3_8B,face_binder,83,2,0.4865368399425125,pass
+BERT_base&Llama_3_8B,face_binder,83,3,0.5056905422786881,pass
+BERT_base&Llama_3_8B,face_binder,83,4,0.43294554063497304,pass
+BERT_base&Llama_3_8B,face_binder,83,5,0.622017998449969,pass
+BERT_base&Llama_3_8B,body_binder,83,1,0.6075875237527495,pass
+BERT_base&Llama_3_8B,body_binder,83,2,0.6412339228807515,pass
+BERT_base&Llama_3_8B,body_binder,83,3,0.6959842900340996,pass
+BERT_base&Llama_3_8B,body_binder,83,4,0.5330871625961001,pass
+BERT_base&Llama_3_8B,body_binder,83,5,0.6380231242787957,pass
+BERT_base&Llama_3_8B,touch_binder,83,1,0.1595012123760755,pass
+BERT_base&Llama_3_8B,touch_binder,83,2,0.8469462177533016,pass
+BERT_base&Llama_3_8B,touch_binder,83,3,0.6164404331275635,pass
+BERT_base&Llama_3_8B,touch_binder,83,4,0.49324462058117247,pass
+BERT_base&Llama_3_8B,touch_binder,83,5,0.4690592936933925,pass
+BERT_base&Llama_3_8B,temperature_binder,83,1,0.7650090162031586,pass
+BERT_base&Llama_3_8B,temperature_binder,83,2,0.42885114323966034,pass
+BERT_base&Llama_3_8B,temperature_binder,83,3,0.7330639049930505,pass
+BERT_base&Llama_3_8B,temperature_binder,83,4,0.012708251558869232,pass
+BERT_base&Llama_3_8B,temperature_binder,83,5,0.4750124593207927,pass
+BERT_base&Llama_3_8B,texture_binder,83,1,0.3741184421638838,pass
+BERT_base&Llama_3_8B,texture_binder,83,2,0.6908814233178482,pass
+BERT_base&Llama_3_8B,texture_binder,83,3,0.5018187952859227,pass
+BERT_base&Llama_3_8B,texture_binder,83,4,0.4292800212646445,pass
+BERT_base&Llama_3_8B,texture_binder,83,5,0.5186142576360346,pass
+BERT_base&Llama_3_8B,weight_binder,83,1,0.39529626920537764,pass
+BERT_base&Llama_3_8B,weight_binder,83,2,0.29159439947496535,pass
+BERT_base&Llama_3_8B,weight_binder,83,3,0.503349831292547,pass
+BERT_base&Llama_3_8B,weight_binder,83,4,0.22969240438816263,pass
+BERT_base&Llama_3_8B,weight_binder,83,5,0.5664396370735585,pass
+BERT_base&Llama_3_8B,pain_binder,83,1,0.1879841500832109,pass
+BERT_base&Llama_3_8B,pain_binder,83,2,0.1540553918844081,pass
+BERT_base&Llama_3_8B,pain_binder,83,3,0.11635447984671055,pass
+BERT_base&Llama_3_8B,pain_binder,83,4,0.3986130473982644,pass
+BERT_base&Llama_3_8B,pain_binder,83,5,-0.10607370374081393,pass
+BERT_base&Llama_3_8B,audition_binder,83,1,0.2386266344839093,pass
+BERT_base&Llama_3_8B,audition_binder,83,2,0.21437326567893733,pass
+BERT_base&Llama_3_8B,audition_binder,83,3,0.39687628350601056,pass
+BERT_base&Llama_3_8B,audition_binder,83,4,0.3750455450197464,pass
+BERT_base&Llama_3_8B,audition_binder,83,5,0.24799561015818916,pass
+BERT_base&Llama_3_8B,loud_binder,83,1,0.2563201352639791,pass
+BERT_base&Llama_3_8B,loud_binder,83,2,0.33919126652617804,pass
+BERT_base&Llama_3_8B,loud_binder,83,3,0.42631781810705405,pass
+BERT_base&Llama_3_8B,loud_binder,83,4,0.42260220112828595,pass
+BERT_base&Llama_3_8B,loud_binder,83,5,0.23843770897010164,pass
+BERT_base&Llama_3_8B,low_binder,83,1,0.37028533320939616,pass
+BERT_base&Llama_3_8B,low_binder,83,2,0.22066202843199478,pass
+BERT_base&Llama_3_8B,low_binder,83,3,0.22500491480694884,pass
+BERT_base&Llama_3_8B,low_binder,83,4,0.4224904085799184,pass
+BERT_base&Llama_3_8B,low_binder,83,5,0.42271002165980864,pass
+BERT_base&Llama_3_8B,high_binder,83,1,0.5072904409342975,pass
+BERT_base&Llama_3_8B,high_binder,83,2,0.03971478061213374,pass
+BERT_base&Llama_3_8B,high_binder,83,3,0.12142949509472367,pass
+BERT_base&Llama_3_8B,high_binder,83,4,-0.950291409234814,pass
+BERT_base&Llama_3_8B,high_binder,83,5,-1.4939847364241272,pass
+BERT_base&Llama_3_8B,sound_binder,83,1,0.28553583171949115,pass
+BERT_base&Llama_3_8B,sound_binder,83,2,0.09588647726645427,pass
+BERT_base&Llama_3_8B,sound_binder,83,3,0.41779493086753416,pass
+BERT_base&Llama_3_8B,sound_binder,83,4,0.24265040624689038,pass
+BERT_base&Llama_3_8B,sound_binder,83,5,-0.5212370818031347,pass
+BERT_base&Llama_3_8B,music_binder,83,1,0.027233265723191624,pass
+BERT_base&Llama_3_8B,music_binder,83,2,-0.0546507324090042,pass
+BERT_base&Llama_3_8B,music_binder,83,3,-0.08978265350949899,pass
+BERT_base&Llama_3_8B,music_binder,83,4,-0.6590204763933734,pass
+BERT_base&Llama_3_8B,music_binder,83,5,-3.0361101431231425,pass
+BERT_base&Llama_3_8B,speech_binder,83,1,0.44673221036026567,pass
+BERT_base&Llama_3_8B,speech_binder,83,2,0.12218592141639628,pass
+BERT_base&Llama_3_8B,speech_binder,83,3,0.30819667770259296,pass
+BERT_base&Llama_3_8B,speech_binder,83,4,0.3684468428313702,pass
+BERT_base&Llama_3_8B,speech_binder,83,5,0.6345518829642033,pass
+BERT_base&Llama_3_8B,taste_binder,83,1,0.7833615371598327,pass
+BERT_base&Llama_3_8B,taste_binder,83,2,0.5472985500979102,pass
+BERT_base&Llama_3_8B,taste_binder,83,3,0.6388146790274777,pass
+BERT_base&Llama_3_8B,taste_binder,83,4,-1.484413757214596,pass
+BERT_base&Llama_3_8B,taste_binder,83,5,0.3512243686981128,pass
+BERT_base&Llama_3_8B,smell_binder,83,1,0.42452904205093445,pass
+BERT_base&Llama_3_8B,smell_binder,83,2,0.0760309883703395,pass
+BERT_base&Llama_3_8B,smell_binder,83,3,-0.3089972479308931,pass
+BERT_base&Llama_3_8B,smell_binder,83,4,-0.010169249620745058,pass
+BERT_base&Llama_3_8B,smell_binder,83,5,-0.8074104510191429,pass
+BERT_base&Llama_3_8B,head_binder,83,1,0.6782846000177477,pass
+BERT_base&Llama_3_8B,head_binder,83,2,0.5443352651028261,pass
+BERT_base&Llama_3_8B,head_binder,83,3,0.4871521953828055,pass
+BERT_base&Llama_3_8B,head_binder,83,4,0.1502381525371974,pass
+BERT_base&Llama_3_8B,head_binder,83,5,-0.08224005316066396,pass
+BERT_base&Llama_3_8B,upper_limb_binder,83,1,0.37863698487182273,pass
+BERT_base&Llama_3_8B,upper_limb_binder,83,2,0.37639914750657133,pass
+BERT_base&Llama_3_8B,upper_limb_binder,83,3,0.3060370678555332,pass
+BERT_base&Llama_3_8B,upper_limb_binder,83,4,0.4636807953312505,pass
+BERT_base&Llama_3_8B,upper_limb_binder,83,5,0.19418884992754604,pass
+BERT_base&Llama_3_8B,lower_limb_binder,83,1,0.2177279843861356,pass
+BERT_base&Llama_3_8B,lower_limb_binder,83,2,0.28707325713396126,pass
+BERT_base&Llama_3_8B,lower_limb_binder,83,3,0.30021603179645084,pass
+BERT_base&Llama_3_8B,lower_limb_binder,83,4,0.1751484103932207,pass
+BERT_base&Llama_3_8B,lower_limb_binder,83,5,0.4226282203524623,pass
+BERT_base&Llama_3_8B,practice_binder,64,1,,test_n < 20
+BERT_base&Llama_3_8B,practice_binder,64,2,,test_n < 20
+BERT_base&Llama_3_8B,practice_binder,64,3,,test_n < 20
+BERT_base&Llama_3_8B,practice_binder,64,4,,test_n < 20
+BERT_base&Llama_3_8B,practice_binder,64,5,,test_n < 20
+BERT_base&Llama_3_8B,landmark_binder,83,1,0.5120587128923875,pass
+BERT_base&Llama_3_8B,landmark_binder,83,2,0.09430503993379313,pass
+BERT_base&Llama_3_8B,landmark_binder,83,3,0.3116820929762212,pass
+BERT_base&Llama_3_8B,landmark_binder,83,4,0.5932992882433397,pass
+BERT_base&Llama_3_8B,landmark_binder,83,5,0.18211877933520737,pass
+BERT_base&Llama_3_8B,path_binder,83,1,0.6015586003368718,pass
+BERT_base&Llama_3_8B,path_binder,83,2,0.5916786540221501,pass
+BERT_base&Llama_3_8B,path_binder,83,3,0.2923357110208633,pass
+BERT_base&Llama_3_8B,path_binder,83,4,0.45314411976034186,pass
+BERT_base&Llama_3_8B,path_binder,83,5,0.5867150366117901,pass
+BERT_base&Llama_3_8B,scene_binder,83,1,0.38203069647930654,pass
+BERT_base&Llama_3_8B,scene_binder,83,2,-0.06420222028468547,pass
+BERT_base&Llama_3_8B,scene_binder,83,3,0.5177480528467417,pass
+BERT_base&Llama_3_8B,scene_binder,83,4,0.49057666713492054,pass
+BERT_base&Llama_3_8B,scene_binder,83,5,0.05486664655954787,pass
+BERT_base&Llama_3_8B,near_binder,83,1,0.7850856674167945,pass
+BERT_base&Llama_3_8B,near_binder,83,2,0.6941266697914644,pass
+BERT_base&Llama_3_8B,near_binder,83,3,0.6358246377378891,pass
+BERT_base&Llama_3_8B,near_binder,83,4,0.40583080907400115,pass
+BERT_base&Llama_3_8B,near_binder,83,5,0.5141969740135401,pass
+BERT_base&Llama_3_8B,toward_binder,83,1,0.21277952527492927,pass
+BERT_base&Llama_3_8B,toward_binder,83,2,0.38944837035741897,pass
+BERT_base&Llama_3_8B,toward_binder,83,3,0.35199358459454,pass
+BERT_base&Llama_3_8B,toward_binder,83,4,0.13702042634382827,pass
+BERT_base&Llama_3_8B,toward_binder,83,5,0.5126061165240117,pass
+BERT_base&Llama_3_8B,away_binder,83,1,0.09283690191355232,pass
+BERT_base&Llama_3_8B,away_binder,83,2,0.16240352452267082,pass
+BERT_base&Llama_3_8B,away_binder,83,3,0.2657095261953918,pass
+BERT_base&Llama_3_8B,away_binder,83,4,0.36892404348474594,pass
+BERT_base&Llama_3_8B,away_binder,83,5,0.31678250559201726,pass
+BERT_base&Llama_3_8B,number_binder,83,1,0.4663060690840236,pass
+BERT_base&Llama_3_8B,number_binder,83,2,0.6776477421591804,pass
+BERT_base&Llama_3_8B,number_binder,83,3,0.18474958916021256,pass
+BERT_base&Llama_3_8B,number_binder,83,4,0.1517899983765254,pass
+BERT_base&Llama_3_8B,number_binder,83,5,0.5278230287804311,pass
+BERT_base&Llama_3_8B,time_binder,83,1,0.27025278928014596,pass
+BERT_base&Llama_3_8B,time_binder,83,2,0.8235483221642257,pass
+BERT_base&Llama_3_8B,time_binder,83,3,0.5330525022578473,pass
+BERT_base&Llama_3_8B,time_binder,83,4,0.6962187281566978,pass
+BERT_base&Llama_3_8B,time_binder,83,5,0.6366028313914966,pass
+BERT_base&Llama_3_8B,duration_binder,83,1,-0.032501679668287764,pass
+BERT_base&Llama_3_8B,duration_binder,83,2,0.7795499917348309,pass
+BERT_base&Llama_3_8B,duration_binder,83,3,0.6237180795512522,pass
+BERT_base&Llama_3_8B,duration_binder,83,4,0.4693748401169304,pass
+BERT_base&Llama_3_8B,duration_binder,83,5,0.5204701755350636,pass
+BERT_base&Llama_3_8B,long_binder,83,1,0.207148344843201,pass
+BERT_base&Llama_3_8B,long_binder,83,2,0.2393747317404794,pass
+BERT_base&Llama_3_8B,long_binder,83,3,0.2205097953639107,pass
+BERT_base&Llama_3_8B,long_binder,83,4,0.18324510190988308,pass
+BERT_base&Llama_3_8B,long_binder,83,5,0.28684167642774105,pass
+BERT_base&Llama_3_8B,short_binder,83,1,0.7023583988106887,pass
+BERT_base&Llama_3_8B,short_binder,83,2,0.6101654726928618,pass
+BERT_base&Llama_3_8B,short_binder,83,3,0.3139061613472838,pass
+BERT_base&Llama_3_8B,short_binder,83,4,0.26475948010964123,pass
+BERT_base&Llama_3_8B,short_binder,83,5,0.41759619355984656,pass
+BERT_base&Llama_3_8B,caused_binder,64,1,,test_n < 20
+BERT_base&Llama_3_8B,caused_binder,64,2,,test_n < 20
+BERT_base&Llama_3_8B,caused_binder,64,3,,test_n < 20
+BERT_base&Llama_3_8B,caused_binder,64,4,,test_n < 20
+BERT_base&Llama_3_8B,caused_binder,64,5,,test_n < 20
+BERT_base&Llama_3_8B,consequential_binder,83,1,0.3137532058723659,pass
+BERT_base&Llama_3_8B,consequential_binder,83,2,0.5696593288981184,pass
+BERT_base&Llama_3_8B,consequential_binder,83,3,0.2407962233492953,pass
+BERT_base&Llama_3_8B,consequential_binder,83,4,0.16642242433456578,pass
+BERT_base&Llama_3_8B,consequential_binder,83,5,0.6040727673990288,pass
+BERT_base&Llama_3_8B,social_binder,83,1,0.23198144220818173,pass
+BERT_base&Llama_3_8B,social_binder,83,2,0.40851827139173136,pass
+BERT_base&Llama_3_8B,social_binder,83,3,0.4431139429350167,pass
+BERT_base&Llama_3_8B,social_binder,83,4,-0.2389894344357213,pass
+BERT_base&Llama_3_8B,social_binder,83,5,0.39368758060754927,pass
+BERT_base&Llama_3_8B,human_binder,83,1,0.6456857918420441,pass
+BERT_base&Llama_3_8B,human_binder,83,2,0.678342372666382,pass
+BERT_base&Llama_3_8B,human_binder,83,3,0.7052101140582678,pass
+BERT_base&Llama_3_8B,human_binder,83,4,0.5752997129794756,pass
+BERT_base&Llama_3_8B,human_binder,83,5,0.6965866543860493,pass
+BERT_base&Llama_3_8B,communication_binder,83,1,0.5270945521992613,pass
+BERT_base&Llama_3_8B,communication_binder,83,2,0.46696143644673693,pass
+BERT_base&Llama_3_8B,communication_binder,83,3,0.4951618001406687,pass
+BERT_base&Llama_3_8B,communication_binder,83,4,0.3651066200719446,pass
+BERT_base&Llama_3_8B,communication_binder,83,5,-0.590454653525849,pass
+BERT_base&Llama_3_8B,self_binder,83,1,0.7055588298432331,pass
+BERT_base&Llama_3_8B,self_binder,83,2,0.4761400069962355,pass
+BERT_base&Llama_3_8B,self_binder,83,3,0.49069480973880975,pass
+BERT_base&Llama_3_8B,self_binder,83,4,0.6400726778396963,pass
+BERT_base&Llama_3_8B,self_binder,83,5,0.6108945569106128,pass
+BERT_base&Llama_3_8B,cognition_binder,83,1,0.6248732533077656,pass
+BERT_base&Llama_3_8B,cognition_binder,83,2,0.37302007687610395,pass
+BERT_base&Llama_3_8B,cognition_binder,83,3,0.7057742438354665,pass
+BERT_base&Llama_3_8B,cognition_binder,83,4,0.4263420926376775,pass
+BERT_base&Llama_3_8B,cognition_binder,83,5,0.7057080344377109,pass
+BERT_base&Llama_3_8B,benefit_binder,83,1,0.5299657770694778,pass
+BERT_base&Llama_3_8B,benefit_binder,83,2,0.3193973751218775,pass
+BERT_base&Llama_3_8B,benefit_binder,83,3,0.5227247135117719,pass
+BERT_base&Llama_3_8B,benefit_binder,83,4,0.03274513973750359,pass
+BERT_base&Llama_3_8B,benefit_binder,83,5,0.2939602245274183,pass
+BERT_base&Llama_3_8B,harm_binder,83,1,-0.22643196541466382,pass
+BERT_base&Llama_3_8B,harm_binder,83,2,-0.020029591720322593,pass
+BERT_base&Llama_3_8B,harm_binder,83,3,0.17304890646854398,pass
+BERT_base&Llama_3_8B,harm_binder,83,4,0.4619445982220486,pass
+BERT_base&Llama_3_8B,harm_binder,83,5,0.11611797917751265,pass
+BERT_base&Llama_3_8B,pleasant_binder,83,1,0.573232413070273,pass
+BERT_base&Llama_3_8B,pleasant_binder,83,2,0.3243333164643418,pass
+BERT_base&Llama_3_8B,pleasant_binder,83,3,0.5610908877838235,pass
+BERT_base&Llama_3_8B,pleasant_binder,83,4,0.474536787577313,pass
+BERT_base&Llama_3_8B,pleasant_binder,83,5,-0.3020647963201597,pass
+BERT_base&Llama_3_8B,unpleasant_binder,83,1,0.36853982844772326,pass
+BERT_base&Llama_3_8B,unpleasant_binder,83,2,0.4522886341341886,pass
+BERT_base&Llama_3_8B,unpleasant_binder,83,3,0.28102707304671404,pass
+BERT_base&Llama_3_8B,unpleasant_binder,83,4,0.42295366111459076,pass
+BERT_base&Llama_3_8B,unpleasant_binder,83,5,-0.7933877404576399,pass
+BERT_base&Llama_3_8B,happy_binder,83,1,0.43327376347913393,pass
+BERT_base&Llama_3_8B,happy_binder,83,2,0.4811507195703366,pass
+BERT_base&Llama_3_8B,happy_binder,83,3,0.5941459700167607,pass
+BERT_base&Llama_3_8B,happy_binder,83,4,0.28146017000244605,pass
+BERT_base&Llama_3_8B,happy_binder,83,5,-0.26013469222048635,pass
+BERT_base&Llama_3_8B,sad_binder,83,1,0.36343840957524176,pass
+BERT_base&Llama_3_8B,sad_binder,83,2,0.6603479400790786,pass
+BERT_base&Llama_3_8B,sad_binder,83,3,0.487647699739164,pass
+BERT_base&Llama_3_8B,sad_binder,83,4,0.19001548477410568,pass
+BERT_base&Llama_3_8B,sad_binder,83,5,-0.7923883645376824,pass
+BERT_base&Llama_3_8B,angry_binder,83,1,0.17528928341759908,pass
+BERT_base&Llama_3_8B,angry_binder,83,2,-0.1242853698883859,pass
+BERT_base&Llama_3_8B,angry_binder,83,3,-0.028337518498977143,pass
+BERT_base&Llama_3_8B,angry_binder,83,4,-0.014994629948705818,pass
+BERT_base&Llama_3_8B,angry_binder,83,5,-1.5975923537102634,pass
+BERT_base&Llama_3_8B,disgusted_binder,83,1,0.017181551821729313,pass
+BERT_base&Llama_3_8B,disgusted_binder,83,2,0.062106432340336304,pass
+BERT_base&Llama_3_8B,disgusted_binder,83,3,-0.009837052741502594,pass
+BERT_base&Llama_3_8B,disgusted_binder,83,4,-0.31669792493074467,pass
+BERT_base&Llama_3_8B,disgusted_binder,83,5,-2.0678451868883805,pass
+BERT_base&Llama_3_8B,fearful_binder,83,1,0.1748736401485561,pass
+BERT_base&Llama_3_8B,fearful_binder,83,2,0.5046292963467145,pass
+BERT_base&Llama_3_8B,fearful_binder,83,3,0.21215693418210435,pass
+BERT_base&Llama_3_8B,fearful_binder,83,4,0.484200986703176,pass
+BERT_base&Llama_3_8B,fearful_binder,83,5,-2.056571705885837,pass
+BERT_base&Llama_3_8B,surprised_binder,83,1,0.33549843390052403,pass
+BERT_base&Llama_3_8B,surprised_binder,83,2,0.3505289780249149,pass
+BERT_base&Llama_3_8B,surprised_binder,83,3,0.18304886327798953,pass
+BERT_base&Llama_3_8B,surprised_binder,83,4,0.018526475474368143,pass
+BERT_base&Llama_3_8B,surprised_binder,83,5,0.10446045369938828,pass
+BERT_base&Llama_3_8B,drive_binder,83,1,0.4176216749614966,pass
+BERT_base&Llama_3_8B,drive_binder,83,2,0.5870046551284355,pass
+BERT_base&Llama_3_8B,drive_binder,83,3,0.4385894190199294,pass
+BERT_base&Llama_3_8B,drive_binder,83,4,0.3277138883580224,pass
+BERT_base&Llama_3_8B,drive_binder,83,5,0.6222191651353463,pass
+BERT_base&Llama_3_8B,needs_binder,83,1,0.5521397206505989,pass
+BERT_base&Llama_3_8B,needs_binder,83,2,0.5444519343365144,pass
+BERT_base&Llama_3_8B,needs_binder,83,3,0.5439527931069361,pass
+BERT_base&Llama_3_8B,needs_binder,83,4,0.23998633841426953,pass
+BERT_base&Llama_3_8B,needs_binder,83,5,0.18868471580065005,pass
+BERT_base&Llama_3_8B,attention_binder,83,1,0.30898344710162495,pass
+BERT_base&Llama_3_8B,attention_binder,83,2,0.36955995243286655,pass
+BERT_base&Llama_3_8B,attention_binder,83,3,0.2778185587625077,pass
+BERT_base&Llama_3_8B,attention_binder,83,4,0.40165665128129413,pass
+BERT_base&Llama_3_8B,attention_binder,83,5,0.19108886267602876,pass
+BERT_base&Llama_3_8B,arousal_binder,83,1,0.18410324807775724,pass
+BERT_base&Llama_3_8B,arousal_binder,83,2,0.6001485477175217,pass
+BERT_base&Llama_3_8B,arousal_binder,83,3,0.6033620479937747,pass
+BERT_base&Llama_3_8B,arousal_binder,83,4,0.16723097345143179,pass
+BERT_base&Llama_3_8B,arousal_binder,83,5,0.0938682266953913,pass
+BERT_base&Llama_3_8B,goals_wilkowski,32,1,,test_n < 20
+BERT_base&Llama_3_8B,goals_wilkowski,32,2,,test_n < 20
+BERT_base&Llama_3_8B,goals_wilkowski,32,3,,test_n < 20
+BERT_base&Llama_3_8B,goals_wilkowski,32,4,,test_n < 20
+BERT_base&Llama_3_8B,goals_wilkowski,32,5,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_lynott,47,1,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_lynott,47,2,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_lynott,47,3,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_lynott,47,4,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_lynott,47,5,,test_n < 20
+BERT_base&Llama_3_8B,visual_lynott,47,1,,test_n < 20
+BERT_base&Llama_3_8B,visual_lynott,47,2,,test_n < 20
+BERT_base&Llama_3_8B,visual_lynott,47,3,,test_n < 20
+BERT_base&Llama_3_8B,visual_lynott,47,4,,test_n < 20
+BERT_base&Llama_3_8B,visual_lynott,47,5,,test_n < 20
+BERT_base&Llama_3_8B,haptic_lynott,47,1,,test_n < 20
+BERT_base&Llama_3_8B,haptic_lynott,47,2,,test_n < 20
+BERT_base&Llama_3_8B,haptic_lynott,47,3,,test_n < 20
+BERT_base&Llama_3_8B,haptic_lynott,47,4,,test_n < 20
+BERT_base&Llama_3_8B,haptic_lynott,47,5,,test_n < 20
+BERT_base&Llama_3_8B,auditory_lynott,47,1,,test_n < 20
+BERT_base&Llama_3_8B,auditory_lynott,47,2,,test_n < 20
+BERT_base&Llama_3_8B,auditory_lynott,47,3,,test_n < 20
+BERT_base&Llama_3_8B,auditory_lynott,47,4,,test_n < 20
+BERT_base&Llama_3_8B,auditory_lynott,47,5,,test_n < 20
+BERT_base&Llama_3_8B,olfactory_lynott,47,1,,test_n < 20
+BERT_base&Llama_3_8B,olfactory_lynott,47,2,,test_n < 20
+BERT_base&Llama_3_8B,olfactory_lynott,47,3,,test_n < 20
+BERT_base&Llama_3_8B,olfactory_lynott,47,4,,test_n < 20
+BERT_base&Llama_3_8B,olfactory_lynott,47,5,,test_n < 20
+BERT_base&Llama_3_8B,gustatory_lynott,47,1,,test_n < 20
+BERT_base&Llama_3_8B,gustatory_lynott,47,2,,test_n < 20
+BERT_base&Llama_3_8B,gustatory_lynott,47,3,,test_n < 20
+BERT_base&Llama_3_8B,gustatory_lynott,47,4,,test_n < 20
+BERT_base&Llama_3_8B,gustatory_lynott,47,5,,test_n < 20
+BERT_base&Llama_3_8B,dominant_modality_lynott,33,1,,test_n < 20
+BERT_base&Llama_3_8B,dominant_modality_lynott,33,2,,test_n < 20
+BERT_base&Llama_3_8B,dominant_modality_lynott,33,3,,test_n < 20
+BERT_base&Llama_3_8B,dominant_modality_lynott,33,4,,test_n < 20
+BERT_base&Llama_3_8B,dominant_modality_lynott,33,5,,test_n < 20
+BERT_base&Llama_3_8B,imagery_toronto,128,1,0.6856810855123785,pass
+BERT_base&Llama_3_8B,imagery_toronto,128,2,0.6511348268387381,pass
+BERT_base&Llama_3_8B,imagery_toronto,128,3,0.43022746687131985,pass
+BERT_base&Llama_3_8B,imagery_toronto,128,4,0.6117981384156609,pass
+BERT_base&Llama_3_8B,imagery_toronto,128,5,0.5606843648052873,pass
+BERT_base&Llama_3_8B,concreteness_toronto,128,1,0.7482327408064169,pass
+BERT_base&Llama_3_8B,concreteness_toronto,128,2,0.7235826689387688,pass
+BERT_base&Llama_3_8B,concreteness_toronto,128,3,0.5377178770120967,pass
+BERT_base&Llama_3_8B,concreteness_toronto,128,4,0.6054106278488831,pass
+BERT_base&Llama_3_8B,concreteness_toronto,128,5,0.5675246490868093,pass
+BERT_base&Llama_3_8B,aoa_khanna,251,1,-0.31100987612659803,pass
+BERT_base&Llama_3_8B,aoa_khanna,251,2,-0.0841031689321825,pass
+BERT_base&Llama_3_8B,aoa_khanna,251,3,0.015657406401428875,pass
+BERT_base&Llama_3_8B,aoa_khanna,251,4,-0.5404352661428118,pass
+BERT_base&Llama_3_8B,aoa_khanna,251,5,-0.02160605568885221,pass
+BERT_base&Llama_3_8B,aoa_rt_khanna,251,1,-0.007650615436151753,pass
+BERT_base&Llama_3_8B,aoa_rt_khanna,251,2,-0.03781376503713818,pass
+BERT_base&Llama_3_8B,aoa_rt_khanna,251,3,-0.14374675718071162,pass
+BERT_base&Llama_3_8B,aoa_rt_khanna,251,4,-0.1957206393735007,pass
+BERT_base&Llama_3_8B,aoa_rt_khanna,251,5,-0.23929797123994523,pass
+BERT_base&Llama_3_8B,aoa_hollis,133,1,0.45133309973308056,pass
+BERT_base&Llama_3_8B,aoa_hollis,133,2,0.6366416719095342,pass
+BERT_base&Llama_3_8B,aoa_hollis,133,3,0.44073276500033076,pass
+BERT_base&Llama_3_8B,aoa_hollis,133,4,0.28572523441262787,pass
+BERT_base&Llama_3_8B,aoa_hollis,133,5,0.412019663537194,pass
+BERT_base&Llama_3_8B,valence_hollis,133,1,0.7537529692308562,pass
+BERT_base&Llama_3_8B,valence_hollis,133,2,0.8098101436441701,pass
+BERT_base&Llama_3_8B,valence_hollis,133,3,0.7759798612566213,pass
+BERT_base&Llama_3_8B,valence_hollis,133,4,0.6833805628528408,pass
+BERT_base&Llama_3_8B,valence_hollis,133,5,0.6722630036814108,pass
+BERT_base&Llama_3_8B,arousal_hollis,133,1,0.6004047665287067,pass
+BERT_base&Llama_3_8B,arousal_hollis,133,2,0.60655460968847,pass
+BERT_base&Llama_3_8B,arousal_hollis,133,3,0.41896589759521696,pass
+BERT_base&Llama_3_8B,arousal_hollis,133,4,0.49418198148508274,pass
+BERT_base&Llama_3_8B,arousal_hollis,133,5,0.44811408003316544,pass
+BERT_base&Llama_3_8B,concreteness_hollis,133,1,0.8306387064976788,pass
+BERT_base&Llama_3_8B,concreteness_hollis,133,2,0.7526440246868082,pass
+BERT_base&Llama_3_8B,concreteness_hollis,133,3,0.8277327706264046,pass
+BERT_base&Llama_3_8B,concreteness_hollis,133,4,0.822893331020772,pass
+BERT_base&Llama_3_8B,concreteness_hollis,133,5,0.9186592122259815,pass
+BERT_base&Llama_3_8B,aoa_stration,26,1,,test_n < 20
+BERT_base&Llama_3_8B,aoa_stration,26,2,,test_n < 20
+BERT_base&Llama_3_8B,aoa_stration,26,3,,test_n < 20
+BERT_base&Llama_3_8B,aoa_stration,26,4,,test_n < 20
+BERT_base&Llama_3_8B,aoa_stration,26,5,,test_n < 20
+BERT_base&Llama_3_8B,imagery_stration,26,1,,test_n < 20
+BERT_base&Llama_3_8B,imagery_stration,26,2,,test_n < 20
+BERT_base&Llama_3_8B,imagery_stration,26,3,,test_n < 20
+BERT_base&Llama_3_8B,imagery_stration,26,4,,test_n < 20
+BERT_base&Llama_3_8B,imagery_stration,26,5,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_stration,26,1,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_stration,26,2,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_stration,26,3,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_stration,26,4,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_stration,26,5,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_stration,26,1,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_stration,26,2,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_stration,26,3,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_stration,26,4,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_stration,26,5,,test_n < 20
+BERT_base&Llama_3_8B,valence_garrido,39,1,,test_n < 20
+BERT_base&Llama_3_8B,valence_garrido,39,2,,test_n < 20
+BERT_base&Llama_3_8B,valence_garrido,39,3,,test_n < 20
+BERT_base&Llama_3_8B,valence_garrido,39,4,,test_n < 20
+BERT_base&Llama_3_8B,valence_garrido,39,5,,test_n < 20
+BERT_base&Llama_3_8B,emotionality_garrido,39,1,,test_n < 20
+BERT_base&Llama_3_8B,emotionality_garrido,39,2,,test_n < 20
+BERT_base&Llama_3_8B,emotionality_garrido,39,3,,test_n < 20
+BERT_base&Llama_3_8B,emotionality_garrido,39,4,,test_n < 20
+BERT_base&Llama_3_8B,emotionality_garrido,39,5,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_garrido,39,1,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_garrido,39,2,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_garrido,39,3,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_garrido,39,4,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_garrido,39,5,,test_n < 20
+BERT_base&Llama_3_8B,angry_zupan,36,1,,test_n < 20
+BERT_base&Llama_3_8B,angry_zupan,36,2,,test_n < 20
+BERT_base&Llama_3_8B,angry_zupan,36,3,,test_n < 20
+BERT_base&Llama_3_8B,angry_zupan,36,4,,test_n < 20
+BERT_base&Llama_3_8B,angry_zupan,36,5,,test_n < 20
+BERT_base&Llama_3_8B,fearful_zupan,36,1,,test_n < 20
+BERT_base&Llama_3_8B,fearful_zupan,36,2,,test_n < 20
+BERT_base&Llama_3_8B,fearful_zupan,36,3,,test_n < 20
+BERT_base&Llama_3_8B,fearful_zupan,36,4,,test_n < 20
+BERT_base&Llama_3_8B,fearful_zupan,36,5,,test_n < 20
+BERT_base&Llama_3_8B,happy_zupan,36,1,,test_n < 20
+BERT_base&Llama_3_8B,happy_zupan,36,2,,test_n < 20
+BERT_base&Llama_3_8B,happy_zupan,36,3,,test_n < 20
+BERT_base&Llama_3_8B,happy_zupan,36,4,,test_n < 20
+BERT_base&Llama_3_8B,happy_zupan,36,5,,test_n < 20
+BERT_base&Llama_3_8B,intensity_zupan,36,1,,test_n < 20
+BERT_base&Llama_3_8B,intensity_zupan,36,2,,test_n < 20
+BERT_base&Llama_3_8B,intensity_zupan,36,3,,test_n < 20
+BERT_base&Llama_3_8B,intensity_zupan,36,4,,test_n < 20
+BERT_base&Llama_3_8B,intensity_zupan,36,5,,test_n < 20
+BERT_base&Llama_3_8B,neutral_zupan,36,1,,test_n < 20
+BERT_base&Llama_3_8B,neutral_zupan,36,2,,test_n < 20
+BERT_base&Llama_3_8B,neutral_zupan,36,3,,test_n < 20
+BERT_base&Llama_3_8B,neutral_zupan,36,4,,test_n < 20
+BERT_base&Llama_3_8B,neutral_zupan,36,5,,test_n < 20
+BERT_base&Llama_3_8B,sad_zupan,36,1,,test_n < 20
+BERT_base&Llama_3_8B,sad_zupan,36,2,,test_n < 20
+BERT_base&Llama_3_8B,sad_zupan,36,3,,test_n < 20
+BERT_base&Llama_3_8B,sad_zupan,36,4,,test_n < 20
+BERT_base&Llama_3_8B,sad_zupan,36,5,,test_n < 20
+BERT_base&Llama_3_8B,valence_zupan,36,1,,test_n < 20
+BERT_base&Llama_3_8B,valence_zupan,36,2,,test_n < 20
+BERT_base&Llama_3_8B,valence_zupan,36,3,,test_n < 20
+BERT_base&Llama_3_8B,valence_zupan,36,4,,test_n < 20
+BERT_base&Llama_3_8B,valence_zupan,36,5,,test_n < 20
+BERT_base&Llama_3_8B,aoa_bird,369,1,0.36762436975417,pass
+BERT_base&Llama_3_8B,aoa_bird,369,2,0.4234581608823972,pass
+BERT_base&Llama_3_8B,aoa_bird,369,3,0.29886526058903107,pass
+BERT_base&Llama_3_8B,aoa_bird,369,4,0.3723305243601195,pass
+BERT_base&Llama_3_8B,aoa_bird,369,5,0.42954296602324527,pass
+BERT_base&Llama_3_8B,imageability_bird,181,1,0.46134438645705456,pass
+BERT_base&Llama_3_8B,imageability_bird,181,2,0.4567827963597608,pass
+BERT_base&Llama_3_8B,imageability_bird,181,3,0.442545195491842,pass
+BERT_base&Llama_3_8B,imageability_bird,181,4,0.2720896372277847,pass
+BERT_base&Llama_3_8B,imageability_bird,181,5,0.5576015608950793,pass
+BERT_base&Llama_3_8B,association_rt_ley,5,1,,test_n < 20
+BERT_base&Llama_3_8B,association_rt_ley,5,2,,test_n < 20
+BERT_base&Llama_3_8B,association_rt_ley,5,3,,test_n < 20
+BERT_base&Llama_3_8B,association_rt_ley,5,4,,test_n < 20
+BERT_base&Llama_3_8B,association_rt_ley,5,5,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_ley,5,1,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_ley,5,2,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_ley,5,3,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_ley,5,4,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_ley,5,5,,test_n < 20
+BERT_base&Llama_3_8B,happiness_stevenson,133,1,0.7808736148923502,pass
+BERT_base&Llama_3_8B,happiness_stevenson,133,2,0.8157769690134365,pass
+BERT_base&Llama_3_8B,happiness_stevenson,133,3,0.789547090925575,pass
+BERT_base&Llama_3_8B,happiness_stevenson,133,4,0.653642260636049,pass
+BERT_base&Llama_3_8B,happiness_stevenson,133,5,0.6682461795664295,pass
+BERT_base&Llama_3_8B,anger_stevenson,133,1,0.720672008380284,pass
+BERT_base&Llama_3_8B,anger_stevenson,133,2,0.7677069506530237,pass
+BERT_base&Llama_3_8B,anger_stevenson,133,3,0.5178518986625382,pass
+BERT_base&Llama_3_8B,anger_stevenson,133,4,0.6067861078241443,pass
+BERT_base&Llama_3_8B,anger_stevenson,133,5,0.5788238216966521,pass
+BERT_base&Llama_3_8B,sadness_stevenson,133,1,0.40485122356179426,pass
+BERT_base&Llama_3_8B,sadness_stevenson,133,2,0.6786613803020746,pass
+BERT_base&Llama_3_8B,sadness_stevenson,133,3,0.476138348413376,pass
+BERT_base&Llama_3_8B,sadness_stevenson,133,4,0.6259722713024696,pass
+BERT_base&Llama_3_8B,sadness_stevenson,133,5,0.5300573361676384,pass
+BERT_base&Llama_3_8B,fear_stevenson,133,1,0.6089821394922363,pass
+BERT_base&Llama_3_8B,fear_stevenson,133,2,0.7548539463884166,pass
+BERT_base&Llama_3_8B,fear_stevenson,133,3,0.42266156504204766,pass
+BERT_base&Llama_3_8B,fear_stevenson,133,4,0.6465805215274751,pass
+BERT_base&Llama_3_8B,fear_stevenson,133,5,0.6509740920427056,pass
+BERT_base&Llama_3_8B,disgust_stevenson,133,1,0.561424491161971,pass
+BERT_base&Llama_3_8B,disgust_stevenson,133,2,0.48927250977978454,pass
+BERT_base&Llama_3_8B,disgust_stevenson,133,3,0.38850305313239053,pass
+BERT_base&Llama_3_8B,disgust_stevenson,133,4,0.6554344173140456,pass
+BERT_base&Llama_3_8B,disgust_stevenson,133,5,0.412124454889208,pass
+BERT_base&Llama_3_8B,goodness_brown,118,1,0.6493002224829025,pass
+BERT_base&Llama_3_8B,goodness_brown,118,2,0.669349627079368,pass
+BERT_base&Llama_3_8B,goodness_brown,118,3,0.6740008586151672,pass
+BERT_base&Llama_3_8B,goodness_brown,118,4,0.605486455097843,pass
+BERT_base&Llama_3_8B,goodness_brown,118,5,0.6392984036375124,pass
+BERT_base&Llama_3_8B,pleasantness_brown,118,1,0.7074148024171292,pass
+BERT_base&Llama_3_8B,pleasantness_brown,118,2,0.7056251071475786,pass
+BERT_base&Llama_3_8B,pleasantness_brown,118,3,0.6877734150944237,pass
+BERT_base&Llama_3_8B,pleasantness_brown,118,4,0.5082258335356808,pass
+BERT_base&Llama_3_8B,pleasantness_brown,118,5,0.7490527715643398,pass
+BERT_base&Llama_3_8B,emotionality_brown,118,1,0.37150164709420097,pass
+BERT_base&Llama_3_8B,emotionality_brown,118,2,0.6118938020255567,pass
+BERT_base&Llama_3_8B,emotionality_brown,118,3,0.6057364148020503,pass
+BERT_base&Llama_3_8B,emotionality_brown,118,4,0.5058840432825555,pass
+BERT_base&Llama_3_8B,emotionality_brown,118,5,0.5435085875279092,pass
+BERT_base&Llama_3_8B,concreteness_brown,118,1,0.8230289592719106,pass
+BERT_base&Llama_3_8B,concreteness_brown,118,2,0.678223097687654,pass
+BERT_base&Llama_3_8B,concreteness_brown,118,3,0.5824567360206339,pass
+BERT_base&Llama_3_8B,concreteness_brown,118,4,0.7063508746359376,pass
+BERT_base&Llama_3_8B,concreteness_brown,118,5,0.7847787854964636,pass
+BERT_base&Llama_3_8B,meaningfulness_brown,118,1,0.21203170719499487,pass
+BERT_base&Llama_3_8B,meaningfulness_brown,118,2,0.19884442653612078,pass
+BERT_base&Llama_3_8B,meaningfulness_brown,118,3,0.6414305067807036,pass
+BERT_base&Llama_3_8B,meaningfulness_brown,118,4,0.36787243681579973,pass
+BERT_base&Llama_3_8B,meaningfulness_brown,118,5,0.5866239398752522,pass
+BERT_base&Llama_3_8B,difficulty_rudell,116,1,0.26482928712924314,pass
+BERT_base&Llama_3_8B,difficulty_rudell,116,2,0.4072324662296668,pass
+BERT_base&Llama_3_8B,difficulty_rudell,116,3,0.31612083196653706,pass
+BERT_base&Llama_3_8B,difficulty_rudell,116,4,0.40120309203885407,pass
+BERT_base&Llama_3_8B,difficulty_rudell,116,5,0.14595450557806056,pass
+BERT_base&Llama_3_8B,imageability_chiarello,83,1,0.6100732616844409,pass
+BERT_base&Llama_3_8B,imageability_chiarello,83,2,0.6909462425529843,pass
+BERT_base&Llama_3_8B,imageability_chiarello,83,3,0.7110301454102275,pass
+BERT_base&Llama_3_8B,imageability_chiarello,83,4,0.7193315458153275,pass
+BERT_base&Llama_3_8B,imageability_chiarello,83,5,0.6031515881556906,pass
+BERT_base&Llama_3_8B,imageability_rt_chiarello,83,1,-0.2805497805626165,pass
+BERT_base&Llama_3_8B,imageability_rt_chiarello,83,2,0.21261836149991775,pass
+BERT_base&Llama_3_8B,imageability_rt_chiarello,83,3,0.3290669089753405,pass
+BERT_base&Llama_3_8B,imageability_rt_chiarello,83,4,0.32610923010385573,pass
+BERT_base&Llama_3_8B,imageability_rt_chiarello,83,5,0.34187579460213113,pass
+BERT_base&Llama_3_8B,personal_use_janschewitz,43,1,,test_n < 20
+BERT_base&Llama_3_8B,personal_use_janschewitz,43,2,,test_n < 20
+BERT_base&Llama_3_8B,personal_use_janschewitz,43,3,,test_n < 20
+BERT_base&Llama_3_8B,personal_use_janschewitz,43,4,,test_n < 20
+BERT_base&Llama_3_8B,personal_use_janschewitz,43,5,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_janschewitz,43,1,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_janschewitz,43,2,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_janschewitz,43,3,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_janschewitz,43,4,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_janschewitz,43,5,,test_n < 20
+BERT_base&Llama_3_8B,offensiveness_janschewitz,43,1,,test_n < 20
+BERT_base&Llama_3_8B,offensiveness_janschewitz,43,2,,test_n < 20
+BERT_base&Llama_3_8B,offensiveness_janschewitz,43,3,,test_n < 20
+BERT_base&Llama_3_8B,offensiveness_janschewitz,43,4,,test_n < 20
+BERT_base&Llama_3_8B,offensiveness_janschewitz,43,5,,test_n < 20
+BERT_base&Llama_3_8B,tabooness_janschewitz,43,1,,test_n < 20
+BERT_base&Llama_3_8B,tabooness_janschewitz,43,2,,test_n < 20
+BERT_base&Llama_3_8B,tabooness_janschewitz,43,3,,test_n < 20
+BERT_base&Llama_3_8B,tabooness_janschewitz,43,4,,test_n < 20
+BERT_base&Llama_3_8B,tabooness_janschewitz,43,5,,test_n < 20
+BERT_base&Llama_3_8B,valence_janschewitz,43,1,,test_n < 20
+BERT_base&Llama_3_8B,valence_janschewitz,43,2,,test_n < 20
+BERT_base&Llama_3_8B,valence_janschewitz,43,3,,test_n < 20
+BERT_base&Llama_3_8B,valence_janschewitz,43,4,,test_n < 20
+BERT_base&Llama_3_8B,valence_janschewitz,43,5,,test_n < 20
+BERT_base&Llama_3_8B,arousal_janschewitz,43,1,,test_n < 20
+BERT_base&Llama_3_8B,arousal_janschewitz,43,2,,test_n < 20
+BERT_base&Llama_3_8B,arousal_janschewitz,43,3,,test_n < 20
+BERT_base&Llama_3_8B,arousal_janschewitz,43,4,,test_n < 20
+BERT_base&Llama_3_8B,arousal_janschewitz,43,5,,test_n < 20
+BERT_base&Llama_3_8B,imageability_janschewitz,43,1,,test_n < 20
+BERT_base&Llama_3_8B,imageability_janschewitz,43,2,,test_n < 20
+BERT_base&Llama_3_8B,imageability_janschewitz,43,3,,test_n < 20
+BERT_base&Llama_3_8B,imageability_janschewitz,43,4,,test_n < 20
+BERT_base&Llama_3_8B,imageability_janschewitz,43,5,,test_n < 20
+BERT_base&Llama_3_8B,perc_known_britz,28,1,,test_n < 20
+BERT_base&Llama_3_8B,perc_known_britz,28,2,,test_n < 20
+BERT_base&Llama_3_8B,perc_known_britz,28,3,,test_n < 20
+BERT_base&Llama_3_8B,perc_known_britz,28,4,,test_n < 20
+BERT_base&Llama_3_8B,perc_known_britz,28,5,,test_n < 20
+BERT_base&Llama_3_8B,valence_britz,28,1,,test_n < 20
+BERT_base&Llama_3_8B,valence_britz,28,2,,test_n < 20
+BERT_base&Llama_3_8B,valence_britz,28,3,,test_n < 20
+BERT_base&Llama_3_8B,valence_britz,28,4,,test_n < 20
+BERT_base&Llama_3_8B,valence_britz,28,5,,test_n < 20
+BERT_base&Llama_3_8B,social_des_britz,28,1,,test_n < 20
+BERT_base&Llama_3_8B,social_des_britz,28,2,,test_n < 20
+BERT_base&Llama_3_8B,social_des_britz,28,3,,test_n < 20
+BERT_base&Llama_3_8B,social_des_britz,28,4,,test_n < 20
+BERT_base&Llama_3_8B,social_des_britz,28,5,,test_n < 20
+BERT_base&Llama_3_8B,observability_britz,28,1,,test_n < 20
+BERT_base&Llama_3_8B,observability_britz,28,2,,test_n < 20
+BERT_base&Llama_3_8B,observability_britz,28,3,,test_n < 20
+BERT_base&Llama_3_8B,observability_britz,28,4,,test_n < 20
+BERT_base&Llama_3_8B,observability_britz,28,5,,test_n < 20
+BERT_base&Llama_3_8B,aoa_rodriguez,222,1,0.43576828735513606,pass
+BERT_base&Llama_3_8B,aoa_rodriguez,222,2,0.31990036740333316,pass
+BERT_base&Llama_3_8B,aoa_rodriguez,222,3,0.29274090052012514,pass
+BERT_base&Llama_3_8B,aoa_rodriguez,222,4,0.37561773231968165,pass
+BERT_base&Llama_3_8B,aoa_rodriguez,222,5,0.4862603086338936,pass
+BERT_base&Llama_3_8B,perc_known_rodriguez,222,1,0.16752574925834185,pass
+BERT_base&Llama_3_8B,perc_known_rodriguez,222,2,0.2275416568986237,pass
+BERT_base&Llama_3_8B,perc_known_rodriguez,222,3,0.05112909166421187,pass
+BERT_base&Llama_3_8B,perc_known_rodriguez,222,4,0.07972638015944977,pass
+BERT_base&Llama_3_8B,perc_known_rodriguez,222,5,0.1638011170892002,pass
+BERT_base&Llama_3_8B,known_rt_chen,55,1,,test_n < 20
+BERT_base&Llama_3_8B,known_rt_chen,55,2,,test_n < 20
+BERT_base&Llama_3_8B,known_rt_chen,55,3,,test_n < 20
+BERT_base&Llama_3_8B,known_rt_chen,55,4,,test_n < 20
+BERT_base&Llama_3_8B,known_rt_chen,55,5,,test_n < 20
+BERT_base&Llama_3_8B,english_accuracy_chen,55,1,,test_n < 20
+BERT_base&Llama_3_8B,english_accuracy_chen,55,2,,test_n < 20
+BERT_base&Llama_3_8B,english_accuracy_chen,55,3,,test_n < 20
+BERT_base&Llama_3_8B,english_accuracy_chen,55,4,,test_n < 20
+BERT_base&Llama_3_8B,english_accuracy_chen,55,5,,test_n < 20
+BERT_base&Llama_3_8B,subjective_frequency_chen,55,1,,test_n < 20
+BERT_base&Llama_3_8B,subjective_frequency_chen,55,2,,test_n < 20
+BERT_base&Llama_3_8B,subjective_frequency_chen,55,3,,test_n < 20
+BERT_base&Llama_3_8B,subjective_frequency_chen,55,4,,test_n < 20
+BERT_base&Llama_3_8B,subjective_frequency_chen,55,5,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_juhasz,2,1,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_juhasz,2,2,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_juhasz,2,3,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_juhasz,2,4,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_juhasz,2,5,,test_n < 20
+BERT_base&Llama_3_8B,aoa_juhasz,2,1,,test_n < 20
+BERT_base&Llama_3_8B,aoa_juhasz,2,2,,test_n < 20
+BERT_base&Llama_3_8B,aoa_juhasz,2,3,,test_n < 20
+BERT_base&Llama_3_8B,aoa_juhasz,2,4,,test_n < 20
+BERT_base&Llama_3_8B,aoa_juhasz,2,5,,test_n < 20
+BERT_base&Llama_3_8B,transparency_juhasz,2,1,,test_n < 20
+BERT_base&Llama_3_8B,transparency_juhasz,2,2,,test_n < 20
+BERT_base&Llama_3_8B,transparency_juhasz,2,3,,test_n < 20
+BERT_base&Llama_3_8B,transparency_juhasz,2,4,,test_n < 20
+BERT_base&Llama_3_8B,transparency_juhasz,2,5,,test_n < 20
+BERT_base&Llama_3_8B,lexeme_dominance_juhasz,2,1,,test_n < 20
+BERT_base&Llama_3_8B,lexeme_dominance_juhasz,2,2,,test_n < 20
+BERT_base&Llama_3_8B,lexeme_dominance_juhasz,2,3,,test_n < 20
+BERT_base&Llama_3_8B,lexeme_dominance_juhasz,2,4,,test_n < 20
+BERT_base&Llama_3_8B,lexeme_dominance_juhasz,2,5,,test_n < 20
+BERT_base&Llama_3_8B,imageability_juhasz,2,1,,test_n < 20
+BERT_base&Llama_3_8B,imageability_juhasz,2,2,,test_n < 20
+BERT_base&Llama_3_8B,imageability_juhasz,2,3,,test_n < 20
+BERT_base&Llama_3_8B,imageability_juhasz,2,4,,test_n < 20
+BERT_base&Llama_3_8B,imageability_juhasz,2,5,,test_n < 20
+BERT_base&Llama_3_8B,sensory_experience_juhasz2015,2,1,,test_n < 20
+BERT_base&Llama_3_8B,sensory_experience_juhasz2015,2,2,,test_n < 20
+BERT_base&Llama_3_8B,sensory_experience_juhasz2015,2,3,,test_n < 20
+BERT_base&Llama_3_8B,sensory_experience_juhasz2015,2,4,,test_n < 20
+BERT_base&Llama_3_8B,sensory_experience_juhasz2015,2,5,,test_n < 20
+BERT_base&Llama_3_8B,emotion_troche,84,1,0.7651596713382266,pass
+BERT_base&Llama_3_8B,emotion_troche,84,2,0.747833366282782,pass
+BERT_base&Llama_3_8B,emotion_troche,84,3,0.7218909245759761,pass
+BERT_base&Llama_3_8B,emotion_troche,84,4,-0.9005623649488947,pass
+BERT_base&Llama_3_8B,emotion_troche,84,5,0.6901811653075505,pass
+BERT_base&Llama_3_8B,polarity_troche,84,1,0.0993900521722666,pass
+BERT_base&Llama_3_8B,polarity_troche,84,2,0.722058245208033,pass
+BERT_base&Llama_3_8B,polarity_troche,84,3,0.6836681624786778,pass
+BERT_base&Llama_3_8B,polarity_troche,84,4,-0.03995876932057052,pass
+BERT_base&Llama_3_8B,polarity_troche,84,5,0.5639488331862196,pass
+BERT_base&Llama_3_8B,socialness_troche,84,1,0.5473311874629927,pass
+BERT_base&Llama_3_8B,socialness_troche,84,2,0.5025347346621453,pass
+BERT_base&Llama_3_8B,socialness_troche,84,3,0.5364083965617473,pass
+BERT_base&Llama_3_8B,socialness_troche,84,4,0.14540487379726463,pass
+BERT_base&Llama_3_8B,socialness_troche,84,5,0.08558213382544111,pass
+BERT_base&Llama_3_8B,morality_troche,84,1,0.6407641333229175,pass
+BERT_base&Llama_3_8B,morality_troche,84,2,0.7169804744998992,pass
+BERT_base&Llama_3_8B,morality_troche,84,3,0.5470288364326441,pass
+BERT_base&Llama_3_8B,morality_troche,84,4,-0.14422860987574593,pass
+BERT_base&Llama_3_8B,morality_troche,84,5,0.45250913943177595,pass
+BERT_base&Llama_3_8B,visual_troche,84,1,0.8288233714943402,pass
+BERT_base&Llama_3_8B,visual_troche,84,2,0.6926283460125746,pass
+BERT_base&Llama_3_8B,visual_troche,84,3,0.5765004255598218,pass
+BERT_base&Llama_3_8B,visual_troche,84,4,0.6302361393414448,pass
+BERT_base&Llama_3_8B,visual_troche,84,5,0.7825061092938997,pass
+BERT_base&Llama_3_8B,motion_self_troche,84,1,0.21879311666266743,pass
+BERT_base&Llama_3_8B,motion_self_troche,84,2,0.2765422489447177,pass
+BERT_base&Llama_3_8B,motion_self_troche,84,3,0.3484308899629178,pass
+BERT_base&Llama_3_8B,motion_self_troche,84,4,0.2585221097314181,pass
+BERT_base&Llama_3_8B,motion_self_troche,84,5,0.23323470488672582,pass
+BERT_base&Llama_3_8B,thought_troche,84,1,0.7637406458525401,pass
+BERT_base&Llama_3_8B,thought_troche,84,2,0.8257178355680083,pass
+BERT_base&Llama_3_8B,thought_troche,84,3,0.6219761838844144,pass
+BERT_base&Llama_3_8B,thought_troche,84,4,0.37786092502349855,pass
+BERT_base&Llama_3_8B,thought_troche,84,5,0.6782685984281254,pass
+BERT_base&Llama_3_8B,color_troche,84,1,0.3539552507993521,pass
+BERT_base&Llama_3_8B,color_troche,84,2,0.24454760315016177,pass
+BERT_base&Llama_3_8B,color_troche,84,3,0.41007385317296985,pass
+BERT_base&Llama_3_8B,color_troche,84,4,0.27513449141913904,pass
+BERT_base&Llama_3_8B,color_troche,84,5,0.7055573119091567,pass
+BERT_base&Llama_3_8B,taste_smell_troche,84,1,0.5129859940669689,pass
+BERT_base&Llama_3_8B,taste_smell_troche,84,2,0.5455973491823546,pass
+BERT_base&Llama_3_8B,taste_smell_troche,84,3,0.5635956135754714,pass
+BERT_base&Llama_3_8B,taste_smell_troche,84,4,0.762846074375126,pass
+BERT_base&Llama_3_8B,taste_smell_troche,84,5,0.6695692364751271,pass
+BERT_base&Llama_3_8B,tactile_troche,84,1,0.5318799981455908,pass
+BERT_base&Llama_3_8B,tactile_troche,84,2,0.45428564037990526,pass
+BERT_base&Llama_3_8B,tactile_troche,84,3,0.5916175015080468,pass
+BERT_base&Llama_3_8B,tactile_troche,84,4,0.3936747505026502,pass
+BERT_base&Llama_3_8B,tactile_troche,84,5,0.7181702543250135,pass
+BERT_base&Llama_3_8B,auditory_troche,84,1,0.2963568581300118,pass
+BERT_base&Llama_3_8B,auditory_troche,84,2,0.33518794688340103,pass
+BERT_base&Llama_3_8B,auditory_troche,84,3,0.48047869658273024,pass
+BERT_base&Llama_3_8B,auditory_troche,84,4,0.39702839527473643,pass
+BERT_base&Llama_3_8B,auditory_troche,84,5,0.5232358506464114,pass
+BERT_base&Llama_3_8B,space_troche,84,1,0.2758707615452014,pass
+BERT_base&Llama_3_8B,space_troche,84,2,0.25493842435911085,pass
+BERT_base&Llama_3_8B,space_troche,84,3,0.4287948915252787,pass
+BERT_base&Llama_3_8B,space_troche,84,4,-0.12976760836664636,pass
+BERT_base&Llama_3_8B,space_troche,84,5,0.4271821866657254,pass
+BERT_base&Llama_3_8B,time_troche,84,1,0.3935928727898268,pass
+BERT_base&Llama_3_8B,time_troche,84,2,0.31422805717315005,pass
+BERT_base&Llama_3_8B,time_troche,84,3,0.7372751939489741,pass
+BERT_base&Llama_3_8B,time_troche,84,4,0.5563036976413807,pass
+BERT_base&Llama_3_8B,time_troche,84,5,0.1038795310888535,pass
+BERT_base&Llama_3_8B,quantity_troche,84,1,0.37053266982361843,pass
+BERT_base&Llama_3_8B,quantity_troche,84,2,0.520546547339869,pass
+BERT_base&Llama_3_8B,quantity_troche,84,3,0.5471294237258203,pass
+BERT_base&Llama_3_8B,quantity_troche,84,4,0.5016158697171895,pass
+BERT_base&Llama_3_8B,quantity_troche,84,5,0.15840332023387715,pass
+BERT_base&Llama_3_8B,familiarity_morrow,32,1,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_morrow,32,2,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_morrow,32,3,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_morrow,32,4,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_morrow,32,5,,test_n < 20
+BERT_base&Llama_3_8B,perc_known_morrow,32,1,,test_n < 20
+BERT_base&Llama_3_8B,perc_known_morrow,32,2,,test_n < 20
+BERT_base&Llama_3_8B,perc_known_morrow,32,3,,test_n < 20
+BERT_base&Llama_3_8B,perc_known_morrow,32,4,,test_n < 20
+BERT_base&Llama_3_8B,perc_known_morrow,32,5,,test_n < 20
+BERT_base&Llama_3_8B,subjective_frequency_morrow,32,1,,test_n < 20
+BERT_base&Llama_3_8B,subjective_frequency_morrow,32,2,,test_n < 20
+BERT_base&Llama_3_8B,subjective_frequency_morrow,32,3,,test_n < 20
+BERT_base&Llama_3_8B,subjective_frequency_morrow,32,4,,test_n < 20
+BERT_base&Llama_3_8B,subjective_frequency_morrow,32,5,,test_n < 20
+BERT_base&Llama_3_8B,visual_complexity_marrow,32,1,,test_n < 20
+BERT_base&Llama_3_8B,visual_complexity_marrow,32,2,,test_n < 20
+BERT_base&Llama_3_8B,visual_complexity_marrow,32,3,,test_n < 20
+BERT_base&Llama_3_8B,visual_complexity_marrow,32,4,,test_n < 20
+BERT_base&Llama_3_8B,visual_complexity_marrow,32,5,,test_n < 20
+BERT_base&Llama_3_8B,imageability_morrow,32,1,,test_n < 20
+BERT_base&Llama_3_8B,imageability_morrow,32,2,,test_n < 20
+BERT_base&Llama_3_8B,imageability_morrow,32,3,,test_n < 20
+BERT_base&Llama_3_8B,imageability_morrow,32,4,,test_n < 20
+BERT_base&Llama_3_8B,imageability_morrow,32,5,,test_n < 20
+BERT_base&Llama_3_8B,aoa_marrow,32,1,,test_n < 20
+BERT_base&Llama_3_8B,aoa_marrow,32,2,,test_n < 20
+BERT_base&Llama_3_8B,aoa_marrow,32,3,,test_n < 20
+BERT_base&Llama_3_8B,aoa_marrow,32,4,,test_n < 20
+BERT_base&Llama_3_8B,aoa_marrow,32,5,,test_n < 20
+BERT_base&Llama_3_8B,aoa_cortese,469,1,0.5739893709726893,pass
+BERT_base&Llama_3_8B,aoa_cortese,469,2,0.6887800807402273,pass
+BERT_base&Llama_3_8B,aoa_cortese,469,3,0.6017863146208167,pass
+BERT_base&Llama_3_8B,aoa_cortese,469,4,0.6569820684528314,pass
+BERT_base&Llama_3_8B,aoa_cortese,469,5,0.6272887015715571,pass
+BERT_base&Llama_3_8B,aoa_rt_cortese,469,1,0.06604748162905316,pass
+BERT_base&Llama_3_8B,aoa_rt_cortese,469,2,0.1439490964893163,pass
+BERT_base&Llama_3_8B,aoa_rt_cortese,469,3,0.10373310051586948,pass
+BERT_base&Llama_3_8B,aoa_rt_cortese,469,4,0.08523930356843656,pass
+BERT_base&Llama_3_8B,aoa_rt_cortese,469,5,0.041432647813560264,pass
+BERT_base&Llama_3_8B,imagery_vanderveur,341,1,0.8620607708967425,pass
+BERT_base&Llama_3_8B,imagery_vanderveur,341,2,0.8427405478729539,pass
+BERT_base&Llama_3_8B,imagery_vanderveur,341,3,0.7644278177462562,pass
+BERT_base&Llama_3_8B,imagery_vanderveur,341,4,0.7269328715051377,pass
+BERT_base&Llama_3_8B,imagery_vanderveur,341,5,0.8608064323696393,pass
+BERT_base&Llama_3_8B,likableness_chandler,31,1,,test_n < 20
+BERT_base&Llama_3_8B,likableness_chandler,31,2,,test_n < 20
+BERT_base&Llama_3_8B,likableness_chandler,31,3,,test_n < 20
+BERT_base&Llama_3_8B,likableness_chandler,31,4,,test_n < 20
+BERT_base&Llama_3_8B,likableness_chandler,31,5,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_chandler,31,1,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_chandler,31,2,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_chandler,31,3,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_chandler,31,4,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_chandler,31,5,,test_n < 20
+BERT_base&Llama_3_8B,emotionality_chandler,31,1,,test_n < 20
+BERT_base&Llama_3_8B,emotionality_chandler,31,2,,test_n < 20
+BERT_base&Llama_3_8B,emotionality_chandler,31,3,,test_n < 20
+BERT_base&Llama_3_8B,emotionality_chandler,31,4,,test_n < 20
+BERT_base&Llama_3_8B,emotionality_chandler,31,5,,test_n < 20
+BERT_base&Llama_3_8B,gender_assoc_crawford,70,1,,test_n < 20
+BERT_base&Llama_3_8B,gender_assoc_crawford,70,2,,test_n < 20
+BERT_base&Llama_3_8B,gender_assoc_crawford,70,3,,test_n < 20
+BERT_base&Llama_3_8B,gender_assoc_crawford,70,4,,test_n < 20
+BERT_base&Llama_3_8B,gender_assoc_crawford,70,5,,test_n < 20
+BERT_base&Llama_3_8B,polysemy_armstrong,48,1,,test_n < 20
+BERT_base&Llama_3_8B,polysemy_armstrong,48,2,,test_n < 20
+BERT_base&Llama_3_8B,polysemy_armstrong,48,3,,test_n < 20
+BERT_base&Llama_3_8B,polysemy_armstrong,48,4,,test_n < 20
+BERT_base&Llama_3_8B,polysemy_armstrong,48,5,,test_n < 20
+BERT_base&Llama_3_8B,imageability_rt_cortese,469,1,0.33716383128241845,pass
+BERT_base&Llama_3_8B,imageability_rt_cortese,469,2,0.28399580118725254,pass
+BERT_base&Llama_3_8B,imageability_rt_cortese,469,3,0.12817162712723595,pass
+BERT_base&Llama_3_8B,imageability_rt_cortese,469,4,0.2633498719713716,pass
+BERT_base&Llama_3_8B,imageability_rt_cortese,469,5,0.15660780321192802,pass
+BERT_base&Llama_3_8B,imageability_cortese,469,1,0.849143093401257,pass
+BERT_base&Llama_3_8B,imageability_cortese,469,2,0.7492995568581639,pass
+BERT_base&Llama_3_8B,imageability_cortese,469,3,0.7777035076894184,pass
+BERT_base&Llama_3_8B,imageability_cortese,469,4,0.7815018027649081,pass
+BERT_base&Llama_3_8B,imageability_cortese,469,5,0.8381325619588744,pass
+BERT_base&Llama_3_8B,valence_citron,44,1,,test_n < 20
+BERT_base&Llama_3_8B,valence_citron,44,2,,test_n < 20
+BERT_base&Llama_3_8B,valence_citron,44,3,,test_n < 20
+BERT_base&Llama_3_8B,valence_citron,44,4,,test_n < 20
+BERT_base&Llama_3_8B,valence_citron,44,5,,test_n < 20
+BERT_base&Llama_3_8B,arousal_citron,44,1,,test_n < 20
+BERT_base&Llama_3_8B,arousal_citron,44,2,,test_n < 20
+BERT_base&Llama_3_8B,arousal_citron,44,3,,test_n < 20
+BERT_base&Llama_3_8B,arousal_citron,44,4,,test_n < 20
+BERT_base&Llama_3_8B,arousal_citron,44,5,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_citron,44,1,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_citron,44,2,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_citron,44,3,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_citron,44,4,,test_n < 20
+BERT_base&Llama_3_8B,familiarity_citron,44,5,,test_n < 20
+BERT_base&Llama_3_8B,aoa_citron,44,1,,test_n < 20
+BERT_base&Llama_3_8B,aoa_citron,44,2,,test_n < 20
+BERT_base&Llama_3_8B,aoa_citron,44,3,,test_n < 20
+BERT_base&Llama_3_8B,aoa_citron,44,4,,test_n < 20
+BERT_base&Llama_3_8B,aoa_citron,44,5,,test_n < 20
+BERT_base&Llama_3_8B,imageability_citron,44,1,,test_n < 20
+BERT_base&Llama_3_8B,imageability_citron,44,2,,test_n < 20
+BERT_base&Llama_3_8B,imageability_citron,44,3,,test_n < 20
+BERT_base&Llama_3_8B,imageability_citron,44,4,,test_n < 20
+BERT_base&Llama_3_8B,imageability_citron,44,5,,test_n < 20
+BERT_base&Llama_3_8B,valence_imbault,183,1,0.3367052744330974,pass
+BERT_base&Llama_3_8B,valence_imbault,183,2,0.6777147754584536,pass
+BERT_base&Llama_3_8B,valence_imbault,183,3,0.5530673326546418,pass
+BERT_base&Llama_3_8B,valence_imbault,183,4,0.40067770406325565,pass
+BERT_base&Llama_3_8B,valence_imbault,183,5,0.39819970682325523,pass
+BERT_base&Llama_3_8B,arousal_imbault,181,1,0.16826738489663418,pass
+BERT_base&Llama_3_8B,arousal_imbault,181,2,0.46790495043100544,pass
+BERT_base&Llama_3_8B,arousal_imbault,181,3,0.4411086995257346,pass
+BERT_base&Llama_3_8B,arousal_imbault,181,4,0.29828181546277566,pass
+BERT_base&Llama_3_8B,arousal_imbault,181,5,0.06086832543398579,pass
+BERT_base&Llama_3_8B,likableness_anderson,28,1,,test_n < 20
+BERT_base&Llama_3_8B,likableness_anderson,28,2,,test_n < 20
+BERT_base&Llama_3_8B,likableness_anderson,28,3,,test_n < 20
+BERT_base&Llama_3_8B,likableness_anderson,28,4,,test_n < 20
+BERT_base&Llama_3_8B,likableness_anderson,28,5,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_anderson,28,1,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_anderson,28,2,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_anderson,28,3,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_anderson,28,4,,test_n < 20
+BERT_base&Llama_3_8B,meaningfulness_anderson,28,5,,test_n < 20
+BERT_base&Llama_3_8B,perc_known_winter,732,1,-0.006194424079045913,pass
+BERT_base&Llama_3_8B,perc_known_winter,732,2,-0.011049758558858036,pass
+BERT_base&Llama_3_8B,perc_known_winter,732,3,-0.004912930372977131,pass
+BERT_base&Llama_3_8B,perc_known_winter,732,4,-0.03830350688796336,pass
+BERT_base&Llama_3_8B,perc_known_winter,732,5,-0.01761081845326551,pass
+BERT_base&Llama_3_8B,iconicity_winter2023,732,1,0.35667088488939036,pass
+BERT_base&Llama_3_8B,iconicity_winter2023,732,2,0.30394482146259527,pass
+BERT_base&Llama_3_8B,iconicity_winter2023,732,3,0.2746117219577229,pass
+BERT_base&Llama_3_8B,iconicity_winter2023,732,4,0.25597691820943624,pass
+BERT_base&Llama_3_8B,iconicity_winter2023,732,5,0.3283519034074537,pass
+BERT_base&Llama_3_8B,body_object_miklashevsky,188,1,0.6744159707533312,pass
+BERT_base&Llama_3_8B,body_object_miklashevsky,188,2,0.6868468039321531,pass
+BERT_base&Llama_3_8B,body_object_miklashevsky,188,3,0.6085362252031601,pass
+BERT_base&Llama_3_8B,body_object_miklashevsky,188,4,0.7508229302163413,pass
+BERT_base&Llama_3_8B,body_object_miklashevsky,188,5,0.6358835463941417,pass
+BERT_base&Llama_3_8B,aoa_schock,189,1,0.528325944673173,pass
+BERT_base&Llama_3_8B,aoa_schock,189,2,0.5305943936424069,pass
+BERT_base&Llama_3_8B,aoa_schock,189,3,0.3617469682432016,pass
+BERT_base&Llama_3_8B,aoa_schock,189,4,0.6273477902930278,pass
+BERT_base&Llama_3_8B,aoa_schock,189,5,0.44798941543188,pass
+BERT_base&Llama_3_8B,aoa_rt_schock,189,1,-0.022612408596928146,pass
+BERT_base&Llama_3_8B,aoa_rt_schock,189,2,-0.02566356309525153,pass
+BERT_base&Llama_3_8B,aoa_rt_schock,189,3,-0.002862031856337932,pass
+BERT_base&Llama_3_8B,aoa_rt_schock,189,4,0.0016696966655885825,pass
+BERT_base&Llama_3_8B,aoa_rt_schock,189,5,0.007590145343697063,pass
+BERT_base&Llama_3_8B,aoa_davies,100,1,0.3254674576965423,pass
+BERT_base&Llama_3_8B,aoa_davies,100,2,0.6466009570888483,pass
+BERT_base&Llama_3_8B,aoa_davies,100,3,0.22930190484409174,pass
+BERT_base&Llama_3_8B,aoa_davies,100,4,0.7209772750929158,pass
+BERT_base&Llama_3_8B,aoa_davies,100,5,0.4051802140079668,pass
+BERT_base&Llama_3_8B,imageability_davies,100,1,0.4079440040762845,pass
+BERT_base&Llama_3_8B,imageability_davies,100,2,0.6146721466196885,pass
+BERT_base&Llama_3_8B,imageability_davies,100,3,0.3384311530071976,pass
+BERT_base&Llama_3_8B,imageability_davies,100,4,0.4047365994948351,pass
+BERT_base&Llama_3_8B,imageability_davies,100,5,0.5710114227315016,pass
+BERT_base&Llama_3_8B,this_that_rocca,83,1,0.2574155615870861,pass
+BERT_base&Llama_3_8B,this_that_rocca,83,2,0.6506016521016968,pass
+BERT_base&Llama_3_8B,this_that_rocca,83,3,0.35617323716650784,pass
+BERT_base&Llama_3_8B,this_that_rocca,83,4,0.09483227894015323,pass
+BERT_base&Llama_3_8B,this_that_rocca,83,5,0.06698012854656521,pass
+BERT_base&Llama_3_8B,iconicity_winter2017,410,1,0.23239457624011506,pass
+BERT_base&Llama_3_8B,iconicity_winter2017,410,2,0.06807727541415765,pass
+BERT_base&Llama_3_8B,iconicity_winter2017,410,3,0.006722002335440069,pass
+BERT_base&Llama_3_8B,iconicity_winter2017,410,4,0.19314870734431588,pass
+BERT_base&Llama_3_8B,iconicity_winter2017,410,5,0.18222923625027176,pass
+BERT_base&Llama_3_8B,living_vanarsdall,126,1,0.7810380013275675,pass
+BERT_base&Llama_3_8B,living_vanarsdall,126,2,0.802470918348661,pass
+BERT_base&Llama_3_8B,living_vanarsdall,126,3,0.7931757872380132,pass
+BERT_base&Llama_3_8B,living_vanarsdall,126,4,0.7633577432899077,pass
+BERT_base&Llama_3_8B,living_vanarsdall,126,5,0.7718777136711517,pass
+BERT_base&Llama_3_8B,thought_vanarsdall,126,1,0.7916050307318078,pass
+BERT_base&Llama_3_8B,thought_vanarsdall,126,2,0.8893580170172698,pass
+BERT_base&Llama_3_8B,thought_vanarsdall,126,3,0.8415918644522029,pass
+BERT_base&Llama_3_8B,thought_vanarsdall,126,4,0.8314151731027288,pass
+BERT_base&Llama_3_8B,thought_vanarsdall,126,5,0.7489038631452971,pass
+BERT_base&Llama_3_8B,reproduction_vanarsdall,126,1,0.6214440547481217,pass
+BERT_base&Llama_3_8B,reproduction_vanarsdall,126,2,0.8324329023410094,pass
+BERT_base&Llama_3_8B,reproduction_vanarsdall,126,3,0.797144252915152,pass
+BERT_base&Llama_3_8B,reproduction_vanarsdall,126,4,0.7688733391492875,pass
+BERT_base&Llama_3_8B,reproduction_vanarsdall,126,5,0.8264716706687056,pass
+BERT_base&Llama_3_8B,person_vanarsdall,126,1,0.7963406719750205,pass
+BERT_base&Llama_3_8B,person_vanarsdall,126,2,0.8298829598885602,pass
+BERT_base&Llama_3_8B,person_vanarsdall,126,3,0.8898735487891858,pass
+BERT_base&Llama_3_8B,person_vanarsdall,126,4,0.8141878111066282,pass
+BERT_base&Llama_3_8B,person_vanarsdall,126,5,0.7582256580072072,pass
+BERT_base&Llama_3_8B,goals_vanarsdall,126,1,0.7659245144729105,pass
+BERT_base&Llama_3_8B,goals_vanarsdall,126,2,0.8616115076229894,pass
+BERT_base&Llama_3_8B,goals_vanarsdall,126,3,0.784911447135182,pass
+BERT_base&Llama_3_8B,goals_vanarsdall,126,4,0.7757052319246297,pass
+BERT_base&Llama_3_8B,goals_vanarsdall,126,5,0.7209351137370279,pass
+BERT_base&Llama_3_8B,movement_vanarsdall,126,1,0.4622622131640993,pass
+BERT_base&Llama_3_8B,movement_vanarsdall,126,2,0.5674861864004981,pass
+BERT_base&Llama_3_8B,movement_vanarsdall,126,3,0.5937572524484585,pass
+BERT_base&Llama_3_8B,movement_vanarsdall,126,4,0.4942325469512666,pass
+BERT_base&Llama_3_8B,movement_vanarsdall,126,5,0.5444994787114638,pass
+BERT_base&Llama_3_8B,concreteness_vanarsdall,126,1,0.36241323170077155,pass
+BERT_base&Llama_3_8B,concreteness_vanarsdall,126,2,0.2285351918161781,pass
+BERT_base&Llama_3_8B,concreteness_vanarsdall,126,3,0.32686232702389084,pass
+BERT_base&Llama_3_8B,concreteness_vanarsdall,126,4,0.14300533307623464,pass
+BERT_base&Llama_3_8B,concreteness_vanarsdall,126,5,0.424700390958915,pass
+BERT_base&Llama_3_8B,familiarity_vanarsdall,126,1,0.28698291953157795,pass
+BERT_base&Llama_3_8B,familiarity_vanarsdall,126,2,0.25248309342307296,pass
+BERT_base&Llama_3_8B,familiarity_vanarsdall,126,3,0.2563654898654879,pass
+BERT_base&Llama_3_8B,familiarity_vanarsdall,126,4,0.0895201077350305,pass
+BERT_base&Llama_3_8B,familiarity_vanarsdall,126,5,0.029484831001172163,pass
+BERT_base&Llama_3_8B,imageability_vanarsdall,126,1,0.20045587468649562,pass
+BERT_base&Llama_3_8B,imageability_vanarsdall,126,2,-0.022137667277272177,pass
+BERT_base&Llama_3_8B,imageability_vanarsdall,126,3,0.35786276321905985,pass
+BERT_base&Llama_3_8B,imageability_vanarsdall,126,4,0.3552267032474701,pass
+BERT_base&Llama_3_8B,imageability_vanarsdall,126,5,0.2226226659599737,pass
+BERT_base&Llama_3_8B,familiarity_fear,101,1,0.37590913680839966,pass
+BERT_base&Llama_3_8B,familiarity_fear,101,2,0.538892308638043,pass
+BERT_base&Llama_3_8B,familiarity_fear,101,3,0.3590265216596501,pass
+BERT_base&Llama_3_8B,familiarity_fear,101,4,0.49517774251430235,pass
+BERT_base&Llama_3_8B,familiarity_fear,101,5,0.3495876236386908,pass
+BERT_base&Llama_3_8B,aoa_fear,101,1,0.25296684846922013,pass
+BERT_base&Llama_3_8B,aoa_fear,101,2,0.19242522626440706,pass
+BERT_base&Llama_3_8B,aoa_fear,101,3,0.4251374692546016,pass
+BERT_base&Llama_3_8B,aoa_fear,101,4,0.11317643058726312,pass
+BERT_base&Llama_3_8B,aoa_fear,101,5,0.46654232526208417,pass
+BERT_base&Llama_3_8B,imageability_fear,101,1,0.3467734986244597,pass
+BERT_base&Llama_3_8B,imageability_fear,101,2,0.4543662853213941,pass
+BERT_base&Llama_3_8B,imageability_fear,101,3,0.6710301044972087,pass
+BERT_base&Llama_3_8B,imageability_fear,101,4,0.6100132197791537,pass
+BERT_base&Llama_3_8B,imageability_fear,101,5,0.542010625157618,pass
+BERT_base&Llama_3_8B,sensory_experience_juhasz2013,638,1,0.5323282040460455,pass
+BERT_base&Llama_3_8B,sensory_experience_juhasz2013,638,2,0.4922020003516744,pass
+BERT_base&Llama_3_8B,sensory_experience_juhasz2013,638,3,0.4463876533501566,pass
+BERT_base&Llama_3_8B,sensory_experience_juhasz2013,638,4,0.4200932611747026,pass
+BERT_base&Llama_3_8B,sensory_experience_juhasz2013,638,5,0.5872783578163235,pass

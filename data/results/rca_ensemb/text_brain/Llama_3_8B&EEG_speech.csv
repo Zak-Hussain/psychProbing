@@ -1,0 +1,1456 @@
+embed,norm,train_n,fold,r2,check
+Llama_3_8B&EEG_speech,frequency_lund,753,1,0.603702099889312,pass
+Llama_3_8B&EEG_speech,frequency_lund,753,2,0.7167901329297108,pass
+Llama_3_8B&EEG_speech,frequency_lund,753,3,0.7764554176275817,pass
+Llama_3_8B&EEG_speech,frequency_lund,753,4,0.7454054041312319,pass
+Llama_3_8B&EEG_speech,frequency_lund,753,5,0.7382609318262727,pass
+Llama_3_8B&EEG_speech,frequency_kucera,740,1,0.5268512236778814,pass
+Llama_3_8B&EEG_speech,frequency_kucera,740,2,0.6877368971444013,pass
+Llama_3_8B&EEG_speech,frequency_kucera,740,3,0.7020282736646177,pass
+Llama_3_8B&EEG_speech,frequency_kucera,740,4,0.6681547985840892,pass
+Llama_3_8B&EEG_speech,frequency_kucera,740,5,0.7087704477991638,pass
+Llama_3_8B&EEG_speech,frequency_subtlexus,757,1,0.6080722804383987,pass
+Llama_3_8B&EEG_speech,frequency_subtlexus,757,2,0.7315870487336473,pass
+Llama_3_8B&EEG_speech,frequency_subtlexus,757,3,0.7958834277790916,pass
+Llama_3_8B&EEG_speech,frequency_subtlexus,757,4,0.7342427285026574,pass
+Llama_3_8B&EEG_speech,frequency_subtlexus,757,5,0.7319594938103744,pass
+Llama_3_8B&EEG_speech,frequency_subtlexuk,756,1,0.5641070987826435,pass
+Llama_3_8B&EEG_speech,frequency_subtlexuk,756,2,0.7038829361314519,pass
+Llama_3_8B&EEG_speech,frequency_subtlexuk,756,3,0.7764458470973573,pass
+Llama_3_8B&EEG_speech,frequency_subtlexuk,756,4,0.6903170741002868,pass
+Llama_3_8B&EEG_speech,frequency_subtlexuk,756,5,0.7426346068951922,pass
+Llama_3_8B&EEG_speech,frequency_blog_gimenes,757,1,0.5981288340981804,pass
+Llama_3_8B&EEG_speech,frequency_blog_gimenes,757,2,0.703419535575284,pass
+Llama_3_8B&EEG_speech,frequency_blog_gimenes,757,3,0.776211030502419,pass
+Llama_3_8B&EEG_speech,frequency_blog_gimenes,757,4,0.7512666284775273,pass
+Llama_3_8B&EEG_speech,frequency_blog_gimenes,757,5,0.7527203598359279,pass
+Llama_3_8B&EEG_speech,frequency_twitter_gimenes,757,1,0.6026190286850579,pass
+Llama_3_8B&EEG_speech,frequency_twitter_gimenes,757,2,0.7195860229475339,pass
+Llama_3_8B&EEG_speech,frequency_twitter_gimenes,757,3,0.7847782225583795,pass
+Llama_3_8B&EEG_speech,frequency_twitter_gimenes,757,4,0.7501044145674943,pass
+Llama_3_8B&EEG_speech,frequency_twitter_gimenes,757,5,0.741327143778008,pass
+Llama_3_8B&EEG_speech,frequency_news_gimenes,757,1,0.5884104651020734,pass
+Llama_3_8B&EEG_speech,frequency_news_gimenes,757,2,0.6962154092877928,pass
+Llama_3_8B&EEG_speech,frequency_news_gimenes,757,3,0.7261531555450598,pass
+Llama_3_8B&EEG_speech,frequency_news_gimenes,757,4,0.715778771926435,pass
+Llama_3_8B&EEG_speech,frequency_news_gimenes,757,5,0.7360623052534222,pass
+Llama_3_8B&EEG_speech,frequency_written_cobuild,752,1,0.5130624606319514,pass
+Llama_3_8B&EEG_speech,frequency_written_cobuild,752,2,0.38533350256737053,pass
+Llama_3_8B&EEG_speech,frequency_written_cobuild,752,3,0.4468612400089389,pass
+Llama_3_8B&EEG_speech,frequency_written_cobuild,752,4,0.35041917879001383,pass
+Llama_3_8B&EEG_speech,frequency_written_cobuild,752,5,0.45985021747809973,pass
+Llama_3_8B&EEG_speech,frequency_spoken_cobuild,752,1,0.5632317039282836,pass
+Llama_3_8B&EEG_speech,frequency_spoken_cobuild,752,2,0.4995061896316918,pass
+Llama_3_8B&EEG_speech,frequency_spoken_cobuild,752,3,0.5112159441563067,pass
+Llama_3_8B&EEG_speech,frequency_spoken_cobuild,752,4,0.4798867167733979,pass
+Llama_3_8B&EEG_speech,frequency_spoken_cobuild,752,5,0.5065621368452783,pass
+Llama_3_8B&EEG_speech,context_diversity_subtlexus,757,1,0.6558745634628347,pass
+Llama_3_8B&EEG_speech,context_diversity_subtlexus,757,2,0.7144169691437957,pass
+Llama_3_8B&EEG_speech,context_diversity_subtlexus,757,3,0.8055698097191737,pass
+Llama_3_8B&EEG_speech,context_diversity_subtlexus,757,4,0.7257510339418125,pass
+Llama_3_8B&EEG_speech,context_diversity_subtlexus,757,5,0.7114002630927061,pass
+Llama_3_8B&EEG_speech,context_diversity_subtlexuk,756,1,0.6379964086232206,pass
+Llama_3_8B&EEG_speech,context_diversity_subtlexuk,756,2,0.6925893488622649,pass
+Llama_3_8B&EEG_speech,context_diversity_subtlexuk,756,3,0.8113875960888697,pass
+Llama_3_8B&EEG_speech,context_diversity_subtlexuk,756,4,0.6960078829323477,pass
+Llama_3_8B&EEG_speech,context_diversity_subtlexuk,756,5,0.765668304271839,pass
+Llama_3_8B&EEG_speech,context_diversity_blog_gimenes,757,1,0.6291958084936514,pass
+Llama_3_8B&EEG_speech,context_diversity_blog_gimenes,757,2,0.7131568633954077,pass
+Llama_3_8B&EEG_speech,context_diversity_blog_gimenes,757,3,0.7888079233513918,pass
+Llama_3_8B&EEG_speech,context_diversity_blog_gimenes,757,4,0.7598978931993079,pass
+Llama_3_8B&EEG_speech,context_diversity_blog_gimenes,757,5,0.7653677793800175,pass
+Llama_3_8B&EEG_speech,context_diversity_twitter_gimenes,757,1,0.6059849686673819,pass
+Llama_3_8B&EEG_speech,context_diversity_twitter_gimenes,757,2,0.7213625556936815,pass
+Llama_3_8B&EEG_speech,context_diversity_twitter_gimenes,757,3,0.7861150838237563,pass
+Llama_3_8B&EEG_speech,context_diversity_twitter_gimenes,757,4,0.7517881979053166,pass
+Llama_3_8B&EEG_speech,context_diversity_twitter_gimenes,757,5,0.7434245491640169,pass
+Llama_3_8B&EEG_speech,context_diversity_news_gimenes,757,1,0.6081946697936726,pass
+Llama_3_8B&EEG_speech,context_diversity_news_gimenes,757,2,0.6996107862753456,pass
+Llama_3_8B&EEG_speech,context_diversity_news_gimenes,757,3,0.7353670724218968,pass
+Llama_3_8B&EEG_speech,context_diversity_news_gimenes,757,4,0.7211708901991927,pass
+Llama_3_8B&EEG_speech,context_diversity_news_gimenes,757,5,0.7457642352407661,pass
+Llama_3_8B&EEG_speech,familiarity_glasgow,402,1,0.5089445579822266,pass
+Llama_3_8B&EEG_speech,familiarity_glasgow,402,2,0.45755465110374094,pass
+Llama_3_8B&EEG_speech,familiarity_glasgow,402,3,0.4608415532997895,pass
+Llama_3_8B&EEG_speech,familiarity_glasgow,402,4,0.49846856390950156,pass
+Llama_3_8B&EEG_speech,familiarity_glasgow,402,5,0.5023786011106103,pass
+Llama_3_8B&EEG_speech,familiarity_brysbaert,752,1,-0.05141451747576342,pass
+Llama_3_8B&EEG_speech,familiarity_brysbaert,752,2,0.023352428439987305,pass
+Llama_3_8B&EEG_speech,familiarity_brysbaert,752,3,0.012540226964642298,pass
+Llama_3_8B&EEG_speech,familiarity_brysbaert,752,4,-0.019248261969081026,pass
+Llama_3_8B&EEG_speech,familiarity_brysbaert,752,5,0.012893053898413886,pass
+Llama_3_8B&EEG_speech,prevalence_brysbaert,753,1,0.14674100534246304,pass
+Llama_3_8B&EEG_speech,prevalence_brysbaert,753,2,0.20583766775030143,pass
+Llama_3_8B&EEG_speech,prevalence_brysbaert,753,3,0.24073354788107237,pass
+Llama_3_8B&EEG_speech,prevalence_brysbaert,753,4,0.20931142060261088,pass
+Llama_3_8B&EEG_speech,prevalence_brysbaert,753,5,0.20646319525208545,pass
+Llama_3_8B&EEG_speech,aoa_kuperman,692,1,0.504780376453628,pass
+Llama_3_8B&EEG_speech,aoa_kuperman,692,2,0.5925242107225465,pass
+Llama_3_8B&EEG_speech,aoa_kuperman,692,3,0.5883603299891212,pass
+Llama_3_8B&EEG_speech,aoa_kuperman,692,4,0.5441984620170313,pass
+Llama_3_8B&EEG_speech,aoa_kuperman,692,5,0.5622051071273858,pass
+Llama_3_8B&EEG_speech,aoa_brysbaert,667,1,0.4639957392985393,pass
+Llama_3_8B&EEG_speech,aoa_brysbaert,667,2,0.5870117375930226,pass
+Llama_3_8B&EEG_speech,aoa_brysbaert,667,3,0.5822583843152094,pass
+Llama_3_8B&EEG_speech,aoa_brysbaert,667,4,0.6074817861946035,pass
+Llama_3_8B&EEG_speech,aoa_brysbaert,667,5,0.6076968665574136,pass
+Llama_3_8B&EEG_speech,aoa_glasgow,402,1,0.48024318730355586,pass
+Llama_3_8B&EEG_speech,aoa_glasgow,402,2,0.48988575467497697,pass
+Llama_3_8B&EEG_speech,aoa_glasgow,402,3,0.4470634957874223,pass
+Llama_3_8B&EEG_speech,aoa_glasgow,402,4,0.4630506927382473,pass
+Llama_3_8B&EEG_speech,aoa_glasgow,402,5,0.5453278172441199,pass
+Llama_3_8B&EEG_speech,frequency_trajectory_brysbaert,745,1,0.6366282290603438,pass
+Llama_3_8B&EEG_speech,frequency_trajectory_brysbaert,745,2,0.7025936410909952,pass
+Llama_3_8B&EEG_speech,frequency_trajectory_brysbaert,745,3,0.67886995448492,pass
+Llama_3_8B&EEG_speech,frequency_trajectory_brysbaert,745,4,0.6690159041326862,pass
+Llama_3_8B&EEG_speech,frequency_trajectory_brysbaert,745,5,0.7042782695823311,pass
+Llama_3_8B&EEG_speech,pos_brysbaert,664,1,0.697523919158264,pass
+Llama_3_8B&EEG_speech,pos_brysbaert,664,2,0.7723719894301393,pass
+Llama_3_8B&EEG_speech,pos_brysbaert,664,3,0.7686071315477416,pass
+Llama_3_8B&EEG_speech,pos_brysbaert,664,4,0.7706681397190482,pass
+Llama_3_8B&EEG_speech,pos_brysbaert,664,5,0.7206732474508265,pass
+Llama_3_8B&EEG_speech,pos_vanheuven,697,1,0.6605205333054761,pass
+Llama_3_8B&EEG_speech,pos_vanheuven,697,2,0.6624799083747107,pass
+Llama_3_8B&EEG_speech,pos_vanheuven,697,3,0.8353011153524246,pass
+Llama_3_8B&EEG_speech,pos_vanheuven,697,4,0.792753767683805,pass
+Llama_3_8B&EEG_speech,pos_vanheuven,697,5,0.7217567570349375,pass
+Llama_3_8B&EEG_speech,concreteness_brysbaert,752,1,0.7901688542917411,pass
+Llama_3_8B&EEG_speech,concreteness_brysbaert,752,2,0.7196930614775443,pass
+Llama_3_8B&EEG_speech,concreteness_brysbaert,752,3,0.7431185174902462,pass
+Llama_3_8B&EEG_speech,concreteness_brysbaert,752,4,0.6998721277083902,pass
+Llama_3_8B&EEG_speech,concreteness_brysbaert,752,5,0.7794090736084378,pass
+Llama_3_8B&EEG_speech,concreteness_glasgow,402,1,0.8152348569787173,pass
+Llama_3_8B&EEG_speech,concreteness_glasgow,402,2,0.7503154125635824,pass
+Llama_3_8B&EEG_speech,concreteness_glasgow,402,3,0.7557040386505607,pass
+Llama_3_8B&EEG_speech,concreteness_glasgow,402,4,0.794546660786433,pass
+Llama_3_8B&EEG_speech,concreteness_glasgow,402,5,0.7559183731214295,pass
+Llama_3_8B&EEG_speech,imageability_glasgow,402,1,0.7177947844621617,pass
+Llama_3_8B&EEG_speech,imageability_glasgow,402,2,0.7091034631714659,pass
+Llama_3_8B&EEG_speech,imageability_glasgow,402,3,0.6610301160195196,pass
+Llama_3_8B&EEG_speech,imageability_glasgow,402,4,0.6753237022793603,pass
+Llama_3_8B&EEG_speech,imageability_glasgow,402,5,0.6930070546307411,pass
+Llama_3_8B&EEG_speech,n_senses_wordnet_miller,752,1,0.4327502061442613,pass
+Llama_3_8B&EEG_speech,n_senses_wordnet_miller,752,2,0.4833951376103637,pass
+Llama_3_8B&EEG_speech,n_senses_wordnet_miller,752,3,0.451728358336027,pass
+Llama_3_8B&EEG_speech,n_senses_wordnet_miller,752,4,0.3329389682203777,pass
+Llama_3_8B&EEG_speech,n_senses_wordnet_miller,752,5,0.43246967361666355,pass
+Llama_3_8B&EEG_speech,n_senses_wordsmyth_rice,47,1,,test_n < 20
+Llama_3_8B&EEG_speech,n_senses_wordsmyth_rice,47,2,,test_n < 20
+Llama_3_8B&EEG_speech,n_senses_wordsmyth_rice,47,3,,test_n < 20
+Llama_3_8B&EEG_speech,n_senses_wordsmyth_rice,47,4,,test_n < 20
+Llama_3_8B&EEG_speech,n_senses_wordsmyth_rice,47,5,,test_n < 20
+Llama_3_8B&EEG_speech,n_meanings_wordsmyth_rice,47,1,,test_n < 20
+Llama_3_8B&EEG_speech,n_meanings_wordsmyth_rice,47,2,,test_n < 20
+Llama_3_8B&EEG_speech,n_meanings_wordsmyth_rice,47,3,,test_n < 20
+Llama_3_8B&EEG_speech,n_meanings_wordsmyth_rice,47,4,,test_n < 20
+Llama_3_8B&EEG_speech,n_meanings_wordsmyth_rice,47,5,,test_n < 20
+Llama_3_8B&EEG_speech,n_meanings_websters_gao,745,1,0.2864588536175525,pass
+Llama_3_8B&EEG_speech,n_meanings_websters_gao,745,2,0.3439150766794796,pass
+Llama_3_8B&EEG_speech,n_meanings_websters_gao,745,3,0.27191652390307075,pass
+Llama_3_8B&EEG_speech,n_meanings_websters_gao,745,4,0.22951463974391095,pass
+Llama_3_8B&EEG_speech,n_meanings_websters_gao,745,5,0.36431832843107825,pass
+Llama_3_8B&EEG_speech,n_features_buchanan,515,1,0.15558707975050512,pass
+Llama_3_8B&EEG_speech,n_features_buchanan,515,2,0.22688553545724988,pass
+Llama_3_8B&EEG_speech,n_features_buchanan,515,3,0.2080680623601725,pass
+Llama_3_8B&EEG_speech,n_features_buchanan,515,4,0.24353963345226393,pass
+Llama_3_8B&EEG_speech,n_features_buchanan,515,5,0.2595838171058794,pass
+Llama_3_8B&EEG_speech,visual_lancaster,751,1,0.5148129225205582,pass
+Llama_3_8B&EEG_speech,visual_lancaster,751,2,0.428411483433187,pass
+Llama_3_8B&EEG_speech,visual_lancaster,751,3,0.5646897736911338,pass
+Llama_3_8B&EEG_speech,visual_lancaster,751,4,0.45583361071213957,pass
+Llama_3_8B&EEG_speech,visual_lancaster,751,5,0.6027598439316777,pass
+Llama_3_8B&EEG_speech,auditory_lancaster,751,1,0.3466005348960368,pass
+Llama_3_8B&EEG_speech,auditory_lancaster,751,2,0.4014334738817298,pass
+Llama_3_8B&EEG_speech,auditory_lancaster,751,3,0.4288457823864571,pass
+Llama_3_8B&EEG_speech,auditory_lancaster,751,4,0.5121333925859317,pass
+Llama_3_8B&EEG_speech,auditory_lancaster,751,5,0.5182747135731821,pass
+Llama_3_8B&EEG_speech,haptic_lancaster,751,1,0.5824119480764065,pass
+Llama_3_8B&EEG_speech,haptic_lancaster,751,2,0.4533742471507136,pass
+Llama_3_8B&EEG_speech,haptic_lancaster,751,3,0.4370958773367716,pass
+Llama_3_8B&EEG_speech,haptic_lancaster,751,4,0.5875392277324395,pass
+Llama_3_8B&EEG_speech,haptic_lancaster,751,5,0.6202624811263726,pass
+Llama_3_8B&EEG_speech,olfactory_lancaster,751,1,0.39384419421963945,pass
+Llama_3_8B&EEG_speech,olfactory_lancaster,751,2,0.3723879790715091,pass
+Llama_3_8B&EEG_speech,olfactory_lancaster,751,3,0.45686530653597923,pass
+Llama_3_8B&EEG_speech,olfactory_lancaster,751,4,0.5416432225372406,pass
+Llama_3_8B&EEG_speech,olfactory_lancaster,751,5,0.42205939526341785,pass
+Llama_3_8B&EEG_speech,gustatory_lancaster,751,1,0.570472004608606,pass
+Llama_3_8B&EEG_speech,gustatory_lancaster,751,2,0.6697117506052934,pass
+Llama_3_8B&EEG_speech,gustatory_lancaster,751,3,0.6575525417684636,pass
+Llama_3_8B&EEG_speech,gustatory_lancaster,751,4,0.6241541865055595,pass
+Llama_3_8B&EEG_speech,gustatory_lancaster,751,5,0.5445423308504989,pass
+Llama_3_8B&EEG_speech,interoceptive_lancaster,751,1,0.6139616197545315,pass
+Llama_3_8B&EEG_speech,interoceptive_lancaster,751,2,0.5015353461718681,pass
+Llama_3_8B&EEG_speech,interoceptive_lancaster,751,3,0.5775648557119435,pass
+Llama_3_8B&EEG_speech,interoceptive_lancaster,751,4,0.446640171997834,pass
+Llama_3_8B&EEG_speech,interoceptive_lancaster,751,5,0.47235046062371,pass
+Llama_3_8B&EEG_speech,head_lancaster,751,1,0.309660827110828,pass
+Llama_3_8B&EEG_speech,head_lancaster,751,2,0.2908710030024787,pass
+Llama_3_8B&EEG_speech,head_lancaster,751,3,0.3698443553758386,pass
+Llama_3_8B&EEG_speech,head_lancaster,751,4,0.38834494136580056,pass
+Llama_3_8B&EEG_speech,head_lancaster,751,5,0.3589866683546462,pass
+Llama_3_8B&EEG_speech,torso_lancaster,751,1,0.48605180321079755,pass
+Llama_3_8B&EEG_speech,torso_lancaster,751,2,0.21678013852655786,pass
+Llama_3_8B&EEG_speech,torso_lancaster,751,3,0.3209786351462094,pass
+Llama_3_8B&EEG_speech,torso_lancaster,751,4,0.40510619769987244,pass
+Llama_3_8B&EEG_speech,torso_lancaster,751,5,0.327559166578122,pass
+Llama_3_8B&EEG_speech,mouth_throat_lancaster,751,1,0.49018810944246693,pass
+Llama_3_8B&EEG_speech,mouth_throat_lancaster,751,2,0.5258179599080424,pass
+Llama_3_8B&EEG_speech,mouth_throat_lancaster,751,3,0.42003729228443265,pass
+Llama_3_8B&EEG_speech,mouth_throat_lancaster,751,4,0.4419813677052731,pass
+Llama_3_8B&EEG_speech,mouth_throat_lancaster,751,5,0.5115150984495367,pass
+Llama_3_8B&EEG_speech,hand_arm_lancaster,751,1,0.5146179162764957,pass
+Llama_3_8B&EEG_speech,hand_arm_lancaster,751,2,0.40817351247160316,pass
+Llama_3_8B&EEG_speech,hand_arm_lancaster,751,3,0.26750131519000697,pass
+Llama_3_8B&EEG_speech,hand_arm_lancaster,751,4,0.40304783357385743,pass
+Llama_3_8B&EEG_speech,hand_arm_lancaster,751,5,0.486442254696697,pass
+Llama_3_8B&EEG_speech,foot_leg_lancaster,751,1,0.5039347940343861,pass
+Llama_3_8B&EEG_speech,foot_leg_lancaster,751,2,0.31110104022474117,pass
+Llama_3_8B&EEG_speech,foot_leg_lancaster,751,3,0.4292294754324183,pass
+Llama_3_8B&EEG_speech,foot_leg_lancaster,751,4,0.4690182780285326,pass
+Llama_3_8B&EEG_speech,foot_leg_lancaster,751,5,0.4824975202981625,pass
+Llama_3_8B&EEG_speech,body_object_interact_pexman,586,1,0.7891103144544936,pass
+Llama_3_8B&EEG_speech,body_object_interact_pexman,586,2,0.7466350286995955,pass
+Llama_3_8B&EEG_speech,body_object_interact_pexman,586,3,0.6955904162996238,pass
+Llama_3_8B&EEG_speech,body_object_interact_pexman,586,4,0.6605469590662116,pass
+Llama_3_8B&EEG_speech,body_object_interact_pexman,586,5,0.6130478881836974,pass
+Llama_3_8B&EEG_speech,child_body_object_interact,616,1,0.5901755948550639,pass
+Llama_3_8B&EEG_speech,child_body_object_interact,616,2,0.5921593785076665,pass
+Llama_3_8B&EEG_speech,child_body_object_interact,616,3,0.5375356356779868,pass
+Llama_3_8B&EEG_speech,child_body_object_interact,616,4,0.5343027762879438,pass
+Llama_3_8B&EEG_speech,child_body_object_interact,616,5,0.610860417797773,pass
+Llama_3_8B&EEG_speech,semantic_size_glasgow,402,1,0.5347195485877514,pass
+Llama_3_8B&EEG_speech,semantic_size_glasgow,402,2,0.5226439883926935,pass
+Llama_3_8B&EEG_speech,semantic_size_glasgow,402,3,0.5875571136270681,pass
+Llama_3_8B&EEG_speech,semantic_size_glasgow,402,4,0.5974569562210248,pass
+Llama_3_8B&EEG_speech,semantic_size_glasgow,402,5,0.58535493911399,pass
+Llama_3_8B&EEG_speech,gender_association_glasgow,402,1,0.5356083053030661,pass
+Llama_3_8B&EEG_speech,gender_association_glasgow,402,2,0.5553979736746986,pass
+Llama_3_8B&EEG_speech,gender_association_glasgow,402,3,0.5681718772592559,pass
+Llama_3_8B&EEG_speech,gender_association_glasgow,402,4,0.49415464024933065,pass
+Llama_3_8B&EEG_speech,gender_association_glasgow,402,5,0.3702338003901191,pass
+Llama_3_8B&EEG_speech,feature_visual_vinson,248,1,0.02080393005190806,pass
+Llama_3_8B&EEG_speech,feature_visual_vinson,248,2,-0.03653662220640874,pass
+Llama_3_8B&EEG_speech,feature_visual_vinson,248,3,0.1111386524557958,pass
+Llama_3_8B&EEG_speech,feature_visual_vinson,248,4,-1.7912890253536466,pass
+Llama_3_8B&EEG_speech,feature_visual_vinson,248,5,0.25784623793981865,pass
+Llama_3_8B&EEG_speech,feature_perceptual_vinson,248,1,-0.3860911105525002,pass
+Llama_3_8B&EEG_speech,feature_perceptual_vinson,248,2,-0.3973629751825365,pass
+Llama_3_8B&EEG_speech,feature_perceptual_vinson,248,3,-0.32796519964934867,pass
+Llama_3_8B&EEG_speech,feature_perceptual_vinson,248,4,-0.23067457720258822,pass
+Llama_3_8B&EEG_speech,feature_perceptual_vinson,248,5,-0.06529988587279245,pass
+Llama_3_8B&EEG_speech,feature_functional_vinson,248,1,0.0032900354225099404,pass
+Llama_3_8B&EEG_speech,feature_functional_vinson,248,2,-1.650075544324968,pass
+Llama_3_8B&EEG_speech,feature_functional_vinson,248,3,-0.03569032163515318,pass
+Llama_3_8B&EEG_speech,feature_functional_vinson,248,4,0.03477590427337007,pass
+Llama_3_8B&EEG_speech,feature_functional_vinson,248,5,0.2275661907991886,pass
+Llama_3_8B&EEG_speech,feature_motoric_vinson,248,1,-1.0609070795090134,pass
+Llama_3_8B&EEG_speech,feature_motoric_vinson,248,2,-1.0439987954000038,pass
+Llama_3_8B&EEG_speech,feature_motoric_vinson,248,3,-1.0543006590846562,pass
+Llama_3_8B&EEG_speech,feature_motoric_vinson,248,4,0.36146214684357114,pass
+Llama_3_8B&EEG_speech,feature_motoric_vinson,248,5,-0.06295422954712393,pass
+Llama_3_8B&EEG_speech,socialness_diveica,277,1,0.6514182392520995,pass
+Llama_3_8B&EEG_speech,socialness_diveica,277,2,0.7147995633704094,pass
+Llama_3_8B&EEG_speech,socialness_diveica,277,3,0.6002755883536968,pass
+Llama_3_8B&EEG_speech,socialness_diveica,277,4,0.622544557659515,pass
+Llama_3_8B&EEG_speech,socialness_diveica,277,5,0.5845201394138156,pass
+Llama_3_8B&EEG_speech,valence_warriner,550,1,0.6531097683770912,pass
+Llama_3_8B&EEG_speech,valence_warriner,550,2,0.6813873470197875,pass
+Llama_3_8B&EEG_speech,valence_warriner,550,3,0.6209716491190169,pass
+Llama_3_8B&EEG_speech,valence_warriner,550,4,0.5091056939161115,pass
+Llama_3_8B&EEG_speech,valence_warriner,550,5,0.6560131025171605,pass
+Llama_3_8B&EEG_speech,valence_glasgow,402,1,0.6716209895944247,pass
+Llama_3_8B&EEG_speech,valence_glasgow,402,2,0.7710156800096916,pass
+Llama_3_8B&EEG_speech,valence_glasgow,402,3,0.6735323909986171,pass
+Llama_3_8B&EEG_speech,valence_glasgow,402,4,0.547528421522889,pass
+Llama_3_8B&EEG_speech,valence_glasgow,402,5,0.693091682530554,pass
+Llama_3_8B&EEG_speech,valence_mohammad,590,1,0.6019901636423823,pass
+Llama_3_8B&EEG_speech,valence_mohammad,590,2,0.6004767803851615,pass
+Llama_3_8B&EEG_speech,valence_mohammad,590,3,0.6332220420867123,pass
+Llama_3_8B&EEG_speech,valence_mohammad,590,4,0.552605998534841,pass
+Llama_3_8B&EEG_speech,valence_mohammad,590,5,0.6103735720760497,pass
+Llama_3_8B&EEG_speech,valence_older_kyrolainen,356,1,0.6068046082961517,pass
+Llama_3_8B&EEG_speech,valence_older_kyrolainen,356,2,0.7418930126882382,pass
+Llama_3_8B&EEG_speech,valence_older_kyrolainen,356,3,0.5598401308730234,pass
+Llama_3_8B&EEG_speech,valence_older_kyrolainen,356,4,0.5668858375978656,pass
+Llama_3_8B&EEG_speech,valence_older_kyrolainen,356,5,0.6427370699500179,pass
+Llama_3_8B&EEG_speech,valence_younger_kyrolainen,356,1,0.6597045525727286,pass
+Llama_3_8B&EEG_speech,valence_younger_kyrolainen,356,2,0.7752231882251712,pass
+Llama_3_8B&EEG_speech,valence_younger_kyrolainen,356,3,0.5261368006888707,pass
+Llama_3_8B&EEG_speech,valence_younger_kyrolainen,356,4,0.5864644498303602,pass
+Llama_3_8B&EEG_speech,valence_younger_kyrolainen,356,5,0.6623008040425413,pass
+Llama_3_8B&EEG_speech,arousal_warriner,550,1,0.18869937676140813,pass
+Llama_3_8B&EEG_speech,arousal_warriner,550,2,0.3735294028856203,pass
+Llama_3_8B&EEG_speech,arousal_warriner,550,3,0.3275142870125676,pass
+Llama_3_8B&EEG_speech,arousal_warriner,550,4,0.25433398700141974,pass
+Llama_3_8B&EEG_speech,arousal_warriner,550,5,0.33026157590992744,pass
+Llama_3_8B&EEG_speech,arousal_glasgow,402,1,0.36880910044720694,pass
+Llama_3_8B&EEG_speech,arousal_glasgow,402,2,0.44250192984369496,pass
+Llama_3_8B&EEG_speech,arousal_glasgow,402,3,0.5185647511316764,pass
+Llama_3_8B&EEG_speech,arousal_glasgow,402,4,0.3941133636479007,pass
+Llama_3_8B&EEG_speech,arousal_glasgow,402,5,0.5556189531093916,pass
+Llama_3_8B&EEG_speech,arousal_mohammad,590,1,0.4265011689582553,pass
+Llama_3_8B&EEG_speech,arousal_mohammad,590,2,0.5167657526191399,pass
+Llama_3_8B&EEG_speech,arousal_mohammad,590,3,0.44459013928255176,pass
+Llama_3_8B&EEG_speech,arousal_mohammad,590,4,0.4659452665195869,pass
+Llama_3_8B&EEG_speech,arousal_mohammad,590,5,0.5587981319902593,pass
+Llama_3_8B&EEG_speech,dominance_warriner,550,1,0.311009784323406,pass
+Llama_3_8B&EEG_speech,dominance_warriner,550,2,0.30841090236445035,pass
+Llama_3_8B&EEG_speech,dominance_warriner,550,3,0.32521281870369545,pass
+Llama_3_8B&EEG_speech,dominance_warriner,550,4,0.18869869540670803,pass
+Llama_3_8B&EEG_speech,dominance_warriner,550,5,0.26737045572748874,pass
+Llama_3_8B&EEG_speech,dominance_glasgow,402,1,0.33543811536998003,pass
+Llama_3_8B&EEG_speech,dominance_glasgow,402,2,0.5292867068366531,pass
+Llama_3_8B&EEG_speech,dominance_glasgow,402,3,0.36176580126559943,pass
+Llama_3_8B&EEG_speech,dominance_glasgow,402,4,0.4830588792162358,pass
+Llama_3_8B&EEG_speech,dominance_glasgow,402,5,0.4403352268600984,pass
+Llama_3_8B&EEG_speech,dominance_mohammad,590,1,0.46530932734946284,pass
+Llama_3_8B&EEG_speech,dominance_mohammad,590,2,0.44696082076430865,pass
+Llama_3_8B&EEG_speech,dominance_mohammad,590,3,0.41283558378951735,pass
+Llama_3_8B&EEG_speech,dominance_mohammad,590,4,0.5516648060635586,pass
+Llama_3_8B&EEG_speech,dominance_mohammad,590,5,0.4918928959037273,pass
+Llama_3_8B&EEG_speech,humor_engelthaler,360,1,0.2657048263705454,pass
+Llama_3_8B&EEG_speech,humor_engelthaler,360,2,0.1663185790126389,pass
+Llama_3_8B&EEG_speech,humor_engelthaler,360,3,0.14702932187527895,pass
+Llama_3_8B&EEG_speech,humor_engelthaler,360,4,0.21777150714485027,pass
+Llama_3_8B&EEG_speech,humor_engelthaler,360,5,0.03937745429501471,pass
+Llama_3_8B&EEG_speech,anger_mohammad,504,1,-2.028592332052924,pass
+Llama_3_8B&EEG_speech,anger_mohammad,504,2,-1.4667537607682664,pass
+Llama_3_8B&EEG_speech,anger_mohammad,504,3,-1.2472751645722155,pass
+Llama_3_8B&EEG_speech,anger_mohammad,504,4,-1.1418838658446049,pass
+Llama_3_8B&EEG_speech,anger_mohammad,504,5,-1.5963135464543154,pass
+Llama_3_8B&EEG_speech,anticipation_mohammad,504,1,-1.597800451818352,pass
+Llama_3_8B&EEG_speech,anticipation_mohammad,504,2,-1.0706044628755267,pass
+Llama_3_8B&EEG_speech,anticipation_mohammad,504,3,-1.06281969239815,pass
+Llama_3_8B&EEG_speech,anticipation_mohammad,504,4,-0.9680395479266088,pass
+Llama_3_8B&EEG_speech,anticipation_mohammad,504,5,-1.2186033244296977,pass
+Llama_3_8B&EEG_speech,disgust_mohammad,504,1,-2.71820941887736,pass
+Llama_3_8B&EEG_speech,disgust_mohammad,504,2,-1.945187945563756,pass
+Llama_3_8B&EEG_speech,disgust_mohammad,504,3,-1.7984405091261886,pass
+Llama_3_8B&EEG_speech,disgust_mohammad,504,4,-1.6241911371901296,pass
+Llama_3_8B&EEG_speech,disgust_mohammad,504,5,-2.0734150823906523,pass
+Llama_3_8B&EEG_speech,fear_mohammad,504,1,-1.4252619040513834,pass
+Llama_3_8B&EEG_speech,fear_mohammad,504,2,-0.9597804349641696,pass
+Llama_3_8B&EEG_speech,fear_mohammad,504,3,-0.9139737898526996,pass
+Llama_3_8B&EEG_speech,fear_mohammad,504,4,-0.7928283941862235,pass
+Llama_3_8B&EEG_speech,fear_mohammad,504,5,-1.0749811972965508,pass
+Llama_3_8B&EEG_speech,joy_mohammad,504,1,-1.6498495206772086,pass
+Llama_3_8B&EEG_speech,joy_mohammad,504,2,-1.0496547628611808,pass
+Llama_3_8B&EEG_speech,joy_mohammad,504,3,-1.0220374545281952,pass
+Llama_3_8B&EEG_speech,joy_mohammad,504,4,-1.108759267698193,pass
+Llama_3_8B&EEG_speech,joy_mohammad,504,5,-1.1354086316070533,pass
+Llama_3_8B&EEG_speech,negative_emotion_mohammad,504,1,-0.18362280983868828,pass
+Llama_3_8B&EEG_speech,negative_emotion_mohammad,504,2,-0.1261884488613052,pass
+Llama_3_8B&EEG_speech,negative_emotion_mohammad,504,3,-0.15698138029354003,pass
+Llama_3_8B&EEG_speech,negative_emotion_mohammad,504,4,-0.10452326185828342,pass
+Llama_3_8B&EEG_speech,negative_emotion_mohammad,504,5,-0.188864048009457,pass
+Llama_3_8B&EEG_speech,positive_emotion_mohammad,504,1,-0.23462442734553157,pass
+Llama_3_8B&EEG_speech,positive_emotion_mohammad,504,2,-0.2458860536443006,pass
+Llama_3_8B&EEG_speech,positive_emotion_mohammad,504,3,-0.2584024303414161,pass
+Llama_3_8B&EEG_speech,positive_emotion_mohammad,504,4,-0.3889189072736279,pass
+Llama_3_8B&EEG_speech,positive_emotion_mohammad,504,5,-0.16866792232497096,pass
+Llama_3_8B&EEG_speech,sadness_mohammad,504,1,-1.1534632177925772,pass
+Llama_3_8B&EEG_speech,sadness_mohammad,504,2,-1.1254230857514602,pass
+Llama_3_8B&EEG_speech,sadness_mohammad,504,3,-0.8769476754818621,pass
+Llama_3_8B&EEG_speech,sadness_mohammad,504,4,-0.9032578513132306,pass
+Llama_3_8B&EEG_speech,sadness_mohammad,504,5,-1.0951048089850124,pass
+Llama_3_8B&EEG_speech,surprise_mohammad,504,1,-2.2926652958178995,pass
+Llama_3_8B&EEG_speech,surprise_mohammad,504,2,-1.883384477816298,pass
+Llama_3_8B&EEG_speech,surprise_mohammad,504,3,-1.6551299127579555,pass
+Llama_3_8B&EEG_speech,surprise_mohammad,504,4,-1.566933339684812,pass
+Llama_3_8B&EEG_speech,surprise_mohammad,504,5,-1.6574487282247996,pass
+Llama_3_8B&EEG_speech,trust_mohammad,504,1,-1.0953597318656136,pass
+Llama_3_8B&EEG_speech,trust_mohammad,504,2,-0.6939339525733523,pass
+Llama_3_8B&EEG_speech,trust_mohammad,504,3,-0.7468375740579718,pass
+Llama_3_8B&EEG_speech,trust_mohammad,504,4,-0.7372170953113177,pass
+Llama_3_8B&EEG_speech,trust_mohammad,504,5,-0.7755216162142728,pass
+Llama_3_8B&EEG_speech,semantic_diversity_hoffman,749,1,0.7290500133897932,pass
+Llama_3_8B&EEG_speech,semantic_diversity_hoffman,749,2,0.694632876433264,pass
+Llama_3_8B&EEG_speech,semantic_diversity_hoffman,749,3,0.7680692316857392,pass
+Llama_3_8B&EEG_speech,semantic_diversity_hoffman,749,4,0.6896389937143075,pass
+Llama_3_8B&EEG_speech,semantic_diversity_hoffman,749,5,0.7414051706189524,pass
+Llama_3_8B&EEG_speech,n_semantic_neighbors_shaoul,756,1,0.3821685855062078,pass
+Llama_3_8B&EEG_speech,n_semantic_neighbors_shaoul,756,2,0.31418748018580134,pass
+Llama_3_8B&EEG_speech,n_semantic_neighbors_shaoul,756,3,0.46793582987722804,pass
+Llama_3_8B&EEG_speech,n_semantic_neighbors_shaoul,756,4,0.4668654029593875,pass
+Llama_3_8B&EEG_speech,n_semantic_neighbors_shaoul,756,5,0.44502358938096065,pass
+Llama_3_8B&EEG_speech,distance_semantic_neighbors_shaoul,756,1,0.5817923493724817,pass
+Llama_3_8B&EEG_speech,distance_semantic_neighbors_shaoul,756,2,0.5866940636649902,pass
+Llama_3_8B&EEG_speech,distance_semantic_neighbors_shaoul,756,3,0.6716709868551092,pass
+Llama_3_8B&EEG_speech,distance_semantic_neighbors_shaoul,756,4,0.6730596612821983,pass
+Llama_3_8B&EEG_speech,distance_semantic_neighbors_shaoul,756,5,0.6300429952729989,pass
+Llama_3_8B&EEG_speech,association_frequency_dedeyne,749,1,0.4200361313156562,pass
+Llama_3_8B&EEG_speech,association_frequency_dedeyne,749,2,0.5417004126860658,pass
+Llama_3_8B&EEG_speech,association_frequency_dedeyne,749,3,0.581132777382433,pass
+Llama_3_8B&EEG_speech,association_frequency_dedeyne,749,4,0.6031664775912773,pass
+Llama_3_8B&EEG_speech,association_frequency_dedeyne,749,5,0.6248772200487278,pass
+Llama_3_8B&EEG_speech,cue_setsize_nelson,559,1,-0.2379894018768216,pass
+Llama_3_8B&EEG_speech,cue_setsize_nelson,559,2,0.12209003719483269,pass
+Llama_3_8B&EEG_speech,cue_setsize_nelson,559,3,0.09498398033551037,pass
+Llama_3_8B&EEG_speech,cue_setsize_nelson,559,4,0.09461462224849049,pass
+Llama_3_8B&EEG_speech,cue_setsize_nelson,559,5,0.07147403395996177,pass
+Llama_3_8B&EEG_speech,cue_connectedness_nelson,559,1,-0.04294973652259815,pass
+Llama_3_8B&EEG_speech,cue_connectedness_nelson,559,2,0.11726726746970506,pass
+Llama_3_8B&EEG_speech,cue_connectedness_nelson,559,3,0.0884919467476778,pass
+Llama_3_8B&EEG_speech,cue_connectedness_nelson,559,4,0.09693802951073027,pass
+Llama_3_8B&EEG_speech,cue_connectedness_nelson,559,5,0.053589846354117676,pass
+Llama_3_8B&EEG_speech,cue_probability_nelson,559,1,0.13193137907351427,pass
+Llama_3_8B&EEG_speech,cue_probability_nelson,559,2,0.2627587644953717,pass
+Llama_3_8B&EEG_speech,cue_probability_nelson,559,3,0.1535166211972473,pass
+Llama_3_8B&EEG_speech,cue_probability_nelson,559,4,0.28701262618715195,pass
+Llama_3_8B&EEG_speech,cue_probability_nelson,559,5,0.22940084116893222,pass
+Llama_3_8B&EEG_speech,cue_resonance_strength_nelson,559,1,-0.17530929378699356,pass
+Llama_3_8B&EEG_speech,cue_resonance_strength_nelson,559,2,0.2609024424883618,pass
+Llama_3_8B&EEG_speech,cue_resonance_strength_nelson,559,3,0.2145257434706117,pass
+Llama_3_8B&EEG_speech,cue_resonance_strength_nelson,559,4,0.1691960759840917,pass
+Llama_3_8B&EEG_speech,cue_resonance_strength_nelson,559,5,0.2760059608312728,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_balota,752,1,0.1541618145381387,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_balota,752,2,0.24349903139080442,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_balota,752,3,0.29558411035269194,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_balota,752,4,0.21261364815120087,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_balota,752,5,0.27357814269738967,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_mandera,753,1,0.1776279214331753,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_mandera,753,2,0.39381010795214877,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_mandera,753,3,0.4184667357154509,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_mandera,753,4,0.4339815029461911,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_mandera,753,5,0.4017110072161453,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_keuleers,710,1,0.10620581278339991,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_keuleers,710,2,0.38123031989845724,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_keuleers,710,3,0.25435761793290634,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_keuleers,710,4,0.3625751448202674,pass
+Llama_3_8B&EEG_speech,visual_lexical_rt_keuleers,710,5,0.33889912335038075,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_balota,752,1,-0.019970015519900297,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_balota,752,2,0.1882561643398677,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_balota,752,3,0.19331414544706516,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_balota,752,4,0.1976823515767131,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_balota,752,5,0.09903581129386141,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_mandera,753,1,-0.08500814590006245,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_mandera,753,2,0.2785775549603031,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_mandera,753,3,0.2967297560664659,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_mandera,753,4,0.2519617695718125,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_mandera,753,5,0.174985755476191,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_keuleers,710,1,0.024539312148052494,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_keuleers,710,2,0.21060347478140207,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_keuleers,710,3,0.1599318971805056,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_keuleers,710,4,0.19222072635069465,pass
+Llama_3_8B&EEG_speech,visual_lexical_accuracy_keuleers,710,5,0.1534049054908052,pass
+Llama_3_8B&EEG_speech,auditory_lexical_rt_tucker,720,1,-0.001994195064412896,pass
+Llama_3_8B&EEG_speech,auditory_lexical_rt_tucker,720,2,-0.004025367578530004,pass
+Llama_3_8B&EEG_speech,auditory_lexical_rt_tucker,720,3,0.0018721980422191642,pass
+Llama_3_8B&EEG_speech,auditory_lexical_rt_tucker,720,4,-0.10688988259866594,pass
+Llama_3_8B&EEG_speech,auditory_lexical_rt_tucker,720,5,-0.1507100765794247,pass
+Llama_3_8B&EEG_speech,auditory_lexical_rt_goh,586,1,0.0717720468020343,pass
+Llama_3_8B&EEG_speech,auditory_lexical_rt_goh,586,2,0.11583464520175024,pass
+Llama_3_8B&EEG_speech,auditory_lexical_rt_goh,586,3,0.13020962885333376,pass
+Llama_3_8B&EEG_speech,auditory_lexical_rt_goh,586,4,0.047379897983678365,pass
+Llama_3_8B&EEG_speech,auditory_lexical_rt_goh,586,5,0.18488678669469305,pass
+Llama_3_8B&EEG_speech,auditory_lexical_accuracy_tucker,724,1,0.020487942919859337,pass
+Llama_3_8B&EEG_speech,auditory_lexical_accuracy_tucker,724,2,0.0016975213714786053,pass
+Llama_3_8B&EEG_speech,auditory_lexical_accuracy_tucker,724,3,0.018550062161425074,pass
+Llama_3_8B&EEG_speech,auditory_lexical_accuracy_tucker,724,4,0.0071409083089023495,pass
+Llama_3_8B&EEG_speech,auditory_lexical_accuracy_tucker,724,5,0.02699285946390062,pass
+Llama_3_8B&EEG_speech,auditory_lexical_accuracy_goh,586,1,0.1826935295108868,pass
+Llama_3_8B&EEG_speech,auditory_lexical_accuracy_goh,586,2,0.1740406944730013,pass
+Llama_3_8B&EEG_speech,auditory_lexical_accuracy_goh,586,3,0.1799591888516071,pass
+Llama_3_8B&EEG_speech,auditory_lexical_accuracy_goh,586,4,0.15939809299074126,pass
+Llama_3_8B&EEG_speech,auditory_lexical_accuracy_goh,586,5,0.17575001761796416,pass
+Llama_3_8B&EEG_speech,naming_rt_balota,752,1,0.05293384351588726,pass
+Llama_3_8B&EEG_speech,naming_rt_balota,752,2,0.10586242846406668,pass
+Llama_3_8B&EEG_speech,naming_rt_balota,752,3,0.07139293863672436,pass
+Llama_3_8B&EEG_speech,naming_rt_balota,752,4,-0.25881608348331886,pass
+Llama_3_8B&EEG_speech,naming_rt_balota,752,5,0.2827085581412444,pass
+Llama_3_8B&EEG_speech,naming_accuracy_balota,752,1,-0.03649841839259871,pass
+Llama_3_8B&EEG_speech,naming_accuracy_balota,752,2,0.015091963825829335,pass
+Llama_3_8B&EEG_speech,naming_accuracy_balota,752,3,0.010297528972393222,pass
+Llama_3_8B&EEG_speech,naming_accuracy_balota,752,4,0.016865046027146113,pass
+Llama_3_8B&EEG_speech,naming_accuracy_balota,752,5,0.00702076396379514,pass
+Llama_3_8B&EEG_speech,concreteness_rt_pexman,162,1,0.24894598686067804,pass
+Llama_3_8B&EEG_speech,concreteness_rt_pexman,162,2,0.24693676627584493,pass
+Llama_3_8B&EEG_speech,concreteness_rt_pexman,162,3,0.46794149598544454,pass
+Llama_3_8B&EEG_speech,concreteness_rt_pexman,162,4,0.37347522769977604,pass
+Llama_3_8B&EEG_speech,concreteness_rt_pexman,162,5,0.30374822169905524,pass
+Llama_3_8B&EEG_speech,concreteness_accuracy_pexman,162,1,0.08024390784236579,pass
+Llama_3_8B&EEG_speech,concreteness_accuracy_pexman,162,2,0.01107014125608563,pass
+Llama_3_8B&EEG_speech,concreteness_accuracy_pexman,162,3,0.12536759347807447,pass
+Llama_3_8B&EEG_speech,concreteness_accuracy_pexman,162,4,0.06270558844173624,pass
+Llama_3_8B&EEG_speech,concreteness_accuracy_pexman,162,5,0.07381147409456557,pass
+Llama_3_8B&EEG_speech,recognition_memory_accuracy_cortese,458,1,0.4227170644537388,pass
+Llama_3_8B&EEG_speech,recognition_memory_accuracy_cortese,458,2,0.3856147098665764,pass
+Llama_3_8B&EEG_speech,recognition_memory_accuracy_cortese,458,3,0.47567997395171224,pass
+Llama_3_8B&EEG_speech,recognition_memory_accuracy_cortese,458,4,0.29080717146299306,pass
+Llama_3_8B&EEG_speech,recognition_memory_accuracy_cortese,458,5,0.39037885781303383,pass
+Llama_3_8B&EEG_speech,vision_binder,83,1,0.4593652788021344,pass
+Llama_3_8B&EEG_speech,vision_binder,83,2,0.38402256965463133,pass
+Llama_3_8B&EEG_speech,vision_binder,83,3,0.09182573885529022,pass
+Llama_3_8B&EEG_speech,vision_binder,83,4,0.07922092401024061,pass
+Llama_3_8B&EEG_speech,vision_binder,83,5,0.4144925206928187,pass
+Llama_3_8B&EEG_speech,bright_binder,83,1,-0.19828134017906573,pass
+Llama_3_8B&EEG_speech,bright_binder,83,2,0.12219042397032243,pass
+Llama_3_8B&EEG_speech,bright_binder,83,3,0.2637474270775795,pass
+Llama_3_8B&EEG_speech,bright_binder,83,4,0.28288642574672096,pass
+Llama_3_8B&EEG_speech,bright_binder,83,5,0.18719252760908311,pass
+Llama_3_8B&EEG_speech,dark_binder,83,1,0.007333130527686804,pass
+Llama_3_8B&EEG_speech,dark_binder,83,2,-0.004598616813081158,pass
+Llama_3_8B&EEG_speech,dark_binder,83,3,-2.284816245434355,pass
+Llama_3_8B&EEG_speech,dark_binder,83,4,0.042886580306956246,pass
+Llama_3_8B&EEG_speech,dark_binder,83,5,-1.772422237820808,pass
+Llama_3_8B&EEG_speech,color_binder,83,1,0.7089717818773498,pass
+Llama_3_8B&EEG_speech,color_binder,83,2,0.4886754062231934,pass
+Llama_3_8B&EEG_speech,color_binder,83,3,0.6186942560152002,pass
+Llama_3_8B&EEG_speech,color_binder,83,4,0.7975146287954749,pass
+Llama_3_8B&EEG_speech,color_binder,83,5,0.8447839456183484,pass
+Llama_3_8B&EEG_speech,pattern_binder,83,1,0.2634703983496698,pass
+Llama_3_8B&EEG_speech,pattern_binder,83,2,0.6170950818912504,pass
+Llama_3_8B&EEG_speech,pattern_binder,83,3,0.47967854575031643,pass
+Llama_3_8B&EEG_speech,pattern_binder,83,4,0.53879366895162,pass
+Llama_3_8B&EEG_speech,pattern_binder,83,5,0.6445399583739024,pass
+Llama_3_8B&EEG_speech,large_binder,83,1,0.38412312690682293,pass
+Llama_3_8B&EEG_speech,large_binder,83,2,-0.048582704159302104,pass
+Llama_3_8B&EEG_speech,large_binder,83,3,0.3578032183229578,pass
+Llama_3_8B&EEG_speech,large_binder,83,4,0.4483172652312931,pass
+Llama_3_8B&EEG_speech,large_binder,83,5,0.3474568587948701,pass
+Llama_3_8B&EEG_speech,small_binder,83,1,0.308807515753851,pass
+Llama_3_8B&EEG_speech,small_binder,83,2,0.6389907936442065,pass
+Llama_3_8B&EEG_speech,small_binder,83,3,0.5326491683727701,pass
+Llama_3_8B&EEG_speech,small_binder,83,4,0.24956654349546215,pass
+Llama_3_8B&EEG_speech,small_binder,83,5,0.017341758826392772,pass
+Llama_3_8B&EEG_speech,motion_binder,83,1,0.5440405660713714,pass
+Llama_3_8B&EEG_speech,motion_binder,83,2,0.6834829133367454,pass
+Llama_3_8B&EEG_speech,motion_binder,83,3,0.5328811248195313,pass
+Llama_3_8B&EEG_speech,motion_binder,83,4,0.48990843276561946,pass
+Llama_3_8B&EEG_speech,motion_binder,83,5,0.30701587209548087,pass
+Llama_3_8B&EEG_speech,biomotion_binder,83,1,0.6620686227737482,pass
+Llama_3_8B&EEG_speech,biomotion_binder,83,2,0.621268908005699,pass
+Llama_3_8B&EEG_speech,biomotion_binder,83,3,0.6095261186277561,pass
+Llama_3_8B&EEG_speech,biomotion_binder,83,4,0.6022133603327158,pass
+Llama_3_8B&EEG_speech,biomotion_binder,83,5,0.6405906618392073,pass
+Llama_3_8B&EEG_speech,fast_binder,83,1,0.5202817968079584,pass
+Llama_3_8B&EEG_speech,fast_binder,83,2,0.5640982796926934,pass
+Llama_3_8B&EEG_speech,fast_binder,83,3,0.5170662601046601,pass
+Llama_3_8B&EEG_speech,fast_binder,83,4,0.3890653645619849,pass
+Llama_3_8B&EEG_speech,fast_binder,83,5,-0.33869597196139956,pass
+Llama_3_8B&EEG_speech,slow_binder,83,1,0.0294900780771864,pass
+Llama_3_8B&EEG_speech,slow_binder,83,2,0.19224547935663183,pass
+Llama_3_8B&EEG_speech,slow_binder,83,3,0.036758718804246304,pass
+Llama_3_8B&EEG_speech,slow_binder,83,4,0.18946650852946367,pass
+Llama_3_8B&EEG_speech,slow_binder,83,5,-0.004880144062330283,pass
+Llama_3_8B&EEG_speech,shape_binder,83,1,0.40827377834736234,pass
+Llama_3_8B&EEG_speech,shape_binder,83,2,0.6670859582450035,pass
+Llama_3_8B&EEG_speech,shape_binder,83,3,0.5330526186596624,pass
+Llama_3_8B&EEG_speech,shape_binder,83,4,0.5651232969565786,pass
+Llama_3_8B&EEG_speech,shape_binder,83,5,0.5854841579722723,pass
+Llama_3_8B&EEG_speech,complexity_binder,48,1,,test_n < 20
+Llama_3_8B&EEG_speech,complexity_binder,48,2,,test_n < 20
+Llama_3_8B&EEG_speech,complexity_binder,48,3,,test_n < 20
+Llama_3_8B&EEG_speech,complexity_binder,48,4,,test_n < 20
+Llama_3_8B&EEG_speech,complexity_binder,48,5,,test_n < 20
+Llama_3_8B&EEG_speech,face_binder,83,1,0.4834351206353197,pass
+Llama_3_8B&EEG_speech,face_binder,83,2,0.427389320065102,pass
+Llama_3_8B&EEG_speech,face_binder,83,3,0.4658788886530151,pass
+Llama_3_8B&EEG_speech,face_binder,83,4,0.3782332997347685,pass
+Llama_3_8B&EEG_speech,face_binder,83,5,0.6554233264085396,pass
+Llama_3_8B&EEG_speech,body_binder,83,1,0.563881885173127,pass
+Llama_3_8B&EEG_speech,body_binder,83,2,0.6079388729327719,pass
+Llama_3_8B&EEG_speech,body_binder,83,3,0.6696978918339613,pass
+Llama_3_8B&EEG_speech,body_binder,83,4,0.4987148518855339,pass
+Llama_3_8B&EEG_speech,body_binder,83,5,0.6058492869352439,pass
+Llama_3_8B&EEG_speech,touch_binder,83,1,0.11383246113145185,pass
+Llama_3_8B&EEG_speech,touch_binder,83,2,0.8248800856545462,pass
+Llama_3_8B&EEG_speech,touch_binder,83,3,0.6192099821793852,pass
+Llama_3_8B&EEG_speech,touch_binder,83,4,0.5126416764982086,pass
+Llama_3_8B&EEG_speech,touch_binder,83,5,0.42008182057126875,pass
+Llama_3_8B&EEG_speech,temperature_binder,83,1,0.6916276279735163,pass
+Llama_3_8B&EEG_speech,temperature_binder,83,2,0.39873713394545207,pass
+Llama_3_8B&EEG_speech,temperature_binder,83,3,0.713713528604121,pass
+Llama_3_8B&EEG_speech,temperature_binder,83,4,-0.3178630734924741,pass
+Llama_3_8B&EEG_speech,temperature_binder,83,5,0.4366979581241409,pass
+Llama_3_8B&EEG_speech,texture_binder,83,1,0.40306258882026624,pass
+Llama_3_8B&EEG_speech,texture_binder,83,2,0.6599126278659949,pass
+Llama_3_8B&EEG_speech,texture_binder,83,3,0.5042151202844786,pass
+Llama_3_8B&EEG_speech,texture_binder,83,4,0.4281111211120824,pass
+Llama_3_8B&EEG_speech,texture_binder,83,5,0.49797367356419886,pass
+Llama_3_8B&EEG_speech,weight_binder,83,1,0.38494255871405436,pass
+Llama_3_8B&EEG_speech,weight_binder,83,2,0.2737963565629349,pass
+Llama_3_8B&EEG_speech,weight_binder,83,3,0.49006169750987394,pass
+Llama_3_8B&EEG_speech,weight_binder,83,4,0.18398831433220897,pass
+Llama_3_8B&EEG_speech,weight_binder,83,5,0.5327261212369543,pass
+Llama_3_8B&EEG_speech,pain_binder,83,1,0.2373073078285577,pass
+Llama_3_8B&EEG_speech,pain_binder,83,2,0.1384405454913873,pass
+Llama_3_8B&EEG_speech,pain_binder,83,3,0.1224707501336616,pass
+Llama_3_8B&EEG_speech,pain_binder,83,4,0.4045042126145243,pass
+Llama_3_8B&EEG_speech,pain_binder,83,5,-0.4126595840927636,pass
+Llama_3_8B&EEG_speech,audition_binder,83,1,0.17013857619412132,pass
+Llama_3_8B&EEG_speech,audition_binder,83,2,0.19079566057423725,pass
+Llama_3_8B&EEG_speech,audition_binder,83,3,0.30111749125230725,pass
+Llama_3_8B&EEG_speech,audition_binder,83,4,0.2321093890428776,pass
+Llama_3_8B&EEG_speech,audition_binder,83,5,0.3395947130613842,pass
+Llama_3_8B&EEG_speech,loud_binder,83,1,0.24367726487042884,pass
+Llama_3_8B&EEG_speech,loud_binder,83,2,0.30111207129042916,pass
+Llama_3_8B&EEG_speech,loud_binder,83,3,0.3177511697845339,pass
+Llama_3_8B&EEG_speech,loud_binder,83,4,0.23307699218556066,pass
+Llama_3_8B&EEG_speech,loud_binder,83,5,0.37789941163321905,pass
+Llama_3_8B&EEG_speech,low_binder,83,1,0.3070311601235912,pass
+Llama_3_8B&EEG_speech,low_binder,83,2,0.1742004769337706,pass
+Llama_3_8B&EEG_speech,low_binder,83,3,0.18444991151459056,pass
+Llama_3_8B&EEG_speech,low_binder,83,4,0.36728550206406396,pass
+Llama_3_8B&EEG_speech,low_binder,83,5,0.4689094613561752,pass
+Llama_3_8B&EEG_speech,high_binder,83,1,0.3060954541161359,pass
+Llama_3_8B&EEG_speech,high_binder,83,2,-0.061756246767265655,pass
+Llama_3_8B&EEG_speech,high_binder,83,3,0.0805538885367747,pass
+Llama_3_8B&EEG_speech,high_binder,83,4,-1.106464972898773,pass
+Llama_3_8B&EEG_speech,high_binder,83,5,-1.6258191285693044,pass
+Llama_3_8B&EEG_speech,sound_binder,83,1,0.25844714767048527,pass
+Llama_3_8B&EEG_speech,sound_binder,83,2,0.07515830623292219,pass
+Llama_3_8B&EEG_speech,sound_binder,83,3,0.1967052475879858,pass
+Llama_3_8B&EEG_speech,sound_binder,83,4,0.11940393015957074,pass
+Llama_3_8B&EEG_speech,sound_binder,83,5,-0.20251400356361438,pass
+Llama_3_8B&EEG_speech,music_binder,83,1,0.06191098062450384,pass
+Llama_3_8B&EEG_speech,music_binder,83,2,-0.044129872738063014,pass
+Llama_3_8B&EEG_speech,music_binder,83,3,-0.09235068053245254,pass
+Llama_3_8B&EEG_speech,music_binder,83,4,-0.747501649566291,pass
+Llama_3_8B&EEG_speech,music_binder,83,5,-1.705499270547484,pass
+Llama_3_8B&EEG_speech,speech_binder,83,1,0.42689884497431574,pass
+Llama_3_8B&EEG_speech,speech_binder,83,2,0.07595238866426046,pass
+Llama_3_8B&EEG_speech,speech_binder,83,3,0.2602281337930211,pass
+Llama_3_8B&EEG_speech,speech_binder,83,4,0.3123445177099058,pass
+Llama_3_8B&EEG_speech,speech_binder,83,5,0.6111378151739116,pass
+Llama_3_8B&EEG_speech,taste_binder,83,1,0.8029168380359751,pass
+Llama_3_8B&EEG_speech,taste_binder,83,2,0.4961755377096275,pass
+Llama_3_8B&EEG_speech,taste_binder,83,3,0.6000175838346451,pass
+Llama_3_8B&EEG_speech,taste_binder,83,4,-1.3436505787481967,pass
+Llama_3_8B&EEG_speech,taste_binder,83,5,0.2502184594501583,pass
+Llama_3_8B&EEG_speech,smell_binder,83,1,0.48609228336454746,pass
+Llama_3_8B&EEG_speech,smell_binder,83,2,0.037498299707261595,pass
+Llama_3_8B&EEG_speech,smell_binder,83,3,-0.3151100193622496,pass
+Llama_3_8B&EEG_speech,smell_binder,83,4,-0.06387020539857291,pass
+Llama_3_8B&EEG_speech,smell_binder,83,5,-0.501187184125335,pass
+Llama_3_8B&EEG_speech,head_binder,83,1,0.5981351780593828,pass
+Llama_3_8B&EEG_speech,head_binder,83,2,0.42103407035531815,pass
+Llama_3_8B&EEG_speech,head_binder,83,3,0.37628432830534353,pass
+Llama_3_8B&EEG_speech,head_binder,83,4,-0.1590599360683871,pass
+Llama_3_8B&EEG_speech,head_binder,83,5,-0.10815353028900643,pass
+Llama_3_8B&EEG_speech,upper_limb_binder,83,1,0.3529718834068295,pass
+Llama_3_8B&EEG_speech,upper_limb_binder,83,2,0.39715162505613844,pass
+Llama_3_8B&EEG_speech,upper_limb_binder,83,3,0.3284496373228569,pass
+Llama_3_8B&EEG_speech,upper_limb_binder,83,4,0.4872572117915215,pass
+Llama_3_8B&EEG_speech,upper_limb_binder,83,5,0.2727486241404179,pass
+Llama_3_8B&EEG_speech,lower_limb_binder,83,1,0.053472344739625366,pass
+Llama_3_8B&EEG_speech,lower_limb_binder,83,2,0.25748705295625174,pass
+Llama_3_8B&EEG_speech,lower_limb_binder,83,3,0.30250214604821235,pass
+Llama_3_8B&EEG_speech,lower_limb_binder,83,4,0.1312654988983678,pass
+Llama_3_8B&EEG_speech,lower_limb_binder,83,5,0.3860748211174184,pass
+Llama_3_8B&EEG_speech,practice_binder,64,1,,test_n < 20
+Llama_3_8B&EEG_speech,practice_binder,64,2,,test_n < 20
+Llama_3_8B&EEG_speech,practice_binder,64,3,,test_n < 20
+Llama_3_8B&EEG_speech,practice_binder,64,4,,test_n < 20
+Llama_3_8B&EEG_speech,practice_binder,64,5,,test_n < 20
+Llama_3_8B&EEG_speech,landmark_binder,83,1,0.5223751918358811,pass
+Llama_3_8B&EEG_speech,landmark_binder,83,2,0.08431989780470406,pass
+Llama_3_8B&EEG_speech,landmark_binder,83,3,0.28291691318027934,pass
+Llama_3_8B&EEG_speech,landmark_binder,83,4,0.5643698926296774,pass
+Llama_3_8B&EEG_speech,landmark_binder,83,5,-0.04784708566825513,pass
+Llama_3_8B&EEG_speech,path_binder,83,1,0.6018736705147383,pass
+Llama_3_8B&EEG_speech,path_binder,83,2,0.5443958994143892,pass
+Llama_3_8B&EEG_speech,path_binder,83,3,0.19552737319736446,pass
+Llama_3_8B&EEG_speech,path_binder,83,4,0.40276636063108995,pass
+Llama_3_8B&EEG_speech,path_binder,83,5,0.6496689295525503,pass
+Llama_3_8B&EEG_speech,scene_binder,83,1,0.27076364089885674,pass
+Llama_3_8B&EEG_speech,scene_binder,83,2,-0.12339290727154983,pass
+Llama_3_8B&EEG_speech,scene_binder,83,3,0.467364047238352,pass
+Llama_3_8B&EEG_speech,scene_binder,83,4,0.45433117328672756,pass
+Llama_3_8B&EEG_speech,scene_binder,83,5,0.017018242247497706,pass
+Llama_3_8B&EEG_speech,near_binder,83,1,0.7757782264567228,pass
+Llama_3_8B&EEG_speech,near_binder,83,2,0.6788451355497811,pass
+Llama_3_8B&EEG_speech,near_binder,83,3,0.5811362486398476,pass
+Llama_3_8B&EEG_speech,near_binder,83,4,0.34327519899924996,pass
+Llama_3_8B&EEG_speech,near_binder,83,5,0.4699251248671895,pass
+Llama_3_8B&EEG_speech,toward_binder,83,1,0.1376072215026809,pass
+Llama_3_8B&EEG_speech,toward_binder,83,2,0.33323224183913036,pass
+Llama_3_8B&EEG_speech,toward_binder,83,3,0.29225473566664617,pass
+Llama_3_8B&EEG_speech,toward_binder,83,4,0.07037889964696353,pass
+Llama_3_8B&EEG_speech,toward_binder,83,5,0.4191854257812758,pass
+Llama_3_8B&EEG_speech,away_binder,83,1,0.05028944092806087,pass
+Llama_3_8B&EEG_speech,away_binder,83,2,0.1302647294050543,pass
+Llama_3_8B&EEG_speech,away_binder,83,3,0.17871201404570547,pass
+Llama_3_8B&EEG_speech,away_binder,83,4,0.2554044249332108,pass
+Llama_3_8B&EEG_speech,away_binder,83,5,0.4121589750351331,pass
+Llama_3_8B&EEG_speech,number_binder,83,1,0.3776970984018273,pass
+Llama_3_8B&EEG_speech,number_binder,83,2,0.6688438544549343,pass
+Llama_3_8B&EEG_speech,number_binder,83,3,0.15489081581606667,pass
+Llama_3_8B&EEG_speech,number_binder,83,4,0.17338052354416,pass
+Llama_3_8B&EEG_speech,number_binder,83,5,0.500685736416556,pass
+Llama_3_8B&EEG_speech,time_binder,83,1,0.23459237697369917,pass
+Llama_3_8B&EEG_speech,time_binder,83,2,0.8102143203887509,pass
+Llama_3_8B&EEG_speech,time_binder,83,3,0.31522724955847026,pass
+Llama_3_8B&EEG_speech,time_binder,83,4,0.624991311101202,pass
+Llama_3_8B&EEG_speech,time_binder,83,5,0.5721625202670264,pass
+Llama_3_8B&EEG_speech,duration_binder,83,1,0.08672812408827568,pass
+Llama_3_8B&EEG_speech,duration_binder,83,2,0.8190297751870589,pass
+Llama_3_8B&EEG_speech,duration_binder,83,3,0.5769130412919643,pass
+Llama_3_8B&EEG_speech,duration_binder,83,4,0.39379114856405606,pass
+Llama_3_8B&EEG_speech,duration_binder,83,5,0.40707785879057456,pass
+Llama_3_8B&EEG_speech,long_binder,83,1,0.14897946734815126,pass
+Llama_3_8B&EEG_speech,long_binder,83,2,0.26323446275677886,pass
+Llama_3_8B&EEG_speech,long_binder,83,3,0.20449339064756133,pass
+Llama_3_8B&EEG_speech,long_binder,83,4,0.17619904339879577,pass
+Llama_3_8B&EEG_speech,long_binder,83,5,0.3138574536705334,pass
+Llama_3_8B&EEG_speech,short_binder,83,1,0.7071130056564816,pass
+Llama_3_8B&EEG_speech,short_binder,83,2,0.6091397316137683,pass
+Llama_3_8B&EEG_speech,short_binder,83,3,0.30334711213288523,pass
+Llama_3_8B&EEG_speech,short_binder,83,4,0.19415076705863,pass
+Llama_3_8B&EEG_speech,short_binder,83,5,0.4040805021880334,pass
+Llama_3_8B&EEG_speech,caused_binder,64,1,,test_n < 20
+Llama_3_8B&EEG_speech,caused_binder,64,2,,test_n < 20
+Llama_3_8B&EEG_speech,caused_binder,64,3,,test_n < 20
+Llama_3_8B&EEG_speech,caused_binder,64,4,,test_n < 20
+Llama_3_8B&EEG_speech,caused_binder,64,5,,test_n < 20
+Llama_3_8B&EEG_speech,consequential_binder,83,1,0.3629428796908196,pass
+Llama_3_8B&EEG_speech,consequential_binder,83,2,0.5144279483112921,pass
+Llama_3_8B&EEG_speech,consequential_binder,83,3,0.22483802321439428,pass
+Llama_3_8B&EEG_speech,consequential_binder,83,4,0.15574122529951084,pass
+Llama_3_8B&EEG_speech,consequential_binder,83,5,0.5696984931796065,pass
+Llama_3_8B&EEG_speech,social_binder,83,1,0.28261580348635296,pass
+Llama_3_8B&EEG_speech,social_binder,83,2,0.3433674152914825,pass
+Llama_3_8B&EEG_speech,social_binder,83,3,0.3508575242981171,pass
+Llama_3_8B&EEG_speech,social_binder,83,4,-0.09318177706045039,pass
+Llama_3_8B&EEG_speech,social_binder,83,5,0.3832459514198212,pass
+Llama_3_8B&EEG_speech,human_binder,83,1,0.6603879533323835,pass
+Llama_3_8B&EEG_speech,human_binder,83,2,0.6862330358270354,pass
+Llama_3_8B&EEG_speech,human_binder,83,3,0.713774368952369,pass
+Llama_3_8B&EEG_speech,human_binder,83,4,0.5972511291766835,pass
+Llama_3_8B&EEG_speech,human_binder,83,5,0.6603021789850225,pass
+Llama_3_8B&EEG_speech,communication_binder,83,1,0.5873092149129377,pass
+Llama_3_8B&EEG_speech,communication_binder,83,2,0.4102478540825044,pass
+Llama_3_8B&EEG_speech,communication_binder,83,3,0.48336098912237935,pass
+Llama_3_8B&EEG_speech,communication_binder,83,4,0.3585067889391613,pass
+Llama_3_8B&EEG_speech,communication_binder,83,5,-0.6979607282202922,pass
+Llama_3_8B&EEG_speech,self_binder,83,1,0.7125464713244053,pass
+Llama_3_8B&EEG_speech,self_binder,83,2,0.48248808815832567,pass
+Llama_3_8B&EEG_speech,self_binder,83,3,0.4596178978659011,pass
+Llama_3_8B&EEG_speech,self_binder,83,4,0.6345126598220774,pass
+Llama_3_8B&EEG_speech,self_binder,83,5,0.6097092969797251,pass
+Llama_3_8B&EEG_speech,cognition_binder,83,1,0.5830224398024977,pass
+Llama_3_8B&EEG_speech,cognition_binder,83,2,0.2031430219346484,pass
+Llama_3_8B&EEG_speech,cognition_binder,83,3,0.6482568488553445,pass
+Llama_3_8B&EEG_speech,cognition_binder,83,4,0.4277231398280371,pass
+Llama_3_8B&EEG_speech,cognition_binder,83,5,0.6578115662112816,pass
+Llama_3_8B&EEG_speech,benefit_binder,83,1,0.5548094052923214,pass
+Llama_3_8B&EEG_speech,benefit_binder,83,2,0.36278958017138174,pass
+Llama_3_8B&EEG_speech,benefit_binder,83,3,0.4610727528643428,pass
+Llama_3_8B&EEG_speech,benefit_binder,83,4,0.12276575974331361,pass
+Llama_3_8B&EEG_speech,benefit_binder,83,5,0.27246354401183337,pass
+Llama_3_8B&EEG_speech,harm_binder,83,1,-0.06089635679557581,pass
+Llama_3_8B&EEG_speech,harm_binder,83,2,0.13115191555317118,pass
+Llama_3_8B&EEG_speech,harm_binder,83,3,0.23665916723977576,pass
+Llama_3_8B&EEG_speech,harm_binder,83,4,0.563597151849044,pass
+Llama_3_8B&EEG_speech,harm_binder,83,5,0.037236826220160335,pass
+Llama_3_8B&EEG_speech,pleasant_binder,83,1,0.49246392275998774,pass
+Llama_3_8B&EEG_speech,pleasant_binder,83,2,0.3709884441124909,pass
+Llama_3_8B&EEG_speech,pleasant_binder,83,3,0.5058612421713102,pass
+Llama_3_8B&EEG_speech,pleasant_binder,83,4,0.507070493959235,pass
+Llama_3_8B&EEG_speech,pleasant_binder,83,5,-0.45624294659256037,pass
+Llama_3_8B&EEG_speech,unpleasant_binder,83,1,0.4092534708029323,pass
+Llama_3_8B&EEG_speech,unpleasant_binder,83,2,0.40317664041486867,pass
+Llama_3_8B&EEG_speech,unpleasant_binder,83,3,0.21695581460200652,pass
+Llama_3_8B&EEG_speech,unpleasant_binder,83,4,0.40206215142834656,pass
+Llama_3_8B&EEG_speech,unpleasant_binder,83,5,-1.2065750796032053,pass
+Llama_3_8B&EEG_speech,happy_binder,83,1,0.3419667559880596,pass
+Llama_3_8B&EEG_speech,happy_binder,83,2,0.48975762902807873,pass
+Llama_3_8B&EEG_speech,happy_binder,83,3,0.5279666802235825,pass
+Llama_3_8B&EEG_speech,happy_binder,83,4,0.3599625118357138,pass
+Llama_3_8B&EEG_speech,happy_binder,83,5,-0.18649033707117857,pass
+Llama_3_8B&EEG_speech,sad_binder,83,1,0.3447549015216397,pass
+Llama_3_8B&EEG_speech,sad_binder,83,2,0.5671657709366997,pass
+Llama_3_8B&EEG_speech,sad_binder,83,3,0.37448404955308334,pass
+Llama_3_8B&EEG_speech,sad_binder,83,4,0.1769235850081503,pass
+Llama_3_8B&EEG_speech,sad_binder,83,5,-1.5951647747869075,pass
+Llama_3_8B&EEG_speech,angry_binder,83,1,0.21314841249342387,pass
+Llama_3_8B&EEG_speech,angry_binder,83,2,-0.6600625750257383,pass
+Llama_3_8B&EEG_speech,angry_binder,83,3,-0.005033461211044532,pass
+Llama_3_8B&EEG_speech,angry_binder,83,4,0.0654743893140558,pass
+Llama_3_8B&EEG_speech,angry_binder,83,5,-1.7671344242063305,pass
+Llama_3_8B&EEG_speech,disgusted_binder,83,1,0.06081486872122177,pass
+Llama_3_8B&EEG_speech,disgusted_binder,83,2,0.060472330707277866,pass
+Llama_3_8B&EEG_speech,disgusted_binder,83,3,-0.02113184650795219,pass
+Llama_3_8B&EEG_speech,disgusted_binder,83,4,-0.2741847600933529,pass
+Llama_3_8B&EEG_speech,disgusted_binder,83,5,-2.5409491240015867,pass
+Llama_3_8B&EEG_speech,fearful_binder,83,1,0.21958834345257716,pass
+Llama_3_8B&EEG_speech,fearful_binder,83,2,0.4417276495675104,pass
+Llama_3_8B&EEG_speech,fearful_binder,83,3,0.16160163424774387,pass
+Llama_3_8B&EEG_speech,fearful_binder,83,4,0.41485318427281115,pass
+Llama_3_8B&EEG_speech,fearful_binder,83,5,-2.716264605474162,pass
+Llama_3_8B&EEG_speech,surprised_binder,83,1,0.30736223243970495,pass
+Llama_3_8B&EEG_speech,surprised_binder,83,2,0.30300390176500647,pass
+Llama_3_8B&EEG_speech,surprised_binder,83,3,0.14471639956874183,pass
+Llama_3_8B&EEG_speech,surprised_binder,83,4,-0.08317306089660104,pass
+Llama_3_8B&EEG_speech,surprised_binder,83,5,0.08868498694323401,pass
+Llama_3_8B&EEG_speech,drive_binder,83,1,0.4072214078758255,pass
+Llama_3_8B&EEG_speech,drive_binder,83,2,0.5039529652361304,pass
+Llama_3_8B&EEG_speech,drive_binder,83,3,0.4040913369011463,pass
+Llama_3_8B&EEG_speech,drive_binder,83,4,0.3518495542065352,pass
+Llama_3_8B&EEG_speech,drive_binder,83,5,0.5859983923496627,pass
+Llama_3_8B&EEG_speech,needs_binder,83,1,0.4796238111934441,pass
+Llama_3_8B&EEG_speech,needs_binder,83,2,0.5114397094793935,pass
+Llama_3_8B&EEG_speech,needs_binder,83,3,0.5003601057626379,pass
+Llama_3_8B&EEG_speech,needs_binder,83,4,0.14850738383615159,pass
+Llama_3_8B&EEG_speech,needs_binder,83,5,0.17260162614380026,pass
+Llama_3_8B&EEG_speech,attention_binder,83,1,0.29504263303844136,pass
+Llama_3_8B&EEG_speech,attention_binder,83,2,0.35106546386543935,pass
+Llama_3_8B&EEG_speech,attention_binder,83,3,0.2751612438879738,pass
+Llama_3_8B&EEG_speech,attention_binder,83,4,0.3617012857267845,pass
+Llama_3_8B&EEG_speech,attention_binder,83,5,0.22057199444869346,pass
+Llama_3_8B&EEG_speech,arousal_binder,83,1,0.16039469759301728,pass
+Llama_3_8B&EEG_speech,arousal_binder,83,2,0.5341984768748682,pass
+Llama_3_8B&EEG_speech,arousal_binder,83,3,0.31605711441882933,pass
+Llama_3_8B&EEG_speech,arousal_binder,83,4,0.15812369950319183,pass
+Llama_3_8B&EEG_speech,arousal_binder,83,5,0.16661881306982784,pass
+Llama_3_8B&EEG_speech,goals_wilkowski,32,1,,test_n < 20
+Llama_3_8B&EEG_speech,goals_wilkowski,32,2,,test_n < 20
+Llama_3_8B&EEG_speech,goals_wilkowski,32,3,,test_n < 20
+Llama_3_8B&EEG_speech,goals_wilkowski,32,4,,test_n < 20
+Llama_3_8B&EEG_speech,goals_wilkowski,32,5,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_lynott,47,1,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_lynott,47,2,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_lynott,47,3,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_lynott,47,4,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_lynott,47,5,,test_n < 20
+Llama_3_8B&EEG_speech,visual_lynott,47,1,,test_n < 20
+Llama_3_8B&EEG_speech,visual_lynott,47,2,,test_n < 20
+Llama_3_8B&EEG_speech,visual_lynott,47,3,,test_n < 20
+Llama_3_8B&EEG_speech,visual_lynott,47,4,,test_n < 20
+Llama_3_8B&EEG_speech,visual_lynott,47,5,,test_n < 20
+Llama_3_8B&EEG_speech,haptic_lynott,47,1,,test_n < 20
+Llama_3_8B&EEG_speech,haptic_lynott,47,2,,test_n < 20
+Llama_3_8B&EEG_speech,haptic_lynott,47,3,,test_n < 20
+Llama_3_8B&EEG_speech,haptic_lynott,47,4,,test_n < 20
+Llama_3_8B&EEG_speech,haptic_lynott,47,5,,test_n < 20
+Llama_3_8B&EEG_speech,auditory_lynott,47,1,,test_n < 20
+Llama_3_8B&EEG_speech,auditory_lynott,47,2,,test_n < 20
+Llama_3_8B&EEG_speech,auditory_lynott,47,3,,test_n < 20
+Llama_3_8B&EEG_speech,auditory_lynott,47,4,,test_n < 20
+Llama_3_8B&EEG_speech,auditory_lynott,47,5,,test_n < 20
+Llama_3_8B&EEG_speech,olfactory_lynott,47,1,,test_n < 20
+Llama_3_8B&EEG_speech,olfactory_lynott,47,2,,test_n < 20
+Llama_3_8B&EEG_speech,olfactory_lynott,47,3,,test_n < 20
+Llama_3_8B&EEG_speech,olfactory_lynott,47,4,,test_n < 20
+Llama_3_8B&EEG_speech,olfactory_lynott,47,5,,test_n < 20
+Llama_3_8B&EEG_speech,gustatory_lynott,47,1,,test_n < 20
+Llama_3_8B&EEG_speech,gustatory_lynott,47,2,,test_n < 20
+Llama_3_8B&EEG_speech,gustatory_lynott,47,3,,test_n < 20
+Llama_3_8B&EEG_speech,gustatory_lynott,47,4,,test_n < 20
+Llama_3_8B&EEG_speech,gustatory_lynott,47,5,,test_n < 20
+Llama_3_8B&EEG_speech,dominant_modality_lynott,33,1,,test_n < 20
+Llama_3_8B&EEG_speech,dominant_modality_lynott,33,2,,test_n < 20
+Llama_3_8B&EEG_speech,dominant_modality_lynott,33,3,,test_n < 20
+Llama_3_8B&EEG_speech,dominant_modality_lynott,33,4,,test_n < 20
+Llama_3_8B&EEG_speech,dominant_modality_lynott,33,5,,test_n < 20
+Llama_3_8B&EEG_speech,imagery_toronto,128,1,0.6568191410545987,pass
+Llama_3_8B&EEG_speech,imagery_toronto,128,2,0.6230618951056649,pass
+Llama_3_8B&EEG_speech,imagery_toronto,128,3,0.4760546048181069,pass
+Llama_3_8B&EEG_speech,imagery_toronto,128,4,0.6084502752116275,pass
+Llama_3_8B&EEG_speech,imagery_toronto,128,5,0.5539130655048725,pass
+Llama_3_8B&EEG_speech,concreteness_toronto,128,1,0.7235669265440332,pass
+Llama_3_8B&EEG_speech,concreteness_toronto,128,2,0.6651065090095823,pass
+Llama_3_8B&EEG_speech,concreteness_toronto,128,3,0.5531723516491542,pass
+Llama_3_8B&EEG_speech,concreteness_toronto,128,4,0.6151425937664396,pass
+Llama_3_8B&EEG_speech,concreteness_toronto,128,5,0.5372960279787404,pass
+Llama_3_8B&EEG_speech,aoa_khanna,251,1,-0.31043504237718533,pass
+Llama_3_8B&EEG_speech,aoa_khanna,251,2,-0.08263446732885482,pass
+Llama_3_8B&EEG_speech,aoa_khanna,251,3,0.011981765571278391,pass
+Llama_3_8B&EEG_speech,aoa_khanna,251,4,-0.5393522110792284,pass
+Llama_3_8B&EEG_speech,aoa_khanna,251,5,-0.028648152220720258,pass
+Llama_3_8B&EEG_speech,aoa_rt_khanna,251,1,-0.008697845571261409,pass
+Llama_3_8B&EEG_speech,aoa_rt_khanna,251,2,-0.03944014825298359,pass
+Llama_3_8B&EEG_speech,aoa_rt_khanna,251,3,-0.14767634974389154,pass
+Llama_3_8B&EEG_speech,aoa_rt_khanna,251,4,-0.1938985765600918,pass
+Llama_3_8B&EEG_speech,aoa_rt_khanna,251,5,-0.2305365386809406,pass
+Llama_3_8B&EEG_speech,aoa_hollis,133,1,0.4500991012095925,pass
+Llama_3_8B&EEG_speech,aoa_hollis,133,2,0.6481324368381038,pass
+Llama_3_8B&EEG_speech,aoa_hollis,133,3,0.2942344156431371,pass
+Llama_3_8B&EEG_speech,aoa_hollis,133,4,0.4097857987124025,pass
+Llama_3_8B&EEG_speech,aoa_hollis,133,5,0.3765046050008095,pass
+Llama_3_8B&EEG_speech,valence_hollis,133,1,0.7080176704988954,pass
+Llama_3_8B&EEG_speech,valence_hollis,133,2,0.7568648327140723,pass
+Llama_3_8B&EEG_speech,valence_hollis,133,3,0.755317848788406,pass
+Llama_3_8B&EEG_speech,valence_hollis,133,4,0.6282736324729459,pass
+Llama_3_8B&EEG_speech,valence_hollis,133,5,0.6796297055875541,pass
+Llama_3_8B&EEG_speech,arousal_hollis,133,1,0.5322579285065911,pass
+Llama_3_8B&EEG_speech,arousal_hollis,133,2,0.5830965585382817,pass
+Llama_3_8B&EEG_speech,arousal_hollis,133,3,0.3301445610770507,pass
+Llama_3_8B&EEG_speech,arousal_hollis,133,4,0.42433642023323903,pass
+Llama_3_8B&EEG_speech,arousal_hollis,133,5,0.4529104187086721,pass
+Llama_3_8B&EEG_speech,concreteness_hollis,133,1,0.8177511133466556,pass
+Llama_3_8B&EEG_speech,concreteness_hollis,133,2,0.699431698127068,pass
+Llama_3_8B&EEG_speech,concreteness_hollis,133,3,0.798669904447745,pass
+Llama_3_8B&EEG_speech,concreteness_hollis,133,4,0.7968097046634733,pass
+Llama_3_8B&EEG_speech,concreteness_hollis,133,5,0.8993212081591253,pass
+Llama_3_8B&EEG_speech,aoa_stration,26,1,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_stration,26,2,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_stration,26,3,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_stration,26,4,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_stration,26,5,,test_n < 20
+Llama_3_8B&EEG_speech,imagery_stration,26,1,,test_n < 20
+Llama_3_8B&EEG_speech,imagery_stration,26,2,,test_n < 20
+Llama_3_8B&EEG_speech,imagery_stration,26,3,,test_n < 20
+Llama_3_8B&EEG_speech,imagery_stration,26,4,,test_n < 20
+Llama_3_8B&EEG_speech,imagery_stration,26,5,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_stration,26,1,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_stration,26,2,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_stration,26,3,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_stration,26,4,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_stration,26,5,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_stration,26,1,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_stration,26,2,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_stration,26,3,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_stration,26,4,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_stration,26,5,,test_n < 20
+Llama_3_8B&EEG_speech,valence_garrido,39,1,,test_n < 20
+Llama_3_8B&EEG_speech,valence_garrido,39,2,,test_n < 20
+Llama_3_8B&EEG_speech,valence_garrido,39,3,,test_n < 20
+Llama_3_8B&EEG_speech,valence_garrido,39,4,,test_n < 20
+Llama_3_8B&EEG_speech,valence_garrido,39,5,,test_n < 20
+Llama_3_8B&EEG_speech,emotionality_garrido,39,1,,test_n < 20
+Llama_3_8B&EEG_speech,emotionality_garrido,39,2,,test_n < 20
+Llama_3_8B&EEG_speech,emotionality_garrido,39,3,,test_n < 20
+Llama_3_8B&EEG_speech,emotionality_garrido,39,4,,test_n < 20
+Llama_3_8B&EEG_speech,emotionality_garrido,39,5,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_garrido,39,1,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_garrido,39,2,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_garrido,39,3,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_garrido,39,4,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_garrido,39,5,,test_n < 20
+Llama_3_8B&EEG_speech,angry_zupan,36,1,,test_n < 20
+Llama_3_8B&EEG_speech,angry_zupan,36,2,,test_n < 20
+Llama_3_8B&EEG_speech,angry_zupan,36,3,,test_n < 20
+Llama_3_8B&EEG_speech,angry_zupan,36,4,,test_n < 20
+Llama_3_8B&EEG_speech,angry_zupan,36,5,,test_n < 20
+Llama_3_8B&EEG_speech,fearful_zupan,36,1,,test_n < 20
+Llama_3_8B&EEG_speech,fearful_zupan,36,2,,test_n < 20
+Llama_3_8B&EEG_speech,fearful_zupan,36,3,,test_n < 20
+Llama_3_8B&EEG_speech,fearful_zupan,36,4,,test_n < 20
+Llama_3_8B&EEG_speech,fearful_zupan,36,5,,test_n < 20
+Llama_3_8B&EEG_speech,happy_zupan,36,1,,test_n < 20
+Llama_3_8B&EEG_speech,happy_zupan,36,2,,test_n < 20
+Llama_3_8B&EEG_speech,happy_zupan,36,3,,test_n < 20
+Llama_3_8B&EEG_speech,happy_zupan,36,4,,test_n < 20
+Llama_3_8B&EEG_speech,happy_zupan,36,5,,test_n < 20
+Llama_3_8B&EEG_speech,intensity_zupan,36,1,,test_n < 20
+Llama_3_8B&EEG_speech,intensity_zupan,36,2,,test_n < 20
+Llama_3_8B&EEG_speech,intensity_zupan,36,3,,test_n < 20
+Llama_3_8B&EEG_speech,intensity_zupan,36,4,,test_n < 20
+Llama_3_8B&EEG_speech,intensity_zupan,36,5,,test_n < 20
+Llama_3_8B&EEG_speech,neutral_zupan,36,1,,test_n < 20
+Llama_3_8B&EEG_speech,neutral_zupan,36,2,,test_n < 20
+Llama_3_8B&EEG_speech,neutral_zupan,36,3,,test_n < 20
+Llama_3_8B&EEG_speech,neutral_zupan,36,4,,test_n < 20
+Llama_3_8B&EEG_speech,neutral_zupan,36,5,,test_n < 20
+Llama_3_8B&EEG_speech,sad_zupan,36,1,,test_n < 20
+Llama_3_8B&EEG_speech,sad_zupan,36,2,,test_n < 20
+Llama_3_8B&EEG_speech,sad_zupan,36,3,,test_n < 20
+Llama_3_8B&EEG_speech,sad_zupan,36,4,,test_n < 20
+Llama_3_8B&EEG_speech,sad_zupan,36,5,,test_n < 20
+Llama_3_8B&EEG_speech,valence_zupan,36,1,,test_n < 20
+Llama_3_8B&EEG_speech,valence_zupan,36,2,,test_n < 20
+Llama_3_8B&EEG_speech,valence_zupan,36,3,,test_n < 20
+Llama_3_8B&EEG_speech,valence_zupan,36,4,,test_n < 20
+Llama_3_8B&EEG_speech,valence_zupan,36,5,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_bird,369,1,0.32230104582294816,pass
+Llama_3_8B&EEG_speech,aoa_bird,369,2,0.3627664896588346,pass
+Llama_3_8B&EEG_speech,aoa_bird,369,3,0.23974637697554635,pass
+Llama_3_8B&EEG_speech,aoa_bird,369,4,0.3378346839638108,pass
+Llama_3_8B&EEG_speech,aoa_bird,369,5,0.36286831187101753,pass
+Llama_3_8B&EEG_speech,imageability_bird,181,1,0.47992571937351836,pass
+Llama_3_8B&EEG_speech,imageability_bird,181,2,0.420456257228618,pass
+Llama_3_8B&EEG_speech,imageability_bird,181,3,0.5027277435923596,pass
+Llama_3_8B&EEG_speech,imageability_bird,181,4,0.2450660740571452,pass
+Llama_3_8B&EEG_speech,imageability_bird,181,5,0.528544985367878,pass
+Llama_3_8B&EEG_speech,association_rt_ley,5,1,,test_n < 20
+Llama_3_8B&EEG_speech,association_rt_ley,5,2,,test_n < 20
+Llama_3_8B&EEG_speech,association_rt_ley,5,3,,test_n < 20
+Llama_3_8B&EEG_speech,association_rt_ley,5,4,,test_n < 20
+Llama_3_8B&EEG_speech,association_rt_ley,5,5,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_ley,5,1,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_ley,5,2,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_ley,5,3,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_ley,5,4,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_ley,5,5,,test_n < 20
+Llama_3_8B&EEG_speech,happiness_stevenson,133,1,0.709194777450969,pass
+Llama_3_8B&EEG_speech,happiness_stevenson,133,2,0.7530843367675805,pass
+Llama_3_8B&EEG_speech,happiness_stevenson,133,3,0.7618897434828156,pass
+Llama_3_8B&EEG_speech,happiness_stevenson,133,4,0.5606056358299343,pass
+Llama_3_8B&EEG_speech,happiness_stevenson,133,5,0.611602151941525,pass
+Llama_3_8B&EEG_speech,anger_stevenson,133,1,0.6615155291722988,pass
+Llama_3_8B&EEG_speech,anger_stevenson,133,2,0.7489298562026299,pass
+Llama_3_8B&EEG_speech,anger_stevenson,133,3,0.3197768017492466,pass
+Llama_3_8B&EEG_speech,anger_stevenson,133,4,0.5668548784200871,pass
+Llama_3_8B&EEG_speech,anger_stevenson,133,5,0.5427636922001233,pass
+Llama_3_8B&EEG_speech,sadness_stevenson,133,1,0.3462064858220213,pass
+Llama_3_8B&EEG_speech,sadness_stevenson,133,2,0.6684044270198809,pass
+Llama_3_8B&EEG_speech,sadness_stevenson,133,3,0.40227691979805236,pass
+Llama_3_8B&EEG_speech,sadness_stevenson,133,4,0.5258284632407807,pass
+Llama_3_8B&EEG_speech,sadness_stevenson,133,5,0.43850962373219204,pass
+Llama_3_8B&EEG_speech,fear_stevenson,133,1,0.5388957762807203,pass
+Llama_3_8B&EEG_speech,fear_stevenson,133,2,0.7248180583490276,pass
+Llama_3_8B&EEG_speech,fear_stevenson,133,3,0.2747944291100485,pass
+Llama_3_8B&EEG_speech,fear_stevenson,133,4,0.5221522521820947,pass
+Llama_3_8B&EEG_speech,fear_stevenson,133,5,0.5554811507499121,pass
+Llama_3_8B&EEG_speech,disgust_stevenson,133,1,0.5225977302387002,pass
+Llama_3_8B&EEG_speech,disgust_stevenson,133,2,0.48019270501632183,pass
+Llama_3_8B&EEG_speech,disgust_stevenson,133,3,0.3279774055179402,pass
+Llama_3_8B&EEG_speech,disgust_stevenson,133,4,0.6507489623606026,pass
+Llama_3_8B&EEG_speech,disgust_stevenson,133,5,0.3689939227192124,pass
+Llama_3_8B&EEG_speech,goodness_brown,118,1,0.6126581384045866,pass
+Llama_3_8B&EEG_speech,goodness_brown,118,2,0.577057987717331,pass
+Llama_3_8B&EEG_speech,goodness_brown,118,3,0.6175742294067206,pass
+Llama_3_8B&EEG_speech,goodness_brown,118,4,0.5533855702515256,pass
+Llama_3_8B&EEG_speech,goodness_brown,118,5,0.5943777912860084,pass
+Llama_3_8B&EEG_speech,pleasantness_brown,118,1,0.6574463118147045,pass
+Llama_3_8B&EEG_speech,pleasantness_brown,118,2,0.624218699510329,pass
+Llama_3_8B&EEG_speech,pleasantness_brown,118,3,0.607465540327768,pass
+Llama_3_8B&EEG_speech,pleasantness_brown,118,4,0.4757688984490108,pass
+Llama_3_8B&EEG_speech,pleasantness_brown,118,5,0.6822152909916338,pass
+Llama_3_8B&EEG_speech,emotionality_brown,118,1,0.3098514399386908,pass
+Llama_3_8B&EEG_speech,emotionality_brown,118,2,0.588520950337126,pass
+Llama_3_8B&EEG_speech,emotionality_brown,118,3,0.5582666404459997,pass
+Llama_3_8B&EEG_speech,emotionality_brown,118,4,0.45685186515434684,pass
+Llama_3_8B&EEG_speech,emotionality_brown,118,5,0.5259976629956795,pass
+Llama_3_8B&EEG_speech,concreteness_brown,118,1,0.7943110269930487,pass
+Llama_3_8B&EEG_speech,concreteness_brown,118,2,0.7018135735704447,pass
+Llama_3_8B&EEG_speech,concreteness_brown,118,3,0.534971693858047,pass
+Llama_3_8B&EEG_speech,concreteness_brown,118,4,0.6831511597175757,pass
+Llama_3_8B&EEG_speech,concreteness_brown,118,5,0.760550745941876,pass
+Llama_3_8B&EEG_speech,meaningfulness_brown,118,1,0.14694230622301208,pass
+Llama_3_8B&EEG_speech,meaningfulness_brown,118,2,0.16260520841638826,pass
+Llama_3_8B&EEG_speech,meaningfulness_brown,118,3,0.5903562770692063,pass
+Llama_3_8B&EEG_speech,meaningfulness_brown,118,4,0.3212854775169589,pass
+Llama_3_8B&EEG_speech,meaningfulness_brown,118,5,0.5721784404167952,pass
+Llama_3_8B&EEG_speech,difficulty_rudell,116,1,0.1534978212183471,pass
+Llama_3_8B&EEG_speech,difficulty_rudell,116,2,0.4105598810248219,pass
+Llama_3_8B&EEG_speech,difficulty_rudell,116,3,0.25886999764370777,pass
+Llama_3_8B&EEG_speech,difficulty_rudell,116,4,0.3573157374188042,pass
+Llama_3_8B&EEG_speech,difficulty_rudell,116,5,0.1153181379919187,pass
+Llama_3_8B&EEG_speech,imageability_chiarello,83,1,0.55889390150459,pass
+Llama_3_8B&EEG_speech,imageability_chiarello,83,2,0.6491289589053524,pass
+Llama_3_8B&EEG_speech,imageability_chiarello,83,3,0.6757826905088293,pass
+Llama_3_8B&EEG_speech,imageability_chiarello,83,4,0.7068903652080823,pass
+Llama_3_8B&EEG_speech,imageability_chiarello,83,5,0.6283110332370458,pass
+Llama_3_8B&EEG_speech,imageability_rt_chiarello,83,1,-0.05221774969417137,pass
+Llama_3_8B&EEG_speech,imageability_rt_chiarello,83,2,0.20554370904786923,pass
+Llama_3_8B&EEG_speech,imageability_rt_chiarello,83,3,0.30183854536527466,pass
+Llama_3_8B&EEG_speech,imageability_rt_chiarello,83,4,0.28194823478233977,pass
+Llama_3_8B&EEG_speech,imageability_rt_chiarello,83,5,0.2139853912128078,pass
+Llama_3_8B&EEG_speech,personal_use_janschewitz,43,1,,test_n < 20
+Llama_3_8B&EEG_speech,personal_use_janschewitz,43,2,,test_n < 20
+Llama_3_8B&EEG_speech,personal_use_janschewitz,43,3,,test_n < 20
+Llama_3_8B&EEG_speech,personal_use_janschewitz,43,4,,test_n < 20
+Llama_3_8B&EEG_speech,personal_use_janschewitz,43,5,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_janschewitz,43,1,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_janschewitz,43,2,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_janschewitz,43,3,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_janschewitz,43,4,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_janschewitz,43,5,,test_n < 20
+Llama_3_8B&EEG_speech,offensiveness_janschewitz,43,1,,test_n < 20
+Llama_3_8B&EEG_speech,offensiveness_janschewitz,43,2,,test_n < 20
+Llama_3_8B&EEG_speech,offensiveness_janschewitz,43,3,,test_n < 20
+Llama_3_8B&EEG_speech,offensiveness_janschewitz,43,4,,test_n < 20
+Llama_3_8B&EEG_speech,offensiveness_janschewitz,43,5,,test_n < 20
+Llama_3_8B&EEG_speech,tabooness_janschewitz,43,1,,test_n < 20
+Llama_3_8B&EEG_speech,tabooness_janschewitz,43,2,,test_n < 20
+Llama_3_8B&EEG_speech,tabooness_janschewitz,43,3,,test_n < 20
+Llama_3_8B&EEG_speech,tabooness_janschewitz,43,4,,test_n < 20
+Llama_3_8B&EEG_speech,tabooness_janschewitz,43,5,,test_n < 20
+Llama_3_8B&EEG_speech,valence_janschewitz,43,1,,test_n < 20
+Llama_3_8B&EEG_speech,valence_janschewitz,43,2,,test_n < 20
+Llama_3_8B&EEG_speech,valence_janschewitz,43,3,,test_n < 20
+Llama_3_8B&EEG_speech,valence_janschewitz,43,4,,test_n < 20
+Llama_3_8B&EEG_speech,valence_janschewitz,43,5,,test_n < 20
+Llama_3_8B&EEG_speech,arousal_janschewitz,43,1,,test_n < 20
+Llama_3_8B&EEG_speech,arousal_janschewitz,43,2,,test_n < 20
+Llama_3_8B&EEG_speech,arousal_janschewitz,43,3,,test_n < 20
+Llama_3_8B&EEG_speech,arousal_janschewitz,43,4,,test_n < 20
+Llama_3_8B&EEG_speech,arousal_janschewitz,43,5,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_janschewitz,43,1,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_janschewitz,43,2,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_janschewitz,43,3,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_janschewitz,43,4,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_janschewitz,43,5,,test_n < 20
+Llama_3_8B&EEG_speech,perc_known_britz,28,1,,test_n < 20
+Llama_3_8B&EEG_speech,perc_known_britz,28,2,,test_n < 20
+Llama_3_8B&EEG_speech,perc_known_britz,28,3,,test_n < 20
+Llama_3_8B&EEG_speech,perc_known_britz,28,4,,test_n < 20
+Llama_3_8B&EEG_speech,perc_known_britz,28,5,,test_n < 20
+Llama_3_8B&EEG_speech,valence_britz,28,1,,test_n < 20
+Llama_3_8B&EEG_speech,valence_britz,28,2,,test_n < 20
+Llama_3_8B&EEG_speech,valence_britz,28,3,,test_n < 20
+Llama_3_8B&EEG_speech,valence_britz,28,4,,test_n < 20
+Llama_3_8B&EEG_speech,valence_britz,28,5,,test_n < 20
+Llama_3_8B&EEG_speech,social_des_britz,28,1,,test_n < 20
+Llama_3_8B&EEG_speech,social_des_britz,28,2,,test_n < 20
+Llama_3_8B&EEG_speech,social_des_britz,28,3,,test_n < 20
+Llama_3_8B&EEG_speech,social_des_britz,28,4,,test_n < 20
+Llama_3_8B&EEG_speech,social_des_britz,28,5,,test_n < 20
+Llama_3_8B&EEG_speech,observability_britz,28,1,,test_n < 20
+Llama_3_8B&EEG_speech,observability_britz,28,2,,test_n < 20
+Llama_3_8B&EEG_speech,observability_britz,28,3,,test_n < 20
+Llama_3_8B&EEG_speech,observability_britz,28,4,,test_n < 20
+Llama_3_8B&EEG_speech,observability_britz,28,5,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_rodriguez,222,1,0.367197646413544,pass
+Llama_3_8B&EEG_speech,aoa_rodriguez,222,2,0.2897857709929359,pass
+Llama_3_8B&EEG_speech,aoa_rodriguez,222,3,0.219787369389837,pass
+Llama_3_8B&EEG_speech,aoa_rodriguez,222,4,0.29666492530798017,pass
+Llama_3_8B&EEG_speech,aoa_rodriguez,222,5,0.4556781454529588,pass
+Llama_3_8B&EEG_speech,perc_known_rodriguez,222,1,0.2099479112516598,pass
+Llama_3_8B&EEG_speech,perc_known_rodriguez,222,2,0.20189032709740218,pass
+Llama_3_8B&EEG_speech,perc_known_rodriguez,222,3,-0.009944308230744658,pass
+Llama_3_8B&EEG_speech,perc_known_rodriguez,222,4,0.054684376876495744,pass
+Llama_3_8B&EEG_speech,perc_known_rodriguez,222,5,0.14150980269530777,pass
+Llama_3_8B&EEG_speech,known_rt_chen,55,1,,test_n < 20
+Llama_3_8B&EEG_speech,known_rt_chen,55,2,,test_n < 20
+Llama_3_8B&EEG_speech,known_rt_chen,55,3,,test_n < 20
+Llama_3_8B&EEG_speech,known_rt_chen,55,4,,test_n < 20
+Llama_3_8B&EEG_speech,known_rt_chen,55,5,,test_n < 20
+Llama_3_8B&EEG_speech,english_accuracy_chen,55,1,,test_n < 20
+Llama_3_8B&EEG_speech,english_accuracy_chen,55,2,,test_n < 20
+Llama_3_8B&EEG_speech,english_accuracy_chen,55,3,,test_n < 20
+Llama_3_8B&EEG_speech,english_accuracy_chen,55,4,,test_n < 20
+Llama_3_8B&EEG_speech,english_accuracy_chen,55,5,,test_n < 20
+Llama_3_8B&EEG_speech,subjective_frequency_chen,55,1,,test_n < 20
+Llama_3_8B&EEG_speech,subjective_frequency_chen,55,2,,test_n < 20
+Llama_3_8B&EEG_speech,subjective_frequency_chen,55,3,,test_n < 20
+Llama_3_8B&EEG_speech,subjective_frequency_chen,55,4,,test_n < 20
+Llama_3_8B&EEG_speech,subjective_frequency_chen,55,5,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_juhasz,2,1,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_juhasz,2,2,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_juhasz,2,3,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_juhasz,2,4,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_juhasz,2,5,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_juhasz,2,1,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_juhasz,2,2,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_juhasz,2,3,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_juhasz,2,4,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_juhasz,2,5,,test_n < 20
+Llama_3_8B&EEG_speech,transparency_juhasz,2,1,,test_n < 20
+Llama_3_8B&EEG_speech,transparency_juhasz,2,2,,test_n < 20
+Llama_3_8B&EEG_speech,transparency_juhasz,2,3,,test_n < 20
+Llama_3_8B&EEG_speech,transparency_juhasz,2,4,,test_n < 20
+Llama_3_8B&EEG_speech,transparency_juhasz,2,5,,test_n < 20
+Llama_3_8B&EEG_speech,lexeme_dominance_juhasz,2,1,,test_n < 20
+Llama_3_8B&EEG_speech,lexeme_dominance_juhasz,2,2,,test_n < 20
+Llama_3_8B&EEG_speech,lexeme_dominance_juhasz,2,3,,test_n < 20
+Llama_3_8B&EEG_speech,lexeme_dominance_juhasz,2,4,,test_n < 20
+Llama_3_8B&EEG_speech,lexeme_dominance_juhasz,2,5,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_juhasz,2,1,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_juhasz,2,2,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_juhasz,2,3,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_juhasz,2,4,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_juhasz,2,5,,test_n < 20
+Llama_3_8B&EEG_speech,sensory_experience_juhasz2015,2,1,,test_n < 20
+Llama_3_8B&EEG_speech,sensory_experience_juhasz2015,2,2,,test_n < 20
+Llama_3_8B&EEG_speech,sensory_experience_juhasz2015,2,3,,test_n < 20
+Llama_3_8B&EEG_speech,sensory_experience_juhasz2015,2,4,,test_n < 20
+Llama_3_8B&EEG_speech,sensory_experience_juhasz2015,2,5,,test_n < 20
+Llama_3_8B&EEG_speech,emotion_troche,84,1,0.7548632836380585,pass
+Llama_3_8B&EEG_speech,emotion_troche,84,2,0.7688008665309259,pass
+Llama_3_8B&EEG_speech,emotion_troche,84,3,0.677638016978977,pass
+Llama_3_8B&EEG_speech,emotion_troche,84,4,-0.8878368798972847,pass
+Llama_3_8B&EEG_speech,emotion_troche,84,5,0.6800852208889495,pass
+Llama_3_8B&EEG_speech,polarity_troche,84,1,0.1741021011102385,pass
+Llama_3_8B&EEG_speech,polarity_troche,84,2,0.7349095397877603,pass
+Llama_3_8B&EEG_speech,polarity_troche,84,3,0.6558535227871665,pass
+Llama_3_8B&EEG_speech,polarity_troche,84,4,-0.14474545433288255,pass
+Llama_3_8B&EEG_speech,polarity_troche,84,5,0.5555742320257877,pass
+Llama_3_8B&EEG_speech,socialness_troche,84,1,0.4710020543114538,pass
+Llama_3_8B&EEG_speech,socialness_troche,84,2,0.4894879217242095,pass
+Llama_3_8B&EEG_speech,socialness_troche,84,3,0.5027895056966563,pass
+Llama_3_8B&EEG_speech,socialness_troche,84,4,0.1137286549672002,pass
+Llama_3_8B&EEG_speech,socialness_troche,84,5,0.1836159622508292,pass
+Llama_3_8B&EEG_speech,morality_troche,84,1,0.6311472393909046,pass
+Llama_3_8B&EEG_speech,morality_troche,84,2,0.7274788568856478,pass
+Llama_3_8B&EEG_speech,morality_troche,84,3,0.5136633926722045,pass
+Llama_3_8B&EEG_speech,morality_troche,84,4,-0.3091002536295373,pass
+Llama_3_8B&EEG_speech,morality_troche,84,5,0.42649522181656274,pass
+Llama_3_8B&EEG_speech,visual_troche,84,1,0.8067521099375449,pass
+Llama_3_8B&EEG_speech,visual_troche,84,2,0.6661822468247331,pass
+Llama_3_8B&EEG_speech,visual_troche,84,3,0.5505565985970291,pass
+Llama_3_8B&EEG_speech,visual_troche,84,4,0.5952751461742294,pass
+Llama_3_8B&EEG_speech,visual_troche,84,5,0.7528207952701466,pass
+Llama_3_8B&EEG_speech,motion_self_troche,84,1,0.15577767109973462,pass
+Llama_3_8B&EEG_speech,motion_self_troche,84,2,0.3494544521503915,pass
+Llama_3_8B&EEG_speech,motion_self_troche,84,3,0.29396888729765724,pass
+Llama_3_8B&EEG_speech,motion_self_troche,84,4,0.18425816308851983,pass
+Llama_3_8B&EEG_speech,motion_self_troche,84,5,0.25642009579069625,pass
+Llama_3_8B&EEG_speech,thought_troche,84,1,0.7427661217126404,pass
+Llama_3_8B&EEG_speech,thought_troche,84,2,0.8140052096648716,pass
+Llama_3_8B&EEG_speech,thought_troche,84,3,0.5481277390439221,pass
+Llama_3_8B&EEG_speech,thought_troche,84,4,0.28216128510373284,pass
+Llama_3_8B&EEG_speech,thought_troche,84,5,0.6684094799238041,pass
+Llama_3_8B&EEG_speech,color_troche,84,1,0.4111191042713396,pass
+Llama_3_8B&EEG_speech,color_troche,84,2,0.18160705346891537,pass
+Llama_3_8B&EEG_speech,color_troche,84,3,0.3441312323913338,pass
+Llama_3_8B&EEG_speech,color_troche,84,4,0.32007234971414933,pass
+Llama_3_8B&EEG_speech,color_troche,84,5,0.7626653288395266,pass
+Llama_3_8B&EEG_speech,taste_smell_troche,84,1,0.5874372249131489,pass
+Llama_3_8B&EEG_speech,taste_smell_troche,84,2,0.5535064972842385,pass
+Llama_3_8B&EEG_speech,taste_smell_troche,84,3,0.5863428682454745,pass
+Llama_3_8B&EEG_speech,taste_smell_troche,84,4,0.7601970886662898,pass
+Llama_3_8B&EEG_speech,taste_smell_troche,84,5,0.6913383599847935,pass
+Llama_3_8B&EEG_speech,tactile_troche,84,1,0.43708471995771825,pass
+Llama_3_8B&EEG_speech,tactile_troche,84,2,0.3227212705632849,pass
+Llama_3_8B&EEG_speech,tactile_troche,84,3,0.547346206628744,pass
+Llama_3_8B&EEG_speech,tactile_troche,84,4,0.29924619884278114,pass
+Llama_3_8B&EEG_speech,tactile_troche,84,5,0.7111404374827656,pass
+Llama_3_8B&EEG_speech,auditory_troche,84,1,0.05218350880830103,pass
+Llama_3_8B&EEG_speech,auditory_troche,84,2,0.24858851929263936,pass
+Llama_3_8B&EEG_speech,auditory_troche,84,3,0.3929429090006934,pass
+Llama_3_8B&EEG_speech,auditory_troche,84,4,0.3291485124854665,pass
+Llama_3_8B&EEG_speech,auditory_troche,84,5,0.527779539590684,pass
+Llama_3_8B&EEG_speech,space_troche,84,1,0.32090635072093887,pass
+Llama_3_8B&EEG_speech,space_troche,84,2,0.19623516066042423,pass
+Llama_3_8B&EEG_speech,space_troche,84,3,0.32476388116832045,pass
+Llama_3_8B&EEG_speech,space_troche,84,4,-0.3416779421303091,pass
+Llama_3_8B&EEG_speech,space_troche,84,5,0.4199373141728522,pass
+Llama_3_8B&EEG_speech,time_troche,84,1,0.3831188484411232,pass
+Llama_3_8B&EEG_speech,time_troche,84,2,0.16458485724234395,pass
+Llama_3_8B&EEG_speech,time_troche,84,3,0.6791060605186104,pass
+Llama_3_8B&EEG_speech,time_troche,84,4,0.3773887774596165,pass
+Llama_3_8B&EEG_speech,time_troche,84,5,0.1622838437134615,pass
+Llama_3_8B&EEG_speech,quantity_troche,84,1,0.3511800427452967,pass
+Llama_3_8B&EEG_speech,quantity_troche,84,2,0.46100007620344785,pass
+Llama_3_8B&EEG_speech,quantity_troche,84,3,0.5338177423891599,pass
+Llama_3_8B&EEG_speech,quantity_troche,84,4,0.5210043673806213,pass
+Llama_3_8B&EEG_speech,quantity_troche,84,5,0.067979482287431,pass
+Llama_3_8B&EEG_speech,familiarity_morrow,32,1,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_morrow,32,2,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_morrow,32,3,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_morrow,32,4,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_morrow,32,5,,test_n < 20
+Llama_3_8B&EEG_speech,perc_known_morrow,32,1,,test_n < 20
+Llama_3_8B&EEG_speech,perc_known_morrow,32,2,,test_n < 20
+Llama_3_8B&EEG_speech,perc_known_morrow,32,3,,test_n < 20
+Llama_3_8B&EEG_speech,perc_known_morrow,32,4,,test_n < 20
+Llama_3_8B&EEG_speech,perc_known_morrow,32,5,,test_n < 20
+Llama_3_8B&EEG_speech,subjective_frequency_morrow,32,1,,test_n < 20
+Llama_3_8B&EEG_speech,subjective_frequency_morrow,32,2,,test_n < 20
+Llama_3_8B&EEG_speech,subjective_frequency_morrow,32,3,,test_n < 20
+Llama_3_8B&EEG_speech,subjective_frequency_morrow,32,4,,test_n < 20
+Llama_3_8B&EEG_speech,subjective_frequency_morrow,32,5,,test_n < 20
+Llama_3_8B&EEG_speech,visual_complexity_marrow,32,1,,test_n < 20
+Llama_3_8B&EEG_speech,visual_complexity_marrow,32,2,,test_n < 20
+Llama_3_8B&EEG_speech,visual_complexity_marrow,32,3,,test_n < 20
+Llama_3_8B&EEG_speech,visual_complexity_marrow,32,4,,test_n < 20
+Llama_3_8B&EEG_speech,visual_complexity_marrow,32,5,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_morrow,32,1,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_morrow,32,2,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_morrow,32,3,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_morrow,32,4,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_morrow,32,5,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_marrow,32,1,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_marrow,32,2,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_marrow,32,3,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_marrow,32,4,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_marrow,32,5,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_cortese,469,1,0.4869128013646149,pass
+Llama_3_8B&EEG_speech,aoa_cortese,469,2,0.5928607534353381,pass
+Llama_3_8B&EEG_speech,aoa_cortese,469,3,0.5214429328905241,pass
+Llama_3_8B&EEG_speech,aoa_cortese,469,4,0.6200108024475309,pass
+Llama_3_8B&EEG_speech,aoa_cortese,469,5,0.5610610054456479,pass
+Llama_3_8B&EEG_speech,aoa_rt_cortese,469,1,0.05491727854141859,pass
+Llama_3_8B&EEG_speech,aoa_rt_cortese,469,2,0.13092899401793112,pass
+Llama_3_8B&EEG_speech,aoa_rt_cortese,469,3,0.10786875558237474,pass
+Llama_3_8B&EEG_speech,aoa_rt_cortese,469,4,0.08601534476378025,pass
+Llama_3_8B&EEG_speech,aoa_rt_cortese,469,5,0.02519485829811119,pass
+Llama_3_8B&EEG_speech,imagery_vanderveur,341,1,0.8430885480032104,pass
+Llama_3_8B&EEG_speech,imagery_vanderveur,341,2,0.8141569659683532,pass
+Llama_3_8B&EEG_speech,imagery_vanderveur,341,3,0.7403432191907601,pass
+Llama_3_8B&EEG_speech,imagery_vanderveur,341,4,0.7132457172260419,pass
+Llama_3_8B&EEG_speech,imagery_vanderveur,341,5,0.8316560517722792,pass
+Llama_3_8B&EEG_speech,likableness_chandler,31,1,,test_n < 20
+Llama_3_8B&EEG_speech,likableness_chandler,31,2,,test_n < 20
+Llama_3_8B&EEG_speech,likableness_chandler,31,3,,test_n < 20
+Llama_3_8B&EEG_speech,likableness_chandler,31,4,,test_n < 20
+Llama_3_8B&EEG_speech,likableness_chandler,31,5,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_chandler,31,1,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_chandler,31,2,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_chandler,31,3,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_chandler,31,4,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_chandler,31,5,,test_n < 20
+Llama_3_8B&EEG_speech,emotionality_chandler,31,1,,test_n < 20
+Llama_3_8B&EEG_speech,emotionality_chandler,31,2,,test_n < 20
+Llama_3_8B&EEG_speech,emotionality_chandler,31,3,,test_n < 20
+Llama_3_8B&EEG_speech,emotionality_chandler,31,4,,test_n < 20
+Llama_3_8B&EEG_speech,emotionality_chandler,31,5,,test_n < 20
+Llama_3_8B&EEG_speech,gender_assoc_crawford,70,1,,test_n < 20
+Llama_3_8B&EEG_speech,gender_assoc_crawford,70,2,,test_n < 20
+Llama_3_8B&EEG_speech,gender_assoc_crawford,70,3,,test_n < 20
+Llama_3_8B&EEG_speech,gender_assoc_crawford,70,4,,test_n < 20
+Llama_3_8B&EEG_speech,gender_assoc_crawford,70,5,,test_n < 20
+Llama_3_8B&EEG_speech,polysemy_armstrong,48,1,,test_n < 20
+Llama_3_8B&EEG_speech,polysemy_armstrong,48,2,,test_n < 20
+Llama_3_8B&EEG_speech,polysemy_armstrong,48,3,,test_n < 20
+Llama_3_8B&EEG_speech,polysemy_armstrong,48,4,,test_n < 20
+Llama_3_8B&EEG_speech,polysemy_armstrong,48,5,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_rt_cortese,469,1,0.27839694308006846,pass
+Llama_3_8B&EEG_speech,imageability_rt_cortese,469,2,0.25697348658965635,pass
+Llama_3_8B&EEG_speech,imageability_rt_cortese,469,3,0.10773202251359215,pass
+Llama_3_8B&EEG_speech,imageability_rt_cortese,469,4,0.23602552688024825,pass
+Llama_3_8B&EEG_speech,imageability_rt_cortese,469,5,0.16655165180111642,pass
+Llama_3_8B&EEG_speech,imageability_cortese,469,1,0.8117959946085451,pass
+Llama_3_8B&EEG_speech,imageability_cortese,469,2,0.7235034986854063,pass
+Llama_3_8B&EEG_speech,imageability_cortese,469,3,0.7460363549781127,pass
+Llama_3_8B&EEG_speech,imageability_cortese,469,4,0.7772910478130309,pass
+Llama_3_8B&EEG_speech,imageability_cortese,469,5,0.8130405483326817,pass
+Llama_3_8B&EEG_speech,valence_citron,44,1,,test_n < 20
+Llama_3_8B&EEG_speech,valence_citron,44,2,,test_n < 20
+Llama_3_8B&EEG_speech,valence_citron,44,3,,test_n < 20
+Llama_3_8B&EEG_speech,valence_citron,44,4,,test_n < 20
+Llama_3_8B&EEG_speech,valence_citron,44,5,,test_n < 20
+Llama_3_8B&EEG_speech,arousal_citron,44,1,,test_n < 20
+Llama_3_8B&EEG_speech,arousal_citron,44,2,,test_n < 20
+Llama_3_8B&EEG_speech,arousal_citron,44,3,,test_n < 20
+Llama_3_8B&EEG_speech,arousal_citron,44,4,,test_n < 20
+Llama_3_8B&EEG_speech,arousal_citron,44,5,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_citron,44,1,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_citron,44,2,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_citron,44,3,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_citron,44,4,,test_n < 20
+Llama_3_8B&EEG_speech,familiarity_citron,44,5,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_citron,44,1,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_citron,44,2,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_citron,44,3,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_citron,44,4,,test_n < 20
+Llama_3_8B&EEG_speech,aoa_citron,44,5,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_citron,44,1,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_citron,44,2,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_citron,44,3,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_citron,44,4,,test_n < 20
+Llama_3_8B&EEG_speech,imageability_citron,44,5,,test_n < 20
+Llama_3_8B&EEG_speech,valence_imbault,183,1,0.32848589952805696,pass
+Llama_3_8B&EEG_speech,valence_imbault,183,2,0.6354558890639785,pass
+Llama_3_8B&EEG_speech,valence_imbault,183,3,0.5215452164683745,pass
+Llama_3_8B&EEG_speech,valence_imbault,183,4,0.32011099995103676,pass
+Llama_3_8B&EEG_speech,valence_imbault,183,5,0.32484062052301355,pass
+Llama_3_8B&EEG_speech,arousal_imbault,181,1,0.0900204916049413,pass
+Llama_3_8B&EEG_speech,arousal_imbault,181,2,0.3336789457059254,pass
+Llama_3_8B&EEG_speech,arousal_imbault,181,3,0.33970468479880134,pass
+Llama_3_8B&EEG_speech,arousal_imbault,181,4,0.24213514378067968,pass
+Llama_3_8B&EEG_speech,arousal_imbault,181,5,-0.07476669143600079,pass
+Llama_3_8B&EEG_speech,likableness_anderson,28,1,,test_n < 20
+Llama_3_8B&EEG_speech,likableness_anderson,28,2,,test_n < 20
+Llama_3_8B&EEG_speech,likableness_anderson,28,3,,test_n < 20
+Llama_3_8B&EEG_speech,likableness_anderson,28,4,,test_n < 20
+Llama_3_8B&EEG_speech,likableness_anderson,28,5,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_anderson,28,1,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_anderson,28,2,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_anderson,28,3,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_anderson,28,4,,test_n < 20
+Llama_3_8B&EEG_speech,meaningfulness_anderson,28,5,,test_n < 20
+Llama_3_8B&EEG_speech,perc_known_winter,732,1,-0.002731016203279424,pass
+Llama_3_8B&EEG_speech,perc_known_winter,732,2,-0.006130789183934393,pass
+Llama_3_8B&EEG_speech,perc_known_winter,732,3,-0.0032230071831855778,pass
+Llama_3_8B&EEG_speech,perc_known_winter,732,4,-0.034525236394989944,pass
+Llama_3_8B&EEG_speech,perc_known_winter,732,5,-0.013560052577633375,pass
+Llama_3_8B&EEG_speech,iconicity_winter2023,732,1,0.32035223156788784,pass
+Llama_3_8B&EEG_speech,iconicity_winter2023,732,2,0.28717942423074183,pass
+Llama_3_8B&EEG_speech,iconicity_winter2023,732,3,0.2303038769344855,pass
+Llama_3_8B&EEG_speech,iconicity_winter2023,732,4,0.22828778201592137,pass
+Llama_3_8B&EEG_speech,iconicity_winter2023,732,5,0.2864814079749638,pass
+Llama_3_8B&EEG_speech,body_object_miklashevsky,188,1,0.6658256671421348,pass
+Llama_3_8B&EEG_speech,body_object_miklashevsky,188,2,0.6841166168611861,pass
+Llama_3_8B&EEG_speech,body_object_miklashevsky,188,3,0.6205390395639547,pass
+Llama_3_8B&EEG_speech,body_object_miklashevsky,188,4,0.744588110300362,pass
+Llama_3_8B&EEG_speech,body_object_miklashevsky,188,5,0.6245640909334805,pass
+Llama_3_8B&EEG_speech,aoa_schock,189,1,0.34818268461545077,pass
+Llama_3_8B&EEG_speech,aoa_schock,189,2,0.4723635152936758,pass
+Llama_3_8B&EEG_speech,aoa_schock,189,3,0.39640146375166974,pass
+Llama_3_8B&EEG_speech,aoa_schock,189,4,0.5391766767573289,pass
+Llama_3_8B&EEG_speech,aoa_schock,189,5,0.3674960276057644,pass
+Llama_3_8B&EEG_speech,aoa_rt_schock,189,1,-0.02320631493537495,pass
+Llama_3_8B&EEG_speech,aoa_rt_schock,189,2,-0.027621947495761523,pass
+Llama_3_8B&EEG_speech,aoa_rt_schock,189,3,-0.0010300109945939884,pass
+Llama_3_8B&EEG_speech,aoa_rt_schock,189,4,0.0015767408297415741,pass
+Llama_3_8B&EEG_speech,aoa_rt_schock,189,5,0.003943851175351787,pass
+Llama_3_8B&EEG_speech,aoa_davies,100,1,0.26126601364641955,pass
+Llama_3_8B&EEG_speech,aoa_davies,100,2,0.5596149170548121,pass
+Llama_3_8B&EEG_speech,aoa_davies,100,3,0.08893160488216267,pass
+Llama_3_8B&EEG_speech,aoa_davies,100,4,0.6071277260597066,pass
+Llama_3_8B&EEG_speech,aoa_davies,100,5,0.3626614915330073,pass
+Llama_3_8B&EEG_speech,imageability_davies,100,1,0.38877482029822463,pass
+Llama_3_8B&EEG_speech,imageability_davies,100,2,0.5955986609923933,pass
+Llama_3_8B&EEG_speech,imageability_davies,100,3,0.2996446082866192,pass
+Llama_3_8B&EEG_speech,imageability_davies,100,4,0.3337778136112821,pass
+Llama_3_8B&EEG_speech,imageability_davies,100,5,0.5253135894130119,pass
+Llama_3_8B&EEG_speech,this_that_rocca,83,1,0.21923684341160965,pass
+Llama_3_8B&EEG_speech,this_that_rocca,83,2,0.6557770751765719,pass
+Llama_3_8B&EEG_speech,this_that_rocca,83,3,0.31340233123773,pass
+Llama_3_8B&EEG_speech,this_that_rocca,83,4,0.09351282665761851,pass
+Llama_3_8B&EEG_speech,this_that_rocca,83,5,0.02148777405035196,pass
+Llama_3_8B&EEG_speech,iconicity_winter2017,410,1,0.18276299003697305,pass
+Llama_3_8B&EEG_speech,iconicity_winter2017,410,2,0.0482601602199364,pass
+Llama_3_8B&EEG_speech,iconicity_winter2017,410,3,-0.034740844811062876,pass
+Llama_3_8B&EEG_speech,iconicity_winter2017,410,4,0.16743923526230986,pass
+Llama_3_8B&EEG_speech,iconicity_winter2017,410,5,0.13431043467524717,pass
+Llama_3_8B&EEG_speech,living_vanarsdall,126,1,0.7915176557588341,pass
+Llama_3_8B&EEG_speech,living_vanarsdall,126,2,0.772648490318037,pass
+Llama_3_8B&EEG_speech,living_vanarsdall,126,3,0.750118227566459,pass
+Llama_3_8B&EEG_speech,living_vanarsdall,126,4,0.7492130869420548,pass
+Llama_3_8B&EEG_speech,living_vanarsdall,126,5,0.726322266293218,pass
+Llama_3_8B&EEG_speech,thought_vanarsdall,126,1,0.7752986953023792,pass
+Llama_3_8B&EEG_speech,thought_vanarsdall,126,2,0.862121759298787,pass
+Llama_3_8B&EEG_speech,thought_vanarsdall,126,3,0.8218985452778491,pass
+Llama_3_8B&EEG_speech,thought_vanarsdall,126,4,0.7977461636017318,pass
+Llama_3_8B&EEG_speech,thought_vanarsdall,126,5,0.6639595802085478,pass
+Llama_3_8B&EEG_speech,reproduction_vanarsdall,126,1,0.6166487916165849,pass
+Llama_3_8B&EEG_speech,reproduction_vanarsdall,126,2,0.8304686858063135,pass
+Llama_3_8B&EEG_speech,reproduction_vanarsdall,126,3,0.7369538338003992,pass
+Llama_3_8B&EEG_speech,reproduction_vanarsdall,126,4,0.7326226958964608,pass
+Llama_3_8B&EEG_speech,reproduction_vanarsdall,126,5,0.7993246981008421,pass
+Llama_3_8B&EEG_speech,person_vanarsdall,126,1,0.7621296372843526,pass
+Llama_3_8B&EEG_speech,person_vanarsdall,126,2,0.8110173970305041,pass
+Llama_3_8B&EEG_speech,person_vanarsdall,126,3,0.8883791660724617,pass
+Llama_3_8B&EEG_speech,person_vanarsdall,126,4,0.7960166293941608,pass
+Llama_3_8B&EEG_speech,person_vanarsdall,126,5,0.7161005040595125,pass
+Llama_3_8B&EEG_speech,goals_vanarsdall,126,1,0.7443267048928177,pass
+Llama_3_8B&EEG_speech,goals_vanarsdall,126,2,0.8686537788707801,pass
+Llama_3_8B&EEG_speech,goals_vanarsdall,126,3,0.7654046430463712,pass
+Llama_3_8B&EEG_speech,goals_vanarsdall,126,4,0.7587387098443553,pass
+Llama_3_8B&EEG_speech,goals_vanarsdall,126,5,0.7010021406379978,pass
+Llama_3_8B&EEG_speech,movement_vanarsdall,126,1,0.5082891937503278,pass
+Llama_3_8B&EEG_speech,movement_vanarsdall,126,2,0.5684450688635523,pass
+Llama_3_8B&EEG_speech,movement_vanarsdall,126,3,0.584127690000338,pass
+Llama_3_8B&EEG_speech,movement_vanarsdall,126,4,0.4640722442703513,pass
+Llama_3_8B&EEG_speech,movement_vanarsdall,126,5,0.5084702226902333,pass
+Llama_3_8B&EEG_speech,concreteness_vanarsdall,126,1,0.2838706295755915,pass
+Llama_3_8B&EEG_speech,concreteness_vanarsdall,126,2,0.2552466627121184,pass
+Llama_3_8B&EEG_speech,concreteness_vanarsdall,126,3,0.32613440063947563,pass
+Llama_3_8B&EEG_speech,concreteness_vanarsdall,126,4,0.07450258967887446,pass
+Llama_3_8B&EEG_speech,concreteness_vanarsdall,126,5,0.43919643616283555,pass
+Llama_3_8B&EEG_speech,familiarity_vanarsdall,126,1,0.23321367051161035,pass
+Llama_3_8B&EEG_speech,familiarity_vanarsdall,126,2,0.21633630664239967,pass
+Llama_3_8B&EEG_speech,familiarity_vanarsdall,126,3,0.2700792131889136,pass
+Llama_3_8B&EEG_speech,familiarity_vanarsdall,126,4,0.11318619054420709,pass
+Llama_3_8B&EEG_speech,familiarity_vanarsdall,126,5,-0.08381155808861585,pass
+Llama_3_8B&EEG_speech,imageability_vanarsdall,126,1,0.10151160116478852,pass
+Llama_3_8B&EEG_speech,imageability_vanarsdall,126,2,0.08445165553780631,pass
+Llama_3_8B&EEG_speech,imageability_vanarsdall,126,3,0.3478688150407049,pass
+Llama_3_8B&EEG_speech,imageability_vanarsdall,126,4,0.25726125480060813,pass
+Llama_3_8B&EEG_speech,imageability_vanarsdall,126,5,0.20013223226216825,pass
+Llama_3_8B&EEG_speech,familiarity_fear,101,1,0.25222598758592063,pass
+Llama_3_8B&EEG_speech,familiarity_fear,101,2,0.46046836003940583,pass
+Llama_3_8B&EEG_speech,familiarity_fear,101,3,0.2588620159033417,pass
+Llama_3_8B&EEG_speech,familiarity_fear,101,4,0.39314734369863513,pass
+Llama_3_8B&EEG_speech,familiarity_fear,101,5,0.25780353285894464,pass
+Llama_3_8B&EEG_speech,aoa_fear,101,1,0.25204661203284606,pass
+Llama_3_8B&EEG_speech,aoa_fear,101,2,0.1503261618834162,pass
+Llama_3_8B&EEG_speech,aoa_fear,101,3,0.41162103148858675,pass
+Llama_3_8B&EEG_speech,aoa_fear,101,4,0.18927093883114032,pass
+Llama_3_8B&EEG_speech,aoa_fear,101,5,0.3707230252735848,pass
+Llama_3_8B&EEG_speech,imageability_fear,101,1,0.26749858655568326,pass
+Llama_3_8B&EEG_speech,imageability_fear,101,2,0.42891794232588665,pass
+Llama_3_8B&EEG_speech,imageability_fear,101,3,0.6098441126981216,pass
+Llama_3_8B&EEG_speech,imageability_fear,101,4,0.5757787603010409,pass
+Llama_3_8B&EEG_speech,imageability_fear,101,5,0.4317016291535365,pass
+Llama_3_8B&EEG_speech,sensory_experience_juhasz2013,638,1,0.472637315798093,pass
+Llama_3_8B&EEG_speech,sensory_experience_juhasz2013,638,2,0.46292839814857156,pass
+Llama_3_8B&EEG_speech,sensory_experience_juhasz2013,638,3,0.42349512676547973,pass
+Llama_3_8B&EEG_speech,sensory_experience_juhasz2013,638,4,0.33651216334119516,pass
+Llama_3_8B&EEG_speech,sensory_experience_juhasz2013,638,5,0.5546182045819126,pass
